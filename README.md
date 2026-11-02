@@ -26,7 +26,7 @@ misleading cues more costly.
 | `docs/paper-prep/results_ledger.csv` | Every number reported in the paper, with the output file and field it was read from |
 | `docs/paper-prep/figdata/`, `docs/paper-prep/figures/r/` | Data and R scripts for Figures 2 to 5 |
 | `docs/paper-prep/component-code-map.md`, `component-members.csv` | Members of every component set, and repository codes against paper codes |
-| `manuscript/latex/supplementary.pdf` | The Supplementary Material of the paper |
+| `manuscript/Supplementary_Material.pdf` | The Supplementary Material of the paper |
 | `reports/explore/2026-11-02-case-rescore/`, `reports/explore/2026-11-02-gpu-session/` | Results of the analyses added on 2 and 3 November 2026 (see below), in the form the results ledger reads |
 | `docs/plans/phi-battery.md`, `docs/plans/demo-format-check.md` | Plans of two exploratory checks, with their reading rules fixed before the runs |
 
