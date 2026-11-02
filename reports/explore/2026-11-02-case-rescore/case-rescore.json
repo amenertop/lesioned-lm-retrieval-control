@@ -1,0 +1,4227 @@
+{
+ "n_boot": 10000,
+ "seed": 1910,
+ "ci_states": [
+  "WR8_a0",
+  "SC4_a0",
+  "WR30_a0",
+  "WR8_a0_SC4_a0",
+  "WR8_a0_SC4_a0.5",
+  "weight_q_L4_s0.5_seed1910",
+  "weight_q_L4_s0.5_seed1911",
+  "weight_q_L4_s1_seed1910",
+  "weight_v_L4_s1_seed1910",
+  "weight_gate_L28_s1_seed1910",
+  "weight_up_L28_s0.5_seed1910",
+  "weight_up_L28_s0.5_seed1911",
+  "weight_gate_L44_s1_seed1910",
+  "weight_q_L28_s1_seed1910",
+  "WR8_a0_comprehension_s0_learned_hard_64",
+  "comprehension_s0_learned_hard_64",
+  "comprehension_s2_learned_soft",
+  "hub_s2_learned_hard_4",
+  "hub_s2_learned_soft",
+  "broad_early_f1_a0.5_s0",
+  "broad_middle_f1_a0.9_s0",
+  "broad_middle_f1_a0.75_s0",
+  "broad_middle_f1_a0.5_s0",
+  "broad_late_f1_a0.75_s0",
+  "broad_middle_f1_a0.25_s0",
+  "broad_middle_f1_a0.1_s0",
+  "PC8_all_a0",
+  "hub_s0_learned_hard_64",
+  "hub_s1_learned_hard_64",
+  "hub_s2_learned_hard_64",
+  "relative_hub_s0_learned_soft",
+  "relative_hub_s1_learned_hard_64",
+  "relative_hub_s0_learned_hard_64",
+  "relative_hub_s2_learned_hard_64"
+ ],
+ "runs": {
+  "fine_final_core": {
+   "reproduction": {
+    "intact": {
+     "rows": 960,
+     "max_abs_diff": 0.0,
+     "mean_abs_diff": 0.0
+    },
+    "WR8_a0": {
+     "rows": 960,
+     "max_abs_diff": 0.0,
+     "mean_abs_diff": 0.0
+    },
+    "SC4_a0": {
+     "rows": 960,
+     "max_abs_diff": 0.0,
+     "mean_abs_diff": 0.0
+    }
+   },
+   "intact_capitalized_share": 0.6991937792103111,
+   "capitalized_share_by_state": {
+    "PC8_all_a0": 0.7914941792515253,
+    "SC4_a0": 0.7577875288895134,
+    "WR30_a0": 0.7692944404962001,
+    "WR8_a0": 0.7456621186217393,
+    "WR8_a0_SC4_a0": 0.7949941868399141,
+    "WR8_a0_SC4_a0.5": 0.7591753822203381,
+    "WR8_a0_comprehension_s0_learned_hard_64": 0.5563547797017006,
+    "broad_early_f1_a0.5_s0": 0.8939889618234922,
+    "broad_late_f1_a0.75_s0": 0.6192003137266117,
+    "broad_middle_f1_a0.1_s0": 0.43096518151493457,
+    "broad_middle_f1_a0.25_s0": 0.6435050103076813,
+    "broad_middle_f1_a0.5_s0": 0.8639101581176017,
+    "broad_middle_f1_a0.75_s0": 0.8150402235015268,
+    "broad_middle_f1_a0.9_s0": 0.7553673682358699,
+    "comprehension_s0_learned_hard_64": 0.5594986701291284,
+    "comprehension_s0_learned_hard_64_minus_expert_17_21": 0.5360950534326527,
+    "comprehension_s0_learned_hard_64_minus_expert_17_55": 0.5498342071566068,
+    "comprehension_s0_learned_hard_64_minus_expert_18_53": 0.5681445740280712,
+    "comprehension_s0_learned_hard_64_minus_expert_19_30": 0.5456991713869479,
+    "comprehension_s0_learned_hard_64_minus_expert_20_41": 0.5613033607522736,
+    "comprehension_s0_learned_hard_64_minus_expert_21_106": 0.5585968428884128,
+    "comprehension_s0_learned_hard_64_minus_expert_21_114": 0.5403611484260783,
+    "comprehension_s0_learned_hard_64_minus_expert_21_41": 0.5535659781541474,
+    "comprehension_s0_learned_hard_64_minus_expert_22_111": 0.5616960405368053,
+    "comprehension_s0_learned_hard_64_minus_expert_23_54": 0.5602555965014827,
+    "comprehension_s0_learned_hard_64_minus_expert_23_55": 0.5571771597944466,
+    "comprehension_s0_learned_hard_64_minus_expert_23_64": 0.5291949901049895,
+    "comprehension_s0_learned_hard_64_minus_expert_24_126": 0.5279139474553675,
+    "comprehension_s0_learned_hard_64_minus_expert_25_104": 0.5768142526181699,
+    "comprehension_s0_learned_hard_64_minus_expert_25_42": 0.5541483264139657,
+    "comprehension_s0_learned_hard_64_minus_expert_25_70": 0.5586482785494702,
+    "comprehension_s0_learned_hard_64_minus_expert_27_120": 0.5652081773660497,
+    "comprehension_s0_learned_hard_64_minus_expert_28_115": 0.5452281322621952,
+    "comprehension_s0_learned_hard_64_minus_expert_28_65": 0.523370002070927,
+    "comprehension_s0_learned_hard_64_minus_expert_29_1": 0.5554700356478066,
+    "comprehension_s0_learned_hard_64_minus_expert_29_118": 0.558148988008016,
+    "comprehension_s0_learned_hard_64_minus_expert_29_58": 0.5574292276456368,
+    "comprehension_s0_learned_hard_64_minus_expert_31_109": 0.5605144057720823,
+    "comprehension_s0_learned_hard_64_minus_head_16_22": 0.5421115983123884,
+    "comprehension_s0_learned_hard_64_minus_head_17_22": 0.5621790354725908,
+    "comprehension_s0_learned_hard_64_minus_head_17_29": 0.5743082971668548,
+    "comprehension_s0_learned_hard_64_minus_head_17_4": 0.5569693878550088,
+    "comprehension_s0_learned_hard_64_minus_head_18_30": 0.5528061163364045,
+    "comprehension_s0_learned_hard_64_minus_head_19_0": 0.4822230442286488,
+    "comprehension_s0_learned_hard_64_minus_head_19_1": 0.5474506080965992,
+    "comprehension_s0_learned_hard_64_minus_head_19_13": 0.5637145933730697,
+    "comprehension_s0_learned_hard_64_minus_head_19_28": 0.5689796402027294,
+    "comprehension_s0_learned_hard_64_minus_head_19_3": 0.5066791974062415,
+    "comprehension_s0_learned_hard_64_minus_head_19_31": 0.5542990634812912,
+    "comprehension_s0_learned_hard_64_minus_head_19_4": 0.5687037496300757,
+    "comprehension_s0_learned_hard_64_minus_head_21_14": 0.5796464082912511,
+    "comprehension_s0_learned_hard_64_minus_head_23_1": 0.6399548375168668,
+    "comprehension_s0_learned_hard_64_minus_head_24_14": 0.5730802545167522,
+    "comprehension_s0_learned_hard_64_minus_head_24_16": 0.574687221389483,
+    "comprehension_s0_learned_hard_64_minus_head_24_4": 0.5319667210745658,
+    "comprehension_s0_learned_hard_64_minus_head_25_0": 0.5757403216476232,
+    "comprehension_s0_learned_hard_64_minus_head_25_11": 0.5713427155193066,
+    "comprehension_s0_learned_hard_64_minus_head_25_14": 0.5243553020730585,
+    "comprehension_s0_learned_hard_64_minus_head_25_31": 0.5750502751761734,
+    "comprehension_s0_learned_hard_64_minus_head_25_7": 0.5675558143914928,
+    "comprehension_s0_learned_hard_64_minus_head_26_18": 0.561152012103405,
+    "comprehension_s0_learned_hard_64_minus_head_26_8": 0.5681849666158173,
+    "comprehension_s0_learned_hard_64_minus_head_27_12": 0.5780447901510258,
+    "comprehension_s0_learned_hard_64_minus_head_27_13": 0.6351970233011851,
+    "comprehension_s0_learned_hard_64_minus_head_28_15": 0.5546359172452018,
+    "comprehension_s0_learned_hard_64_minus_head_28_24": 0.5908620864700105,
+    "comprehension_s0_learned_hard_64_minus_head_28_4": 0.5774608637993613,
+    "comprehension_s0_learned_hard_64_minus_head_28_6": 0.5744248110942174,
+    "comprehension_s0_learned_hard_64_minus_head_29_10": 0.5755653025474275,
+    "comprehension_s0_learned_hard_64_minus_head_29_2": 0.5702246394377984,
+    "comprehension_s0_learned_hard_64_minus_head_29_5": 0.5592189359593396,
+    "comprehension_s0_learned_hard_64_minus_head_30_2": 0.5628398202744499,
+    "comprehension_s0_learned_hard_64_minus_head_30_6": 0.5514810296305797,
+    "comprehension_s0_learned_hard_64_minus_head_31_14": 0.5707687006274248,
+    "comprehension_s0_learned_hard_64_minus_head_31_21": 0.5553814477330004,
+    "comprehension_s0_learned_hard_64_minus_head_31_23": 0.5656808327498302,
+    "comprehension_s0_learned_hard_64_minus_head_31_24": 0.5639849649688858,
+    "comprehension_s0_learned_hard_64_minus_head_31_25": 0.5593779582498792,
+    "comprehension_s0_learned_hard_64_minus_head_31_3": 0.5327330450967183,
+    "comprehension_s0_learned_hard_64_plus_expert_21_104": 0.5586002563559975,
+    "comprehension_s0_learned_hard_64_plus_head_26_7": 0.5607727814886858,
+    "comprehension_s2_learned_soft": 0.7648387297082341,
+    "hub_s2_learned_hard_4": 0.7168173948946399,
+    "hub_s2_learned_hard_4_minus_expert_24_78": 0.7140425604604351,
+    "hub_s2_learned_hard_4_minus_expert_25_68": 0.719707374669042,
+    "hub_s2_learned_hard_4_minus_expert_26_102": 0.7103824854978898,
+    "hub_s2_learned_hard_4_minus_expert_28_115": 0.7085045292706044,
+    "hub_s2_learned_hard_4_plus_head_22_17": 0.7236715389499487,
+    "hub_s2_learned_hard_4_plus_head_25_25": 0.7267672204635732,
+    "hub_s2_learned_soft": 0.9953067792803857,
+    "intact": 0.6991937792103112,
+    "weight_gate_L28_s1_seed1910": 0.8428871257787031,
+    "weight_gate_L44_s1_seed1910": 0.7148292870218985,
+    "weight_q_L28_s1_seed1910": 0.711425411780573,
+    "weight_q_L4_s0.5_seed1910": 0.7623363590451719,
+    "weight_q_L4_s0.5_seed1911": 0.7154968336687896,
+    "weight_q_L4_s1_seed1910": 0.7090755162432274,
+    "weight_up_L28_s0.5_seed1910": 0.8303121002376571,
+    "weight_up_L28_s0.5_seed1911": 0.763246928134077,
+    "weight_v_L4_s1_seed1910": 0.7321841899219681
+   },
+   "states": {
+    "PC8_all_a0": {
+     "lowercase": {
+      "naming": -2.064373959771021,
+      "definition": 11.179474020004273,
+      "synonym": 7.681785662968953,
+      "naming_definition_partial_r": -0.13051032109658772,
+      "naming_synonym_partial_r": -0.18570001833126337,
+      "naming_frequency_slope": -0.31629285676731367
+     },
+     "case_insensitive": {
+      "naming": -2.085641538859669,
+      "naming_ci": [
+       -2.7282906838662435,
+       -1.4765379128214249
+      ],
+      "definition": 11.179474020004273,
+      "definition_ci": [
+       10.484676880836487,
+       11.848268068830173
+      ],
+      "synonym": 7.681785662968953,
+      "synonym_ci": [
+       7.0536892920732495,
+       8.270546995070244
+      ],
+      "naming_definition_partial_r": -0.17475007311312665,
+      "naming_definition_partial_r_ci": [
+       -0.3582006907763838,
+       0.026510360861692683
+      ],
+      "naming_synonym_partial_r": -0.25781397892198626,
+      "naming_synonym_partial_r_ci": [
+       -0.4329647567687052,
+       -0.03651684581022073
+      ],
+      "naming_frequency_slope": 0.03319710091985885,
+      "naming_frequency_slope_ci": [
+       -0.5990698659659425,
+       0.7332218015342489
+      ]
+     }
+    },
+    "SC4_a0": {
+     "lowercase": {
+      "naming": 0.7819584679602284,
+      "definition": 0.9314740472369726,
+      "synonym": 0.27536050478617313,
+      "naming_definition_partial_r": 0.14213143817944662,
+      "naming_synonym_partial_r": -0.046928195203160175,
+      "naming_frequency_slope": -0.061479441708446124
+     },
+     "case_insensitive": {
+      "naming": 0.14313738523966665,
+      "naming_ci": [
+       0.011474593975759081,
+       0.29709641805652254
+      ],
+      "definition": 0.9314740472369726,
+      "definition_ci": [
+       0.7624991238779493,
+       1.093240906132592
+      ],
+      "synonym": 0.27536050478617313,
+      "synonym_ci": [
+       0.13534424569871664,
+       0.4137921573718384
+      ],
+      "naming_definition_partial_r": 0.04481830717472381,
+      "naming_definition_partial_r_ci": [
+       -0.08769068142677115,
+       0.2418076581378991
+      ],
+      "naming_synonym_partial_r": -0.027199252330305936,
+      "naming_synonym_partial_r_ci": [
+       -0.2200937283254519,
+       0.1204239366570539
+      ],
+      "naming_frequency_slope": -0.21402218612283683,
+      "naming_frequency_slope_ci": [
+       -0.47513672617767716,
+       0.041063916292572084
+      ]
+     }
+    },
+    "WR30_a0": {
+     "lowercase": {
+      "naming": 1.7445832347659034,
+      "definition": -1.1080042892032196,
+      "synonym": -1.8105962355931602,
+      "naming_definition_partial_r": 0.06677178101509981,
+      "naming_synonym_partial_r": -0.029197541916512533,
+      "naming_frequency_slope": -0.9266957754326428
+     },
+     "case_insensitive": {
+      "naming": 1.2820373378836505,
+      "naming_ci": [
+       0.7369573616695602,
+       1.8661886622737722
+      ],
+      "definition": -1.1080042892032196,
+      "definition_ci": [
+       -1.4725295751624632,
+       -0.7471464713414507
+      ],
+      "synonym": -1.8105962355931602,
+      "synonym_ci": [
+       -2.1392808299594464,
+       -1.474572606285413
+      ],
+      "naming_definition_partial_r": 0.08427105908116408,
+      "naming_definition_partial_r_ci": [
+       -0.0775327093784996,
+       0.26262583660190053
+      ],
+      "naming_synonym_partial_r": -0.01024356842236826,
+      "naming_synonym_partial_r_ci": [
+       -0.22085032026614249,
+       0.19124470419110576
+      ],
+      "naming_frequency_slope": -0.566056704569384,
+      "naming_frequency_slope_ci": [
+       -1.9701457617255143,
+       0.7821654883292097
+      ]
+     }
+    },
+    "WR8_a0": {
+     "lowercase": {
+      "naming": 0.9042153134482861,
+      "definition": -1.1021087884902954,
+      "synonym": -1.91252920097775,
+      "naming_definition_partial_r": -0.13396396082182813,
+      "naming_synonym_partial_r": -0.12814618807058897,
+      "naming_frequency_slope": -0.5127047805001218
+     },
+     "case_insensitive": {
+      "naming": 0.5505280459940884,
+      "naming_ci": [
+       0.26356137842205085,
+       0.8873316341111007
+      ],
+      "definition": -1.1021087884902954,
+      "definition_ci": [
+       -1.2313726620541678,
+       -0.9757880320813912
+      ],
+      "synonym": -1.91252920097775,
+      "synonym_ci": [
+       -2.050265044238833,
+       -1.7636274244387948
+      ],
+      "naming_definition_partial_r": -0.08973766647768833,
+      "naming_definition_partial_r_ci": [
+       -0.19938853722218505,
+       0.0314882365650036
+      ],
+      "naming_synonym_partial_r": -0.12253573284539199,
+      "naming_synonym_partial_r_ci": [
+       -0.2935889320054383,
+       0.07463547233224721
+      ],
+      "naming_frequency_slope": -0.6261389363817647,
+      "naming_frequency_slope_ci": [
+       -1.5932225583499682,
+       0.1280780536085089
+      ]
+     }
+    },
+    "WR8_a0_SC4_a0": {
+     "lowercase": {
+      "naming": 1.7612009996503024,
+      "definition": -0.08885744412740029,
+      "synonym": -1.7532498810026382,
+      "naming_definition_partial_r": 0.0430165008491575,
+      "naming_synonym_partial_r": -0.019553700015385263,
+      "naming_frequency_slope": -0.7242741378073941
+     },
+     "case_insensitive": {
+      "naming": 0.6946287216317664,
+      "naming_ci": [
+       0.35520886298441795,
+       1.0768342000057707
+      ],
+      "definition": -0.08885744412740029,
+      "definition_ci": [
+       -0.2967903855111861,
+       0.10992971731556805
+      ],
+      "synonym": -1.7532498810026382,
+      "synonym_ci": [
+       -1.9780759052435561,
+       -1.5228412503666353
+      ],
+      "naming_definition_partial_r": 0.04967195662748263,
+      "naming_definition_partial_r_ci": [
+       -0.07872619471854345,
+       0.17452412443002857
+      ],
+      "naming_synonym_partial_r": -0.10355082579379239,
+      "naming_synonym_partial_r_ci": [
+       -0.23407547840306758,
+       0.03953347082650818
+      ],
+      "naming_frequency_slope": -0.962674996568818,
+      "naming_frequency_slope_ci": [
+       -1.9543733164322634,
+       -0.11326083558826447
+      ]
+     }
+    },
+    "WR8_a0_SC4_a0.5": {
+     "lowercase": {
+      "naming": 1.2520865283447267,
+      "definition": -0.7530088053809268,
+      "synonym": -1.9447219265831848,
+      "naming_definition_partial_r": -0.02979774988211429,
+      "naming_synonym_partial_r": -0.04751782599436264,
+      "naming_frequency_slope": -0.5677607768975365
+     },
+     "case_insensitive": {
+      "naming": 0.6117595879616987,
+      "naming_ci": [
+       0.3053701331851932,
+       0.9663483293431558
+      ],
+      "definition": -0.7530088053809268,
+      "definition_ci": [
+       -0.9044747305578652,
+       -0.605835576322344
+      ],
+      "synonym": -1.9447219265831848,
+      "synonym_ci": [
+       -2.1253046793407866,
+       -1.7480600427256696
+      ],
+      "naming_definition_partial_r": -0.010522582633563824,
+      "naming_definition_partial_r_ci": [
+       -0.13638661214815048,
+       0.13058027401236796
+      ],
+      "naming_synonym_partial_r": -0.10191834114216627,
+      "naming_synonym_partial_r_ci": [
+       -0.2371584316667914,
+       0.05004348211773634
+      ],
+      "naming_frequency_slope": -0.6418270380332056,
+      "naming_frequency_slope_ci": [
+       -1.62015654244901,
+       0.14230313649518747
+      ]
+     }
+    },
+    "WR8_a0_comprehension_s0_learned_hard_64": {
+     "lowercase": {
+      "naming": -1.118892762900537,
+      "definition": 8.808095934655933,
+      "synonym": 10.227393637763129,
+      "naming_definition_partial_r": 0.2134417641688483,
+      "naming_synonym_partial_r": 0.032918426391613895,
+      "naming_frequency_slope": -1.0213191688607413
+     },
+     "case_insensitive": {
+      "naming": -0.19576381001737578,
+      "naming_ci": [
+       -0.545045288763993,
+       0.17087452437170142
+      ],
+      "definition": 8.808095934655933,
+      "definition_ci": [
+       8.26572862300608,
+       9.28502753396829
+      ],
+      "synonym": 10.227393637763129,
+      "synonym_ci": [
+       9.50977016038365,
+       10.882504916919602
+      ],
+      "naming_definition_partial_r": 0.1584140316402147,
+      "naming_definition_partial_r_ci": [
+       -0.04903841900732056,
+       0.3386993922027998
+      ],
+      "naming_synonym_partial_r": -0.0001966801496815593,
+      "naming_synonym_partial_r_ci": [
+       -0.1512548249778533,
+       0.13356380332290532
+      ],
+      "naming_frequency_slope": -0.6909088035164082,
+      "naming_frequency_slope_ci": [
+       -1.6983183403856197,
+       0.13241020765712921
+      ]
+     }
+    },
+    "broad_early_f1_a0.5_s0": {
+     "lowercase": {
+      "naming": 2.4805893233983727,
+      "definition": 1.9723728365368316,
+      "synonym": 5.04757125377655,
+      "naming_definition_partial_r": -0.08441729404843218,
+      "naming_synonym_partial_r": 0.18387338275923956,
+      "naming_frequency_slope": 1.515863184996749
+     },
+     "case_insensitive": {
+      "naming": 0.3177637093684792,
+      "naming_ci": [
+       0.020188013375365844,
+       0.6420578643014621
+      ],
+      "definition": 1.9723728365368316,
+      "definition_ci": [
+       1.2413666243685613,
+       2.709079115258324
+      ],
+      "synonym": 5.04757125377655,
+      "synonym_ci": [
+       4.430645793742603,
+       5.668821195165315
+      ],
+      "naming_definition_partial_r": 0.025260496590396336,
+      "naming_definition_partial_r_ci": [
+       -0.11525436951700994,
+       0.17535134543271258
+      ],
+      "naming_synonym_partial_r": 0.16389139870545047,
+      "naming_synonym_partial_r_ci": [
+       -0.03607222291540497,
+       0.3242931827237439
+      ],
+      "naming_frequency_slope": 0.5109099728758841,
+      "naming_frequency_slope_ci": [
+       -0.25299483303641185,
+       1.3782839104072842
+      ]
+     }
+    },
+    "broad_late_f1_a0.75_s0": {
+     "lowercase": {
+      "naming": -1.295827836511631,
+      "definition": 7.3097874561945595,
+      "synonym": 5.1508172061708235,
+      "naming_definition_partial_r": 0.005765879948892514,
+      "naming_synonym_partial_r": -0.0316567349876721,
+      "naming_frequency_slope": -0.5592240100051862
+     },
+     "case_insensitive": {
+      "naming": -0.508550149448881,
+      "naming_ci": [
+       -0.8171597332871592,
+       -0.196138397213548
+      ],
+      "definition": 7.3097874561945595,
+      "definition_ci": [
+       6.868386583328248,
+       7.741242039534781
+      ],
+      "synonym": 5.1508172061708235,
+      "synonym_ci": [
+       4.7076634137498,
+       5.5623325068420835
+      ],
+      "naming_definition_partial_r": 0.014645320186755174,
+      "naming_definition_partial_r_ci": [
+       -0.16000180946185885,
+       0.18403564281906315
+      ],
+      "naming_synonym_partial_r": -0.018084873935632084,
+      "naming_synonym_partial_r_ci": [
+       -0.23987054306984532,
+       0.20258686979397172
+      ],
+      "naming_frequency_slope": -0.3964212154975435,
+      "naming_frequency_slope_ci": [
+       -0.956536816735689,
+       0.10626217087878811
+      ]
+     }
+    },
+    "broad_middle_f1_a0.1_s0": {
+     "lowercase": {
+      "naming": -2.7236751582454115,
+      "definition": 14.214021317164104,
+      "synonym": 9.915519542164272,
+      "naming_definition_partial_r": 0.1082133890882451,
+      "naming_synonym_partial_r": 0.14767925840793994,
+      "naming_frequency_slope": -1.5657892396673914
+     },
+     "case_insensitive": {
+      "naming": -1.3140789235336041,
+      "naming_ci": [
+       -1.9532426906241587,
+       -0.7193574364838867
+      ],
+      "definition": 14.214021317164104,
+      "definition_ci": [
+       13.348347461620968,
+       15.022649469574294
+      ],
+      "synonym": 9.915519542164272,
+      "synonym_ci": [
+       9.047753697236377,
+       10.715150318741797
+      ],
+      "naming_definition_partial_r": -0.013077382649684995,
+      "naming_definition_partial_r_ci": [
+       -0.20454630312167948,
+       0.18655877425847978
+      ],
+      "naming_synonym_partial_r": 0.056723751253210386,
+      "naming_synonym_partial_r_ci": [
+       -0.12534352128951196,
+       0.2532724098722723
+      ],
+      "naming_frequency_slope": -0.9397194610261566,
+      "naming_frequency_slope_ci": [
+       -2.0007961121093207,
+       0.024299267228123745
+      ]
+     }
+    },
+    "broad_middle_f1_a0.25_s0": {
+     "lowercase": {
+      "naming": -1.260156896042301,
+      "definition": 6.7515075630611845,
+      "synonym": 3.631957435607909,
+      "naming_definition_partial_r": 0.10897196549993306,
+      "naming_synonym_partial_r": 0.16704270563168855,
+      "naming_frequency_slope": -1.0670950257223162
+     },
+     "case_insensitive": {
+      "naming": -0.7325724988427825,
+      "naming_ci": [
+       -1.1484929672250364,
+       -0.33776827787728897
+      ],
+      "definition": 6.7515075630611845,
+      "definition_ci": [
+       6.022939625647333,
+       7.4502165706952415
+      ],
+      "synonym": 3.631957435607909,
+      "synonym_ci": [
+       3.018253721197446,
+       4.208615236878393
+      ],
+      "naming_definition_partial_r": -0.02114406705124429,
+      "naming_definition_partial_r_ci": [
+       -0.21066007534937173,
+       0.19020680626487418
+      ],
+      "naming_synonym_partial_r": 0.09631721037616305,
+      "naming_synonym_partial_r_ci": [
+       -0.06902301116920194,
+       0.2654624785335039
+      ],
+      "naming_frequency_slope": -0.5107395744047716,
+      "naming_frequency_slope_ci": [
+       -1.3273092105716,
+       0.28955760223656746
+      ]
+     }
+    },
+    "broad_middle_f1_a0.5_s0": {
+     "lowercase": {
+      "naming": 1.2947799787397443,
+      "definition": 1.9428674777348836,
+      "synonym": 0.18428752157423228,
+      "naming_definition_partial_r": 0.05878411807650602,
+      "naming_synonym_partial_r": -0.006024806442452797,
+      "naming_frequency_slope": 0.292251178577478
+     },
+     "case_insensitive": {
+      "naming": -0.16988749447427598,
+      "naming_ci": [
+       -0.44809381127830106,
+       0.10413118028676777
+      ],
+      "definition": 1.9428674777348836,
+      "definition_ci": [
+       1.4502766950262918,
+       2.419314914941787
+      ],
+      "synonym": 0.18428752157423228,
+      "synonym_ci": [
+       -0.22678262776798647,
+       0.5895189234283235
+      ],
+      "naming_definition_partial_r": -0.01687026828503202,
+      "naming_definition_partial_r_ci": [
+       -0.18091954250273753,
+       0.16688376832003352
+      ],
+      "naming_synonym_partial_r": 0.048390717434917165,
+      "naming_synonym_partial_r_ci": [
+       -0.11925985964302825,
+       0.20745484853277865
+      ],
+      "naming_frequency_slope": -0.1526566004556163,
+      "naming_frequency_slope_ci": [
+       -0.7663909788264706,
+       0.46169245508676265
+      ]
+     }
+    },
+    "broad_middle_f1_a0.75_s0": {
+     "lowercase": {
+      "naming": 0.7887153413088527,
+      "definition": 0.5586786058213974,
+      "synonym": -0.23507542080349442,
+      "naming_definition_partial_r": 0.06234418919404929,
+      "naming_synonym_partial_r": -0.03384587939486594,
+      "naming_frequency_slope": 0.29036668369906593
+     },
+     "case_insensitive": {
+      "naming": -0.14009022112909272,
+      "naming_ci": [
+       -0.2905461146378826,
+       0.004979083234277941
+      ],
+      "definition": 0.5586786058213974,
+      "definition_ci": [
+       0.31820732103453714,
+       0.7922612419393325
+      ],
+      "synonym": -0.23507542080349442,
+      "synonym_ci": [
+       -0.4477871672974699,
+       -0.02668775816758543
+      ],
+      "naming_definition_partial_r": -0.04235040742989657,
+      "naming_definition_partial_r_ci": [
+       -0.20383526831337961,
+       0.12862601162520934
+      ],
+      "naming_synonym_partial_r": 0.04222453012572733,
+      "naming_synonym_partial_r_ci": [
+       -0.141819507593688,
+       0.2109329587512809
+      ],
+      "naming_frequency_slope": -0.052319087159358596,
+      "naming_frequency_slope_ci": [
+       -0.3854912105061913,
+       0.2815794558007695
+      ]
+     }
+    },
+    "broad_middle_f1_a0.9_s0": {
+     "lowercase": {
+      "naming": 0.2761963858922375,
+      "definition": 0.00040413538614969546,
+      "synonym": -0.2642509222030644,
+      "naming_definition_partial_r": 0.12184879753035723,
+      "naming_synonym_partial_r": -0.03362102970355099,
+      "naming_frequency_slope": 0.05733606544932874
+     },
+     "case_insensitive": {
+      "naming": -0.04626424516721284,
+      "naming_ci": [
+       -0.11807203287824498,
+       0.02542358677226795
+      ],
+      "definition": 0.00040413538614969546,
+      "definition_ci": [
+       -0.09507277687390564,
+       0.09620522664653006
+      ],
+      "synonym": -0.2642509222030644,
+      "synonym_ci": [
+       -0.35555841883023637,
+       -0.1761117717292576
+      ],
+      "naming_definition_partial_r": -0.009291602516409354,
+      "naming_definition_partial_r_ci": [
+       -0.20304541233963572,
+       0.1789587903987107
+      ],
+      "naming_synonym_partial_r": 0.019907139824644295,
+      "naming_synonym_partial_r_ci": [
+       -0.1653016531639023,
+       0.1888454285332462
+      ],
+      "naming_frequency_slope": 0.005744086369506901,
+      "naming_frequency_slope_ci": [
+       -0.14557967896400714,
+       0.16222757972815105
+      ]
+     }
+    },
+    "comprehension_s0_learned_hard_64": {
+     "lowercase": {
+      "naming": -1.6254278690871111,
+      "definition": 9.973361253738403,
+      "synonym": 10.576849126815796,
+      "naming_definition_partial_r": 0.07190754821663158,
+      "naming_synonym_partial_r": -0.17004788722717565,
+      "naming_frequency_slope": -0.3827531967529339
+     },
+     "case_insensitive": {
+      "naming": -0.699334025534375,
+      "naming_ci": [
+       -0.9582943270903009,
+       -0.4561090352188203
+      ],
+      "definition": 9.973361253738403,
+      "definition_ci": [
+       9.431653657091989,
+       10.45297580904431
+      ],
+      "synonym": 10.576849126815796,
+      "synonym_ci": [
+       9.838133771419525,
+       11.250293536384898
+      ],
+      "naming_definition_partial_r": 0.009866919403639924,
+      "naming_definition_partial_r_ci": [
+       -0.20319439255261407,
+       0.209332047903648
+      ],
+      "naming_synonym_partial_r": -0.22180114401290202,
+      "naming_synonym_partial_r_ci": [
+       -0.38024941166204235,
+       -0.03868844867508042
+      ],
+      "naming_frequency_slope": -0.11687857590765251,
+      "naming_frequency_slope_ci": [
+       -0.5534055765422119,
+       0.31259874163393647
+      ]
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_17_21": {
+     "lowercase": {
+      "naming": -1.7335805746267496,
+      "definition": 9.93575565814972,
+      "synonym": 10.59170130358802,
+      "naming_definition_partial_r": 0.09217604881764485,
+      "naming_synonym_partial_r": -0.15813244418426647,
+      "naming_frequency_slope": -0.4192687749833069
+     },
+     "case_insensitive": {
+      "naming": -0.6960538095621828,
+      "definition": 9.93575565814972,
+      "synonym": 10.59170130358802,
+      "naming_definition_partial_r": 0.006285035304709225,
+      "naming_synonym_partial_r": -0.2236669827104479,
+      "naming_frequency_slope": -0.15032248563443598
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_17_55": {
+     "lowercase": {
+      "naming": -1.6766362178585648,
+      "definition": 10.17575843864017,
+      "synonym": 10.432994363043042,
+      "naming_definition_partial_r": 0.07340555900360402,
+      "naming_synonym_partial_r": -0.14589724088678513,
+      "naming_frequency_slope": -0.4181070598674598
+     },
+     "case_insensitive": {
+      "naming": -0.7126059775746562,
+      "definition": 10.17575843864017,
+      "synonym": 10.432994363043042,
+      "naming_definition_partial_r": -0.0012161257238037218,
+      "naming_synonym_partial_r": -0.2054888073588939,
+      "naming_frequency_slope": -0.13728734302827372
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_18_53": {
+     "lowercase": {
+      "naming": -1.5756308114912827,
+      "definition": 9.760265904002718,
+      "synonym": 10.320626073413424,
+      "naming_definition_partial_r": 0.04694068440147999,
+      "naming_synonym_partial_r": -0.1590592898259286,
+      "naming_frequency_slope": -0.3386224841674372
+     },
+     "case_insensitive": {
+      "naming": -0.6908122831460155,
+      "definition": 9.760265904002718,
+      "synonym": 10.320626073413424,
+      "naming_definition_partial_r": -0.003933023059091517,
+      "naming_synonym_partial_r": -0.22370702166036271,
+      "naming_frequency_slope": -0.09983662063415288
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_19_30": {
+     "lowercase": {
+      "naming": -1.6592404100972797,
+      "definition": 9.85107014709049,
+      "synonym": 10.171688752704195,
+      "naming_definition_partial_r": 0.1004397299079189,
+      "naming_synonym_partial_r": -0.1801811569979909,
+      "naming_frequency_slope": -0.4251047827979225
+     },
+     "case_insensitive": {
+      "naming": -0.671511891729051,
+      "definition": 9.85107014709049,
+      "synonym": 10.171688752704195,
+      "naming_definition_partial_r": 0.01986716078013705,
+      "naming_synonym_partial_r": -0.25233573818297106,
+      "naming_frequency_slope": -0.1531488614260872
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_20_41": {
+     "lowercase": {
+      "naming": -1.6301691391240132,
+      "definition": 9.708727627330356,
+      "synonym": 10.679685693316989,
+      "naming_definition_partial_r": 0.06822190620643609,
+      "naming_synonym_partial_r": -0.1699211624770569,
+      "naming_frequency_slope": -0.38485519776824473
+     },
+     "case_insensitive": {
+      "naming": -0.7141712061201783,
+      "definition": 9.708727627330356,
+      "synonym": 10.679685693316989,
+      "naming_definition_partial_r": -0.0053661741223254384,
+      "naming_synonym_partial_r": -0.20464704805054948,
+      "naming_frequency_slope": -0.11573205276677685
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_21_106": {
+     "lowercase": {
+      "naming": -1.6270128625063482,
+      "definition": 9.990781593322755,
+      "synonym": 10.586327197816637,
+      "naming_definition_partial_r": 0.07244758591938091,
+      "naming_synonym_partial_r": -0.16174041578183385,
+      "naming_frequency_slope": -0.38627485374307724
+     },
+     "case_insensitive": {
+      "naming": -0.6967363272142263,
+      "definition": 9.990781593322755,
+      "synonym": 10.586327197816637,
+      "naming_definition_partial_r": 0.010613848206331654,
+      "naming_synonym_partial_r": -0.21914095431890548,
+      "naming_frequency_slope": -0.11833161427814627
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_21_114": {
+     "lowercase": {
+      "naming": -1.7235015483695961,
+      "definition": 9.652636755837335,
+      "synonym": 10.618049112955731,
+      "naming_definition_partial_r": 0.07783978501097223,
+      "naming_synonym_partial_r": -0.1303708725422799,
+      "naming_frequency_slope": -0.39495405263785066
+     },
+     "case_insensitive": {
+      "naming": -0.7128399988341008,
+      "definition": 9.652636755837335,
+      "synonym": 10.618049112955731,
+      "naming_definition_partial_r": 0.001997072864577148,
+      "naming_synonym_partial_r": -0.18847255517735012,
+      "naming_frequency_slope": -0.08391631376696172
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_21_41": {
+     "lowercase": {
+      "naming": -1.6620985481661692,
+      "definition": 9.869906928804188,
+      "synonym": 10.59916934967041,
+      "naming_definition_partial_r": 0.08385324001873475,
+      "naming_synonym_partial_r": -0.15700155662019674,
+      "naming_frequency_slope": -0.3413180196746627
+     },
+     "case_insensitive": {
+      "naming": -0.7114977258475866,
+      "definition": 9.869906928804188,
+      "synonym": 10.59916934967041,
+      "naming_definition_partial_r": 0.012478792630588341,
+      "naming_synonym_partial_r": -0.22826222607553995,
+      "naming_frequency_slope": -0.11325422855259408
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_22_111": {
+     "lowercase": {
+      "naming": -1.6287163277331274,
+      "definition": 9.922913058598835,
+      "synonym": 10.495859103732638,
+      "naming_definition_partial_r": 0.08039619115018816,
+      "naming_synonym_partial_r": -0.1593418035098938,
+      "naming_frequency_slope": -0.3842629250403968
+     },
+     "case_insensitive": {
+      "naming": -0.7009807082116973,
+      "definition": 9.922913058598835,
+      "synonym": 10.495859103732638,
+      "naming_definition_partial_r": 0.014741092941027194,
+      "naming_synonym_partial_r": -0.21516909264538756,
+      "naming_frequency_slope": -0.11794046767865443
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_23_54": {
+     "lowercase": {
+      "naming": -1.6245922037704281,
+      "definition": 9.904121867815654,
+      "synonym": 10.403787983788384,
+      "naming_definition_partial_r": 0.07133921256811251,
+      "naming_synonym_partial_r": -0.16663164907917336,
+      "naming_frequency_slope": -0.3821937392108343
+     },
+     "case_insensitive": {
+      "naming": -0.7010481362195313,
+      "definition": 9.904121867815654,
+      "synonym": 10.403787983788384,
+      "naming_definition_partial_r": 0.008667298304414199,
+      "naming_synonym_partial_r": -0.22807650428356607,
+      "naming_frequency_slope": -0.12164663809358373
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_23_55": {
+     "lowercase": {
+      "naming": -1.6502364482219696,
+      "definition": 9.983142285876804,
+      "synonym": 10.599124850167168,
+      "naming_definition_partial_r": 0.07645678488492275,
+      "naming_synonym_partial_r": -0.15792707328587216,
+      "naming_frequency_slope": -0.3682947359503033
+     },
+     "case_insensitive": {
+      "naming": -0.7110202356472696,
+      "definition": 9.983142285876804,
+      "synonym": 10.599124850167168,
+      "naming_definition_partial_r": 0.007862315315604251,
+      "naming_synonym_partial_r": -0.22159359623503302,
+      "naming_frequency_slope": -0.1205175241768209
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_23_64": {
+     "lowercase": {
+      "naming": -1.7718428996436866,
+      "definition": 9.681511407428319,
+      "synonym": 10.154441356658936,
+      "naming_definition_partial_r": 0.09333502587474045,
+      "naming_synonym_partial_r": -0.167577041767349,
+      "naming_frequency_slope": -0.4126747120572866
+     },
+     "case_insensitive": {
+      "naming": -0.6953215437133334,
+      "definition": 9.681511407428319,
+      "synonym": 10.154441356658936,
+      "naming_definition_partial_r": 0.02810927382466716,
+      "naming_synonym_partial_r": -0.20392909054411337,
+      "naming_frequency_slope": -0.08647404608195063
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_24_126": {
+     "lowercase": {
+      "naming": -1.7834930195596015,
+      "definition": 9.907246465153166,
+      "synonym": 10.590749915440878,
+      "naming_definition_partial_r": 0.09412557654082909,
+      "naming_synonym_partial_r": -0.13246475938271526,
+      "naming_frequency_slope": -0.46212575548396007
+     },
+     "case_insensitive": {
+      "naming": -0.6886507137819433,
+      "definition": 9.907246465153166,
+      "synonym": 10.590749915440878,
+      "naming_definition_partial_r": 0.010293284584144706,
+      "naming_synonym_partial_r": -0.21160685834926235,
+      "naming_frequency_slope": -0.08344751193878448
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_25_104": {
+     "lowercase": {
+      "naming": -1.5286496595110899,
+      "definition": 10.140919129053751,
+      "synonym": 10.47867428196801,
+      "naming_definition_partial_r": 0.0491738310599772,
+      "naming_synonym_partial_r": -0.17256692942215957,
+      "naming_frequency_slope": -0.32461992230343606
+     },
+     "case_insensitive": {
+      "naming": -0.6910888694207027,
+      "definition": 10.140919129053751,
+      "synonym": 10.47867428196801,
+      "naming_definition_partial_r": 0.015883482962912285,
+      "naming_synonym_partial_r": -0.22837580547478042,
+      "naming_frequency_slope": -0.09837390016181556
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_25_42": {
+     "lowercase": {
+      "naming": -1.651765754267237,
+      "definition": 9.922059427367316,
+      "synonym": 10.560166396035088,
+      "naming_definition_partial_r": 0.07070007638180527,
+      "naming_synonym_partial_r": -0.16222737240104737,
+      "naming_frequency_slope": -0.3832633995381259
+     },
+     "case_insensitive": {
+      "naming": -0.6943534534115782,
+      "definition": 9.922059427367316,
+      "synonym": 10.560166396035088,
+      "naming_definition_partial_r": -0.004630171940288132,
+      "naming_synonym_partial_r": -0.21629565061092046,
+      "naming_frequency_slope": -0.11797849894766214
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_25_70": {
+     "lowercase": {
+      "naming": -1.6247151623292464,
+      "definition": 9.85158105691274,
+      "synonym": 10.406138647927179,
+      "naming_definition_partial_r": 0.07332415898156314,
+      "naming_synonym_partial_r": -0.16877366080548584,
+      "naming_frequency_slope": -0.38298930238828516
+     },
+     "case_insensitive": {
+      "naming": -0.698909859168517,
+      "definition": 9.85158105691274,
+      "synonym": 10.406138647927179,
+      "naming_definition_partial_r": 0.012094984588024035,
+      "naming_synonym_partial_r": -0.22387814857262467,
+      "naming_frequency_slope": -0.11330547840371519
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_27_120": {
+     "lowercase": {
+      "naming": -1.600986730650766,
+      "definition": 9.883023397127788,
+      "synonym": 10.521271347999573,
+      "naming_definition_partial_r": 0.07393054017745535,
+      "naming_synonym_partial_r": -0.1598897684530844,
+      "naming_frequency_slope": -0.3659430514389137
+     },
+     "case_insensitive": {
+      "naming": -0.6972076148603438,
+      "definition": 9.883023397127788,
+      "synonym": 10.521271347999573,
+      "naming_definition_partial_r": 0.010924221675761105,
+      "naming_synonym_partial_r": -0.2141788783497636,
+      "naming_frequency_slope": -0.11944135235409335
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_28_115": {
+     "lowercase": {
+      "naming": -1.594525912371076,
+      "definition": 9.76904892921448,
+      "synonym": 10.398607550726997,
+      "naming_definition_partial_r": 0.05875194103363082,
+      "naming_synonym_partial_r": -0.18422493288018077,
+      "naming_frequency_slope": -0.36499227692671143
+     },
+     "case_insensitive": {
+      "naming": -0.6164733926304535,
+      "definition": 9.76904892921448,
+      "synonym": 10.398607550726997,
+      "naming_definition_partial_r": 0.05925391480685925,
+      "naming_synonym_partial_r": -0.22685056917828406,
+      "naming_frequency_slope": -0.12416109785389491
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_28_65": {
+     "lowercase": {
+      "naming": -1.7460293156735134,
+      "definition": 9.759692019886442,
+      "synonym": 10.382396221160889,
+      "naming_definition_partial_r": 0.08725409956964815,
+      "naming_synonym_partial_r": -0.14461221003399424,
+      "naming_frequency_slope": -0.4094285262135744
+     },
+     "case_insensitive": {
+      "naming": -0.6612522224639192,
+      "definition": 9.759692019886442,
+      "synonym": 10.382396221160889,
+      "naming_definition_partial_r": 0.005916063868641592,
+      "naming_synonym_partial_r": -0.2066256365235481,
+      "naming_frequency_slope": -0.07430311103768987
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_29_1": {
+     "lowercase": {
+      "naming": -1.6389310297730844,
+      "definition": 9.929370660252042,
+      "synonym": 10.477135067515901,
+      "naming_definition_partial_r": 0.08086350405559457,
+      "naming_synonym_partial_r": -0.1560196941756717,
+      "naming_frequency_slope": -0.33013530399780183
+     },
+     "case_insensitive": {
+      "naming": -0.6931760629250869,
+      "definition": 9.929370660252042,
+      "synonym": 10.477135067515901,
+      "naming_definition_partial_r": 0.011861545790071601,
+      "naming_synonym_partial_r": -0.21351772959584875,
+      "naming_frequency_slope": -0.07823071453981001
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_29_118": {
+     "lowercase": {
+      "naming": -1.6239274628428069,
+      "definition": 9.947222177187601,
+      "synonym": 10.454258632659911,
+      "naming_definition_partial_r": 0.07743585942166477,
+      "naming_synonym_partial_r": -0.16461198078515693,
+      "naming_frequency_slope": -0.35759984976889314
+     },
+     "case_insensitive": {
+      "naming": -0.6964873668880949,
+      "definition": 9.947222177187601,
+      "synonym": 10.454258632659911,
+      "naming_definition_partial_r": 0.010003012724145858,
+      "naming_synonym_partial_r": -0.22703974797118295,
+      "naming_frequency_slope": -0.09927390667321008
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_29_58": {
+     "lowercase": {
+      "naming": -1.6359283219149805,
+      "definition": 9.851282933023242,
+      "synonym": 10.54709111319648,
+      "naming_definition_partial_r": 0.07272865777211947,
+      "naming_synonym_partial_r": -0.1805950635354887,
+      "naming_frequency_slope": -0.40141745678976165
+     },
+     "case_insensitive": {
+      "naming": -0.697737678735052,
+      "definition": 9.851282933023242,
+      "synonym": 10.54709111319648,
+      "naming_definition_partial_r": 0.008370715715855384,
+      "naming_synonym_partial_r": -0.23254678947338953,
+      "naming_frequency_slope": -0.12916799337182017
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_31_109": {
+     "lowercase": {
+      "naming": -1.6178111929608145,
+      "definition": 9.698538790808783,
+      "synonym": 10.439407359229195,
+      "naming_definition_partial_r": 0.0673402512985959,
+      "naming_synonym_partial_r": -0.1589627683414084,
+      "naming_frequency_slope": -0.36026240737954945
+     },
+     "case_insensitive": {
+      "naming": -0.7043893506783048,
+      "definition": 9.698538790808783,
+      "synonym": 10.439407359229195,
+      "naming_definition_partial_r": -0.010007866276894685,
+      "naming_synonym_partial_r": -0.22496252179786982,
+      "naming_frequency_slope": -0.14223378963243644
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_16_22": {
+     "lowercase": {
+      "naming": -1.708214986009342,
+      "definition": 9.880725012885199,
+      "synonym": 10.564481412039864,
+      "naming_definition_partial_r": 0.046940013435730774,
+      "naming_synonym_partial_r": -0.14814763891481078,
+      "naming_frequency_slope": -0.3644598250409822
+     },
+     "case_insensitive": {
+      "naming": -0.7158727217784908,
+      "definition": 9.880725012885199,
+      "synonym": 10.564481412039864,
+      "naming_definition_partial_r": 0.009450099528568697,
+      "naming_synonym_partial_r": -0.20420165390543885,
+      "naming_frequency_slope": -0.14634973951321692
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_17_22": {
+     "lowercase": {
+      "naming": -1.6334476618361402,
+      "definition": 9.963977665371367,
+      "synonym": 10.372772563828361,
+      "naming_definition_partial_r": 0.10992896223697413,
+      "naming_synonym_partial_r": -0.1532482057152396,
+      "naming_frequency_slope": -0.3758082210684229
+     },
+     "case_insensitive": {
+      "naming": -0.6982086315928245,
+      "definition": 9.963977665371367,
+      "synonym": 10.372772563828361,
+      "naming_definition_partial_r": 0.04516993141281218,
+      "naming_synonym_partial_r": -0.23791834576137547,
+      "naming_frequency_slope": -0.10062883890527596
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_17_29": {
+     "lowercase": {
+      "naming": -1.555224576538765,
+      "definition": 9.95567676226298,
+      "synonym": 10.474879683388602,
+      "naming_definition_partial_r": 0.07243494533575251,
+      "naming_synonym_partial_r": -0.13167691737311177,
+      "naming_frequency_slope": -0.2619674425352255
+     },
+     "case_insensitive": {
+      "naming": -0.7069965016432805,
+      "definition": 9.95567676226298,
+      "synonym": 10.474879683388602,
+      "naming_definition_partial_r": 0.003958509440634255,
+      "naming_synonym_partial_r": -0.20789265864025172,
+      "naming_frequency_slope": -0.09552363868610728
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_17_4": {
+     "lowercase": {
+      "naming": -1.6426578662972637,
+      "definition": 9.97252848678165,
+      "synonym": 10.463225044144524,
+      "naming_definition_partial_r": 0.07436021648409775,
+      "naming_synonym_partial_r": -0.14916773192893393,
+      "naming_frequency_slope": -0.30996097336564726
+     },
+     "case_insensitive": {
+      "naming": -0.7140364622905075,
+      "definition": 9.97252848678165,
+      "synonym": 10.463225044144524,
+      "naming_definition_partial_r": 0.027945425005018797,
+      "naming_synonym_partial_r": -0.2287548518593121,
+      "naming_frequency_slope": -0.08186384759862099
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_18_30": {
+     "lowercase": {
+      "naming": -1.661454058767736,
+      "definition": 9.808406127823725,
+      "synonym": 10.434805035591125,
+      "naming_definition_partial_r": 0.06779969308208013,
+      "naming_synonym_partial_r": -0.1403588215590122,
+      "naming_frequency_slope": -0.3978763776759085
+     },
+     "case_insensitive": {
+      "naming": -0.7120083307639348,
+      "definition": 9.808406127823725,
+      "synonym": 10.434805035591125,
+      "naming_definition_partial_r": 0.030744929952759535,
+      "naming_synonym_partial_r": -0.2180586085895791,
+      "naming_frequency_slope": -0.17747904218466973
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_0": {
+     "lowercase": {
+      "naming": -1.8991399539330613,
+      "definition": 9.737338884671528,
+      "synonym": 10.455184719297621,
+      "naming_definition_partial_r": 0.13142572698273786,
+      "naming_synonym_partial_r": -0.16032325402271985,
+      "naming_frequency_slope": -0.4008489288457044
+     },
+     "case_insensitive": {
+      "naming": -0.6745730787040204,
+      "definition": 9.737338884671528,
+      "synonym": 10.455184719297621,
+      "naming_definition_partial_r": 0.0864180362216876,
+      "naming_synonym_partial_r": -0.24145485778167272,
+      "naming_frequency_slope": -0.0363764942193375
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_1": {
+     "lowercase": {
+      "naming": -1.6814946859874502,
+      "definition": 9.881392256418865,
+      "synonym": 10.547630495495266,
+      "naming_definition_partial_r": 0.09275472273473034,
+      "naming_synonym_partial_r": -0.16173509770273448,
+      "naming_frequency_slope": -0.372727265661951
+     },
+     "case_insensitive": {
+      "naming": -0.7076194558464473,
+      "definition": 9.881392256418865,
+      "synonym": 10.547630495495266,
+      "naming_definition_partial_r": 0.04039888698549595,
+      "naming_synonym_partial_r": -0.21318552257619974,
+      "naming_frequency_slope": -0.10644476068980208
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_13": {
+     "lowercase": {
+      "naming": -1.5813701667480118,
+      "definition": 9.71517490280999,
+      "synonym": 10.387421549691092,
+      "naming_definition_partial_r": 0.06097272224399414,
+      "naming_synonym_partial_r": -0.15293512578785598,
+      "naming_frequency_slope": -0.3490857951318154
+     },
+     "case_insensitive": {
+      "naming": -0.6865594475229194,
+      "definition": 9.71517490280999,
+      "synonym": 10.387421549691092,
+      "naming_definition_partial_r": 0.01238408493540176,
+      "naming_synonym_partial_r": -0.23559563356348176,
+      "naming_frequency_slope": -0.09621699373921125
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_28": {
+     "lowercase": {
+      "naming": -1.5611397343500153,
+      "definition": 9.922530990176732,
+      "synonym": 10.390967930687797,
+      "naming_definition_partial_r": 0.06473248778124954,
+      "naming_synonym_partial_r": -0.15014635888779804,
+      "naming_frequency_slope": -0.33702349237783896
+     },
+     "case_insensitive": {
+      "naming": -0.6926425103932005,
+      "definition": 9.922530990176732,
+      "synonym": 10.390967930687797,
+      "naming_definition_partial_r": 0.014238710746873221,
+      "naming_synonym_partial_r": -0.23851519889968084,
+      "naming_frequency_slope": -0.09689558683157701
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_3": {
+     "lowercase": {
+      "naming": -1.7886679008318525,
+      "definition": 9.75518552992079,
+      "synonym": 10.412892288631861,
+      "naming_definition_partial_r": 0.12210985766956026,
+      "naming_synonym_partial_r": -0.12033271374402434,
+      "naming_frequency_slope": -0.5168086933901126
+     },
+     "case_insensitive": {
+      "naming": -0.6596645690206825,
+      "definition": 9.75518552992079,
+      "synonym": 10.412892288631861,
+      "naming_definition_partial_r": 0.05270450051704197,
+      "naming_synonym_partial_r": -0.1971199759267857,
+      "naming_frequency_slope": -0.11280325233471585
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_31": {
+     "lowercase": {
+      "naming": -1.7017959228568038,
+      "definition": 9.921553492546082,
+      "synonym": 10.272662928369307,
+      "naming_definition_partial_r": 0.08469350236041494,
+      "naming_synonym_partial_r": -0.1439248527181673,
+      "naming_frequency_slope": -0.38473434594839345
+     },
+     "case_insensitive": {
+      "naming": -0.7224820099732897,
+      "definition": 9.921553492546082,
+      "synonym": 10.272662928369307,
+      "naming_definition_partial_r": 0.018585514378908666,
+      "naming_synonym_partial_r": -0.22994390978400198,
+      "naming_frequency_slope": -0.12109960427819
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_4": {
+     "lowercase": {
+      "naming": -1.5723605698989962,
+      "definition": 9.973594745000204,
+      "synonym": 10.62304752667745,
+      "naming_definition_partial_r": 0.07921924470769989,
+      "naming_synonym_partial_r": -0.17371503083390782,
+      "naming_frequency_slope": -0.33955144467361614
+     },
+     "case_insensitive": {
+      "naming": -0.6852348830677994,
+      "definition": 9.973594745000204,
+      "synonym": 10.62304752667745,
+      "naming_definition_partial_r": 0.019147632376037945,
+      "naming_synonym_partial_r": -0.2302776613203247,
+      "naming_frequency_slope": -0.10385633792686604
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_21_14": {
+     "lowercase": {
+      "naming": -1.4198453027567461,
+      "definition": 9.899421662754484,
+      "synonym": 10.854534453815885,
+      "naming_definition_partial_r": 0.07100516882527919,
+      "naming_synonym_partial_r": -0.11494434625524262,
+      "naming_frequency_slope": -0.18549816229736785
+     },
+     "case_insensitive": {
+      "naming": -0.606827823058546,
+      "definition": 9.899421662754484,
+      "synonym": 10.854534453815885,
+      "naming_definition_partial_r": 0.016277404760133063,
+      "naming_synonym_partial_r": -0.18509575771679096,
+      "naming_frequency_slope": -0.02258016019886216
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_23_1": {
+     "lowercase": {
+      "naming": -1.1552828865067568,
+      "definition": 10.070683349503412,
+      "synonym": 10.43274500105116,
+      "naming_definition_partial_r": 0.04230513083723845,
+      "naming_synonym_partial_r": -0.14978605190508104,
+      "naming_frequency_slope": -0.237900068103685
+     },
+     "case_insensitive": {
+      "naming": -0.6646053379654611,
+      "definition": 10.070683349503412,
+      "synonym": 10.43274500105116,
+      "naming_definition_partial_r": 0.03196267840160889,
+      "naming_synonym_partial_r": -0.18340286176770917,
+      "naming_frequency_slope": -0.05087564339716706
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_24_14": {
+     "lowercase": {
+      "naming": -1.55115461101458,
+      "definition": 9.488329203923543,
+      "synonym": 10.30486597220103,
+      "naming_definition_partial_r": 0.003120995622077381,
+      "naming_synonym_partial_r": -0.15857066366783515,
+      "naming_frequency_slope": -0.4554369884628002
+     },
+     "case_insensitive": {
+      "naming": -0.687218583359911,
+      "definition": 9.488329203923543,
+      "synonym": 10.30486597220103,
+      "naming_definition_partial_r": -0.062152451619650356,
+      "naming_synonym_partial_r": -0.23883279895995305,
+      "naming_frequency_slope": -0.2133134803102391
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_24_16": {
+     "lowercase": {
+      "naming": -1.557939993366987,
+      "definition": 9.778571775224474,
+      "synonym": 10.232108200920953,
+      "naming_definition_partial_r": 0.04897894007870168,
+      "naming_synonym_partial_r": -0.15647711786324628,
+      "naming_frequency_slope": -0.3278523516689077
+     },
+     "case_insensitive": {
+      "naming": -0.7338352676989229,
+      "definition": 9.778571775224474,
+      "synonym": 10.232108200920953,
+      "naming_definition_partial_r": 0.01738996355560296,
+      "naming_synonym_partial_r": -0.21611561504856572,
+      "naming_frequency_slope": -0.10406759656767554
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_24_4": {
+     "lowercase": {
+      "naming": -1.7174246951025756,
+      "definition": 9.74931881957584,
+      "synonym": 10.277067057291667,
+      "naming_definition_partial_r": 0.08021281949065445,
+      "naming_synonym_partial_r": -0.15134672182487052,
+      "naming_frequency_slope": -0.38388128791550075
+     },
+     "case_insensitive": {
+      "naming": -0.6697345137490589,
+      "definition": 9.74931881957584,
+      "synonym": 10.277067057291667,
+      "naming_definition_partial_r": -0.004223274335313217,
+      "naming_synonym_partial_r": -0.22026111825745398,
+      "naming_frequency_slope": -0.09615562125137961
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_0": {
+     "lowercase": {
+      "naming": -1.5417424179995176,
+      "definition": 9.92809479236603,
+      "synonym": 10.541718747880724,
+      "naming_definition_partial_r": 0.04846450721519434,
+      "naming_synonym_partial_r": -0.17446241203156979,
+      "naming_frequency_slope": -0.4055097758555744
+     },
+     "case_insensitive": {
+      "naming": -0.6797205870727633,
+      "definition": 9.92809479236603,
+      "synonym": 10.541718747880724,
+      "naming_definition_partial_r": 0.016532202448117105,
+      "naming_synonym_partial_r": -0.2285560883717338,
+      "naming_frequency_slope": -0.14645878668376447
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_11": {
+     "lowercase": {
+      "naming": -1.5744068624031367,
+      "definition": 9.57155798011356,
+      "synonym": 10.352599559889901,
+      "naming_definition_partial_r": 0.0690274262987771,
+      "naming_synonym_partial_r": -0.1590216312343584,
+      "naming_frequency_slope": -0.4153262273090677
+     },
+     "case_insensitive": {
+      "naming": -0.69647906271653,
+      "definition": 9.57155798011356,
+      "synonym": 10.352599559889901,
+      "naming_definition_partial_r": 0.007576844629663072,
+      "naming_synonym_partial_r": -0.2002597004816932,
+      "naming_frequency_slope": -0.13614846143306153
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_14": {
+     "lowercase": {
+      "naming": -1.7706960390173156,
+      "definition": 9.33909968800015,
+      "synonym": 10.32806979285346,
+      "naming_definition_partial_r": 0.09038051000519952,
+      "naming_synonym_partial_r": -0.13125923262334008,
+      "naming_frequency_slope": -0.4429287837358526
+     },
+     "case_insensitive": {
+      "naming": -0.6907148907420188,
+      "definition": 9.33909968800015,
+      "synonym": 10.32806979285346,
+      "naming_definition_partial_r": 0.030861105806806698,
+      "naming_synonym_partial_r": -0.1968702734059398,
+      "naming_frequency_slope": -0.12558976993308782
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_31": {
+     "lowercase": {
+      "naming": -1.5104915325497534,
+      "definition": 10.011496901512146,
+      "synonym": 10.625408964686924,
+      "naming_definition_partial_r": 0.08238493379442602,
+      "naming_synonym_partial_r": -0.1468655504796378,
+      "naming_frequency_slope": -0.33603711169548234
+     },
+     "case_insensitive": {
+      "naming": -0.6842522903768812,
+      "definition": 10.011496901512146,
+      "synonym": 10.625408964686924,
+      "naming_definition_partial_r": 0.03672073339756967,
+      "naming_synonym_partial_r": -0.21132622755368766,
+      "naming_frequency_slope": -0.09875837588746102
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_7": {
+     "lowercase": {
+      "naming": -1.5758801039909789,
+      "definition": 9.638593792915344,
+      "synonym": 10.189313350783456,
+      "naming_definition_partial_r": 0.06919748911527157,
+      "naming_synonym_partial_r": -0.1619716183131436,
+      "naming_frequency_slope": -0.33988110407384287
+     },
+     "case_insensitive": {
+      "naming": -0.6794742505801128,
+      "definition": 9.638593792915344,
+      "synonym": 10.189313350783456,
+      "naming_definition_partial_r": 0.01999810376909569,
+      "naming_synonym_partial_r": -0.21510037259256817,
+      "naming_frequency_slope": -0.08177029914750938
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_26_18": {
+     "lowercase": {
+      "naming": -1.5455337537782419,
+      "definition": 9.365566240416634,
+      "synonym": 9.997153645091585,
+      "naming_definition_partial_r": 0.13830303632980698,
+      "naming_synonym_partial_r": -0.1408578772248459,
+      "naming_frequency_slope": -0.34802041389024746
+     },
+     "case_insensitive": {
+      "naming": -0.639324514596872,
+      "definition": 9.365566240416634,
+      "synonym": 9.997153645091585,
+      "naming_definition_partial_r": 0.0478692151319957,
+      "naming_synonym_partial_r": -0.2253774959532153,
+      "naming_frequency_slope": -0.0880255956091253
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_26_8": {
+     "lowercase": {
+      "naming": -1.5215017987098285,
+      "definition": 9.763716271188523,
+      "synonym": 10.361126356654696,
+      "naming_definition_partial_r": 0.0766330701000128,
+      "naming_synonym_partial_r": -0.15738111824348303,
+      "naming_frequency_slope": -0.3815076477929453
+     },
+     "case_insensitive": {
+      "naming": -0.6337833343065717,
+      "definition": 9.763716271188523,
+      "synonym": 10.361126356654696,
+      "naming_definition_partial_r": 0.02453733267833682,
+      "naming_synonym_partial_r": -0.2250535174320232,
+      "naming_frequency_slope": -0.15151041209228266
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_27_12": {
+     "lowercase": {
+      "naming": -1.517157166970557,
+      "definition": 9.154306014378866,
+      "synonym": 10.12605702612135,
+      "naming_definition_partial_r": 0.05890409929422499,
+      "naming_synonym_partial_r": -0.15649600418770507,
+      "naming_frequency_slope": -0.3440701907114563
+     },
+     "case_insensitive": {
+      "naming": -0.6815783004366619,
+      "definition": 9.154306014378866,
+      "synonym": 10.12605702612135,
+      "naming_definition_partial_r": -0.014649258445997002,
+      "naming_synonym_partial_r": -0.21147322227249835,
+      "naming_frequency_slope": -0.10107164225137248
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_27_13": {
+     "lowercase": {
+      "naming": -1.1983553597076226,
+      "definition": 9.482708006434969,
+      "synonym": 10.200530036290486,
+      "naming_definition_partial_r": -0.033692289537157326,
+      "naming_synonym_partial_r": -0.1918228433393644,
+      "naming_frequency_slope": -0.1477912165255198
+     },
+     "case_insensitive": {
+      "naming": -0.7243330079248568,
+      "definition": 9.482708006434969,
+      "synonym": 10.200530036290486,
+      "naming_definition_partial_r": -0.03777918509161984,
+      "naming_synonym_partial_r": -0.21639010212079196,
+      "naming_frequency_slope": -0.07162491617930176
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_15": {
+     "lowercase": {
+      "naming": -1.6340274538010513,
+      "definition": 9.525838081041973,
+      "synonym": 10.303520417213438,
+      "naming_definition_partial_r": 0.1012489205172089,
+      "naming_synonym_partial_r": -0.12329092293541714,
+      "naming_frequency_slope": -0.2544030983897702
+     },
+     "case_insensitive": {
+      "naming": -0.6892675657254884,
+      "definition": 9.525838081041973,
+      "synonym": 10.303520417213438,
+      "naming_definition_partial_r": 0.047304098488898355,
+      "naming_synonym_partial_r": -0.19526763787887982,
+      "naming_frequency_slope": -0.012101758264783272
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_24": {
+     "lowercase": {
+      "naming": -1.4194156166172534,
+      "definition": 9.44476652675205,
+      "synonym": 10.210953752199808,
+      "naming_definition_partial_r": 0.05195859054419037,
+      "naming_synonym_partial_r": -0.1667501060213599,
+      "naming_frequency_slope": -0.2628186289799789
+     },
+     "case_insensitive": {
+      "naming": -0.632790397756623,
+      "definition": 9.44476652675205,
+      "synonym": 10.210953752199808,
+      "naming_definition_partial_r": -0.007029060407650829,
+      "naming_synonym_partial_r": -0.24518387333126665,
+      "naming_frequency_slope": -0.11352029955266371
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_4": {
+     "lowercase": {
+      "naming": -1.5954128876891143,
+      "definition": 10.181488712628683,
+      "synonym": 10.438093370861477,
+      "naming_definition_partial_r": 0.042132591555850196,
+      "naming_synonym_partial_r": -0.18106206481199552,
+      "naming_frequency_slope": -0.41611743658395917
+     },
+     "case_insensitive": {
+      "naming": -0.7449474306229324,
+      "definition": 10.181488712628683,
+      "synonym": 10.438093370861477,
+      "naming_definition_partial_r": 0.009340926996132832,
+      "naming_synonym_partial_r": -0.21714905790513048,
+      "naming_frequency_slope": -0.15447840923237038
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_6": {
+     "lowercase": {
+      "naming": -1.5387411837097413,
+      "definition": 9.908940974871317,
+      "synonym": 10.613786265585157,
+      "naming_definition_partial_r": 0.10474873519025793,
+      "naming_synonym_partial_r": -0.13445140193532124,
+      "naming_frequency_slope": -0.2538496253255869
+     },
+     "case_insensitive": {
+      "naming": -0.6983507464200275,
+      "definition": 9.908940974871317,
+      "synonym": 10.613786265585157,
+      "naming_definition_partial_r": 0.0789253040109285,
+      "naming_synonym_partial_r": -0.2098681351622405,
+      "naming_frequency_slope": -0.07716099714757693
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_29_10": {
+     "lowercase": {
+      "naming": -1.5412632974647242,
+      "definition": 9.896593883302478,
+      "synonym": 10.624142734209697,
+      "naming_definition_partial_r": 0.05508519131773384,
+      "naming_synonym_partial_r": -0.16056568854483905,
+      "naming_frequency_slope": -0.39746747871180205
+     },
+     "case_insensitive": {
+      "naming": -0.7095006792887164,
+      "definition": 9.896593883302478,
+      "synonym": 10.624142734209697,
+      "naming_definition_partial_r": -0.005006064099261327,
+      "naming_synonym_partial_r": -0.20328986783830566,
+      "naming_frequency_slope": -0.16329931075383708
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_29_2": {
+     "lowercase": {
+      "naming": -1.585412066008818,
+      "definition": 9.734576932589215,
+      "synonym": 10.396494189898172,
+      "naming_definition_partial_r": 0.06048622755178012,
+      "naming_synonym_partial_r": -0.2005993292481141,
+      "naming_frequency_slope": -0.46101126252160224
+     },
+     "case_insensitive": {
+      "naming": -0.7148012467647381,
+      "definition": 9.734576932589215,
+      "synonym": 10.396494189898172,
+      "naming_definition_partial_r": 0.006023279374706815,
+      "naming_synonym_partial_r": -0.23995387559429057,
+      "naming_frequency_slope": -0.16853927467110305
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_29_5": {
+     "lowercase": {
+      "naming": -1.6342340391355619,
+      "definition": 9.621081309848362,
+      "synonym": 10.347287114461263,
+      "naming_definition_partial_r": 0.06927870825552268,
+      "naming_synonym_partial_r": -0.14968742020633977,
+      "naming_frequency_slope": -0.3745082360832885
+     },
+     "case_insensitive": {
+      "naming": -0.7138742597510446,
+      "definition": 9.621081309848362,
+      "synonym": 10.347287114461263,
+      "naming_definition_partial_r": 0.00680594045541042,
+      "naming_synonym_partial_r": -0.19843324479057178,
+      "naming_frequency_slope": -0.11003477455015079
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_30_2": {
+     "lowercase": {
+      "naming": -1.628371912110985,
+      "definition": 9.788107249471876,
+      "synonym": 10.416920961274041,
+      "naming_definition_partial_r": 0.06482907480671761,
+      "naming_synonym_partial_r": -0.17202966912888842,
+      "naming_frequency_slope": -0.3479136030867998
+     },
+     "case_insensitive": {
+      "naming": -0.713893878420156,
+      "definition": 9.788107249471876,
+      "synonym": 10.416920961274041,
+      "naming_definition_partial_r": 0.01052863898733417,
+      "naming_synonym_partial_r": -0.24670491816974185,
+      "naming_frequency_slope": -0.1258915466799271
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_30_6": {
+     "lowercase": {
+      "naming": -1.6123551760276313,
+      "definition": 9.594472501013012,
+      "synonym": 10.347223316298592,
+      "naming_definition_partial_r": 0.11135339756085731,
+      "naming_synonym_partial_r": -0.16190767009428134,
+      "naming_frequency_slope": -0.31488232453758375
+     },
+     "case_insensitive": {
+      "naming": -0.6347103159040172,
+      "definition": 9.594472501013012,
+      "synonym": 10.347223316298592,
+      "naming_definition_partial_r": 0.06273985853295737,
+      "naming_synonym_partial_r": -0.23071546703844048,
+      "naming_frequency_slope": -0.04192263997610756
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_14": {
+     "lowercase": {
+      "naming": -1.5776264211790272,
+      "definition": 9.834102582931518,
+      "synonym": 10.473390947447884,
+      "naming_definition_partial_r": 0.05216812243109867,
+      "naming_synonym_partial_r": -0.162866575503383,
+      "naming_frequency_slope": -0.34558105604750533
+     },
+     "case_insensitive": {
+      "naming": -0.7082918592162734,
+      "definition": 9.834102582931518,
+      "synonym": 10.473390947447884,
+      "naming_definition_partial_r": 0.008638283942003102,
+      "naming_synonym_partial_r": -0.21731700887743163,
+      "naming_frequency_slope": -0.1175120603836582
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_21": {
+     "lowercase": {
+      "naming": -1.6699850925095636,
+      "definition": 9.773957999547322,
+      "synonym": 10.54668841626909,
+      "naming_definition_partial_r": 0.05274611673628831,
+      "naming_synonym_partial_r": -0.14236666062937117,
+      "naming_frequency_slope": -0.3615727883797898
+     },
+     "case_insensitive": {
+      "naming": -0.7081810859781391,
+      "definition": 9.773957999547322,
+      "synonym": 10.54668841626909,
+      "naming_definition_partial_r": -0.007835521070026157,
+      "naming_synonym_partial_r": -0.2016048542320736,
+      "naming_frequency_slope": -0.07851614025501256
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_23": {
+     "lowercase": {
+      "naming": -1.6199701174298147,
+      "definition": 9.82273898654514,
+      "synonym": 10.510887991057503,
+      "naming_definition_partial_r": 0.0654113436340816,
+      "naming_synonym_partial_r": -0.16786752829912568,
+      "naming_frequency_slope": -0.34318029251558124
+     },
+     "case_insensitive": {
+      "naming": -0.720864598387105,
+      "definition": 9.82273898654514,
+      "synonym": 10.510887991057503,
+      "naming_definition_partial_r": 0.010785447817222847,
+      "naming_synonym_partial_r": -0.22406013885701212,
+      "naming_frequency_slope": -0.13913351523226936
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_24": {
+     "lowercase": {
+      "naming": -1.6109815906675067,
+      "definition": 9.884532891379463,
+      "synonym": 10.486636355188155,
+      "naming_definition_partial_r": 0.07200933945342872,
+      "naming_synonym_partial_r": -0.1514162643866458,
+      "naming_frequency_slope": -0.3171731078703763
+     },
+     "case_insensitive": {
+      "naming": -0.6986799134174843,
+      "definition": 9.884532891379463,
+      "synonym": 10.486636355188155,
+      "naming_definition_partial_r": -0.0036499876879322276,
+      "naming_synonym_partial_r": -0.21736134648444203,
+      "naming_frequency_slope": -0.07851934693410682
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_25": {
+     "lowercase": {
+      "naming": -1.624039185817431,
+      "definition": 9.85828570789761,
+      "synonym": 10.467466025882297,
+      "naming_definition_partial_r": 0.07557721662512334,
+      "naming_synonym_partial_r": -0.15673550992472682,
+      "naming_frequency_slope": -0.35065530654246313
+     },
+     "case_insensitive": {
+      "naming": -0.7029040509970578,
+      "definition": 9.85828570789761,
+      "synonym": 10.467466025882297,
+      "naming_definition_partial_r": 0.01629504806045685,
+      "naming_synonym_partial_r": -0.2049410112745583,
+      "naming_frequency_slope": -0.10951593627116916
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_3": {
+     "lowercase": {
+      "naming": -1.6034174563977608,
+      "definition": 9.401743372281393,
+      "synonym": 10.364560151100159,
+      "naming_definition_partial_r": 0.08531808539544582,
+      "naming_synonym_partial_r": -0.12513139993285347,
+      "naming_frequency_slope": -0.3938803135782191
+     },
+     "case_insensitive": {
+      "naming": -0.5900748181674237,
+      "definition": 9.401743372281393,
+      "synonym": 10.364560151100159,
+      "naming_definition_partial_r": 0.016352213457559408,
+      "naming_synonym_partial_r": -0.18327533353420353,
+      "naming_frequency_slope": -0.09936271963157349
+     }
+    },
+    "comprehension_s0_learned_hard_64_plus_expert_21_104": {
+     "lowercase": {
+      "naming": -1.6295696957327885,
+      "definition": 10.056159014172026,
+      "synonym": 10.707583318816292,
+      "naming_definition_partial_r": 0.06616530241707862,
+      "naming_synonym_partial_r": -0.16060309244753568,
+      "naming_frequency_slope": -0.38430011363101163
+     },
+     "case_insensitive": {
+      "naming": -0.6994587185495875,
+      "definition": 10.056159014172026,
+      "synonym": 10.707583318816292,
+      "naming_definition_partial_r": 0.005860567867734217,
+      "naming_synonym_partial_r": -0.21065374419793773,
+      "naming_frequency_slope": -0.11695780892560872
+     }
+    },
+    "comprehension_s0_learned_hard_64_plus_head_26_7": {
+     "lowercase": {
+      "naming": -1.6660310637212308,
+      "definition": 10.312183557616342,
+      "synonym": 10.771653135617573,
+      "naming_definition_partial_r": 0.05499178458781047,
+      "naming_synonym_partial_r": -0.16604437819762288,
+      "naming_frequency_slope": -0.48682148248840734
+     },
+     "case_insensitive": {
+      "naming": -0.7599823530238373,
+      "definition": 10.312183557616342,
+      "synonym": 10.771653135617573,
+      "naming_definition_partial_r": 0.021490104371820706,
+      "naming_synonym_partial_r": -0.24824703079905502,
+      "naming_frequency_slope": -0.23462977988597583
+     }
+    },
+    "comprehension_s2_learned_soft": {
+     "lowercase": {
+      "naming": -1.0507803269603753,
+      "definition": 20.118946075439453,
+      "synonym": 15.443465648757087,
+      "naming_definition_partial_r": 0.08409448477742174,
+      "naming_synonym_partial_r": -0.13637770712454492,
+      "naming_frequency_slope": -0.5842258193906528
+     },
+     "case_insensitive": {
+      "naming": -1.1652304117232442,
+      "naming_ci": [
+       -1.6398161471450285,
+       -0.721160987974783
+      ],
+      "definition": 20.118946075439453,
+      "definition_ci": [
+       19.040123313797842,
+       21.1261900049448
+      ],
+      "synonym": 15.443465648757087,
+      "synonym_ci": [
+       14.279511632786857,
+       16.53296172261238
+      ],
+      "naming_definition_partial_r": 0.03311493798521843,
+      "naming_definition_partial_r_ci": [
+       -0.1561926985966534,
+       0.21161142239998448
+      ],
+      "naming_synonym_partial_r": -0.08460348299318797,
+      "naming_synonym_partial_r_ci": [
+       -0.26891783406248393,
+       0.11698223920259394
+      ],
+      "naming_frequency_slope": -0.5146060038039988,
+      "naming_frequency_slope_ci": [
+       -1.3204902724750536,
+       0.33364654986911546
+      ]
+     }
+    },
+    "hub_s2_learned_hard_4": {
+     "lowercase": {
+      "naming": -0.007498721577899747,
+      "definition": 0.24972546100616466,
+      "synonym": 0.30873489114973246,
+      "naming_definition_partial_r": 0.24271715302306493,
+      "naming_synonym_partial_r": 0.10782905002096965,
+      "naming_frequency_slope": 0.09382533053115363
+     },
+     "case_insensitive": {
+      "naming": -0.06257138760315749,
+      "naming_ci": [
+       -0.13454878416763474,
+       0.00353390206055432
+      ],
+      "definition": 0.24972546100616466,
+      "definition_ci": [
+       0.20153983096281677,
+       0.2988102258576292
+      ],
+      "synonym": 0.30873489114973246,
+      "synonym_ci": [
+       0.2506434310144844,
+       0.36680195146136785
+      ],
+      "naming_definition_partial_r": 0.0948020914427534,
+      "naming_definition_partial_r_ci": [
+       -0.06299126283723498,
+       0.23725959315478462
+      ],
+      "naming_synonym_partial_r": 0.23488500754659067,
+      "naming_synonym_partial_r_ci": [
+       0.06694326610882274,
+       0.38875860273759916
+      ],
+      "naming_frequency_slope": 0.04898827391009658,
+      "naming_frequency_slope_ci": [
+       -0.08502444429754567,
+       0.18000002658723224
+      ]
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_24_78": {
+     "lowercase": {
+      "naming": -0.02903727513233506,
+      "definition": 0.26788397365146266,
+      "synonym": 0.3376572317547264,
+      "naming_definition_partial_r": 0.25272842871743184,
+      "naming_synonym_partial_r": 0.09338718591210989,
+      "naming_frequency_slope": 0.07757463487623231
+     },
+     "case_insensitive": {
+      "naming": -0.05806935357985618,
+      "definition": 0.26788397365146266,
+      "synonym": 0.3376572317547264,
+      "naming_definition_partial_r": 0.07335050684497375,
+      "naming_synonym_partial_r": 0.20408302065681597,
+      "naming_frequency_slope": 0.058269554713432446
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_25_68": {
+     "lowercase": {
+      "naming": -0.011198150774645014,
+      "definition": 0.21764558951060037,
+      "synonym": 0.21958705054389066,
+      "naming_definition_partial_r": 0.21058942662414126,
+      "naming_synonym_partial_r": 0.10671321242716122,
+      "naming_frequency_slope": 0.08640654611578447
+     },
+     "case_insensitive": {
+      "naming": -0.08389552176742479,
+      "definition": 0.21764558951060037,
+      "synonym": 0.21958705054389066,
+      "naming_definition_partial_r": 0.06713251566189331,
+      "naming_synonym_partial_r": 0.22997480492031644,
+      "naming_frequency_slope": 0.03844775386963047
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_26_102": {
+     "lowercase": {
+      "naming": -0.05123905305647177,
+      "definition": 0.21054250929090765,
+      "synonym": 0.29521359602610203,
+      "naming_definition_partial_r": 0.27205489817597495,
+      "naming_synonym_partial_r": 0.09136324631868638,
+      "naming_frequency_slope": 0.09210753682223441
+     },
+     "case_insensitive": {
+      "naming": -0.07899151789762368,
+      "definition": 0.21054250929090765,
+      "synonym": 0.29521359602610203,
+      "naming_definition_partial_r": 0.08396390654166748,
+      "naming_synonym_partial_r": 0.22593131426820973,
+      "naming_frequency_slope": 0.03763421854347412
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_28_115": {
+     "lowercase": {
+      "naming": 0.07768014805882963,
+      "definition": 0.05190572473737974,
+      "synonym": 0.06460854742262094,
+      "naming_definition_partial_r": 0.07844005615135811,
+      "naming_synonym_partial_r": -0.0977815058142272,
+      "naming_frequency_slope": 0.027003630863515874
+     },
+     "case_insensitive": {
+      "naming": 0.01822117382252542,
+      "definition": 0.05190572473737974,
+      "synonym": 0.06460854742262094,
+      "naming_definition_partial_r": 0.033549698186684226,
+      "naming_synonym_partial_r": -0.06143254925293318,
+      "naming_frequency_slope": 0.0166581136907935
+     }
+    },
+    "hub_s2_learned_hard_4_plus_head_22_17": {
+     "lowercase": {
+      "naming": 0.026037100844809615,
+      "definition": 0.19321210119459384,
+      "synonym": 0.36498098373413046,
+      "naming_definition_partial_r": 0.167883132130686,
+      "naming_synonym_partial_r": -0.01647092162574571,
+      "naming_frequency_slope": 0.010597300855840108
+     },
+     "case_insensitive": {
+      "naming": -0.06229163747360828,
+      "definition": 0.19321210119459384,
+      "synonym": 0.36498098373413046,
+      "naming_definition_partial_r": 0.0675527497674178,
+      "naming_synonym_partial_r": 0.06162604228471856,
+      "naming_frequency_slope": -0.014566296756896862
+     }
+    },
+    "hub_s2_learned_hard_4_plus_head_25_25": {
+     "lowercase": {
+      "naming": 0.07920801626686526,
+      "definition": 0.2927352613872956,
+      "synonym": 0.24011144373151966,
+      "naming_definition_partial_r": 0.14488722996810752,
+      "naming_synonym_partial_r": 0.08947948090320232,
+      "naming_frequency_slope": 0.09708613697301516
+     },
+     "case_insensitive": {
+      "naming": -0.057465893490206664,
+      "definition": 0.2927352613872956,
+      "synonym": 0.24011144373151966,
+      "naming_definition_partial_r": 0.03139154144690007,
+      "naming_synonym_partial_r": 0.25308977830251217,
+      "naming_frequency_slope": 0.04632980227706034
+     }
+    },
+    "hub_s2_learned_soft": {
+     "lowercase": {
+      "naming": 11.656749379381976,
+      "definition": 13.47009723186493,
+      "synonym": 10.435612140761483,
+      "naming_definition_partial_r": 0.15757432402146135,
+      "naming_synonym_partial_r": 0.08285652077690506,
+      "naming_frequency_slope": 1.7415500450305463
+     },
+     "case_insensitive": {
+      "naming": 1.5629006525542077,
+      "naming_ci": [
+       0.9942856356822456,
+       2.1495765674094933
+      ],
+      "definition": 13.47009723186493,
+      "definition_ci": [
+       12.814292977319823,
+       14.064863424764738
+      ],
+      "synonym": 10.435612140761483,
+      "synonym_ci": [
+       9.674878012339272,
+       11.126617940531835
+      ],
+      "naming_definition_partial_r": 0.24495854187423965,
+      "naming_definition_partial_r_ci": [
+       0.06575887142248234,
+       0.39936921953190935
+      ],
+      "naming_synonym_partial_r": 0.12847759506770984,
+      "naming_synonym_partial_r_ci": [
+       -0.07102275658558815,
+       0.3227094343713452
+      ],
+      "naming_frequency_slope": 0.20084482886192068,
+      "naming_frequency_slope_ci": [
+       -1.2148170371218798,
+       1.5998333173769235
+      ]
+     }
+    },
+    "weight_gate_L28_s1_seed1910": {
+     "lowercase": {
+      "naming": 1.3237063952650514,
+      "definition": 0.40949702527787996,
+      "synonym": -0.16813134352366213,
+      "naming_definition_partial_r": -0.11366461797737816,
+      "naming_synonym_partial_r": 0.036543776481947995,
+      "naming_frequency_slope": 0.6387018057486962
+     },
+     "case_insensitive": {
+      "naming": -0.05556949554096228,
+      "naming_ci": [
+       -0.19448747697473737,
+       0.07954792816798853
+      ],
+      "definition": 0.40949702527787996,
+      "definition_ci": [
+       0.2644929128223004,
+       0.5575802240769071
+      ],
+      "synonym": -0.16813134352366213,
+      "synonym_ci": [
+       -0.2728819331195627,
+       -0.05798571858141214
+      ],
+      "naming_definition_partial_r": 0.031067602732243446,
+      "naming_definition_partial_r_ci": [
+       -0.1754661945541364,
+       0.23161513903506195
+      ],
+      "naming_synonym_partial_r": 0.08306902508818433,
+      "naming_synonym_partial_r_ci": [
+       -0.1716689454810286,
+       0.3123769033928278
+      ],
+      "naming_frequency_slope": 0.24459721621347924,
+      "naming_frequency_slope_ci": [
+       -0.09471399473972085,
+       0.6022573057835137
+      ]
+     }
+    },
+    "weight_gate_L44_s1_seed1910": {
+     "lowercase": {
+      "naming": 0.30109138900168364,
+      "definition": 0.5024937682681616,
+      "synonym": 0.39180228445264986,
+      "naming_definition_partial_r": -0.0224296513045306,
+      "naming_synonym_partial_r": 0.0217768011050457,
+      "naming_frequency_slope": -0.6921302176268956
+     },
+     "case_insensitive": {
+      "naming": 0.17607159574882392,
+      "naming_ci": [
+       -0.3424799390549638,
+       0.6360885265458324
+      ],
+      "definition": 0.5024937682681616,
+      "definition_ci": [
+       0.33021752225028156,
+       0.676420401533445
+      ],
+      "synonym": 0.39180228445264986,
+      "synonym_ci": [
+       0.28855530679225916,
+       0.4967351534631513
+      ],
+      "naming_definition_partial_r": -0.09183743880685431,
+      "naming_definition_partial_r_ci": [
+       -0.278321184426027,
+       0.1736621388287971
+      ],
+      "naming_synonym_partial_r": 0.012210323799672802,
+      "naming_synonym_partial_r_ci": [
+       -0.18434656793501036,
+       0.15236855764428847
+      ],
+      "naming_frequency_slope": -0.5910680700738724,
+      "naming_frequency_slope_ci": [
+       -1.7162736635511917,
+       0.34653468896413486
+      ]
+     }
+    },
+    "weight_q_L28_s1_seed1910": {
+     "lowercase": {
+      "naming": 0.1529916808358395,
+      "definition": 2.462475691901313,
+      "synonym": 1.3739222473568384,
+      "naming_definition_partial_r": 0.1595029206262319,
+      "naming_synonym_partial_r": -0.03683828235248608,
+      "naming_frequency_slope": -0.040815543629219256
+     },
+     "case_insensitive": {
+      "naming": -0.004780042181645239,
+      "naming_ci": [
+       -0.10242268362873418,
+       0.09703837502555594
+      ],
+      "definition": 2.462475691901313,
+      "definition_ci": [
+       2.2966260609361866,
+       2.6235741106006834
+      ],
+      "synonym": 1.3739222473568384,
+      "synonym_ci": [
+       1.224793249236213,
+       1.5172989600896836
+      ],
+      "naming_definition_partial_r": 0.28251594708043565,
+      "naming_definition_partial_r_ci": [
+       0.09712698983322822,
+       0.4604573666817329
+      ],
+      "naming_synonym_partial_r": -0.003063193324668124,
+      "naming_synonym_partial_r_ci": [
+       -0.16937846096142536,
+       0.16547616334430693
+      ],
+      "naming_frequency_slope": 0.004921364722853787,
+      "naming_frequency_slope_ci": [
+       -0.2747197330111303,
+       0.26340501444287706
+      ]
+     }
+    },
+    "weight_q_L4_s0.5_seed1910": {
+     "lowercase": {
+      "naming": 0.36329119355456607,
+      "definition": 0.3560228188832608,
+      "synonym": 0.17761570612589503,
+      "naming_definition_partial_r": -0.012525275258366952,
+      "naming_synonym_partial_r": -0.08356199970888378,
+      "naming_frequency_slope": 0.1645441545204001
+     },
+     "case_insensitive": {
+      "naming": -0.0620296128982341,
+      "naming_ci": [
+       -0.16903335996569224,
+       0.047408325337617976
+      ],
+      "definition": 0.3560228188832608,
+      "definition_ci": [
+       0.14934142278300433,
+       0.5751770087745463
+      ],
+      "synonym": 0.17761570612589503,
+      "synonym_ci": [
+       0.021689788434240173,
+       0.33534902632236424
+      ],
+      "naming_definition_partial_r": 0.0896787048590876,
+      "naming_definition_partial_r_ci": [
+       -0.04808104283737548,
+       0.22782924694654474
+      ],
+      "naming_synonym_partial_r": -0.026316396336636304,
+      "naming_synonym_partial_r_ci": [
+       -0.24850561469738622,
+       0.15726998856895708
+      ],
+      "naming_frequency_slope": 0.17600384272610542,
+      "naming_frequency_slope_ci": [
+       -0.15428545285731537,
+       0.5103300403766571
+      ]
+     }
+    },
+    "weight_q_L4_s0.5_seed1911": {
+     "lowercase": {
+      "naming": 0.18390077704227437,
+      "definition": -0.00651674005720316,
+      "synonym": -0.4150549199846057,
+      "naming_definition_partial_r": -0.0544710998405206,
+      "naming_synonym_partial_r": 0.009538362098191193,
+      "naming_frequency_slope": -0.22305158812566048
+     },
+     "case_insensitive": {
+      "naming": -0.011195945572848068,
+      "naming_ci": [
+       -0.10491789252911295,
+       0.08314257322253878
+      ],
+      "definition": -0.00651674005720316,
+      "definition_ci": [
+       -0.20196574383311774,
+       0.19476434376504684
+      ],
+      "synonym": -0.4150549199846057,
+      "synonym_ci": [
+       -0.5842532950639726,
+       -0.24666570127010373
+      ],
+      "naming_definition_partial_r": -0.16495426922681158,
+      "naming_definition_partial_r_ci": [
+       -0.3179890019705943,
+       0.020812175598486284
+      ],
+      "naming_synonym_partial_r": -0.12412995101272427,
+      "naming_synonym_partial_r_ci": [
+       -0.3408082502320517,
+       0.11547298616650607
+      ],
+      "naming_frequency_slope": -0.13109150214602,
+      "naming_frequency_slope_ci": [
+       -0.34498371881451223,
+       0.06443662551479365
+      ]
+     }
+    },
+    "weight_q_L4_s1_seed1910": {
+     "lowercase": {
+      "naming": -0.09326461999508955,
+      "definition": 0.7995502551396692,
+      "synonym": 0.12639982700347877,
+      "naming_definition_partial_r": -0.060369835367376376,
+      "naming_synonym_partial_r": 0.017853206955936663,
+      "naming_frequency_slope": 0.06730367973495041
+     },
+     "case_insensitive": {
+      "naming": -0.14844028512957685,
+      "naming_ci": [
+       -0.3175522173050781,
+       0.014364389388445453
+      ],
+      "definition": 0.7995502551396692,
+      "definition_ci": [
+       0.41947108348210704,
+       1.2147253189484282
+      ],
+      "synonym": 0.12639982700347877,
+      "synonym_ci": [
+       -0.16140241278542455,
+       0.41698003119892535
+      ],
+      "naming_definition_partial_r": -0.07374961323644674,
+      "naming_definition_partial_r_ci": [
+       -0.2454493576070235,
+       0.10839968817933271
+      ],
+      "naming_synonym_partial_r": -0.011292293740866866,
+      "naming_synonym_partial_r_ci": [
+       -0.27546387796433874,
+       0.2485401390269744
+      ],
+      "naming_frequency_slope": 0.19873959261968288,
+      "naming_frequency_slope_ci": [
+       -0.18739270602580302,
+       0.5908805632312046
+      ]
+     }
+    },
+    "weight_up_L28_s0.5_seed1910": {
+     "lowercase": {
+      "naming": 1.249627143341867,
+      "definition": 0.3321055836147736,
+      "synonym": 0.11168338192833761,
+      "naming_definition_partial_r": -0.21057955888068008,
+      "naming_synonym_partial_r": -0.07534697943060664,
+      "naming_frequency_slope": 0.7769768718488733
+     },
+     "case_insensitive": {
+      "naming": 0.013830884409586132,
+      "naming_ci": [
+       -0.07079475826309403,
+       0.09749133496238505
+      ],
+      "definition": 0.3321055836147736,
+      "definition_ci": [
+       0.22990160710281818,
+       0.4341807438267606
+      ],
+      "synonym": 0.11168338192833761,
+      "synonym_ci": [
+       0.04093235664897426,
+       0.1858009068171179
+      ],
+      "naming_definition_partial_r": -0.017779077122007513,
+      "naming_definition_partial_r_ci": [
+       -0.18663732182630713,
+       0.1529395211304928
+      ],
+      "naming_synonym_partial_r": -0.05462367174119206,
+      "naming_synonym_partial_r_ci": [
+       -0.22961421407971075,
+       0.11209777436449628
+      ],
+      "naming_frequency_slope": 0.12337470964167382,
+      "naming_frequency_slope_ci": [
+       -0.0672925283375106,
+       0.3147264795032791
+      ]
+     }
+    },
+    "weight_up_L28_s0.5_seed1911": {
+     "lowercase": {
+      "naming": 0.5795938108472103,
+      "definition": 0.4215369304021204,
+      "synonym": 0.21863519085778105,
+      "naming_definition_partial_r": 0.04395003118020513,
+      "naming_synonym_partial_r": -0.01825082163955278,
+      "naming_frequency_slope": 0.4736399004352926
+     },
+     "case_insensitive": {
+      "naming": 0.004728146077453221,
+      "naming_ci": [
+       -0.09078498546255863,
+       0.10463973038202219
+      ],
+      "definition": 0.4215369304021204,
+      "definition_ci": [
+       0.32656421522299495,
+       0.5173128465811416
+      ],
+      "synonym": 0.21863519085778105,
+      "synonym_ci": [
+       0.14219147404034904,
+       0.2957356290684806
+      ],
+      "naming_definition_partial_r": -0.005295055656623587,
+      "naming_definition_partial_r_ci": [
+       -0.188923374912585,
+       0.175181530208607
+      ],
+      "naming_synonym_partial_r": 0.12817132282330695,
+      "naming_synonym_partial_r_ci": [
+       -0.12889363744904592,
+       0.3557115789121707
+      ],
+      "naming_frequency_slope": 0.24686090014530737,
+      "naming_frequency_slope_ci": [
+       -0.030990326583648236,
+       0.5441560827391778
+      ]
+     }
+    },
+    "weight_v_L4_s1_seed1910": {
+     "lowercase": {
+      "naming": 0.09229147998525565,
+      "definition": 0.1669189055760706,
+      "synonym": 0.08011809455023804,
+      "naming_definition_partial_r": 0.013327040455527473,
+      "naming_synonym_partial_r": 0.14072305359325415,
+      "naming_frequency_slope": 0.17435047389644565
+     },
+     "case_insensitive": {
+      "naming": -0.152601029370312,
+      "naming_ci": [
+       -0.2753238961970721,
+       -0.03600247991925578
+      ],
+      "definition": 0.1669189055760706,
+      "definition_ci": [
+       -0.11106978767447985,
+       0.4562971572743525
+      ],
+      "synonym": 0.08011809455023804,
+      "synonym_ci": [
+       -0.19167837315135655,
+       0.3527345215611981
+      ],
+      "naming_definition_partial_r": 0.11093497376742757,
+      "naming_definition_partial_r_ci": [
+       -0.15847338011557913,
+       0.35535455523991344
+      ],
+      "naming_synonym_partial_r": 0.10741132603929378,
+      "naming_synonym_partial_r_ci": [
+       -0.022512719483102614,
+       0.24252204061652793
+      ],
+      "naming_frequency_slope": 0.2649128954394968,
+      "naming_frequency_slope_ci": [
+       -0.04808574148232322,
+       0.6196596786748597
+      ]
+     }
+    }
+   },
+   "contrasts": {
+    "lowercase": {},
+    "case_insensitive": {
+     "WR8_a0:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": 0.40739066075442165,
+       "ci": [
+        0.10248297355524977,
+        0.7515577081978676
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -2.0335828357272683,
+       "ci": [
+        -2.22692507452435,
+        -1.8356754310925807
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -2.187889705763923,
+       "ci": [
+        -2.365287188755141,
+        -2.0030982566542095
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": -1.2783772367419617,
+       "ci": [
+        -1.4668260208585053,
+        -1.0917043789769663
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.13455597365241212,
+       "ci": [
+        -0.3705452286421328,
+        0.060211326790107135
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": -0.09533648051508606,
+       "ci": [
+        -0.31786425780954863,
+        0.17919633599625884
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": -0.07351640317637075,
+       "ci": [
+        -0.5175797036665061,
+        0.32313154890130624
+       ]
+      },
+      "semd": {
+       "naming": {
+        "status": "estimated",
+        "n": 120,
+        "n_families": 120,
+        "missing": 0,
+        "n_boot": 10000,
+        "valid_boot": 10000,
+        "seed": 1910,
+        "coefficients": [
+         {
+          "state": "WR",
+          "predictor": "intercept",
+          "estimate": 0.5505280459940886,
+          "ci_low": 0.2579298168591113,
+          "ci_high": 0.8774809294442047
+         },
+         {
+          "state": "WR",
+          "predictor": "frequency",
+          "estimate": -0.31275002192603796,
+          "ci_low": -0.7957984420141592,
+          "ci_high": 0.06397368339010716
+         },
+         {
+          "state": "WR",
+          "predictor": "n_tokens",
+          "estimate": -0.03224408837257268,
+          "ci_low": -0.41957798298466153,
+          "ci_high": 0.32980886636455686
+         },
+         {
+          "state": "WR",
+          "predictor": "intact",
+          "estimate": -0.11478617889063226,
+          "ci_low": -0.5112143929556882,
+          "ci_high": 0.24355186374290158
+         },
+         {
+          "state": "WR",
+          "predictor": "semd",
+          "estimate": 0.09806801927002479,
+          "ci_low": -0.2556846760631243,
+          "ci_high": 0.45541716550757805
+         },
+         {
+          "state": "SC",
+          "predictor": "intercept",
+          "estimate": 0.1431373852396667,
+          "ci_low": 0.008401207940579695,
+          "ci_high": 0.3011274634396617
+         },
+         {
+          "state": "SC",
+          "predictor": "frequency",
+          "estimate": -0.10690190229882841,
+          "ci_low": -0.23732595578328902,
+          "ci_high": 0.020511007980248908
+         },
+         {
+          "state": "SC",
+          "predictor": "n_tokens",
+          "estimate": -0.13228184122165193,
+          "ci_low": -0.30942280299367153,
+          "ci_high": 0.03856150540681183
+         },
+         {
+          "state": "SC",
+          "predictor": "intact",
+          "estimate": -0.04624779716552401,
+          "ci_low": -0.2013166743399126,
+          "ci_high": 0.09051251047046047
+         },
+         {
+          "state": "SC",
+          "predictor": "semd",
+          "estimate": -0.067085028738616,
+          "ci_low": -0.239655799391618,
+          "ci_high": 0.07129874143288903
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intercept",
+          "estimate": -0.40739066075442176,
+          "ci_low": -0.7486957478787671,
+          "ci_high": -0.09760405421801682
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "frequency",
+          "estimate": 0.20584811962720945,
+          "ci_low": -0.168979853891048,
+          "ci_high": 0.6804330952639414
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "n_tokens",
+          "estimate": -0.1000377528490792,
+          "ci_low": -0.45918737656521896,
+          "ci_high": 0.2836484585638342
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intact",
+          "estimate": 0.06853838172510823,
+          "ci_low": -0.28665851419310295,
+          "ci_high": 0.4389971414439295
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "semd",
+          "estimate": -0.16515304800864045,
+          "ci_low": -0.5506958480934824,
+          "ci_high": 0.1898552639988195
+         }
+        ],
+        "without_semd": {
+         "WR": {
+          "intercept": 0.5505280459940887,
+          "frequency": -0.2818098264136083,
+          "n_tokens": -0.06009653112085011,
+          "intact": -0.133848614361372
+         },
+         "SC": {
+          "intercept": 0.1431373852396667,
+          "frequency": -0.12806704788430862,
+          "n_tokens": -0.11322892329675645,
+          "intact": -0.03320782714368127
+         },
+         "SC_minus_WR": {
+          "intercept": -0.40739066075442176,
+          "frequency": 0.15374277852929968,
+          "n_tokens": -0.05313239217590634,
+          "intact": 0.10064078721769086
+         }
+        },
+        "frequency_without_semd": {
+         "WR": {
+          "estimate": -0.2818098264136083,
+          "ci_low": -0.7051681427280643,
+          "ci_high": 0.06323856908316668
+         },
+         "SC": {
+          "estimate": -0.12806704788430862,
+          "ci_low": -0.2755186574776759,
+          "ci_high": 0.0073332788284071896
+         },
+         "SC_minus_WR": {
+          "estimate": 0.15374277852929968,
+          "ci_low": -0.20362796387561047,
+          "ci_high": 0.5771421490320049
+         }
+        },
+        "frequency_shift": {
+         "WR": {
+          "estimate": -0.030940195512429658,
+          "ci_low": -0.16890844513753675,
+          "ci_high": 0.0816231350870567
+         },
+         "SC": {
+          "estimate": 0.021165145585480202,
+          "ci_low": -0.02287622481835906,
+          "ci_high": 0.08201492788186585
+         },
+         "SC_minus_WR": {
+          "estimate": 0.05210534109790976,
+          "ci_low": -0.058428822178879555,
+          "ci_high": 0.20248776664857343
+         }
+        },
+        "predictor_sd": {
+         "frequency": 0.4994898156842146,
+         "n_tokens": 0.7386173268720113,
+         "intact": 7.635728604135444,
+         "semd": 0.32155271268618024
+        },
+        "interpretation": "damage per predictor SD"
+       },
+       "definition": {
+        "status": "estimated",
+        "n": 120,
+        "n_families": 120,
+        "missing": 0,
+        "n_boot": 10000,
+        "valid_boot": 10000,
+        "seed": 1910,
+        "coefficients": [
+         {
+          "state": "WR",
+          "predictor": "intercept",
+          "estimate": -1.1021087884902956,
+          "ci_low": -1.2278009832187864,
+          "ci_high": -0.9859934767674889
+         },
+         {
+          "state": "WR",
+          "predictor": "frequency",
+          "estimate": 0.10831452504550687,
+          "ci_low": -0.03287933376650339,
+          "ci_high": 0.24995530525554635
+         },
+         {
+          "state": "WR",
+          "predictor": "n_tokens",
+          "estimate": 0.09592592897464643,
+          "ci_low": -0.03284750302838796,
+          "ci_high": 0.23557981610088863
+         },
+         {
+          "state": "WR",
+          "predictor": "intact",
+          "estimate": 0.2213405998905921,
+          "ci_low": 0.009387761498768589,
+          "ci_high": 0.5444360616647361
+         },
+         {
+          "state": "WR",
+          "predictor": "semd",
+          "estimate": -0.11487043465291125,
+          "ci_low": -0.24227327979836433,
+          "ci_high": 0.009394470975127245
+         },
+         {
+          "state": "SC",
+          "predictor": "intercept",
+          "estimate": 0.9314740472369728,
+          "ci_low": 0.7796320296606609,
+          "ci_high": 1.085843051138364
+         },
+         {
+          "state": "SC",
+          "predictor": "frequency",
+          "estimate": -0.023855624062302204,
+          "ci_low": -0.23007999321186143,
+          "ci_high": 0.18511094966136218
+         },
+         {
+          "state": "SC",
+          "predictor": "n_tokens",
+          "estimate": -0.13185271182257438,
+          "ci_low": -0.3428976202970953,
+          "ci_high": 0.0871969516280984
+         },
+         {
+          "state": "SC",
+          "predictor": "intact",
+          "estimate": 0.4296516380682201,
+          "ci_low": 0.1978969279935316,
+          "ci_high": 0.6071653551832292
+         },
+         {
+          "state": "SC",
+          "predictor": "semd",
+          "estimate": -0.030474819077326853,
+          "ci_low": -0.1923478946390827,
+          "ci_high": 0.12920932746521127
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intercept",
+          "estimate": 2.033582835727268,
+          "ci_low": 1.8445196381930138,
+          "ci_high": 2.238956566187955
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "frequency",
+          "estimate": -0.13217014910780914,
+          "ci_low": -0.389247292662868,
+          "ci_high": 0.12088528740879513
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "n_tokens",
+          "estimate": -0.22777864079722057,
+          "ci_low": -0.48558012693228314,
+          "ci_high": 0.02731483472711146
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intact",
+          "estimate": 0.20831103817762783,
+          "ci_low": -0.27642087726775355,
+          "ci_high": 0.5406846856806377
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "semd",
+          "estimate": 0.08439561557558445,
+          "ci_low": -0.10448694111715597,
+          "ci_high": 0.28514668801971216
+         }
+        ],
+        "without_semd": {
+         "WR": {
+          "intercept": -1.1021087884902956,
+          "frequency": 0.07201293166670356,
+          "n_tokens": 0.12056006322521208,
+          "intact": 0.24316254917517047
+         },
+         "SC": {
+          "intercept": 0.9314740472369729,
+          "frequency": -0.033486339692311407,
+          "n_tokens": -0.12531734189313254,
+          "intact": 0.4354409428477445
+         },
+         "SC_minus_WR": {
+          "intercept": 2.0335828357272683,
+          "frequency": -0.1054992713590151,
+          "n_tokens": -0.24587740511834474,
+          "intact": 0.19227839367257413
+         }
+        },
+        "frequency_without_semd": {
+         "WR": {
+          "estimate": 0.07201293166670356,
+          "ci_low": -0.0634211843757225,
+          "ci_high": 0.2083192731936598
+         },
+         "SC": {
+          "estimate": -0.033486339692311407,
+          "ci_low": -0.22287296089622613,
+          "ci_high": 0.15991495583384235
+         },
+         "SC_minus_WR": {
+          "estimate": -0.1054992713590151,
+          "ci_low": -0.345600926348342,
+          "ci_high": 0.13279548718004022
+         }
+        },
+        "frequency_shift": {
+         "WR": {
+          "estimate": 0.036301593378803315,
+          "ci_low": -0.0028675773847437417,
+          "ci_high": 0.0880209215060547
+         },
+         "SC": {
+          "estimate": 0.009630715630009203,
+          "ci_low": -0.043763067646573166,
+          "ci_high": 0.06717705803381273
+         },
+         "SC_minus_WR": {
+          "estimate": -0.026670877748794036,
+          "ci_low": -0.10005325340558356,
+          "ci_high": 0.03377767059411797
+         }
+        },
+        "predictor_sd": {
+         "frequency": 0.4994898156842146,
+         "n_tokens": 0.7386173268720113,
+         "intact": 6.470036368100677,
+         "semd": 0.32155271268618024
+        },
+        "interpretation": "damage per predictor SD"
+       },
+       "synonym": {
+        "status": "estimated",
+        "n": 120,
+        "n_families": 120,
+        "missing": 0,
+        "n_boot": 10000,
+        "valid_boot": 10000,
+        "seed": 1910,
+        "coefficients": [
+         {
+          "state": "WR",
+          "predictor": "intercept",
+          "estimate": -1.9125292009777506,
+          "ci_low": -2.01285639381846,
+          "ci_high": -1.8222781131736723
+         },
+         {
+          "state": "WR",
+          "predictor": "frequency",
+          "estimate": -0.05910039801475947,
+          "ci_low": -0.18305865457685294,
+          "ci_high": 0.05459910181579264
+         },
+         {
+          "state": "WR",
+          "predictor": "n_tokens",
+          "estimate": 0.037823635366324056,
+          "ci_low": -0.08327343620561022,
+          "ci_high": 0.14342828737073107
+         },
+         {
+          "state": "WR",
+          "predictor": "intact",
+          "estimate": -0.6052954151990578,
+          "ci_low": -0.7128259312754986,
+          "ci_high": -0.4243921333008084
+         },
+         {
+          "state": "WR",
+          "predictor": "semd",
+          "estimate": -0.04852299083440578,
+          "ci_low": -0.15835068431828292,
+          "ci_high": 0.0578958602194975
+         },
+         {
+          "state": "SC",
+          "predictor": "intercept",
+          "estimate": 0.27536050478617313,
+          "ci_low": 0.13726867207327148,
+          "ci_high": 0.40898040675689773
+         },
+         {
+          "state": "SC",
+          "predictor": "frequency",
+          "estimate": 0.14983301092290138,
+          "ci_low": -0.014316822868664824,
+          "ci_high": 0.31147361037502536
+         },
+         {
+          "state": "SC",
+          "predictor": "n_tokens",
+          "estimate": 0.19321468806900394,
+          "ci_low": 0.049749545928648255,
+          "ci_high": 0.3433893673685087
+         },
+         {
+          "state": "SC",
+          "predictor": "intact",
+          "estimate": 0.00482022475416462,
+          "ci_low": -0.13447211241971999,
+          "ci_high": 0.18079495943533866
+         },
+         {
+          "state": "SC",
+          "predictor": "semd",
+          "estimate": -0.148473393279851,
+          "ci_low": -0.2933214033016515,
+          "ci_high": -0.014413600997055638
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intercept",
+          "estimate": 2.1878897057639235,
+          "ci_low": 2.051764854925372,
+          "ci_high": 2.3333373537402213
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "frequency",
+          "estimate": 0.20893340893766105,
+          "ci_low": 0.053018468332120185,
+          "ci_high": 0.37778970361804015
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "n_tokens",
+          "estimate": 0.1553910527026801,
+          "ci_low": 0.006505257592088245,
+          "ci_high": 0.32293006408628144
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intact",
+          "estimate": 0.6101156399532224,
+          "ci_low": 0.4391921605804716,
+          "ci_high": 0.7409776100666259
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "semd",
+          "estimate": -0.09995040244544516,
+          "ci_low": -0.26617837697866636,
+          "ci_high": 0.06602734907703994
+         }
+        ],
+        "without_semd": {
+         "WR": {
+          "intercept": -1.9125292009777504,
+          "frequency": -0.07431715409795378,
+          "n_tokens": 0.04988452445482233,
+          "intact": -0.6003654324115935
+         },
+         "SC": {
+          "intercept": 0.27536050478617313,
+          "frequency": 0.10327191954059271,
+          "n_tokens": 0.23011927902986284,
+          "intact": 0.019905265075857
+         },
+         "SC_minus_WR": {
+          "intercept": 2.1878897057639235,
+          "frequency": 0.17758907363854667,
+          "n_tokens": 0.1802347545750406,
+          "intact": 0.6202706974874503
+         }
+        },
+        "frequency_without_semd": {
+         "WR": {
+          "estimate": -0.07431715409795378,
+          "ci_low": -0.19271824538522356,
+          "ci_high": 0.03235525428182268
+         },
+         "SC": {
+          "estimate": 0.10327191954059271,
+          "ci_low": -0.053164368861926714,
+          "ci_high": 0.25795262035916183
+         },
+         "SC_minus_WR": {
+          "estimate": 0.17758907363854667,
+          "ci_low": 0.04022752495328021,
+          "ci_high": 0.32863942259950274
+         }
+        },
+        "frequency_shift": {
+         "WR": {
+          "estimate": 0.01521675608319431,
+          "ci_low": -0.01854337757463977,
+          "ci_high": 0.056033087692985956
+         },
+         "SC": {
+          "estimate": 0.04656109138230867,
+          "ci_low": 0.0039054970441425333,
+          "ci_high": 0.10295945890373691
+         },
+         "SC_minus_WR": {
+          "estimate": 0.03134433529911437,
+          "ci_low": -0.020997264041533202,
+          "ci_high": 0.0929541738406926
+         }
+        },
+        "predictor_sd": {
+         "frequency": 0.4994898156842146,
+         "n_tokens": 0.7386173268720113,
+         "intact": 6.517242240682357,
+         "semd": 0.32155271268618024
+        },
+        "interpretation": "damage per predictor SD"
+       },
+       "property": {
+        "status": "estimated",
+        "n": 44,
+        "n_families": 44,
+        "missing": 0,
+        "n_boot": 10000,
+        "valid_boot": 10000,
+        "seed": 1910,
+        "coefficients": [
+         {
+          "state": "WR",
+          "predictor": "intercept",
+          "estimate": -1.1005843010815703,
+          "ci_low": -1.2017059291976113,
+          "ci_high": -0.9972542076947928
+         },
+         {
+          "state": "WR",
+          "predictor": "frequency",
+          "estimate": -0.04991321548641692,
+          "ci_low": -0.18104849660134753,
+          "ci_high": 0.12399853954223063
+         },
+         {
+          "state": "WR",
+          "predictor": "n_tokens",
+          "estimate": -0.03928376208621202,
+          "ci_low": -0.15955893635066612,
+          "ci_high": 0.14201569446955664
+         },
+         {
+          "state": "WR",
+          "predictor": "intact",
+          "estimate": -0.16626266547068239,
+          "ci_low": -0.25885460305133984,
+          "ci_high": -0.05123601691581793
+         },
+         {
+          "state": "WR",
+          "predictor": "semd",
+          "estimate": -0.02365581537114281,
+          "ci_low": -0.1521327420765352,
+          "ci_high": 0.10550350600144724
+         },
+         {
+          "state": "SC",
+          "predictor": "intercept",
+          "estimate": 0.17779293566039123,
+          "ci_low": 0.01819836624280596,
+          "ci_high": 0.35251611260339083
+         },
+         {
+          "state": "SC",
+          "predictor": "frequency",
+          "estimate": 0.10939236506489168,
+          "ci_low": -0.12970742036660665,
+          "ci_high": 0.35104027516579667
+         },
+         {
+          "state": "SC",
+          "predictor": "n_tokens",
+          "estimate": 0.07223769994587696,
+          "ci_low": -0.16593178212162996,
+          "ci_high": 0.2774738564792638
+         },
+         {
+          "state": "SC",
+          "predictor": "intact",
+          "estimate": 0.04234740297167252,
+          "ci_low": -0.14924311911256255,
+          "ci_high": 0.20712313271800328
+         },
+         {
+          "state": "SC",
+          "predictor": "semd",
+          "estimate": -0.05992169316179066,
+          "ci_low": -0.22915102970111328,
+          "ci_high": 0.12029359060490855
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intercept",
+          "estimate": 1.2783772367419617,
+          "ci_low": 1.109256970069337,
+          "ci_high": 1.4722159630225273
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "frequency",
+          "estimate": 0.15930558055130864,
+          "ci_low": -0.09997997724262386,
+          "ci_high": 0.401054221157401
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "n_tokens",
+          "estimate": 0.11152146203208893,
+          "ci_low": -0.16570426686823944,
+          "ci_high": 0.2987205635268503
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "intact",
+          "estimate": 0.20861006844235483,
+          "ci_low": -0.036335153866484525,
+          "ci_high": 0.3963147032256211
+         },
+         {
+          "state": "SC_minus_WR",
+          "predictor": "semd",
+          "estimate": -0.036265877790647945,
+          "ci_low": -0.1953529339722194,
+          "ci_high": 0.13502581415478535
+         }
+        ],
+        "without_semd": {
+         "WR": {
+          "intercept": -1.1005843010815706,
+          "frequency": -0.05679041904400704,
+          "n_tokens": -0.03576017367550803,
+          "intact": -0.16786173941441287
+         },
+         "SC": {
+          "intercept": 0.17779293566039123,
+          "frequency": 0.0919719686455066,
+          "n_tokens": 0.08116317472922387,
+          "intact": 0.0382968464089036
+         },
+         "SC_minus_WR": {
+          "intercept": 1.2783772367419617,
+          "frequency": 0.1487623876895137,
+          "n_tokens": 0.116923348404732,
+          "intact": 0.20615858582331642
+         }
+        },
+        "frequency_without_semd": {
+         "WR": {
+          "estimate": -0.05679041904400704,
+          "ci_low": -0.18000811622600255,
+          "ci_high": 0.07764254501820782
+         },
+         "SC": {
+          "estimate": 0.0919719686455066,
+          "ci_low": -0.13695578381079357,
+          "ci_high": 0.3157244655106297
+         },
+         "SC_minus_WR": {
+          "estimate": 0.1487623876895137,
+          "ci_low": -0.10676014166240415,
+          "ci_high": 0.389924585287579
+         }
+        },
+        "frequency_shift": {
+         "WR": {
+          "estimate": 0.006877203557590125,
+          "ci_low": -0.035674339516139346,
+          "ci_high": 0.07512327287283566
+         },
+         "SC": {
+          "estimate": 0.017420396419385087,
+          "ci_low": -0.046013537735579355,
+          "ci_high": 0.09985601281599901
+         },
+         "SC_minus_WR": {
+          "estimate": 0.010543192861794948,
+          "ci_low": -0.05732925416532255,
+          "ci_high": 0.06779800737700906
+         }
+        },
+        "predictor_sd": {
+         "frequency": 0.5757389542409181,
+         "n_tokens": 0.7056443043754556,
+         "intact": 3.835919296308202,
+         "semd": 0.32913512148344987
+        },
+        "interpretation": "damage per predictor SD"
+       }
+      }
+     },
+     "weight_q_L4_s0.5_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.20516699813790076,
+       "ci": [
+        -0.39750539323323525,
+        -0.028039384446985373
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.5754512283537119,
+       "ci": [
+        -0.8274923264318036,
+        -0.3169321072763865
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.0977447986602781,
+       "ci": [
+        -0.3015834269258706,
+        0.10870021634631691
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": 0.11428104386185164,
+       "ci": [
+        -0.13260499365402093,
+        0.37473427698467726
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": 0.0448603976843638,
+       "ci": [
+        -0.2056921945965288,
+        0.249956698543761
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.000882855993669631,
+       "ci": [
+        -0.28090203265462627,
+        0.2735497470487587
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": 0.13146719154619535,
+       "ci": [
+        -0.2708397957315088,
+        0.5872313871250542
+       ]
+      }
+     },
+     "weight_q_L4_s0.5_seed1911:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.1543333308125147,
+       "ci": [
+        -0.3037178680455936,
+        -0.015771753157582707
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.9379907872941757,
+       "ci": [
+        -1.178141737911436,
+        -0.6911726884047193
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.6904154247707788,
+       "ci": [
+        -0.8790773268540693,
+        -0.4925995848576224
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": 0.2753291960918542,
+       "ci": [
+        0.00570727794459389,
+        0.5379693702314835
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.2097725764015354,
+       "ci": [
+        -0.4328873068037461,
+        -0.01407457397322657
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": -0.09693069868241833,
+       "ci": [
+        -0.3984292763057368,
+        0.25832111687907344
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": -0.3386712673338638,
+       "ci": [
+        -0.7611487888499541,
+        0.41245456016520937
+       ]
+      }
+     },
+     "weight_q_L4_s1_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.2915776703692435,
+       "ci": [
+        -0.531291969190644,
+        -0.07340312129446828
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.13192379209730348,
+       "ci": [
+        -0.517421420547697,
+        0.2905681719382603
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.14896067778269437,
+       "ci": [
+        -0.42816217283407837,
+        0.14000137759579565
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": 1.3144042600284929,
+       "ci": [
+        0.7990851441116044,
+        1.8372806978948186
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.11856792041117055,
+       "ci": [
+        -0.3737185080008887,
+        0.10852412013945507
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.01590695858943907,
+       "ci": [
+        -0.2683529615103909,
+        0.3017544209975212
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": -0.14777126414883326,
+       "ci": [
+        -0.5306151076099593,
+        0.28550462151393685
+       ]
+      }
+     },
+     "weight_v_L4_s1_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.29573841460997863,
+       "ci": [
+        -0.4793866222109499,
+        -0.12678174988500807
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.764555141660902,
+       "ci": [
+        -1.0681997725036405,
+        -0.448209417396122
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.19524241023593508,
+       "ci": [
+        -0.5085689784420866,
+        0.1195918167961961
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": 0.3001370935729054,
+       "ci": [
+        0.0434283389286558,
+        0.5610795284762523
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": 0.06611666659270377,
+       "ci": [
+        -0.2462421686799252,
+        0.3311438277135189
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.13461057836959972,
+       "ci": [
+        -0.06488127063699325,
+        0.36535194838997376
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": -0.2465014009037632,
+       "ci": [
+        -0.5973870161290799,
+        0.2646853925789851
+       ]
+      }
+     },
+     "weight_gate_L28_s1_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.19870688078062895,
+       "ci": [
+        -0.3895891412162921,
+        -0.017447974740129563
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.5219770219590927,
+       "ci": [
+        -0.7329993152618415,
+        -0.3092417711019514
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.4434918483098353,
+       "ci": [
+        -0.6005302229192523,
+        -0.2832608666684899
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": -0.3015738003181689,
+       "ci": [
+        -0.4900153590874238,
+        -0.11220145108121841
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.01375070444248036,
+       "ci": [
+        -0.31854404682126053,
+        0.23906178054063107
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.11026827741849027,
+       "ci": [
+        -0.22599503413658428,
+        0.4417123359261711
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": 0.026396723715102148,
+       "ci": [
+        -0.3427624288837631,
+        0.4330955671942435
+       ]
+      }
+     },
+     "weight_up_L28_s0.5_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.12930650083008052,
+       "ci": [
+        -0.2947448747092033,
+        0.020870367322202234
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.599368463622199,
+       "ci": [
+        -0.7772505686680472,
+        -0.4150031391779579
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.1636771228578355,
+       "ci": [
+        -0.29595467713144097,
+        -0.028468396994802483
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": -0.001540017850471521,
+       "ci": [
+        -0.17710564425497438,
+        0.16861726172042646
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.06259738429673131,
+       "ci": [
+        -0.31412823327737593,
+        0.1413379631539438
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": -0.027424419410886122,
+       "ci": [
+        -0.2523682566618117,
+        0.21495341509278473
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": 0.14709285359518873,
+       "ci": [
+        -0.24558195052236498,
+        0.6056491108450271
+       ]
+      }
+     },
+     "weight_up_L28_s0.5_seed1911:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.1384092391622134,
+       "ci": [
+        -0.31492354252629334,
+        0.032427854155144584
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.5099371168348521,
+       "ci": [
+        -0.6741675755712717,
+        -0.3432192403078077
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": -0.05672531392839207,
+       "ci": [
+        -0.2020209686623678,
+        0.08773226035965859
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": -0.26852651437123576,
+       "ci": [
+        -0.4631141507264335,
+        -0.08344109582178454
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.050113362831347395,
+       "ci": [
+        -0.3423398649652437,
+        0.19062911142933114
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.15537057515361288,
+       "ci": [
+        -0.1576241901081147,
+        0.46721030721206813
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": -0.0344237835025363,
+       "ci": [
+        -0.4309417243798505,
+        0.4244047137502369
+       ]
+      }
+     },
+     "weight_gate_L44_s1_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": 0.0329342105091573,
+       "ci": [
+        -0.48402210121146316,
+        0.49728012531683036
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": -0.428980278968811,
+       "ci": [
+        -0.6448536154958937,
+        -0.21855062577459547
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": 0.11644177966647676,
+       "ci": [
+        -0.0459131704436407,
+        0.2781566984123649
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": 0.017774513273528383,
+       "ci": [
+        -0.242963870095484,
+        0.274392992167762
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": -0.13665574598157812,
+       "ci": [
+        -0.40713210069025535,
+        0.17010092470886595
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.03940957612997874,
+       "ci": [
+        -0.1986761334511216,
+        0.27144136867632584
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": 0.018676796282275747,
+       "ci": [
+        -0.38815943697545974,
+        0.4833121896992175
+       ]
+      }
+     },
+     "weight_q_L28_s1_seed1910:SC4_a0": {
+      "naming_damage_difference": {
+       "estimate": -0.14791742742131186,
+       "ci": [
+        -0.3284678206664022,
+        0.02037379330277393
+       ]
+      },
+      "definition_damage_difference": {
+       "estimate": 1.5310016446643406,
+       "ci": [
+        1.3556129057539832,
+        1.704513289199935
+       ]
+      },
+      "synonym_damage_difference": {
+       "estimate": 1.0985617425706655,
+       "ci": [
+        0.8892352890306053,
+        1.306171958976322
+       ]
+      },
+      "property_damage_difference": {
+       "estimate": 0.0290211222388526,
+       "ci": [
+        -0.15336285107063535,
+        0.2125964929660163
+       ]
+      },
+      "definition_consistency_difference": {
+       "estimate": 0.23769763990571185,
+       "ci": [
+        -0.029210918348902323,
+        0.4625641370361071
+       ]
+      },
+      "synonym_consistency_difference": {
+       "estimate": 0.02413605900563781,
+       "ci": [
+        -0.2114872302409952,
+        0.2889327743809747
+       ]
+      },
+      "property_consistency_difference": {
+       "estimate": -0.03974647394089834,
+       "ci": [
+        -0.42436661117838825,
+        0.4152794229785572
+       ]
+      }
+     }
+    }
+   }
+  },
+  "relative_hub_final_core": {
+   "reproduction": {
+    "intact": {
+     "rows": 960,
+     "max_abs_diff": 0.0,
+     "mean_abs_diff": 0.0
+    }
+   },
+   "intact_capitalized_share": 0.6991937792103111,
+   "capitalized_share_by_state": {
+    "hub_s0_learned_hard_64": 0.9904117112140748,
+    "hub_s1_learned_hard_64": 0.9946900248790292,
+    "hub_s2_learned_hard_4": 0.7168173948946399,
+    "hub_s2_learned_hard_64": 0.9898452142047592,
+    "hub_s2_learned_soft": 0.9953067792803857,
+    "intact": 0.6991937792103112,
+    "relative_hub_s0_learned_hard_64": 0.9563127796071853,
+    "relative_hub_s0_learned_soft": 0.9829914163728402,
+    "relative_hub_s1_learned_hard_64": 0.9812559455202217,
+    "relative_hub_s2_learned_hard_64": 0.9690415987120011
+   },
+   "states": {
+    "hub_s0_learned_hard_64": {
+     "lowercase": {
+      "naming": 8.424323007542666,
+      "definition": 4.743878687752618,
+      "synonym": 4.891984213723077,
+      "naming_definition_partial_r": -0.03743781667772285,
+      "naming_synonym_partial_r": -0.10822845895827998,
+      "naming_frequency_slope": 1.7954235802416925
+     },
+     "case_insensitive": {
+      "naming": 0.5242996390190694,
+      "naming_ci": [
+       0.17446296780716786,
+       0.876601136003525
+      ],
+      "definition": 4.743878687752618,
+      "definition_ci": [
+       4.422575828433037,
+       5.063767718142933
+      ],
+      "synonym": 4.891984213723077,
+      "synonym_ci": [
+       4.537984041174251,
+       5.232080240978134
+      ],
+      "naming_definition_partial_r": 0.05481953654950296,
+      "naming_definition_partial_r_ci": [
+       -0.15226784482187872,
+       0.24231294372303874
+      ],
+      "naming_synonym_partial_r": 0.12996324709257254,
+      "naming_synonym_partial_r_ci": [
+       -0.13290109974250408,
+       0.3818456347833879
+      ],
+      "naming_frequency_slope": 0.21937889917771072,
+      "naming_frequency_slope_ci": [
+       -0.6231657727126924,
+       1.061391661296104
+      ]
+     }
+    },
+    "hub_s1_learned_hard_64": {
+     "lowercase": {
+      "naming": 8.079618288158155,
+      "definition": 4.57122433980306,
+      "synonym": 4.345742268032497,
+      "naming_definition_partial_r": 0.02160184324981044,
+      "naming_synonym_partial_r": -0.05317710996762355,
+      "naming_frequency_slope": 1.3315820741788604
+     },
+     "case_insensitive": {
+      "naming": 0.27269633629804285,
+      "naming_ci": [
+       -0.058371502252853716,
+       0.595732256079771
+      ],
+      "definition": 4.57122433980306,
+      "definition_ci": [
+       4.207160178224246,
+       4.9300741467873275
+      ],
+      "synonym": 4.345742268032497,
+      "synonym_ci": [
+       4.025361570119857,
+       4.6642818886703905
+      ],
+      "naming_definition_partial_r": 0.04519039477054464,
+      "naming_definition_partial_r_ci": [
+       -0.1754295483917594,
+       0.23757499849186256
+      ],
+      "naming_synonym_partial_r": 0.27323385272446515,
+      "naming_synonym_partial_r_ci": [
+       0.03324064695743223,
+       0.4752189250879856
+      ],
+      "naming_frequency_slope": -0.11036912340406825,
+      "naming_frequency_slope_ci": [
+       -0.8694572584123831,
+       0.6065723155881177
+      ]
+     }
+    },
+    "hub_s2_learned_hard_4": {
+     "lowercase": {
+      "naming": -0.007498721577899747,
+      "definition": 0.24972546100616466,
+      "synonym": 0.30873489114973246,
+      "naming_definition_partial_r": 0.24271715302306493,
+      "naming_synonym_partial_r": 0.10782905002096965,
+      "naming_frequency_slope": 0.09382533053115363
+     },
+     "case_insensitive": {
+      "naming": -0.06257138760315749,
+      "naming_ci": [
+       -0.13454878416763474,
+       0.00353390206055432
+      ],
+      "definition": 0.24972546100616466,
+      "definition_ci": [
+       0.20153983096281677,
+       0.2988102258576292
+      ],
+      "synonym": 0.30873489114973246,
+      "synonym_ci": [
+       0.2506434310144844,
+       0.36680195146136785
+      ],
+      "naming_definition_partial_r": 0.0948020914427534,
+      "naming_definition_partial_r_ci": [
+       -0.06299126283723498,
+       0.23725959315478462
+      ],
+      "naming_synonym_partial_r": 0.23488500754659067,
+      "naming_synonym_partial_r_ci": [
+       0.06694326610882274,
+       0.38875860273759916
+      ],
+      "naming_frequency_slope": 0.04898827391009658,
+      "naming_frequency_slope_ci": [
+       -0.08502444429754567,
+       0.18000002658723224
+      ]
+     }
+    },
+    "hub_s2_learned_hard_64": {
+     "lowercase": {
+      "naming": 8.155471697527942,
+      "definition": 3.7891292174657196,
+      "synonym": 3.550878100925021,
+      "naming_definition_partial_r": 0.0497500117950719,
+      "naming_synonym_partial_r": -0.08542320459075979,
+      "naming_frequency_slope": 1.5704954481442202
+     },
+     "case_insensitive": {
+      "naming": 0.591589989644125,
+      "naming_ci": [
+       0.23921354910589074,
+       0.9496082969284341
+      ],
+      "definition": 3.7891292174657196,
+      "definition_ci": [
+       3.4895391498009367,
+       4.090163270433743
+      ],
+      "synonym": 3.550878100925021,
+      "synonym_ci": [
+       3.227864036626286,
+       3.8706823811266156
+      ],
+      "naming_definition_partial_r": 0.03391932467425735,
+      "naming_definition_partial_r_ci": [
+       -0.1727125009619899,
+       0.2312763155722447
+      ],
+      "naming_synonym_partial_r": 0.11525402806537528,
+      "naming_synonym_partial_r_ci": [
+       -0.12079047733625738,
+       0.35363791223412655
+      ],
+      "naming_frequency_slope": 0.1173571689531901,
+      "naming_frequency_slope_ci": [
+       -0.7290945223359538,
+       0.9006912042153352
+      ]
+     }
+    },
+    "hub_s2_learned_soft": {
+     "lowercase": {
+      "naming": 11.656749379381976,
+      "definition": 13.47009723186493,
+      "synonym": 10.435612140761483,
+      "naming_definition_partial_r": 0.15757432402146135,
+      "naming_synonym_partial_r": 0.08285652077690506,
+      "naming_frequency_slope": 1.7415500450305463
+     },
+     "case_insensitive": {
+      "naming": 1.5629006525542077,
+      "naming_ci": [
+       0.9942856356822456,
+       2.1495765674094933
+      ],
+      "definition": 13.47009723186493,
+      "definition_ci": [
+       12.814292977319823,
+       14.064863424764738
+      ],
+      "synonym": 10.435612140761483,
+      "synonym_ci": [
+       9.674878012339272,
+       11.126617940531835
+      ],
+      "naming_definition_partial_r": 0.24495854187423965,
+      "naming_definition_partial_r_ci": [
+       0.06575887142248234,
+       0.39936921953190935
+      ],
+      "naming_synonym_partial_r": 0.12847759506770984,
+      "naming_synonym_partial_r_ci": [
+       -0.07102275658558815,
+       0.3227094343713452
+      ],
+      "naming_frequency_slope": 0.20084482886192068,
+      "naming_frequency_slope_ci": [
+       -1.2148170371218798,
+       1.5998333173769235
+      ]
+     }
+    },
+    "relative_hub_s0_learned_hard_64": {
+     "lowercase": {
+      "naming": 2.9460324875965145,
+      "definition": 5.544835170110066,
+      "synonym": 4.779417689641316,
+      "naming_definition_partial_r": 0.08023096659021388,
+      "naming_synonym_partial_r": -0.09850378154572895,
+      "naming_frequency_slope": 0.5395969973542173
+     },
+     "case_insensitive": {
+      "naming": -0.6158698541830617,
+      "naming_ci": [
+       -0.9902912625372275,
+       -0.27095269052193466
+      ],
+      "definition": 5.544835170110066,
+      "definition_ci": [
+       5.192167353894976,
+       5.876476124458841
+      ],
+      "synonym": 4.779417689641316,
+      "synonym_ci": [
+       4.446002854771085,
+       5.089354587395985
+      ],
+      "naming_definition_partial_r": 0.04966051492362999,
+      "naming_definition_partial_r_ci": [
+       -0.1244840509722637,
+       0.22577598062329404
+      ],
+      "naming_synonym_partial_r": 0.10520042356790953,
+      "naming_synonym_partial_r_ci": [
+       -0.0766144218770176,
+       0.29229929157622137
+      ],
+      "naming_frequency_slope": -0.4218294169804786,
+      "naming_frequency_slope_ci": [
+       -1.0268549093484365,
+       0.20536967277530424
+      ]
+     }
+    },
+    "relative_hub_s0_learned_soft": {
+     "lowercase": {
+      "naming": 3.321332457408749,
+      "definition": 9.354287054803637,
+      "synonym": 7.200722119543287,
+      "naming_definition_partial_r": -0.002578707371267046,
+      "naming_synonym_partial_r": -0.09973192082102587,
+      "naming_frequency_slope": 0.430950748625516
+     },
+     "case_insensitive": {
+      "naming": -0.9879668981551814,
+      "naming_ci": [
+       -1.472380161999292,
+       -0.5214308397166534
+      ],
+      "definition": 9.354287054803637,
+      "definition_ci": [
+       8.819293765094544,
+       9.862362941238617
+      ],
+      "synonym": 7.200722119543287,
+      "synonym_ci": [
+       6.633256018095547,
+       7.724998044702742
+      ],
+      "naming_definition_partial_r": -0.003209984364462602,
+      "naming_definition_partial_r_ci": [
+       -0.192378176732844,
+       0.19143852349854992
+      ],
+      "naming_synonym_partial_r": 0.05755599880228512,
+      "naming_synonym_partial_r_ci": [
+       -0.10618670337164599,
+       0.23722516333028704
+      ],
+      "naming_frequency_slope": -0.5897492061609181,
+      "naming_frequency_slope_ci": [
+       -1.3594439432709302,
+       0.21737289777051816
+      ]
+     }
+    },
+    "relative_hub_s1_learned_hard_64": {
+     "lowercase": {
+      "naming": 4.934867016552663,
+      "definition": 4.144955865542094,
+      "synonym": 4.38484926753574,
+      "naming_definition_partial_r": 0.030887548638087237,
+      "naming_synonym_partial_r": -0.10237808987872289,
+      "naming_frequency_slope": 0.9184426054089039
+     },
+     "case_insensitive": {
+      "naming": -0.32681293797454036,
+      "naming_ci": [
+       -0.6811511028298737,
+       0.010383944798258698
+      ],
+      "definition": 4.144955865542094,
+      "definition_ci": [
+       3.8012916568915047,
+       4.482346572942204
+      ],
+      "synonym": 4.38484926753574,
+      "synonym_ci": [
+       4.0665171383486864,
+       4.682679031358825
+      ],
+      "naming_definition_partial_r": -0.025676484222681418,
+      "naming_definition_partial_r_ci": [
+       -0.18255219162667052,
+       0.13674663787371802
+      ],
+      "naming_synonym_partial_r": 0.04961297129377234,
+      "naming_synonym_partial_r_ci": [
+       -0.1067980007884611,
+       0.21595986790879862
+      ],
+      "naming_frequency_slope": -0.2699187715594835,
+      "naming_frequency_slope_ci": [
+       -0.9101765775328723,
+       0.37171270798205014
+      ]
+     }
+    },
+    "relative_hub_s2_learned_hard_64": {
+     "lowercase": {
+      "naming": 3.2584049245504305,
+      "definition": 4.122073049015469,
+      "synonym": 3.506720879342821,
+      "naming_definition_partial_r": 0.05569349147276905,
+      "naming_synonym_partial_r": -0.08541556255267947,
+      "naming_frequency_slope": 0.4837880295692046
+     },
+     "case_insensitive": {
+      "naming": -0.664883761817671,
+      "naming_ci": [
+       -1.048752132025981,
+       -0.30076284876502274
+      ],
+      "definition": 4.122073049015469,
+      "definition_ci": [
+       3.753441976772414,
+       4.472698275446892
+      ],
+      "synonym": 3.506720879342821,
+      "synonym_ci": [
+       3.1875212067365646,
+       3.79946428351932
+      ],
+      "naming_definition_partial_r": 0.05226965473400814,
+      "naming_definition_partial_r_ci": [
+       -0.10351569117684474,
+       0.20167946093060338
+      ],
+      "naming_synonym_partial_r": 0.12530067289983457,
+      "naming_synonym_partial_r_ci": [
+       -0.022886034524315202,
+       0.28580579694721797
+      ],
+      "naming_frequency_slope": -0.3091725608704844,
+      "naming_frequency_slope_ci": [
+       -0.9265276318140988,
+       0.3448333885987294
+      ]
+     }
+    }
+   },
+   "contrasts": {
+    "lowercase": {},
+    "case_insensitive": {}
+   }
+  }
+ }
+}

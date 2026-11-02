@@ -1,0 +1,114 @@
+{
+ "observed": {
+  "B": {
+   "estimate": -0.05682602375685346,
+   "unit": "log odds（nat）",
+   "n": 100,
+   "ci": [
+    -0.14907170215632531,
+    0.035040011029957845
+   ]
+  },
+  "H": {
+   "estimate": 0.41931843903871086,
+   "unit": "log odds（nat）",
+   "n": 100,
+   "ci": [
+    0.3280077851408558,
+    0.5137417436004533
+   ]
+  },
+  "H_minus_B": {
+   "estimate": 0.47614446279556416,
+   "unit": "log odds（nat）",
+   "n": 100,
+   "ci": [
+    0.32408225972484256,
+    0.6321111713783405
+   ]
+  }
+ },
+ "random": {
+  "B": {
+   "observed": {
+    "estimate": -0.05682602375685346,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "random_median": {
+    "estimate": -0.026505940874462272,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "random_max": {
+    "estimate": 0.24146080584132867,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "n_random_at_least_observed": {
+    "estimate": 67,
+    "unit": "随机组件组数",
+    "n": 100
+   },
+   "p_upper": {
+    "estimate": 0.6732673267326733,
+    "unit": "经验 p（单侧）",
+    "n": 100
+   }
+  },
+  "H": {
+   "observed": {
+    "estimate": 0.41931843903871086,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "random_median": {
+    "estimate": -0.010669556231813617,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "random_max": {
+    "estimate": 0.284590000127867,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "n_random_at_least_observed": {
+    "estimate": 0,
+    "unit": "随机组件组数",
+    "n": 100
+   },
+   "p_upper": {
+    "estimate": 0.009900990099009901,
+    "unit": "经验 p（单侧）",
+    "n": 100
+   }
+  },
+  "H_minus_B": {
+   "observed": {
+    "estimate": 0.47614446279556416,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "random_median": {
+    "estimate": 0.012111148953491102,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "random_max": {
+    "estimate": 0.20936932487782506,
+    "unit": "log odds（nat）",
+    "n": 100
+   },
+   "n_random_at_least_observed": {
+    "estimate": 0,
+    "unit": "随机组件组数",
+    "n": 100
+   },
+   "p_upper": {
+    "estimate": 0.009900990099009901,
+    "unit": "经验 p（单侧）",
+    "n": 100
+   }
+  }
+ }
+}

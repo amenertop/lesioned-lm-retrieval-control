@@ -76,6 +76,11 @@ NEW_SOURCES = {
     "title_gap_semd": ("reports/explore/2026-10-19-title-gap-preparation/semd.json", "补实验丙的既有逐题探索", "M1/M3 既有 test，事后分析"),
     "title_gap_clinical": ("reports/explore/2026-10-19-title-gap-preparation/clinical.json", "补实验丁的逐患者资料", "Jefferies 2006 表4/5，资料转录"),
     "optogenetics": ("reports/confirm/optogenetics/result.json", "调光与恢复干预", "M3 test，按指标区分 160/100/132"),
+    "case_rescore": ("reports/explore/2026-11-02-case-rescore/case-ledger.json", "家族命名两种拼写合并的重算", "120 个最终家族，事后计分修正，探索性"),
+    "generated_frequency": ("reports/explore/2026-11-02-gpu-session/ledger-generated-frequency.json", "生成答案的词频效应", "知识测验 240 个保留概念，贪心生成，大小写不敏感判分，探索性"),
+    "random_answer_heads": ("reports/explore/2026-11-02-gpu-session/ledger-random-answer-heads.json", "回答位置的随机四头对照", "M3 test 100 个提示概念，100 组同层随机头，探索性"),
+    "phi_battery": ("reports/explore/2026-11-02-gpu-session/ledger-phi-battery.json", "Phi 跑主模型的临床测验", "Phi-3.5-MoE，M3 test 160 个概念（完好可做对的 156 个）与知识测验 240 个概念，探索性（第二模型，G1 不合格）"),
+    "demo_format": ("reports/explore/2026-11-02-case-rescore/demo-format-ledger.json", "示范题格式检查（含两种拼写）", "题库 160 个封存概念与 120 个最终家族，探索性"),
     **{name: (f"reports/explore/{name}.json", title, dataset) for name, title, dataset in (
         ("qwen_s11_heldout", "第11次新组件检验", "Qwen，dev/test 分支见路径"),
         ("qwen_new_sets", "新组件病人式测验", "Qwen，事后新组件"),

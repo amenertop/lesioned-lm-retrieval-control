@@ -146,7 +146,7 @@ joint <- tibble(set = "joint", x = val(paste0(O, "7191c3e32b10"))$est, xlo = val
                 xhi = val(paste0(O, "7191c3e32b10"))$hi, y = val(paste0(O, "6b1dd3bfcb41"))$est,
                 ylo = val(paste0(O, "6b1dd3bfcb41"))$lo, yhi = val(paste0(O, "6b1dd3bfcb41"))$hi,
                 key = ifelse(confirmatory(paste0(O, "7191c3e32b10")), "joint", "open"))
-inter <- c(naming = ledger(paste0(O, "88d07b667463"))$est, six = ledger(paste0(O, "726cb8916d4a"))$est)   # R6 (H4g)
+inter <- c(naming = ledger(paste0(O, "88d07b667463"))$est, six = ledger(paste0(O, "726cb8916d4a"))$est)   # R6 (H2g)
 s_x <- sum(grade$x[grade$kept == 0]); s_y <- sum(grade$y[grade$kept == 0])
 stopifnot(abs(joint$x - s_x - inter[["naming"]]) < 1e-3, abs(joint$y - s_y - inter[["six"]]) < 1e-3)   # not drawn
 paths <- bind_rows(tibble(set = c("WR8", "SC4"), kept = 100, x = 0, y = 0), grade %>% select(set, kept, x, y)) %>%

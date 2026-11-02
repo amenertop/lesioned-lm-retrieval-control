@@ -1,0 +1,139 @@
+{
+ "n_concepts": 240,
+ "n_rare": 120,
+ "zipf_median": 2.9999000000000002,
+ "accuracy": {
+  "SC4": {
+   "all": 0.6291666666666667,
+   "rare": 0.49166666666666664,
+   "common": 0.7666666666666667
+  },
+  "WR8": {
+   "all": 0.5583333333333333,
+   "rare": 0.39166666666666666,
+   "common": 0.725
+  },
+  "intact": {
+   "all": 0.6541666666666667,
+   "rare": 0.5083333333333333,
+   "common": 0.8
+  }
+ },
+ "frequency_effect": {
+  "WR8": {
+   "mean": 0.04166666666666667,
+   "ci": [
+    -0.041874999999999815,
+    0.125
+   ],
+   "n": [
+    120,
+    120
+   ]
+  },
+  "SC4": {
+   "mean": -0.016666666666666666,
+   "ci": [
+    -0.06666666666666667,
+    0.025
+   ],
+   "n": [
+    120,
+    120
+   ]
+  }
+ },
+ "examples": {
+  "WR8": [
+   {
+    "target": "privet",
+    "answer": "shrub"
+   },
+   {
+    "target": "outwork",
+    "answer": "outpost"
+   },
+   {
+    "target": "vermicelli",
+    "answer": "filament"
+   },
+   {
+    "target": "lederhosen",
+    "answer": "tracht"
+   },
+   {
+    "target": "manatee",
+    "answer": "dolphin"
+   },
+   {
+    "target": "chopstick",
+    "answer": "\u7b77\u5b50"
+   },
+   {
+    "target": "conch",
+    "answer": "gastropod"
+   },
+   {
+    "target": "pinnacle",
+    "answer": "spire"
+   },
+   {
+    "target": "filly",
+    "answer": "foal"
+   },
+   {
+    "target": "seaweed",
+    "answer": "marine"
+   },
+   {
+    "target": "apron",
+    "answer": "belt"
+   },
+   {
+    "target": "tomato",
+    "answer": "fruit"
+   }
+  ],
+  "SC4": [
+   {
+    "target": "dormouse",
+    "answer": "marmot"
+   },
+   {
+    "target": "hairnet",
+    "answer": "veil"
+   },
+   {
+    "target": "apron",
+    "answer": "belt"
+   },
+   {
+    "target": "circuit",
+    "answer": "wire"
+   },
+   {
+    "target": "blade",
+    "answer": "leaf"
+   },
+   {
+    "target": "tarpon",
+    "answer": "barracuda"
+   },
+   {
+    "target": "generator",
+    "answer": "vaporizer"
+   }
+  ]
+ },
+ "frequency_effect_WR8_minus_SC4": {
+  "mean": 0.05833333333333334,
+  "ci": [
+   -0.04166666666666666,
+   0.15
+  ],
+  "n": [
+   120,
+   120
+  ]
+ }
+}

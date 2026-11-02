@@ -1,0 +1,5148 @@
+{
+ "scoring": "log(P(word) + P(Word))，家族命名两种拼写合并",
+ "runs": {
+  "fine_final_core": {
+   "intact_capitalized_share": {
+    "estimate": 0.6991937792103111,
+    "unit": "比例（0–1）",
+    "n": 120
+   },
+   "capitalized_share": {
+    "SC4_a0": {
+     "estimate": 0.7577875288895134,
+     "unit": "比例（0–1）",
+     "n": 120
+    },
+    "WR8_a0": {
+     "estimate": 0.7456621186217393,
+     "unit": "比例（0–1）",
+     "n": 120
+    },
+    "hub_s2_learned_soft": {
+     "estimate": 0.9953067792803857,
+     "unit": "比例（0–1）",
+     "n": 120
+    },
+    "intact": {
+     "estimate": 0.6991937792103112,
+     "unit": "比例（0–1）",
+     "n": 120
+    }
+   },
+   "states": {
+    "PC8_all_a0": {
+     "naming": {
+      "estimate": -2.085641538859669,
+      "ci": [
+       -2.7282906838662435,
+       -1.4765379128214249
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 11.179474020004273,
+      "ci": [
+       10.484676880836487,
+       11.848268068830173
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 7.681785662968953,
+      "ci": [
+       7.0536892920732495,
+       8.270546995070244
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.17475007311312665,
+      "ci": [
+       -0.3582006907763838,
+       0.026510360861692683
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.25781397892198626,
+      "ci": [
+       -0.4329647567687052,
+       -0.03651684581022073
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.03319710091985885,
+      "ci": [
+       -0.5990698659659425,
+       0.7332218015342489
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "SC4_a0": {
+     "naming": {
+      "estimate": 0.14313738523966665,
+      "ci": [
+       0.011474593975759081,
+       0.29709641805652254
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.9314740472369726,
+      "ci": [
+       0.7624991238779493,
+       1.093240906132592
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.27536050478617313,
+      "ci": [
+       0.13534424569871664,
+       0.4137921573718384
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.04481830717472381,
+      "ci": [
+       -0.08769068142677115,
+       0.2418076581378991
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.027199252330305936,
+      "ci": [
+       -0.2200937283254519,
+       0.1204239366570539
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.21402218612283683,
+      "ci": [
+       -0.47513672617767716,
+       0.041063916292572084
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "WR30_a0": {
+     "naming": {
+      "estimate": 1.2820373378836505,
+      "ci": [
+       0.7369573616695602,
+       1.8661886622737722
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": -1.1080042892032196,
+      "ci": [
+       -1.4725295751624632,
+       -0.7471464713414507
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -1.8105962355931602,
+      "ci": [
+       -2.1392808299594464,
+       -1.474572606285413
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.08427105908116408,
+      "ci": [
+       -0.0775327093784996,
+       0.26262583660190053
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.01024356842236826,
+      "ci": [
+       -0.22085032026614249,
+       0.19124470419110576
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.566056704569384,
+      "ci": [
+       -1.9701457617255143,
+       0.7821654883292097
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "WR8_a0": {
+     "naming": {
+      "estimate": 0.5505280459940884,
+      "ci": [
+       0.26356137842205085,
+       0.8873316341111007
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": -1.1021087884902954,
+      "ci": [
+       -1.2313726620541678,
+       -0.9757880320813912
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -1.91252920097775,
+      "ci": [
+       -2.050265044238833,
+       -1.7636274244387948
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.08973766647768833,
+      "ci": [
+       -0.19938853722218505,
+       0.0314882365650036
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.12253573284539199,
+      "ci": [
+       -0.2935889320054383,
+       0.07463547233224721
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.6261389363817647,
+      "ci": [
+       -1.5932225583499682,
+       0.1280780536085089
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "WR8_a0_SC4_a0": {
+     "naming": {
+      "estimate": 0.6946287216317664,
+      "ci": [
+       0.35520886298441795,
+       1.0768342000057707
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": -0.08885744412740029,
+      "ci": [
+       -0.2967903855111861,
+       0.10992971731556805
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -1.7532498810026382,
+      "ci": [
+       -1.9780759052435561,
+       -1.5228412503666353
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.04967195662748263,
+      "ci": [
+       -0.07872619471854345,
+       0.17452412443002857
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.10355082579379239,
+      "ci": [
+       -0.23407547840306758,
+       0.03953347082650818
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.962674996568818,
+      "ci": [
+       -1.9543733164322634,
+       -0.11326083558826447
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "WR8_a0_SC4_a0.5": {
+     "naming": {
+      "estimate": 0.6117595879616987,
+      "ci": [
+       0.3053701331851932,
+       0.9663483293431558
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": -0.7530088053809268,
+      "ci": [
+       -0.9044747305578652,
+       -0.605835576322344
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -1.9447219265831848,
+      "ci": [
+       -2.1253046793407866,
+       -1.7480600427256696
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.010522582633563824,
+      "ci": [
+       -0.13638661214815048,
+       0.13058027401236796
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.10191834114216627,
+      "ci": [
+       -0.2371584316667914,
+       0.05004348211773634
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.6418270380332056,
+      "ci": [
+       -1.62015654244901,
+       0.14230313649518747
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "WR8_a0_comprehension_s0_learned_hard_64": {
+     "naming": {
+      "estimate": -0.19576381001737578,
+      "ci": [
+       -0.545045288763993,
+       0.17087452437170142
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 8.808095934655933,
+      "ci": [
+       8.26572862300608,
+       9.28502753396829
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.227393637763129,
+      "ci": [
+       9.50977016038365,
+       10.882504916919602
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.1584140316402147,
+      "ci": [
+       -0.04903841900732056,
+       0.3386993922027998
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.0001966801496815593,
+      "ci": [
+       -0.1512548249778533,
+       0.13356380332290532
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.6909088035164082,
+      "ci": [
+       -1.6983183403856197,
+       0.13241020765712921
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_early_f1_a0.5_s0": {
+     "naming": {
+      "estimate": 0.3177637093684792,
+      "ci": [
+       0.020188013375365844,
+       0.6420578643014621
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 1.9723728365368316,
+      "ci": [
+       1.2413666243685613,
+       2.709079115258324
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 5.04757125377655,
+      "ci": [
+       4.430645793742603,
+       5.668821195165315
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.025260496590396336,
+      "ci": [
+       -0.11525436951700994,
+       0.17535134543271258
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.16389139870545047,
+      "ci": [
+       -0.03607222291540497,
+       0.3242931827237439
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.5109099728758841,
+      "ci": [
+       -0.25299483303641185,
+       1.3782839104072842
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_late_f1_a0.75_s0": {
+     "naming": {
+      "estimate": -0.508550149448881,
+      "ci": [
+       -0.8171597332871592,
+       -0.196138397213548
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 7.3097874561945595,
+      "ci": [
+       6.868386583328248,
+       7.741242039534781
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 5.1508172061708235,
+      "ci": [
+       4.7076634137498,
+       5.5623325068420835
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.014645320186755174,
+      "ci": [
+       -0.16000180946185885,
+       0.18403564281906315
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.018084873935632084,
+      "ci": [
+       -0.23987054306984532,
+       0.20258686979397172
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.3964212154975435,
+      "ci": [
+       -0.956536816735689,
+       0.10626217087878811
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_middle_f1_a0.1_s0": {
+     "naming": {
+      "estimate": -1.3140789235336041,
+      "ci": [
+       -1.9532426906241587,
+       -0.7193574364838867
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 14.214021317164104,
+      "ci": [
+       13.348347461620968,
+       15.022649469574294
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 9.915519542164272,
+      "ci": [
+       9.047753697236377,
+       10.715150318741797
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.013077382649684995,
+      "ci": [
+       -0.20454630312167948,
+       0.18655877425847978
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.056723751253210386,
+      "ci": [
+       -0.12534352128951196,
+       0.2532724098722723
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.9397194610261566,
+      "ci": [
+       -2.0007961121093207,
+       0.024299267228123745
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_middle_f1_a0.25_s0": {
+     "naming": {
+      "estimate": -0.7325724988427825,
+      "ci": [
+       -1.1484929672250364,
+       -0.33776827787728897
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 6.7515075630611845,
+      "ci": [
+       6.022939625647333,
+       7.4502165706952415
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 3.631957435607909,
+      "ci": [
+       3.018253721197446,
+       4.208615236878393
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.02114406705124429,
+      "ci": [
+       -0.21066007534937173,
+       0.19020680626487418
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.09631721037616305,
+      "ci": [
+       -0.06902301116920194,
+       0.2654624785335039
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.5107395744047716,
+      "ci": [
+       -1.3273092105716,
+       0.28955760223656746
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_middle_f1_a0.5_s0": {
+     "naming": {
+      "estimate": -0.16988749447427598,
+      "ci": [
+       -0.44809381127830106,
+       0.10413118028676777
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 1.9428674777348836,
+      "ci": [
+       1.4502766950262918,
+       2.419314914941787
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.18428752157423228,
+      "ci": [
+       -0.22678262776798647,
+       0.5895189234283235
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.01687026828503202,
+      "ci": [
+       -0.18091954250273753,
+       0.16688376832003352
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.048390717434917165,
+      "ci": [
+       -0.11925985964302825,
+       0.20745484853277865
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.1526566004556163,
+      "ci": [
+       -0.7663909788264706,
+       0.46169245508676265
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_middle_f1_a0.75_s0": {
+     "naming": {
+      "estimate": -0.14009022112909272,
+      "ci": [
+       -0.2905461146378826,
+       0.004979083234277941
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.5586786058213974,
+      "ci": [
+       0.31820732103453714,
+       0.7922612419393325
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -0.23507542080349442,
+      "ci": [
+       -0.4477871672974699,
+       -0.02668775816758543
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.04235040742989657,
+      "ci": [
+       -0.20383526831337961,
+       0.12862601162520934
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.04222453012572733,
+      "ci": [
+       -0.141819507593688,
+       0.2109329587512809
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.052319087159358596,
+      "ci": [
+       -0.3854912105061913,
+       0.2815794558007695
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "broad_middle_f1_a0.9_s0": {
+     "naming": {
+      "estimate": -0.04626424516721284,
+      "ci": [
+       -0.11807203287824498,
+       0.02542358677226795
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.00040413538614969546,
+      "ci": [
+       -0.09507277687390564,
+       0.09620522664653006
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -0.2642509222030644,
+      "ci": [
+       -0.35555841883023637,
+       -0.1761117717292576
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.009291602516409354,
+      "ci": [
+       -0.20304541233963572,
+       0.1789587903987107
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.019907139824644295,
+      "ci": [
+       -0.1653016531639023,
+       0.1888454285332462
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.005744086369506901,
+      "ci": [
+       -0.14557967896400714,
+       0.16222757972815105
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64": {
+     "naming": {
+      "estimate": -0.699334025534375,
+      "ci": [
+       -0.9582943270903009,
+       -0.4561090352188203
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.973361253738403,
+      "ci": [
+       9.431653657091989,
+       10.45297580904431
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.576849126815796,
+      "ci": [
+       9.838133771419525,
+       11.250293536384898
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.009866919403639924,
+      "ci": [
+       -0.20319439255261407,
+       0.209332047903648
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22180114401290202,
+      "ci": [
+       -0.38024941166204235,
+       -0.03868844867508042
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11687857590765251,
+      "ci": [
+       -0.5534055765422119,
+       0.31259874163393647
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_17_21": {
+     "naming": {
+      "estimate": -0.6960538095621828,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.93575565814972,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.59170130358802,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.006285035304709225,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2236669827104479,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.15032248563443598,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_17_55": {
+     "naming": {
+      "estimate": -0.7126059775746562,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.17575843864017,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.432994363043042,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.0012161257238037218,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2054888073588939,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.13728734302827372,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_18_53": {
+     "naming": {
+      "estimate": -0.6908122831460155,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.760265904002718,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.320626073413424,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.003933023059091517,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22370702166036271,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09983662063415288,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_19_30": {
+     "naming": {
+      "estimate": -0.671511891729051,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.85107014709049,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.171688752704195,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.01986716078013705,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.25233573818297106,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.1531488614260872,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_20_41": {
+     "naming": {
+      "estimate": -0.7141712061201783,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.708727627330356,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.679685693316989,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.0053661741223254384,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.20464704805054948,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11573205276677685,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_21_106": {
+     "naming": {
+      "estimate": -0.6967363272142263,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.990781593322755,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.586327197816637,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.010613848206331654,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21914095431890548,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11833161427814627,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_21_114": {
+     "naming": {
+      "estimate": -0.7128399988341008,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.652636755837335,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.618049112955731,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.001997072864577148,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.18847255517735012,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.08391631376696172,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_21_41": {
+     "naming": {
+      "estimate": -0.7114977258475866,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.869906928804188,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.59916934967041,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.012478792630588341,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22826222607553995,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11325422855259408,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_22_111": {
+     "naming": {
+      "estimate": -0.7009807082116973,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.922913058598835,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.495859103732638,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.014741092941027194,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21516909264538756,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11794046767865443,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_23_54": {
+     "naming": {
+      "estimate": -0.7010481362195313,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.904121867815654,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.403787983788384,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.008667298304414199,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22807650428356607,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.12164663809358373,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_23_55": {
+     "naming": {
+      "estimate": -0.7110202356472696,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.983142285876804,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.599124850167168,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.007862315315604251,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22159359623503302,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.1205175241768209,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_23_64": {
+     "naming": {
+      "estimate": -0.6953215437133334,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.681511407428319,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.154441356658936,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.02810927382466716,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.20392909054411337,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.08647404608195063,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_24_126": {
+     "naming": {
+      "estimate": -0.6886507137819433,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.907246465153166,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.590749915440878,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.010293284584144706,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21160685834926235,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.08344751193878448,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_25_104": {
+     "naming": {
+      "estimate": -0.6910888694207027,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.140919129053751,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.47867428196801,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.015883482962912285,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22837580547478042,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09837390016181556,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_25_42": {
+     "naming": {
+      "estimate": -0.6943534534115782,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.922059427367316,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.560166396035088,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.004630171940288132,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21629565061092046,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11797849894766214,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_25_70": {
+     "naming": {
+      "estimate": -0.698909859168517,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.85158105691274,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.406138647927179,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.012094984588024035,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22387814857262467,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11330547840371519,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_27_120": {
+     "naming": {
+      "estimate": -0.6972076148603438,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.883023397127788,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.521271347999573,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.010924221675761105,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2141788783497636,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11944135235409335,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_28_115": {
+     "naming": {
+      "estimate": -0.6164733926304535,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.76904892921448,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.398607550726997,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.05925391480685925,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22685056917828406,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.12416109785389491,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_28_65": {
+     "naming": {
+      "estimate": -0.6612522224639192,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.759692019886442,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.382396221160889,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.005916063868641592,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2066256365235481,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.07430311103768987,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_29_1": {
+     "naming": {
+      "estimate": -0.6931760629250869,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.929370660252042,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.477135067515901,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.011861545790071601,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21351772959584875,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.07823071453981001,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_29_118": {
+     "naming": {
+      "estimate": -0.6964873668880949,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.947222177187601,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.454258632659911,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.010003012724145858,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22703974797118295,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09927390667321008,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_29_58": {
+     "naming": {
+      "estimate": -0.697737678735052,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.851282933023242,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.54709111319648,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.008370715715855384,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23254678947338953,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.12916799337182017,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_expert_31_109": {
+     "naming": {
+      "estimate": -0.7043893506783048,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.698538790808783,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.439407359229195,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.010007866276894685,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22496252179786982,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.14223378963243644,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_16_22": {
+     "naming": {
+      "estimate": -0.7158727217784908,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.880725012885199,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.564481412039864,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.009450099528568697,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.20420165390543885,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.14634973951321692,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_17_22": {
+     "naming": {
+      "estimate": -0.6982086315928245,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.963977665371367,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.372772563828361,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.04516993141281218,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23791834576137547,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.10062883890527596,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_17_29": {
+     "naming": {
+      "estimate": -0.7069965016432805,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.95567676226298,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.474879683388602,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.003958509440634255,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.20789265864025172,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09552363868610728,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_17_4": {
+     "naming": {
+      "estimate": -0.7140364622905075,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.97252848678165,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.463225044144524,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.027945425005018797,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2287548518593121,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.08186384759862099,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_18_30": {
+     "naming": {
+      "estimate": -0.7120083307639348,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.808406127823725,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.434805035591125,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.030744929952759535,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2180586085895791,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.17747904218466973,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_0": {
+     "naming": {
+      "estimate": -0.6745730787040204,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.737338884671528,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.455184719297621,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0864180362216876,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.24145485778167272,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.0363764942193375,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_1": {
+     "naming": {
+      "estimate": -0.7076194558464473,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.881392256418865,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.547630495495266,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.04039888698549595,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21318552257619974,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.10644476068980208,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_13": {
+     "naming": {
+      "estimate": -0.6865594475229194,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.71517490280999,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.387421549691092,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.01238408493540176,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23559563356348176,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09621699373921125,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_28": {
+     "naming": {
+      "estimate": -0.6926425103932005,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.922530990176732,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.390967930687797,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.014238710746873221,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23851519889968084,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09689558683157701,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_3": {
+     "naming": {
+      "estimate": -0.6596645690206825,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.75518552992079,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.412892288631861,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.05270450051704197,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.1971199759267857,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11280325233471585,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_31": {
+     "naming": {
+      "estimate": -0.7224820099732897,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.921553492546082,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.272662928369307,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.018585514378908666,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22994390978400198,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.12109960427819,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_19_4": {
+     "naming": {
+      "estimate": -0.6852348830677994,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.973594745000204,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.62304752667745,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.019147632376037945,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2302776613203247,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.10385633792686604,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_21_14": {
+     "naming": {
+      "estimate": -0.606827823058546,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.899421662754484,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.854534453815885,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.016277404760133063,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.18509575771679096,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.02258016019886216,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_23_1": {
+     "naming": {
+      "estimate": -0.6646053379654611,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.070683349503412,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.43274500105116,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.03196267840160889,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.18340286176770917,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.05087564339716706,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_24_14": {
+     "naming": {
+      "estimate": -0.687218583359911,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.488329203923543,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.30486597220103,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.062152451619650356,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23883279895995305,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.2133134803102391,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_24_16": {
+     "naming": {
+      "estimate": -0.7338352676989229,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.778571775224474,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.232108200920953,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.01738996355560296,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21611561504856572,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.10406759656767554,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_24_4": {
+     "naming": {
+      "estimate": -0.6697345137490589,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.74931881957584,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.277067057291667,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.004223274335313217,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22026111825745398,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09615562125137961,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_0": {
+     "naming": {
+      "estimate": -0.6797205870727633,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.92809479236603,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.541718747880724,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.016532202448117105,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2285560883717338,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.14645878668376447,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_11": {
+     "naming": {
+      "estimate": -0.69647906271653,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.57155798011356,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.352599559889901,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.007576844629663072,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2002597004816932,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.13614846143306153,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_14": {
+     "naming": {
+      "estimate": -0.6907148907420188,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.33909968800015,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.32806979285346,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.030861105806806698,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.1968702734059398,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.12558976993308782,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_31": {
+     "naming": {
+      "estimate": -0.6842522903768812,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.011496901512146,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.625408964686924,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.03672073339756967,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21132622755368766,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09875837588746102,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_25_7": {
+     "naming": {
+      "estimate": -0.6794742505801128,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.638593792915344,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.189313350783456,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.01999810376909569,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21510037259256817,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.08177029914750938,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_26_18": {
+     "naming": {
+      "estimate": -0.639324514596872,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.365566240416634,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 9.997153645091585,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0478692151319957,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2253774959532153,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.0880255956091253,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_26_8": {
+     "naming": {
+      "estimate": -0.6337833343065717,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.763716271188523,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.361126356654696,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.02453733267833682,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2250535174320232,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.15151041209228266,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_27_12": {
+     "naming": {
+      "estimate": -0.6815783004366619,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.154306014378866,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.12605702612135,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.014649258445997002,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21147322227249835,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.10107164225137248,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_27_13": {
+     "naming": {
+      "estimate": -0.7243330079248568,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.482708006434969,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.200530036290486,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.03777918509161984,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21639010212079196,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.07162491617930176,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_15": {
+     "naming": {
+      "estimate": -0.6892675657254884,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.525838081041973,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.303520417213438,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.047304098488898355,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.19526763787887982,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.012101758264783272,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_24": {
+     "naming": {
+      "estimate": -0.632790397756623,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.44476652675205,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.210953752199808,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.007029060407650829,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.24518387333126665,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11352029955266371,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_4": {
+     "naming": {
+      "estimate": -0.7449474306229324,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.181488712628683,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.438093370861477,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.009340926996132832,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21714905790513048,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.15447840923237038,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_28_6": {
+     "naming": {
+      "estimate": -0.6983507464200275,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.908940974871317,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.613786265585157,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0789253040109285,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2098681351622405,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.07716099714757693,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_29_10": {
+     "naming": {
+      "estimate": -0.7095006792887164,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.896593883302478,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.624142734209697,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.005006064099261327,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.20328986783830566,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.16329931075383708,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_29_2": {
+     "naming": {
+      "estimate": -0.7148012467647381,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.734576932589215,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.396494189898172,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.006023279374706815,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23995387559429057,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.16853927467110305,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_29_5": {
+     "naming": {
+      "estimate": -0.7138742597510446,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.621081309848362,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.347287114461263,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.00680594045541042,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.19843324479057178,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11003477455015079,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_30_2": {
+     "naming": {
+      "estimate": -0.713893878420156,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.788107249471876,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.416920961274041,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.01052863898733417,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.24670491816974185,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.1258915466799271,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_30_6": {
+     "naming": {
+      "estimate": -0.6347103159040172,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.594472501013012,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.347223316298592,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.06273985853295737,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.23071546703844048,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.04192263997610756,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_14": {
+     "naming": {
+      "estimate": -0.7082918592162734,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.834102582931518,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.473390947447884,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.008638283942003102,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21731700887743163,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.1175120603836582,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_21": {
+     "naming": {
+      "estimate": -0.7081810859781391,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.773957999547322,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.54668841626909,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.007835521070026157,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2016048542320736,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.07851614025501256,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_23": {
+     "naming": {
+      "estimate": -0.720864598387105,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.82273898654514,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.510887991057503,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.010785447817222847,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.22406013885701212,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.13913351523226936,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_24": {
+     "naming": {
+      "estimate": -0.6986799134174843,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.884532891379463,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.486636355188155,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.0036499876879322276,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21736134648444203,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.07851934693410682,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_25": {
+     "naming": {
+      "estimate": -0.7029040509970578,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.85828570789761,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.467466025882297,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.01629504806045685,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.2049410112745583,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.10951593627116916,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_minus_head_31_3": {
+     "naming": {
+      "estimate": -0.5900748181674237,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.401743372281393,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.364560151100159,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.016352213457559408,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.18327533353420353,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.09936271963157349,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_plus_expert_21_104": {
+     "naming": {
+      "estimate": -0.6994587185495875,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.056159014172026,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.707583318816292,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.005860567867734217,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.21065374419793773,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11695780892560872,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s0_learned_hard_64_plus_head_26_7": {
+     "naming": {
+      "estimate": -0.7599823530238373,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 10.312183557616342,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.771653135617573,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.021490104371820706,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.24824703079905502,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.23462977988597583,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "comprehension_s2_learned_soft": {
+     "naming": {
+      "estimate": -1.1652304117232442,
+      "ci": [
+       -1.6398161471450285,
+       -0.721160987974783
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 20.118946075439453,
+      "ci": [
+       19.040123313797842,
+       21.1261900049448
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 15.443465648757087,
+      "ci": [
+       14.279511632786857,
+       16.53296172261238
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.03311493798521843,
+      "ci": [
+       -0.1561926985966534,
+       0.21161142239998448
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.08460348299318797,
+      "ci": [
+       -0.26891783406248393,
+       0.11698223920259394
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.5146060038039988,
+      "ci": [
+       -1.3204902724750536,
+       0.33364654986911546
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4": {
+     "naming": {
+      "estimate": -0.06257138760315749,
+      "ci": [
+       -0.13454878416763474,
+       0.00353390206055432
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.24972546100616466,
+      "ci": [
+       0.20153983096281677,
+       0.2988102258576292
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.30873489114973246,
+      "ci": [
+       0.2506434310144844,
+       0.36680195146136785
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0948020914427534,
+      "ci": [
+       -0.06299126283723498,
+       0.23725959315478462
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.23488500754659067,
+      "ci": [
+       0.06694326610882274,
+       0.38875860273759916
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.04898827391009658,
+      "ci": [
+       -0.08502444429754567,
+       0.18000002658723224
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_24_78": {
+     "naming": {
+      "estimate": -0.05806935357985618,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.26788397365146266,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.3376572317547264,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.07335050684497375,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.20408302065681597,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.058269554713432446,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_25_68": {
+     "naming": {
+      "estimate": -0.08389552176742479,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.21764558951060037,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.21958705054389066,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.06713251566189331,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.22997480492031644,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.03844775386963047,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_26_102": {
+     "naming": {
+      "estimate": -0.07899151789762368,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.21054250929090765,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.29521359602610203,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.08396390654166748,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.22593131426820973,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.03763421854347412,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4_minus_expert_28_115": {
+     "naming": {
+      "estimate": 0.01822117382252542,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.05190572473737974,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.06460854742262094,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.033549698186684226,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.06143254925293318,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.0166581136907935,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4_plus_head_22_17": {
+     "naming": {
+      "estimate": -0.06229163747360828,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.19321210119459384,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.36498098373413046,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0675527497674178,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.06162604228471856,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.014566296756896862,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4_plus_head_25_25": {
+     "naming": {
+      "estimate": -0.057465893490206664,
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.2927352613872956,
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.24011144373151966,
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.03139154144690007,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.25308977830251217,
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.04632980227706034,
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_soft": {
+     "naming": {
+      "estimate": 1.5629006525542077,
+      "ci": [
+       0.9942856356822456,
+       2.1495765674094933
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 13.47009723186493,
+      "ci": [
+       12.814292977319823,
+       14.064863424764738
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.435612140761483,
+      "ci": [
+       9.674878012339272,
+       11.126617940531835
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.24495854187423965,
+      "ci": [
+       0.06575887142248234,
+       0.39936921953190935
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.12847759506770984,
+      "ci": [
+       -0.07102275658558815,
+       0.3227094343713452
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.20084482886192068,
+      "ci": [
+       -1.2148170371218798,
+       1.5998333173769235
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_gate_L28_s1_seed1910": {
+     "naming": {
+      "estimate": -0.05556949554096228,
+      "ci": [
+       -0.19448747697473737,
+       0.07954792816798853
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.40949702527787996,
+      "ci": [
+       0.2644929128223004,
+       0.5575802240769071
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -0.16813134352366213,
+      "ci": [
+       -0.2728819331195627,
+       -0.05798571858141214
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.031067602732243446,
+      "ci": [
+       -0.1754661945541364,
+       0.23161513903506195
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.08306902508818433,
+      "ci": [
+       -0.1716689454810286,
+       0.3123769033928278
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.24459721621347924,
+      "ci": [
+       -0.09471399473972085,
+       0.6022573057835137
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_gate_L44_s1_seed1910": {
+     "naming": {
+      "estimate": 0.17607159574882392,
+      "ci": [
+       -0.3424799390549638,
+       0.6360885265458324
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.5024937682681616,
+      "ci": [
+       0.33021752225028156,
+       0.676420401533445
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.39180228445264986,
+      "ci": [
+       0.28855530679225916,
+       0.4967351534631513
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.09183743880685431,
+      "ci": [
+       -0.278321184426027,
+       0.1736621388287971
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.012210323799672802,
+      "ci": [
+       -0.18434656793501036,
+       0.15236855764428847
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.5910680700738724,
+      "ci": [
+       -1.7162736635511917,
+       0.34653468896413486
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_q_L28_s1_seed1910": {
+     "naming": {
+      "estimate": -0.004780042181645239,
+      "ci": [
+       -0.10242268362873418,
+       0.09703837502555594
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 2.462475691901313,
+      "ci": [
+       2.2966260609361866,
+       2.6235741106006834
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 1.3739222473568384,
+      "ci": [
+       1.224793249236213,
+       1.5172989600896836
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.28251594708043565,
+      "ci": [
+       0.09712698983322822,
+       0.4604573666817329
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.003063193324668124,
+      "ci": [
+       -0.16937846096142536,
+       0.16547616334430693
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.004921364722853787,
+      "ci": [
+       -0.2747197330111303,
+       0.26340501444287706
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_q_L4_s0.5_seed1910": {
+     "naming": {
+      "estimate": -0.0620296128982341,
+      "ci": [
+       -0.16903335996569224,
+       0.047408325337617976
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.3560228188832608,
+      "ci": [
+       0.14934142278300433,
+       0.5751770087745463
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.17761570612589503,
+      "ci": [
+       0.021689788434240173,
+       0.33534902632236424
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0896787048590876,
+      "ci": [
+       -0.04808104283737548,
+       0.22782924694654474
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.026316396336636304,
+      "ci": [
+       -0.24850561469738622,
+       0.15726998856895708
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.17600384272610542,
+      "ci": [
+       -0.15428545285731537,
+       0.5103300403766571
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_q_L4_s0.5_seed1911": {
+     "naming": {
+      "estimate": -0.011195945572848068,
+      "ci": [
+       -0.10491789252911295,
+       0.08314257322253878
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": -0.00651674005720316,
+      "ci": [
+       -0.20196574383311774,
+       0.19476434376504684
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": -0.4150549199846057,
+      "ci": [
+       -0.5842532950639726,
+       -0.24666570127010373
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.16495426922681158,
+      "ci": [
+       -0.3179890019705943,
+       0.020812175598486284
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.12412995101272427,
+      "ci": [
+       -0.3408082502320517,
+       0.11547298616650607
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.13109150214602,
+      "ci": [
+       -0.34498371881451223,
+       0.06443662551479365
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_q_L4_s1_seed1910": {
+     "naming": {
+      "estimate": -0.14844028512957685,
+      "ci": [
+       -0.3175522173050781,
+       0.014364389388445453
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.7995502551396692,
+      "ci": [
+       0.41947108348210704,
+       1.2147253189484282
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.12639982700347877,
+      "ci": [
+       -0.16140241278542455,
+       0.41698003119892535
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.07374961323644674,
+      "ci": [
+       -0.2454493576070235,
+       0.10839968817933271
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.011292293740866866,
+      "ci": [
+       -0.27546387796433874,
+       0.2485401390269744
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.19873959261968288,
+      "ci": [
+       -0.18739270602580302,
+       0.5908805632312046
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_up_L28_s0.5_seed1910": {
+     "naming": {
+      "estimate": 0.013830884409586132,
+      "ci": [
+       -0.07079475826309403,
+       0.09749133496238505
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.3321055836147736,
+      "ci": [
+       0.22990160710281818,
+       0.4341807438267606
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.11168338192833761,
+      "ci": [
+       0.04093235664897426,
+       0.1858009068171179
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.017779077122007513,
+      "ci": [
+       -0.18663732182630713,
+       0.1529395211304928
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": -0.05462367174119206,
+      "ci": [
+       -0.22961421407971075,
+       0.11209777436449628
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.12337470964167382,
+      "ci": [
+       -0.0672925283375106,
+       0.3147264795032791
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_up_L28_s0.5_seed1911": {
+     "naming": {
+      "estimate": 0.004728146077453221,
+      "ci": [
+       -0.09078498546255863,
+       0.10463973038202219
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.4215369304021204,
+      "ci": [
+       0.32656421522299495,
+       0.5173128465811416
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.21863519085778105,
+      "ci": [
+       0.14219147404034904,
+       0.2957356290684806
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.005295055656623587,
+      "ci": [
+       -0.188923374912585,
+       0.175181530208607
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.12817132282330695,
+      "ci": [
+       -0.12889363744904592,
+       0.3557115789121707
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.24686090014530737,
+      "ci": [
+       -0.030990326583648236,
+       0.5441560827391778
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "weight_v_L4_s1_seed1910": {
+     "naming": {
+      "estimate": -0.152601029370312,
+      "ci": [
+       -0.2753238961970721,
+       -0.03600247991925578
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.1669189055760706,
+      "ci": [
+       -0.11106978767447985,
+       0.4562971572743525
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.08011809455023804,
+      "ci": [
+       -0.19167837315135655,
+       0.3527345215611981
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.11093497376742757,
+      "ci": [
+       -0.15847338011557913,
+       0.35535455523991344
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.10741132603929378,
+      "ci": [
+       -0.022512719483102614,
+       0.24252204061652793
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.2649128954394968,
+      "ci": [
+       -0.04808574148232322,
+       0.6196596786748597
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    }
+   },
+   "contrasts": {
+    "WR8_a0:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": 0.40739066075442165,
+      "ci": [
+       0.10248297355524977,
+       0.7515577081978676
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -2.0335828357272683,
+      "ci": [
+       -2.22692507452435,
+       -1.8356754310925807
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -2.187889705763923,
+      "ci": [
+       -2.365287188755141,
+       -2.0030982566542095
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": -1.2783772367419617,
+      "ci": [
+       -1.4668260208585053,
+       -1.0917043789769663
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.13455597365241212,
+      "ci": [
+       -0.3705452286421328,
+       0.060211326790107135
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": -0.09533648051508606,
+      "ci": [
+       -0.31786425780954863,
+       0.17919633599625884
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": -0.07351640317637075,
+      "ci": [
+       -0.5175797036665061,
+       0.32313154890130624
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     },
+     "semd_slopes": {
+      "naming": {
+       "WR_semd": {
+        "estimate": 0.09806801927002479,
+        "ci": [
+         -0.2556846760631243,
+         0.45541716550757805
+        ],
+        "unit": "nat / 语义多样性标准差",
+        "n": 120
+       },
+       "SC_semd": {
+        "estimate": -0.067085028738616,
+        "ci": [
+         -0.239655799391618,
+         0.07129874143288903
+        ],
+        "unit": "nat / 语义多样性标准差",
+        "n": 120
+       },
+       "SC_minus_WR_semd": {
+        "estimate": -0.16515304800864045,
+        "ci": [
+         -0.5506958480934824,
+         0.1898552639988195
+        ],
+        "unit": "nat / 语义多样性标准差",
+        "n": 120
+       }
+      },
+      "definition": {
+       "WR_semd": {
+        "estimate": -0.11487043465291125,
+        "ci": [
+         -0.24227327979836433,
+         0.009394470975127245
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 120
+       },
+       "SC_semd": {
+        "estimate": -0.030474819077326853,
+        "ci": [
+         -0.1923478946390827,
+         0.12920932746521127
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 120
+       },
+       "SC_minus_WR_semd": {
+        "estimate": 0.08439561557558445,
+        "ci": [
+         -0.10448694111715597,
+         0.28514668801971216
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 120
+       }
+      },
+      "synonym": {
+       "WR_semd": {
+        "estimate": -0.04852299083440578,
+        "ci": [
+         -0.15835068431828292,
+         0.0578958602194975
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 120
+       },
+       "SC_semd": {
+        "estimate": -0.148473393279851,
+        "ci": [
+         -0.2933214033016515,
+         -0.014413600997055638
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 120
+       },
+       "SC_minus_WR_semd": {
+        "estimate": -0.09995040244544516,
+        "ci": [
+         -0.26617837697866636,
+         0.06602734907703994
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 120
+       }
+      },
+      "property": {
+       "WR_semd": {
+        "estimate": -0.02365581537114281,
+        "ci": [
+         -0.1521327420765352,
+         0.10550350600144724
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 44
+       },
+       "SC_semd": {
+        "estimate": -0.05992169316179066,
+        "ci": [
+         -0.22915102970111328,
+         0.12029359060490855
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 44
+       },
+       "SC_minus_WR_semd": {
+        "estimate": -0.036265877790647945,
+        "ci": [
+         -0.1953529339722194,
+         0.13502581415478535
+        ],
+        "unit": "logit / 语义多样性标准差",
+        "n": 44
+       }
+      }
+     }
+    },
+    "weight_q_L4_s0.5_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.20516699813790076,
+      "ci": [
+       -0.39750539323323525,
+       -0.028039384446985373
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.5754512283537119,
+      "ci": [
+       -0.8274923264318036,
+       -0.3169321072763865
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.0977447986602781,
+      "ci": [
+       -0.3015834269258706,
+       0.10870021634631691
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": 0.11428104386185164,
+      "ci": [
+       -0.13260499365402093,
+       0.37473427698467726
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": 0.0448603976843638,
+      "ci": [
+       -0.2056921945965288,
+       0.249956698543761
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.000882855993669631,
+      "ci": [
+       -0.28090203265462627,
+       0.2735497470487587
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": 0.13146719154619535,
+      "ci": [
+       -0.2708397957315088,
+       0.5872313871250542
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_q_L4_s0.5_seed1911:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.1543333308125147,
+      "ci": [
+       -0.3037178680455936,
+       -0.015771753157582707
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.9379907872941757,
+      "ci": [
+       -1.178141737911436,
+       -0.6911726884047193
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.6904154247707788,
+      "ci": [
+       -0.8790773268540693,
+       -0.4925995848576224
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": 0.2753291960918542,
+      "ci": [
+       0.00570727794459389,
+       0.5379693702314835
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.2097725764015354,
+      "ci": [
+       -0.4328873068037461,
+       -0.01407457397322657
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": -0.09693069868241833,
+      "ci": [
+       -0.3984292763057368,
+       0.25832111687907344
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": -0.3386712673338638,
+      "ci": [
+       -0.7611487888499541,
+       0.41245456016520937
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_q_L4_s1_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.2915776703692435,
+      "ci": [
+       -0.531291969190644,
+       -0.07340312129446828
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.13192379209730348,
+      "ci": [
+       -0.517421420547697,
+       0.2905681719382603
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.14896067778269437,
+      "ci": [
+       -0.42816217283407837,
+       0.14000137759579565
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": 1.3144042600284929,
+      "ci": [
+       0.7990851441116044,
+       1.8372806978948186
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.11856792041117055,
+      "ci": [
+       -0.3737185080008887,
+       0.10852412013945507
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.01590695858943907,
+      "ci": [
+       -0.2683529615103909,
+       0.3017544209975212
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": -0.14777126414883326,
+      "ci": [
+       -0.5306151076099593,
+       0.28550462151393685
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_v_L4_s1_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.29573841460997863,
+      "ci": [
+       -0.4793866222109499,
+       -0.12678174988500807
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.764555141660902,
+      "ci": [
+       -1.0681997725036405,
+       -0.448209417396122
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.19524241023593508,
+      "ci": [
+       -0.5085689784420866,
+       0.1195918167961961
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": 0.3001370935729054,
+      "ci": [
+       0.0434283389286558,
+       0.5610795284762523
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": 0.06611666659270377,
+      "ci": [
+       -0.2462421686799252,
+       0.3311438277135189
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.13461057836959972,
+      "ci": [
+       -0.06488127063699325,
+       0.36535194838997376
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": -0.2465014009037632,
+      "ci": [
+       -0.5973870161290799,
+       0.2646853925789851
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_gate_L28_s1_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.19870688078062895,
+      "ci": [
+       -0.3895891412162921,
+       -0.017447974740129563
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.5219770219590927,
+      "ci": [
+       -0.7329993152618415,
+       -0.3092417711019514
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.4434918483098353,
+      "ci": [
+       -0.6005302229192523,
+       -0.2832608666684899
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": -0.3015738003181689,
+      "ci": [
+       -0.4900153590874238,
+       -0.11220145108121841
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.01375070444248036,
+      "ci": [
+       -0.31854404682126053,
+       0.23906178054063107
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.11026827741849027,
+      "ci": [
+       -0.22599503413658428,
+       0.4417123359261711
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": 0.026396723715102148,
+      "ci": [
+       -0.3427624288837631,
+       0.4330955671942435
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_up_L28_s0.5_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.12930650083008052,
+      "ci": [
+       -0.2947448747092033,
+       0.020870367322202234
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.599368463622199,
+      "ci": [
+       -0.7772505686680472,
+       -0.4150031391779579
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.1636771228578355,
+      "ci": [
+       -0.29595467713144097,
+       -0.028468396994802483
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": -0.001540017850471521,
+      "ci": [
+       -0.17710564425497438,
+       0.16861726172042646
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.06259738429673131,
+      "ci": [
+       -0.31412823327737593,
+       0.1413379631539438
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": -0.027424419410886122,
+      "ci": [
+       -0.2523682566618117,
+       0.21495341509278473
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": 0.14709285359518873,
+      "ci": [
+       -0.24558195052236498,
+       0.6056491108450271
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_up_L28_s0.5_seed1911:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.1384092391622134,
+      "ci": [
+       -0.31492354252629334,
+       0.032427854155144584
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.5099371168348521,
+      "ci": [
+       -0.6741675755712717,
+       -0.3432192403078077
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": -0.05672531392839207,
+      "ci": [
+       -0.2020209686623678,
+       0.08773226035965859
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": -0.26852651437123576,
+      "ci": [
+       -0.4631141507264335,
+       -0.08344109582178454
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.050113362831347395,
+      "ci": [
+       -0.3423398649652437,
+       0.19062911142933114
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.15537057515361288,
+      "ci": [
+       -0.1576241901081147,
+       0.46721030721206813
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": -0.0344237835025363,
+      "ci": [
+       -0.4309417243798505,
+       0.4244047137502369
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_gate_L44_s1_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": 0.0329342105091573,
+      "ci": [
+       -0.48402210121146316,
+       0.49728012531683036
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": -0.428980278968811,
+      "ci": [
+       -0.6448536154958937,
+       -0.21855062577459547
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": 0.11644177966647676,
+      "ci": [
+       -0.0459131704436407,
+       0.2781566984123649
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": 0.017774513273528383,
+      "ci": [
+       -0.242963870095484,
+       0.274392992167762
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": -0.13665574598157812,
+      "ci": [
+       -0.40713210069025535,
+       0.17010092470886595
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.03940957612997874,
+      "ci": [
+       -0.1986761334511216,
+       0.27144136867632584
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": 0.018676796282275747,
+      "ci": [
+       -0.38815943697545974,
+       0.4833121896992175
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    },
+    "weight_q_L28_s1_seed1910:SC4_a0": {
+     "naming_damage_difference": {
+      "estimate": -0.14791742742131186,
+      "ci": [
+       -0.3284678206664022,
+       0.02037379330277393
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition_damage_difference": {
+      "estimate": 1.5310016446643406,
+      "ci": [
+       1.3556129057539832,
+       1.704513289199935
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym_damage_difference": {
+      "estimate": 1.0985617425706655,
+      "ci": [
+       0.8892352890306053,
+       1.306171958976322
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "property_damage_difference": {
+      "estimate": 0.0290211222388526,
+      "ci": [
+       -0.15336285107063535,
+       0.2125964929660163
+      ],
+      "unit": "logit",
+      "n": 44
+     },
+     "definition_consistency_difference": {
+      "estimate": 0.23769763990571185,
+      "ci": [
+       -0.029210918348902323,
+       0.4625641370361071
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "synonym_consistency_difference": {
+      "estimate": 0.02413605900563781,
+      "ci": [
+       -0.2114872302409952,
+       0.2889327743809747
+      ],
+      "unit": "相关系数差",
+      "n": 120
+     },
+     "property_consistency_difference": {
+      "estimate": -0.03974647394089834,
+      "ci": [
+       -0.42436661117838825,
+       0.4152794229785572
+      ],
+      "unit": "相关系数差",
+      "n": 44
+     }
+    }
+   }
+  },
+  "relative_hub_final_core": {
+   "intact_capitalized_share": {
+    "estimate": 0.6991937792103111,
+    "unit": "比例（0–1）",
+    "n": 120
+   },
+   "capitalized_share": {
+    "hub_s2_learned_soft": {
+     "estimate": 0.9953067792803857,
+     "unit": "比例（0–1）",
+     "n": 120
+    },
+    "intact": {
+     "estimate": 0.6991937792103112,
+     "unit": "比例（0–1）",
+     "n": 120
+    }
+   },
+   "states": {
+    "hub_s0_learned_hard_64": {
+     "naming": {
+      "estimate": 0.5242996390190694,
+      "ci": [
+       0.17446296780716786,
+       0.876601136003525
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 4.743878687752618,
+      "ci": [
+       4.422575828433037,
+       5.063767718142933
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 4.891984213723077,
+      "ci": [
+       4.537984041174251,
+       5.232080240978134
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.05481953654950296,
+      "ci": [
+       -0.15226784482187872,
+       0.24231294372303874
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.12996324709257254,
+      "ci": [
+       -0.13290109974250408,
+       0.3818456347833879
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.21937889917771072,
+      "ci": [
+       -0.6231657727126924,
+       1.061391661296104
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s1_learned_hard_64": {
+     "naming": {
+      "estimate": 0.27269633629804285,
+      "ci": [
+       -0.058371502252853716,
+       0.595732256079771
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 4.57122433980306,
+      "ci": [
+       4.207160178224246,
+       4.9300741467873275
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 4.345742268032497,
+      "ci": [
+       4.025361570119857,
+       4.6642818886703905
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.04519039477054464,
+      "ci": [
+       -0.1754295483917594,
+       0.23757499849186256
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.27323385272446515,
+      "ci": [
+       0.03324064695743223,
+       0.4752189250879856
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.11036912340406825,
+      "ci": [
+       -0.8694572584123831,
+       0.6065723155881177
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_4": {
+     "naming": {
+      "estimate": -0.06257138760315749,
+      "ci": [
+       -0.13454878416763474,
+       0.00353390206055432
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 0.24972546100616466,
+      "ci": [
+       0.20153983096281677,
+       0.2988102258576292
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 0.30873489114973246,
+      "ci": [
+       0.2506434310144844,
+       0.36680195146136785
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.0948020914427534,
+      "ci": [
+       -0.06299126283723498,
+       0.23725959315478462
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.23488500754659067,
+      "ci": [
+       0.06694326610882274,
+       0.38875860273759916
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.04898827391009658,
+      "ci": [
+       -0.08502444429754567,
+       0.18000002658723224
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_hard_64": {
+     "naming": {
+      "estimate": 0.591589989644125,
+      "ci": [
+       0.23921354910589074,
+       0.9496082969284341
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 3.7891292174657196,
+      "ci": [
+       3.4895391498009367,
+       4.090163270433743
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 3.550878100925021,
+      "ci": [
+       3.227864036626286,
+       3.8706823811266156
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.03391932467425735,
+      "ci": [
+       -0.1727125009619899,
+       0.2312763155722447
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.11525402806537528,
+      "ci": [
+       -0.12079047733625738,
+       0.35363791223412655
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.1173571689531901,
+      "ci": [
+       -0.7290945223359538,
+       0.9006912042153352
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "hub_s2_learned_soft": {
+     "naming": {
+      "estimate": 1.5629006525542077,
+      "ci": [
+       0.9942856356822456,
+       2.1495765674094933
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 13.47009723186493,
+      "ci": [
+       12.814292977319823,
+       14.064863424764738
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 10.435612140761483,
+      "ci": [
+       9.674878012339272,
+       11.126617940531835
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.24495854187423965,
+      "ci": [
+       0.06575887142248234,
+       0.39936921953190935
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.12847759506770984,
+      "ci": [
+       -0.07102275658558815,
+       0.3227094343713452
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": 0.20084482886192068,
+      "ci": [
+       -1.2148170371218798,
+       1.5998333173769235
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "relative_hub_s0_learned_hard_64": {
+     "naming": {
+      "estimate": -0.6158698541830617,
+      "ci": [
+       -0.9902912625372275,
+       -0.27095269052193466
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 5.544835170110066,
+      "ci": [
+       5.192167353894976,
+       5.876476124458841
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 4.779417689641316,
+      "ci": [
+       4.446002854771085,
+       5.089354587395985
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.04966051492362999,
+      "ci": [
+       -0.1244840509722637,
+       0.22577598062329404
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.10520042356790953,
+      "ci": [
+       -0.0766144218770176,
+       0.29229929157622137
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.4218294169804786,
+      "ci": [
+       -1.0268549093484365,
+       0.20536967277530424
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "relative_hub_s0_learned_soft": {
+     "naming": {
+      "estimate": -0.9879668981551814,
+      "ci": [
+       -1.472380161999292,
+       -0.5214308397166534
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 9.354287054803637,
+      "ci": [
+       8.819293765094544,
+       9.862362941238617
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 7.200722119543287,
+      "ci": [
+       6.633256018095547,
+       7.724998044702742
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.003209984364462602,
+      "ci": [
+       -0.192378176732844,
+       0.19143852349854992
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.05755599880228512,
+      "ci": [
+       -0.10618670337164599,
+       0.23722516333028704
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.5897492061609181,
+      "ci": [
+       -1.3594439432709302,
+       0.21737289777051816
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "relative_hub_s1_learned_hard_64": {
+     "naming": {
+      "estimate": -0.32681293797454036,
+      "ci": [
+       -0.6811511028298737,
+       0.010383944798258698
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 4.144955865542094,
+      "ci": [
+       3.8012916568915047,
+       4.482346572942204
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 4.38484926753574,
+      "ci": [
+       4.0665171383486864,
+       4.682679031358825
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": -0.025676484222681418,
+      "ci": [
+       -0.18255219162667052,
+       0.13674663787371802
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.04961297129377234,
+      "ci": [
+       -0.1067980007884611,
+       0.21595986790879862
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.2699187715594835,
+      "ci": [
+       -0.9101765775328723,
+       0.37171270798205014
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    },
+    "relative_hub_s2_learned_hard_64": {
+     "naming": {
+      "estimate": -0.664883761817671,
+      "ci": [
+       -1.048752132025981,
+       -0.30076284876502274
+      ],
+      "unit": "log probability（nat）",
+      "n": 120
+     },
+     "definition": {
+      "estimate": 4.122073049015469,
+      "ci": [
+       3.753441976772414,
+       4.472698275446892
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "synonym": {
+      "estimate": 3.506720879342821,
+      "ci": [
+       3.1875212067365646,
+       3.79946428351932
+      ],
+      "unit": "logit",
+      "n": 120
+     },
+     "naming_definition_partial_r": {
+      "estimate": 0.05226965473400814,
+      "ci": [
+       -0.10351569117684474,
+       0.20167946093060338
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_synonym_partial_r": {
+      "estimate": 0.12530067289983457,
+      "ci": [
+       -0.022886034524315202,
+       0.28580579694721797
+      ],
+      "unit": "相关系数",
+      "n": 120
+     },
+     "naming_frequency_slope": {
+      "estimate": -0.3091725608704844,
+      "ci": [
+       -0.9265276318140988,
+       0.3448333885987294
+      ],
+      "unit": "nat / log10 BNC 词频",
+      "n": 120
+     }
+    }
+   },
+   "contrasts": {}
+  }
+ }
+}

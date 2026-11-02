@@ -58,8 +58,11 @@ OPTO_REPORT = "reports/confirm/optogenetics/result.json"
 M3_ITEMS = "data/materials/m3/final_items.csv"
 PATIENTS = "data/literature/jefferies2006_individual.csv"
 TG = "outputs/title_gap_execution_20261019"
-FINE_ITEMS = f"{TG}/core_readout_20261020/fine-target-items.csv"
-BROAD_ITEMS = f"{TG}/remaining_core_20261020/broad/target-items.csv"
+# Family naming scored in both spellings since 2026-11-02 (Supplementary S3.12, experiments/title_gap/analyze_case.py):
+# the per-family losses of every fine_final_core state, the frozen frame of fine-target-items.csv with the naming score
+# replaced by log[P(word) + P(Word)].
+FINE_ITEMS = "outputs/case_rescore/fine-target-items-case.csv"
+BROAD_ITEMS = FINE_ITEMS
 ZIPF_MEDIAN = 2.99965          # the dissociation run's split (outputs/server/e2_confirm/.../dissociation/meta.json params)
 SHORTLIST = 32                 # candidates per direction ablated one by one (Methods 2.3)
 TOL = 5.000001e-4              # ledger rows of the optogenetics report are rounded to four decimals
@@ -296,16 +299,16 @@ def patient_cueing():
 
 # ----------------------------------------------------------------------------------------- Figure 5b: final families
 FAMILIES = {  # label -> (frame, state, naming ID, definition ID, partial r ID)
-    "WR8": ("fine", "WR8_a0", "title_gap_fine_remaining_core-e7c009e99e28",
-            "title_gap_fine_remaining_core-72bb93644bd4", "title_gap_fine_core_readout-648ed349c867"),
-    "SC4": ("fine", "SC4_a0", "title_gap_fine_remaining_core-9a0a976b077d",
-            "title_gap_fine_remaining_core-3e84cf723965", "title_gap_fine_core_readout-668a9fba898a"),
-    "broad_10": ("broad", "broad_middle_f1_a0.1_s0", "title_gap_fine_remaining_core-5a1d470c13fe",
-                 "title_gap_fine_remaining_core-f34bb8f3d165", "title_gap_fine_remaining_core-50641c69dc33"),
-    "learned_comprehension": ("fine", "comprehension_s2_learned_soft", "title_gap_fine_core_readout-f6f815b1577a",
-                              "title_gap_fine_core_readout-bc43f20250b2", "title_gap_fine_core_readout-adcf6e72514c"),
-    "learned_hub": ("fine", "hub_s2_learned_soft", "title_gap_fine_core_readout-2b4e87553076",
-                    "title_gap_fine_core_readout-36b6a70af49b", "title_gap_fine_core_readout-42b468ab42e8"),
+    "WR8": ("fine", "WR8_a0", "case_rescore-7e29f8cbc130",
+            "title_gap_fine_remaining_core-72bb93644bd4", "case_rescore-13052e18cefc"),
+    "SC4": ("fine", "SC4_a0", "case_rescore-25a74a29025d",
+            "title_gap_fine_remaining_core-3e84cf723965", "case_rescore-18cbeaab68ee"),
+    "broad_10": ("broad", "broad_middle_f1_a0.1_s0", "case_rescore-3cc923f6ea05",
+                 "title_gap_fine_remaining_core-f34bb8f3d165", "case_rescore-6f25626e4b65"),
+    "learned_comprehension": ("fine", "comprehension_s2_learned_soft", "case_rescore-0d9f4803ea71",
+                              "title_gap_fine_core_readout-bc43f20250b2", "case_rescore-cf8fa9e97d68"),
+    "learned_hub": ("fine", "hub_s2_learned_soft", "case_rescore-a674fe868384",
+                    "title_gap_fine_core_readout-36b6a70af49b", "case_rescore-9de58f0685df"),
 }
 
 

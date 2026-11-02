@@ -26,6 +26,9 @@ misleading cues more costly.
 | `docs/paper-prep/results_ledger.csv` | Every number reported in the paper, with the output file and field it was read from |
 | `docs/paper-prep/figdata/`, `docs/paper-prep/figures/r/` | Data and R scripts for Figures 2 to 5 |
 | `docs/paper-prep/component-code-map.md`, `component-members.csv` | Members of every component set, and repository codes against paper codes |
+| `manuscript/latex/supplementary.pdf` | The Supplementary Material of the paper |
+| `reports/explore/2026-11-02-case-rescore/`, `reports/explore/2026-11-02-gpu-session/` | Results of the analyses added on 2 and 3 November 2026 (see below), in the form the results ledger reads |
+| `docs/plans/phi-battery.md`, `docs/plans/demo-format-check.md` | Plans of two exploratory checks, with their reading rules fixed before the runs |
 
 The repository uses its own codes for the component sets: K8 is WR8, C4 is SC4, K30 is WR30, K8b is WR8b, C4s is SC4b,
 and the P14 control set is SC32 (full table in `docs/paper-prep/component-code-map.md`). WR8 is `expert:46:61`,
@@ -74,6 +77,17 @@ are not part of this release.
 | `experiments/p14/` | Learned ablation gates |
 | `experiments/prep_means/` | Component means on the neutral text |
 | `experiments/e0_baseline/` and the `gpu_session*.sh` scripts | Earlier baselines and the batch scripts of each GPU session |
+
+Analyses added on 2 and 3 November 2026, all exploratory:
+
+| Script | What it does |
+| --- | --- |
+| `experiments/title_gap/rescore_case.py`, `analyze_case.py` | Scores the family names with the first letter capitalized and recomputes every family statistic with both spellings, log[P(word) + P(Word)] (Supplementary Material S3.12) |
+| `experiments/e3_errors/run_demo_format.py` | The naming battery without and the families with the three demonstration items |
+| `experiments/e3_errors/run_random_answer_heads.py` | SC4 against 100 matched random sets of four heads, lesioned at the answer positions |
+| `experiments/e3_knowledge/run_generated_frequency.py` | Greedy answers on the held-out naming concepts, for the frequency effect in what the model says |
+| `experiments/second_model/run_phi_battery.py`, `output_bias.py` | Phi-3.5-MoE on the naming battery, with its output-layer bias added to every score (Supplementary Material S1.1) |
+| `experiments/analyze_gpu_20261102.py` | Analysis of the last four, including the reading rules of the Phi plan |
 
 ## Licenses
 

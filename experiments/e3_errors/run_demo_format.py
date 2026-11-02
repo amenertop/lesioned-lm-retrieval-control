@@ -67,6 +67,10 @@ SET_SOURCES = dict(WR8=("K8", "WR8_a0"), SC4=("C4", "SC4_a0"))   # paper code ->
 TINY_SETS = dict(WR8=("expert:1:0", "expert:1:5", "head:1:1"), SC4=("head:0:2", "head:1:3"))
 NEW_CELLS = (("battery", "no_demos"), ("family", "demos"))
 EXISTING_CELLS = (("battery", "demos"), ("family", "no_demos"))
+# --capitalized (2026-11-02): the family prompts do not ask for lowercase, and the intact model capitalizes most of its
+# family answers, so the same family prompts are also scored with every candidate's first letter capitalized, in cells
+# of their own (their batches never mix with the lowercase cells); the analysis combines log(P(word) + P(Word)).
+CAP_CELLS = (("family_cap", "demos"), ("family_cap", "no_demos"))
 BATCHES = ms.NAMING_BATCHES          # (16, 11, 7)
 TINY_BATCHES = (4, 3, 2)
 CONDITION = {("battery", "demos"): "name_free", ("battery", "no_demos"): "name_free_no_demos"}
@@ -123,6 +127,11 @@ def cell_prompts(item_set, fmt, items, chat=True):
         return prompts
     if item_set == "family":
         return fs.naming_prompts(items) if fmt == "no_demos" else dfp.family_prompts(items, demos=True)
+    if item_set == "family_cap":
+        out = cell_prompts("family", fmt, items, chat)
+        for p in out:
+            p.candidates = {f"{r}_cap": w[:1].upper() + w[1:] for r, w in p.candidates.items()}
+        return out
     raise ValueError(f"unknown item set {item_set!r}")
 
 
@@ -144,6 +153,7 @@ def prompt_table(prompt_sets):
 SCORERS = {
     "battery": lambda model, tok, prompts, chat, bs: mb.candidate_scores(model, tok, prompts, chat, bs),
     "family": lambda model, tok, prompts, chat, bs: ms.score_naming_prompts(model, tok, prompts, chat, bs),
+    "family_cap": lambda model, tok, prompts, chat, bs: ms.score_naming_prompts(model, tok, prompts, chat, bs),
 }
 
 
@@ -191,6 +201,8 @@ def main():
     common.add_args(ap)
     ap.add_argument("--also-existing", action="store_true",
                     help="also score the existing formats (battery with demos, families without) the same way")
+    ap.add_argument("--capitalized", action="store_true",
+                    help="also score both family formats with capitalized candidates (cells family_cap/*)")
     ap.add_argument("--dry-run", action="store_true", help="count and show the prompts, load no model")
     ap.add_argument("--limit", type=int, default=0, help="concepts per item set, tiny runs only (default 4)")
     ap.add_argument("--out", type=Path, help="output folder (default outputs/e3_errors[_tiny]/<model>/demo_format)")
@@ -209,7 +221,7 @@ def main():
             raise SystemExit(f"expected {N_BATTERY} and {N_FAMILY} concepts, found {len(battery)} and {len(family)}")
     sets = {k: tuple(v) for k, v in (TINY_SETS if args.tiny else component_sets(args.model)).items()}
     plan = [("intact", None)] + [(k, [Component.parse(c) for c in v]) for k, v in sets.items()]
-    cells = NEW_CELLS + (EXISTING_CELLS if args.also_existing else ())
+    cells = NEW_CELLS + (EXISTING_CELLS if args.also_existing else ()) + (CAP_CELLS if args.capitalized else ())
     batches = TINY_BATCHES if args.tiny else BATCHES
     chat = models.uses_chat(args.model)
     prompt_sets = build_cells(cells, battery, family, chat)

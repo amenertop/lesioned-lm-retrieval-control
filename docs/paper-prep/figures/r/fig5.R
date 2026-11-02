@@ -91,38 +91,38 @@ panel_word_count <- function(svg) {   # as figkit.panel_word_count: tokens with 
 FR <- "title_gap_fine_remaining_core-"; FC <- "title_gap_fine_core_readout-"; CO <- "title_gap_coarse_final_core-"
 states <- tribble(
   ~state, ~kind, ~did, ~rid,
-  "WR8_a0", "WR8", paste0(FR, "72bb93644bd4"), paste0(FC, "648ed349c867"),
-  "SC4_a0", "SC4", paste0(FR, "3e84cf723965"), paste0(FC, "668a9fba898a"),
-  "WR8_a0_SC4_a0", "joint", paste0(FR, "96531c774ac8"), paste0(FR, "dc26a8cb1ce0"),
-  "WR8_a0_SC4_a0.5", "joint", paste0(FR, "def6594bbdb0"), paste0(FR, "9a0349bbbbc2"),
-  "WR8_a0_comprehension_s0_learned_hard_64", "joint", paste0(FR, "747d1ebbe6e8"), paste0(FR, "485c9c93705e"),
-  "broad_middle_f1_a0.9_s0", "broad", paste0(FR, "f3e38771b597"), paste0(FR, "dd69903b328d"),
-  "broad_middle_f1_a0.75_s0", "broad", paste0(FR, "d96158617eef"), paste0(FR, "758f6785e389"),
-  "broad_middle_f1_a0.5_s0", "broad", paste0(FR, "c124f9cef436"), paste0(FR, "0156d1ba4c81"),
-  "broad_middle_f1_a0.25_s0", "broad", paste0(FR, "9f8281ff53f9"), paste0(FR, "11bd5c824c3e"),
-  "broad_middle_f1_a0.1_s0", "broad", paste0(FR, "f34bb8f3d165"), paste0(FR, "50641c69dc33"),
-  "broad_early_f1_a0.5_s0", "broad", paste0(FR, "da203c09b819"), paste0(FR, "49c9c0439786"),
-  "broad_late_f1_a0.75_s0", "broad", paste0(FR, "62852e442bb8"), paste0(FR, "f8a6ee01beb0"),
-  "hub_s2_learned_soft", "learned", paste0(FC, "36b6a70af49b"), paste0(FC, "42b468ab42e8"),
-  "comprehension_s2_learned_soft", "learned", paste0(FC, "bc43f20250b2"), paste0(FC, "adcf6e72514c"),
-  "relative_hub_s0_learned_soft", "learned", paste0(FC, "25a1b8fcc6b8"), paste0(FC, "ca44baeb9779"),
-  "hub_s2_learned_hard_4", "learned", paste0(FC, "d4c7d1877cb4"), paste0(FC, "96d3e89f5532"),
-  "comprehension_s0_learned_hard_64", "learned", paste0(FR, "7e36721969ce"), paste0(FR, "786f1101d15e"),
-  "hub_s0_learned_hard_64", "learned", paste0(FR, "3e4b28634381"), paste0(FR, "7108dc964bc1"),
-  "hub_s1_learned_hard_64", "learned", paste0(FR, "d5d1ccf133b1"), paste0(FR, "7a6bfc6aa915"),
-  "hub_s2_learned_hard_64", "learned", paste0(FR, "a82ce11b17b2"), paste0(FR, "df8e6a896abc"),
-  "relative_hub_s0_learned_hard_64", "learned", paste0(FR, "193be4b1c180"), paste0(FR, "ed90bf543367"),
-  "relative_hub_s1_learned_hard_64", "learned", paste0(FR, "838d7438eba3"), paste0(FR, "2e0abc86ca0a"),
-  "relative_hub_s2_learned_hard_64", "learned", paste0(FR, "1a2fdff10ea7"), paste0(FR, "b27cedbdd522"),
-  "weight_q_L4_s0.5_seed1910", "mask", paste0(CO, "9ab5195cb467"), paste0(CO, "57f287b6e8eb"),
-  "weight_q_L4_s0.5_seed1911", "mask", paste0(CO, "4e0e31ba43cb"), paste0(CO, "571df854b9b9"),
-  "weight_q_L4_s1_seed1910", "mask", paste0(CO, "aec741bc8ac3"), paste0(CO, "372fe26cc531"),
-  "weight_v_L4_s1_seed1910", "mask", paste0(CO, "7a291c22d240"), paste0(CO, "1bfc4fca2a9c"),
-  "weight_gate_L28_s1_seed1910", "mask", paste0(CO, "87dadab5420f"), paste0(CO, "2116661b8cd8"),
-  "weight_up_L28_s0.5_seed1910", "mask", paste0(CO, "b989df2cc655"), paste0(CO, "57d4b772ab18"),
-  "weight_up_L28_s0.5_seed1911", "mask", paste0(CO, "51867fc6aca7"), paste0(CO, "75f1da34739f"),
-  "weight_gate_L44_s1_seed1910", "mask", paste0(CO, "ac54260a2bf9"), paste0(CO, "ddc1440df06a"),
-  "weight_q_L28_s1_seed1910", "mask", paste0(CO, "07def11c46e8"), paste0(CO, "a67d92f328fc"))
+  "WR8_a0", "WR8", paste0(FR, "72bb93644bd4"), "case_rescore-13052e18cefc",
+  "SC4_a0", "SC4", paste0(FR, "3e84cf723965"), "case_rescore-18cbeaab68ee",
+  "WR8_a0_SC4_a0", "joint", paste0(FR, "96531c774ac8"), "case_rescore-2188d651a017",
+  "WR8_a0_SC4_a0.5", "joint", paste0(FR, "def6594bbdb0"), "case_rescore-6a65bc29d225",
+  "WR8_a0_comprehension_s0_learned_hard_64", "joint", paste0(FR, "747d1ebbe6e8"), "case_rescore-6bb8b39e3cb1",
+  "broad_middle_f1_a0.9_s0", "broad", paste0(FR, "f3e38771b597"), "case_rescore-4ab6e41876c3",
+  "broad_middle_f1_a0.75_s0", "broad", paste0(FR, "d96158617eef"), "case_rescore-5b20640ea078",
+  "broad_middle_f1_a0.5_s0", "broad", paste0(FR, "c124f9cef436"), "case_rescore-93e837ffe8ed",
+  "broad_middle_f1_a0.25_s0", "broad", paste0(FR, "9f8281ff53f9"), "case_rescore-bc596db0291d",
+  "broad_middle_f1_a0.1_s0", "broad", paste0(FR, "f34bb8f3d165"), "case_rescore-6f25626e4b65",
+  "broad_early_f1_a0.5_s0", "broad", paste0(FR, "da203c09b819"), "case_rescore-1e0c3e860933",
+  "broad_late_f1_a0.75_s0", "broad", paste0(FR, "62852e442bb8"), "case_rescore-2d7a70abc1ef",
+  "hub_s2_learned_soft", "learned", paste0(FC, "36b6a70af49b"), "case_rescore-9de58f0685df",
+  "comprehension_s2_learned_soft", "learned", paste0(FC, "bc43f20250b2"), "case_rescore-cf8fa9e97d68",
+  "relative_hub_s0_learned_soft", "learned", paste0(FC, "25a1b8fcc6b8"), "case_rescore-31adb9f1e9fa",
+  "hub_s2_learned_hard_4", "learned", paste0(FC, "d4c7d1877cb4"), "case_rescore-adc3f525db32",
+  "comprehension_s0_learned_hard_64", "learned", paste0(FR, "7e36721969ce"), "case_rescore-4fb0f11168c8",
+  "hub_s0_learned_hard_64", "learned", paste0(FR, "3e4b28634381"), "case_rescore-4de504e480ef",
+  "hub_s1_learned_hard_64", "learned", paste0(FR, "d5d1ccf133b1"), "case_rescore-8b797a487ab0",
+  "hub_s2_learned_hard_64", "learned", paste0(FR, "a82ce11b17b2"), "case_rescore-bb04dc08cb9d",
+  "relative_hub_s0_learned_hard_64", "learned", paste0(FR, "193be4b1c180"), "case_rescore-048efd29c203",
+  "relative_hub_s1_learned_hard_64", "learned", paste0(FR, "838d7438eba3"), "case_rescore-8a960b13497c",
+  "relative_hub_s2_learned_hard_64", "learned", paste0(FR, "1a2fdff10ea7"), "case_rescore-7b6cc79ebb9a",
+  "weight_q_L4_s0.5_seed1910", "mask", paste0(CO, "9ab5195cb467"), "case_rescore-86b354a7c0dd",
+  "weight_q_L4_s0.5_seed1911", "mask", paste0(CO, "4e0e31ba43cb"), "case_rescore-94d9f9856d09",
+  "weight_q_L4_s1_seed1910", "mask", paste0(CO, "aec741bc8ac3"), "case_rescore-9772b15195b9",
+  "weight_v_L4_s1_seed1910", "mask", paste0(CO, "7a291c22d240"), "case_rescore-0f04461ab842",
+  "weight_gate_L28_s1_seed1910", "mask", paste0(CO, "87dadab5420f"), "case_rescore-58bd0496af73",
+  "weight_up_L28_s0.5_seed1910", "mask", paste0(CO, "b989df2cc655"), "case_rescore-635149d90d53",
+  "weight_up_L28_s0.5_seed1911", "mask", paste0(CO, "51867fc6aca7"), "case_rescore-90cc2d5e58a6",
+  "weight_gate_L44_s1_seed1910", "mask", paste0(CO, "ac54260a2bf9"), "case_rescore-dc3aca51b6c5",
+  "weight_q_L28_s1_seed1910", "mask", paste0(CO, "07def11c46e8"), "case_rescore-8021f1113426")
 pts <- states %>% rowwise() %>% mutate(
   x = ledger(did)$est, r = ledger(rid)$est, lo = ledger(rid)$lo, hi = ledger(rid)$hi,
   filled = confirmatory(rid),
@@ -131,8 +131,8 @@ pts <- states %>% rowwise() %>% mutate(
     !grepl("accepted_vs_coordinate", ledger_field(rid, 12), fixed = TRUE)) %>% ungroup()
 stopifnot(nrow(pts) == 32, all(pts$ok))
 r_max <- pts[which.max(pts$r), ]
-stopifnot(r_max$state == "hub_s2_learned_hard_4", round(r_max$r, 2) == 0.24, round(r_max$lo, 2) == -0.02,
-          round(r_max$hi, 2) == 0.45)   # the largest estimate quoted in Results 3.5
+stopifnot(r_max$state == "weight_q_L28_s1_seed1910", round(r_max$r, 2) == 0.28, round(r_max$lo, 2) == 0.10,
+          round(r_max$hi, 2) == 0.46)   # the largest estimate quoted in Results 3.5 (names scored in both spellings)
 KIND_COL <- c(WR8 = C_WR8, SC4 = C_SC4, joint = C_JOINT, broad = C_BROAD, learned = C_LEARNED, mask = C_MASK)
 KIND_SHAPE <- c(WR8 = 21, SC4 = 22, joint = 24, broad = 23, learned = 23, mask = 23)
 pts <- pts %>% mutate(col = KIND_COL[kind], shp = KIND_SHAPE[kind], fill = ifelse(filled, col, "white"),
@@ -165,18 +165,18 @@ pA <- ggplot() +
                      expand = expansion(0)) +
   scale_y_continuous("Partial r", limits = c(-0.46, 0.66), breaks = seq(-0.4, 0.6, 0.2),
                      labels = c("\u2212.4", "\u2212.2", "0", ".2", ".4", ".6"), expand = expansion(0)) +
-  labs(title = "Damage grows, item consistency does not", tag = "A") + base
+  labs(title = "Damage grows, item consistency stays weak", tag = "A") + base
 
 # ---- B: five lesions, family by family (figdata, means checked against the ledger as in fig5.py)
 fam <- fd("items_fig5b_families.csv")
 badges <- fd("items_fig5c_badges.csv")
 small <- tribble(   # key in the families file, state, label, kind, naming ID, definition ID, partial r ID
   ~key, ~state, ~label, ~kind, ~nid, ~did, ~rid,
-  "WR8", "WR8_a0", "WR8", "WR8", paste0(FR, "e7c009e99e28"), paste0(FR, "72bb93644bd4"), paste0(FC, "648ed349c867"),
-  "SC4", "SC4_a0", "SC4", "SC4", paste0(FR, "9a0a976b077d"), paste0(FR, "3e84cf723965"), paste0(FC, "668a9fba898a"),
-  "broad_10", "broad_middle_f1_a0.1_s0", "broad 10%", "broad", paste0(FR, "5a1d470c13fe"), paste0(FR, "f34bb8f3d165"), paste0(FR, "50641c69dc33"),
-  "learned_comprehension", "comprehension_s2_learned_soft", "learned\ncompre-\nhension", "learned", paste0(FC, "f6f815b1577a"), paste0(FC, "bc43f20250b2"), paste0(FC, "adcf6e72514c"),
-  "learned_hub", "hub_s2_learned_soft", "learned\nhub", "learned", paste0(FC, "2b4e87553076"), paste0(FC, "36b6a70af49b"), paste0(FC, "42b468ab42e8"))
+  "WR8", "WR8_a0", "WR8", "WR8", "case_rescore-7e29f8cbc130", paste0(FR, "72bb93644bd4"), "case_rescore-13052e18cefc",
+  "SC4", "SC4_a0", "SC4", "SC4", "case_rescore-25a74a29025d", paste0(FR, "3e84cf723965"), "case_rescore-18cbeaab68ee",
+  "broad_10", "broad_middle_f1_a0.1_s0", "broad 10%", "broad", "case_rescore-3cc923f6ea05", paste0(FR, "f34bb8f3d165"), "case_rescore-6f25626e4b65",
+  "learned_comprehension", "comprehension_s2_learned_soft", "learned\ncompre-\nhension", "learned", "case_rescore-0d9f4803ea71", paste0(FC, "bc43f20250b2"), "case_rescore-cf8fa9e97d68",
+  "learned_hub", "hub_s2_learned_soft", "learned\nhub", "learned", "case_rescore-a674fe868384", paste0(FC, "36b6a70af49b"), "case_rescore-9de58f0685df")
 stopifnot(setequal(unique(badges$state), small$state), setequal(unique(fam$lesion), small$key),
           all(fam$readout == "target"), all(fam$naming_unit == "nat"), all(fam$definition_unit == "logit"))
 for (i in seq_len(nrow(small))) {   # the drawn item means reproduce the ledger (10 checks), as fig5.py asserts

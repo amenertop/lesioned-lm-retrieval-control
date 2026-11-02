@@ -14,11 +14,12 @@
     "data/materials/m3/final_items.csv": "d539310755a31f8155cda5db7ae4920760dd36bbde97442800fa0b17df16b98d",
     "data/materials/m3_knowledge/items.csv": "589708d96baf5979dc35139d4cddf0f13ca549c9800ef8fabb6c2874fb022398",
     "docs/paper-prep/component-members.csv": "5ca2fd546ed60a2da4b2b0235239b33c7042f0cb290bf78f4db8cea438de47aa",
-    "docs/paper-prep/figdata/build_items.py": "c70db505102c9ea253976f8eef64730798636a22d060fd2c260d1a541ef2c2fc",
-    "docs/paper-prep/results_ledger.csv": "251eef0aadb29cc7bf1275c49380ba3d45631e41cfe6d7269a970baa83ae7564",
+    "docs/paper-prep/figdata/build_items.py": "1d98022af28edbef1c8d2c01eec29cf6454dc3af7ce164cb5851df1c4703f28d",
+    "docs/paper-prep/results_ledger.csv": "0b773df4562d44149f6e4625fbe09cc754dc657f0d13681672e6215f3de70e24",
     "experiments/e2_confirm/run_dissociation_test.py": "23c9df21a564434eb5a5277ff3a0fd15d9dec06e97befc482291f6599b6bdc73",
     "experiments/e3_errors/analyze_battery.py": "749bfd9b09b462760eaedfea30a1c9e8da4aa8f7ca66a81c90b05aa6bf3312b8",
-    "experiments/e3_errors/analyze_optogenetics.py": "76dd1022948c09b435f08442ceee1abdf784773994995d905e796409c0eae4eb",
+    "experiments/e3_errors/analyze_optogenetics.py": "58a626a94db22a62d4a4e055b4e9941e01492b2877ab3a3e8d02c63d1a3e3c83",
+    "outputs/case_rescore/fine-target-items-case.csv": "698804519a3bbcf4fbba66e12f0d73a8abe80c148592e724e1de337fec97c773",
     "outputs/e3_errors/qwen3-30b-a3b-instruct/optogenetics_confirm/candidates.parquet": "f14fde3f9129709692bd593fc58ed1ca9ca19a6987fa97218b0e8e47e9611194",
     "outputs/e3_errors/qwen3-30b-a3b-instruct/optogenetics_confirm/labels.parquet": "8de11d96f01144a95d98eb392edf406298dc70c35b21e343a3842f976bbb08f8",
     "outputs/server/e2_confirm/qwen3-30b-a3b-instruct/control/per_set_control_effect.csv": "0532a22b43705549ed23fb697c7c32536ecc4d660a7997bc936fc218caf9f22b",
@@ -28,11 +29,9 @@
     "outputs/server/outputs/e1_screen/qwen3-30b-a3b-instruct/attribution/attribution.csv": "f9f962fd0dd19ac8e5a5919279cd05d71de576c68049a11a18509249bc2a53f2",
     "outputs/server/outputs/e1_screen/qwen3-30b-a3b-instruct/screen/screen.csv": "5b09124a5df95558d52a2161eac6d36e37e4b46a769ac790d036de4fa5e15859",
     "outputs/title_gap_execution_20261019/core_readout_20261020/fine-points.json": "3a80a0d74c49c9ad6ed5a4e015ea2689b055fe143913bb7af29eb2e8e0897362",
-    "outputs/title_gap_execution_20261019/core_readout_20261020/fine-target-items.csv": "4b645936dbe41763abd80d1933af187c73dddd2d113141f093c75b3904317c6b",
     "outputs/title_gap_execution_20261019/fine_final_core/plan.json": "6fd468068844fa880e260c05956f94d7f1926ef061cac35f3607d9d155507391",
     "outputs/title_gap_execution_20261019/fine_final_source/src/lesion/title_gap_analysis.py": "27989c27731c7be3f01d21c7efb8390a7c604da7918ceb9da3ccafaab764f9cc",
     "outputs/title_gap_execution_20261019/remaining_core_20261020/broad/points.json": "643f8bf7e6c06dea44ddf87a1ac35de78b2e0cf098af0f2857b5799c98940216",
-    "outputs/title_gap_execution_20261019/remaining_core_20261020/broad/target-items.csv": "defbbd1919b0244196210bc82473843f5514c1d4b2c6567c7fcff34aff55dd69",
     "reports/confirm/optogenetics/result.json": "d8ad11be67d5d1cbdb92851f912d5ee78008e043776213e4ed19f17d1e559b54",
     "src/lesion/naming.py": "874ab6cbe62505ac829b9b91294052818860e950735e9745d579bdcaf998bb8a"
   },
@@ -382,9 +381,9 @@
       "status": "pass"
     },
     "5b/WR8/naming": {
-      "ledger_id": "title_gap_fine_remaining_core-e7c009e99e28",
-      "ledger": 0.9042153134482861,
-      "recomputed": 0.904215313448286,
+      "ledger_id": "case_rescore-7e29f8cbc130",
+      "ledger": 0.5505280459940884,
+      "recomputed": 0.5505280459940883,
       "status": "pass"
     },
     "5b/WR8/definition": {
@@ -394,9 +393,9 @@
       "status": "pass"
     },
     "5b/WR8/partial_r": {
-      "ledger_id": "title_gap_fine_core_readout-648ed349c867",
-      "ledger": -0.13396396082182813,
-      "recomputed": -0.13396396082182815,
+      "ledger_id": "case_rescore-13052e18cefc",
+      "ledger": -0.08973766647768833,
+      "recomputed": -0.08973766647768827,
       "status": "pass"
     },
     "5b/SC4/n": {
@@ -404,9 +403,9 @@
       "status": "pass"
     },
     "5b/SC4/naming": {
-      "ledger_id": "title_gap_fine_remaining_core-9a0a976b077d",
-      "ledger": 0.7819584679602284,
-      "recomputed": 0.7819584679602284,
+      "ledger_id": "case_rescore-25a74a29025d",
+      "ledger": 0.14313738523966665,
+      "recomputed": 0.14313738523966665,
       "status": "pass"
     },
     "5b/SC4/definition": {
@@ -416,9 +415,9 @@
       "status": "pass"
     },
     "5b/SC4/partial_r": {
-      "ledger_id": "title_gap_fine_core_readout-668a9fba898a",
-      "ledger": 0.14213143817944662,
-      "recomputed": 0.14213143817944668,
+      "ledger_id": "case_rescore-18cbeaab68ee",
+      "ledger": 0.04481830717472381,
+      "recomputed": 0.04481830717472386,
       "status": "pass"
     },
     "5b/broad_10/n": {
@@ -426,9 +425,9 @@
       "status": "pass"
     },
     "5b/broad_10/naming": {
-      "ledger_id": "title_gap_fine_remaining_core-5a1d470c13fe",
-      "ledger": -2.7236751582454115,
-      "recomputed": -2.7236751582454115,
+      "ledger_id": "case_rescore-3cc923f6ea05",
+      "ledger": -1.3140789235336041,
+      "recomputed": -1.3140789235336041,
       "status": "pass"
     },
     "5b/broad_10/definition": {
@@ -438,9 +437,9 @@
       "status": "pass"
     },
     "5b/broad_10/partial_r": {
-      "ledger_id": "title_gap_fine_remaining_core-50641c69dc33",
-      "ledger": 0.1082133890882451,
-      "recomputed": 0.108213389088245,
+      "ledger_id": "case_rescore-6f25626e4b65",
+      "ledger": -0.013077382649684995,
+      "recomputed": -0.013077382649685063,
       "status": "pass"
     },
     "5b/learned_comprehension/n": {
@@ -448,9 +447,9 @@
       "status": "pass"
     },
     "5b/learned_comprehension/naming": {
-      "ledger_id": "title_gap_fine_core_readout-f6f815b1577a",
-      "ledger": -1.0507803269603753,
-      "recomputed": -1.0507803269603753,
+      "ledger_id": "case_rescore-0d9f4803ea71",
+      "ledger": -1.1652304117232442,
+      "recomputed": -1.1652304117232442,
       "status": "pass"
     },
     "5b/learned_comprehension/definition": {
@@ -460,9 +459,9 @@
       "status": "pass"
     },
     "5b/learned_comprehension/partial_r": {
-      "ledger_id": "title_gap_fine_core_readout-adcf6e72514c",
-      "ledger": 0.08409448477742174,
-      "recomputed": 0.08409448477742201,
+      "ledger_id": "case_rescore-cf8fa9e97d68",
+      "ledger": 0.03311493798521843,
+      "recomputed": 0.03311493798521872,
       "status": "pass"
     },
     "5b/learned_hub/n": {
@@ -470,9 +469,9 @@
       "status": "pass"
     },
     "5b/learned_hub/naming": {
-      "ledger_id": "title_gap_fine_core_readout-2b4e87553076",
-      "ledger": 11.656749379381976,
-      "recomputed": 11.656749379381976,
+      "ledger_id": "case_rescore-a674fe868384",
+      "ledger": 1.5629006525542077,
+      "recomputed": 1.5629006525542077,
       "status": "pass"
     },
     "5b/learned_hub/definition": {
@@ -482,9 +481,9 @@
       "status": "pass"
     },
     "5b/learned_hub/partial_r": {
-      "ledger_id": "title_gap_fine_core_readout-42b468ab42e8",
-      "ledger": 0.15757432402146135,
-      "recomputed": 0.1575743240214614,
+      "ledger_id": "case_rescore-9de58f0685df",
+      "ledger": 0.24495854187423965,
+      "recomputed": 0.24495854187423963,
       "status": "pass"
     },
     "5b/readout_note": {
@@ -552,7 +551,7 @@
     },
     "items_fig5b_families.csv": {
       "rows": 600,
-      "sha256": "808a9affd77ceeb2c249812eb766daa4cbfcf9a557c6a02f1c61452b51142c1c"
+      "sha256": "5a82bbb99f97bf667558de4a2e0a87b5cbf108035a02d8b2b16f513ffcbbffee"
     },
     "items_fig5c_badges.csv": {
       "rows": 57,
