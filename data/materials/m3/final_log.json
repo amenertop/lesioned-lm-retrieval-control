@@ -1,0 +1,156 @@
+{
+  "by_role": {
+    "test": 160,
+    "calibration_b": 40,
+    "calibration_a": 40,
+    "reserve": 10,
+    "excluded": 1
+  },
+  "by_role_and_bin": {
+    "calibration_a": {
+      "0": 8,
+      "1": 24,
+      "2": 8
+    },
+    "calibration_b": {
+      "0": 21,
+      "1": 9,
+      "2": 10
+    },
+    "excluded": {
+      "1": 1
+    },
+    "reserve": {
+      "0": 2,
+      "1": 6,
+      "2": 2
+    },
+    "test": {
+      "0": 33,
+      "1": 95,
+      "2": 32
+    }
+  },
+  "planned_by_role_and_bin": {
+    "calibration_a": {
+      "0": 8,
+      "1": 24,
+      "2": 8
+    },
+    "calibration_b": {
+      "0": 21,
+      "1": 9,
+      "2": 10
+    },
+    "reserve": {
+      "0": 2,
+      "1": 7,
+      "2": 2
+    },
+    "test": {
+      "0": 33,
+      "1": 95,
+      "2": 32
+    }
+  },
+  "free_naming_by_role": {
+    "test": 100,
+    "calibration_b": 40
+  },
+  "free_naming_test_pool": 131,
+  "replaced": [
+    {
+      "role": "calibration_a",
+      "failed": "m189",
+      "target": "saxophone",
+      "zipf_bin": 1,
+      "replacement": "m190",
+      "replacement_target": "clover"
+    }
+  ],
+  "unfilled": [],
+  "shortfall": {},
+  "reserves_left": {
+    "unused": 10,
+    "passing_rule_1_by_bin": {
+      "0": 2,
+      "1": 6,
+      "2": 2
+    },
+    "passing_rules_1_and_2_for_calibration_b": {
+      "target more common": 0,
+      "target rarer": 7
+    }
+  },
+  "check_meta": {
+    "model": "qwen3-30b-a3b-instruct",
+    "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+    "dtype": "float16",
+    "tiny": false,
+    "resume_commit": "ed85e518f26ccef97c9e97990ed70868246058b1",
+    "device": "cuda",
+    "items_sha256": "ae508f40d6da9d369203712370a1fb18c483e5bdd15418683a458ed14d1b6244",
+    "limit": null,
+    "n_items": 251,
+    "choice_batches": [
+      400,
+      128,
+      48
+    ],
+    "naming_batches": [
+      16,
+      11,
+      7
+    ],
+    "demos": [
+      {
+        "target": "clock",
+        "definition": "an object on a wall or desk with a numbered face and moving hands that show the time",
+        "options": [
+          "watch",
+          "clock",
+          "pillow",
+          "timepiece",
+          "cannot tell",
+          "alarm"
+        ]
+      },
+      {
+        "target": "kite",
+        "definition": "a light frame covered with paper or plastic that children fly high on a long cord",
+        "options": [
+          "plaything",
+          "sky",
+          "doll",
+          "cannot tell",
+          "kite",
+          "onion"
+        ]
+      },
+      {
+        "target": "elevator",
+        "definition": "a moving compartment that carries people up and down between the floors of a building",
+        "options": [
+          "stairs",
+          "cannot tell",
+          "machine",
+          "elevator",
+          "blanket",
+          "escalator"
+        ]
+      }
+    ],
+    "seconds": 168.0,
+    "complete": true,
+    "git_commit": "ed85e518f26ccef97c9e97990ed70868246058b1",
+    "clean_tree": true,
+    "analysis_plan_sha256": "799b41e1f59c47e53b74893adb4503ac2c2ad3533a1dfdba12fc441dbe14fa2f",
+    "torch": "2.8.0+cu128",
+    "transformers": "4.57.6",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "python": "3.12.14",
+    "host": "autodl-container-993f498a74-7ab09a85",
+    "timestamp": "2026-10-07 21:44:57"
+  }
+}

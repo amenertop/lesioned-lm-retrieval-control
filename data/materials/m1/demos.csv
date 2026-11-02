@@ -1,0 +1,25 @@
+task,position,probe,option_a,option_b,correct_label,target,distractor,word1,word2,synonym_type,demand,note
+colour,1,mustard,daffodil,mayonnaise,A,daffodil,mayonnaise,,,,high,yellow; distractor is a condiment partner (white)
+colour,2,blueberry,muffin,sapphire,B,sapphire,muffin,,,,high,blue; distractor is a blueberry food (brown)
+colour,3,cinnamon,snowflake,nutmeg,B,nutmeg,snowflake,,,,low,brown spices
+colour,4,courgette,gherkin,tangerine,A,gherkin,tangerine,,,,low,green vegetables
+colour,5,primrose,raven,buttercup,B,buttercup,raven,,,,low,yellow flowers
+colour,6,yolk,sweetcorn,eggshell,A,sweetcorn,eggshell,,,,high,yellow; distractor is the rest of the egg (white/brown)
+size,1,acorn,thimble,oak,A,thimble,oak,,,,high,small; distractor is the tree it grows into
+size,2,barnacle,ship,button,B,button,ship,,,,high,small; distractor is what it clings to
+size,3,pea,wardrobe,lentil,B,lentil,wardrobe,,,,low,tiny legumes
+size,4,goat,sheep,marble,A,sheep,marble,,,,low,similar-sized farm animals
+size,5,bus,raisin,lorry,B,lorry,raisin,,,,low,large vehicles
+size,6,caterpillar,paperclip,cabbage,A,paperclip,cabbage,,,,high,small; distractor is what it eats
+synonym,1,,similar,different,A,,,shout,yell,similar,,
+synonym,2,,similar,different,B,,,carpet,thunder,different,,
+synonym,3,,similar,different,B,,,gentle,hollow,different,,
+synonym,4,,similar,different,A,,,silent,quiet,similar,,
+synonym,5,,similar,different,B,,,whisper,gallop,different,,
+synonym,6,,similar,different,A,,,purchase,buy,similar,,
+string,1,cgjkl,cgjtl,obxdh,A,cgjtl,obxdh,,,,,M1 spelling rule 1
+string,2,xbvuy,xqtcy,xbauy,B,xbauy,xqtcy,,,,,M1 spelling rule 2
+string,3,qgewr,qgiaz,qjfwr,B,qjfwr,qgiaz,,,,,M1 spelling rule 3
+string,4,hizxo,hlzyo,hrzfx,A,hlzyo,hrzfx,,,,,M1 spelling rule 4
+string,5,mvnplu,mvjpnx,mvnglc,B,mvnglc,mvjpnx,,,,,M1 spelling rule 5
+string,6,sfkyi,sftai,swpzi,A,sftai,swpzi,,,,,M1 spelling rule 3

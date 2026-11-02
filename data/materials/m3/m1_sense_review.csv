@@ -1,0 +1,11 @@
+m1_word,m1_item,m3_target,synset,decision,reason
+speaker,138,loudspeaker,loudspeaker.n.01,exclude,"M1 size item with microphone and gun; the audio speaker is the likely sense and the same as the M3 concept (agent2 2026-10-07)"
+torch,117,flashlight,flashlight.n.01,exclude,"M1 size item with mower and wheelchair, British word list, where a torch is a flashlight (agent2 2026-10-07)"
+hog,417,pig,hog.n.03,exclude,"M1 synonym item hog vs moped, keyed different; the original materials record no sense and the context does not rule out the animal (agent2 2026-10-07; an earlier note read it as motorcycle slang, which was only an inference)"
+bell,19,chime,chime.n.01,exclude,"M1 colour item tomato, ketchup, bell; no sense recorded, and the context does not rule out the instrument (the low word2vec similarity of bell to tomato rather suggests it)"
+bell,19,doorbell,doorbell.n.01,exclude,"same M1 item as above; the context does not rule out a bell that rings"
+lighter,145,barge,barge.n.01,exclude,"M1 size item with key and lock; no sense recorded, and a size item does not rule out the boat"
+record,34,disc,phonograph_record.n.01,exclude,"M1 colour item with grass and emerald; the vinyl record is the likely sense and the same as the M3 concept"
+jeans,75,dungarees,denim.n.02,exclude,"M1 colour item with sunglasses and coke; blue jeans, the same trousers sense as the M3 concept"
+lead,33,leash,leash.n.01,allow,"M1 colour items heart and blood, and lead, pencil and graphite; the pencil and graphite context rules out a dog lead (inferred from the items, no sense recorded)"
+closet,353,loo,water_closet.n.01,exclude,"M1 synonym item closet vs areola; no context that rules out a water closet"

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+# Preserve the exact patient-data bytes used by the frozen clinical selection.
+data/literature/jefferies2006_individual.csv -text
+# Keep the reviewed input-manifest bytes reproducible across checkouts.
+/.aris/traces/experiment-audit/2026-10-20-relative-final-actual/input-hashes.json -text
+# Preserve the exact inputs and reply of the single-citation source check.
+/.aris/traces/citation-audit/2026-10-20-woollams-2017/* -text

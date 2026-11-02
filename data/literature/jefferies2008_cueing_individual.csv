@@ -1,0 +1,43 @@
+patient,group,condition,proportion_correct,count_correct,n_items,source,how,raw_value,rounding_distance,note
+SJ,SD,none,0.7000,21,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6992,-0.0008,no cue
+SJ,SD,two,0.8667,26,30,Fig. 2,"pixel measurement, rounded to 1/30",0.8690,+0.0023,first two phonemes given
+SJ,SD,final,0.9667,29,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9673,+0.0006,whole word minus its last phoneme given
+JC,SD,none,0.5667,17,30,Fig. 2,"pixel measurement, rounded to 1/30",0.5671,+0.0005,no cue
+JC,SD,two,0.6667,20,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6692,+0.0025,first two phonemes given
+JC,SD,final,0.7333,22,30,Fig. 2,"pixel measurement, rounded to 1/30",0.7332,-0.0002,whole word minus its last phoneme given
+EK,SD,none,0.4667,14,30,Fig. 2,"pixel measurement, rounded to 1/30",0.4691,+0.0025,no cue
+EK,SD,two,0.7000,21,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6992,-0.0008,first two phonemes given
+EK,SD,final,0.7667,23,30,Fig. 2,"pixel measurement, rounded to 1/30",0.7672,+0.0005,whole word minus its last phoneme given
+KH1,SD,none,0.4333,13,30,Fig. 2,"pixel measurement, rounded to 1/30",0.4351,+0.0018,no cue
+KH1,SD,two,0.6000,18,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6012,+0.0012,first two phonemes given
+KH1,SD,final,0.6667,20,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6692,+0.0025,whole word minus its last phoneme given
+AT,SD,none,0.1333,4,30,Fig. 2,"pixel measurement, rounded to 1/30",0.1335,+0.0002,no cue
+AT,SD,two,0.1667,5,30,Fig. 2,"pixel measurement, rounded to 1/30",0.1669,+0.0003,first two phonemes given
+AT,SD,final,0.2000,6,30,Fig. 2,"pixel measurement, rounded to 1/30",0.2010,+0.0010,whole word minus its last phoneme given
+GT,SD,none,0.2000,6,30,Fig. 2,"pixel measurement, rounded to 1/30",0.2010,+0.0010,no cue
+GT,SD,two,0.2333,7,30,Fig. 2,"pixel measurement, rounded to 1/30",0.2350,+0.0017,first two phonemes given
+GT,SD,final,0.5000,15,30,Fig. 2,"pixel measurement, rounded to 1/30",0.4991,-0.0009,whole word minus its last phoneme given
+GE,SD,none,0.1333,4,30,Fig. 2,"pixel measurement, rounded to 1/30",0.1335,+0.0002,no cue
+GE,SD,two,0.2667,8,30,Fig. 2,"pixel measurement, rounded to 1/30",0.2690,+0.0024,first two phonemes given
+GE,SD,final,0.5333,16,30,Fig. 2,"pixel measurement, rounded to 1/30",0.5331,-0.0002,whole word minus its last phoneme given
+PD,SD,none,0.0667,2,30,Fig. 2,"pixel measurement, rounded to 1/30",0.0689,+0.0023,no cue
+PD,SD,two,0.1333,4,30,Fig. 2,"pixel measurement, rounded to 1/30",0.1335,+0.0002,first two phonemes given
+PD,SD,final,0.2667,8,30,Fig. 2,"pixel measurement, rounded to 1/30",0.2690,+0.0024,whole word minus its last phoneme given
+SC,SA,none,0.6333,19,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6352,+0.0018,no cue
+SC,SA,two,0.8667,26,30,Fig. 2,"pixel measurement, rounded to 1/30",0.8690,+0.0023,first two phonemes given
+SC,SA,final,0.9333,28,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9333,-0.0001,whole word minus its last phoneme given
+KH2,SA,none,0.8000,24,30,Fig. 2,"pixel measurement, rounded to 1/30",0.8009,+0.0009,no cue
+KH2,SA,two,0.9333,28,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9333,-0.0001,first two phonemes given
+KH2,SA,final,0.9667,29,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9673,+0.0006,whole word minus its last phoneme given
+JM,SA,none,0.6667,20,30,Fig. 2,"pixel measurement, rounded to 1/30",0.6692,+0.0025,no cue
+JM,SA,two,0.8000,24,30,Fig. 2,"pixel measurement, rounded to 1/30",0.8009,+0.0009,first two phonemes given
+JM,SA,final,0.8667,26,30,Fig. 2,"pixel measurement, rounded to 1/30",0.8690,+0.0023,whole word minus its last phoneme given
+BB,SA,none,0.3333,10,30,Fig. 2,"pixel measurement, rounded to 1/30",0.3333,-0.0000,no cue
+BB,SA,two,0.7667,23,30,Fig. 2,"pixel measurement, rounded to 1/30",0.7672,+0.0005,first two phonemes given
+BB,SA,final,0.9667,29,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9673,+0.0006,whole word minus its last phoneme given
+ME,SA,none,0.1667,5,30,Fig. 2,"pixel measurement, rounded to 1/30",0.1669,+0.0003,no cue
+ME,SA,two,0.5000,15,30,Fig. 2,"pixel measurement, rounded to 1/30",0.4991,-0.0009,first two phonemes given
+ME,SA,final,0.9667,29,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9673,+0.0006,whole word minus its last phoneme given
+LS,SA,none,0.1333,4,30,Fig. 2,"pixel measurement, rounded to 1/30",0.1335,+0.0002,no cue
+LS,SA,two,0.7333,22,30,Fig. 2,"pixel measurement, rounded to 1/30",0.7332,-0.0002,first two phonemes given
+LS,SA,final,0.9667,29,30,Fig. 2,"pixel measurement, rounded to 1/30",0.9673,+0.0006,whole word minus its last phoneme given

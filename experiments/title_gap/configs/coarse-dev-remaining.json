@@ -1,0 +1,739 @@
+{
+  "model": "qwen3-30b-a3b-instruct",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "tiny": false,
+  "purpose": "remaining fixed first-stage cells; shared pilot cells not rerun",
+  "states": [
+    {
+      "name": "intact",
+      "kind": "intact",
+      "gates": {}
+    },
+    {
+      "name": "weight_attention_L4_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L4_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L4_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L4_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L12_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L12_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L12_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L12_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L12_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L12_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L12_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "attention",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L12_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 12,
+        "family": "ffn",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L20_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L20_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L20_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L20_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L28_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L28_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L28_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L28_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L28_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L28_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L28_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "attention",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L28_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "ffn",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L36_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L36_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L36_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L36_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L44_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L44_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L44_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L44_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L44_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L44_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_attention_L44_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "attention",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s0.25_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s0.75_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s0.75_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 0.75,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_ffn_L44_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "ffn",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    }
+  ]
+}

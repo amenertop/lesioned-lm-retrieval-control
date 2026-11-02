@@ -1,0 +1,14 @@
+{
+  "doi": "10.1093/brain/awl153",
+  "source_pdf_sha256": "1cf73e9a4ef9e6092f7bb64d8bc1074a6f45defdaf783e8754ceeaf44bca9067",
+  "tables": {
+    "4": "p. 2138, PDF page 7",
+    "5": "p. 2141, PDF page 10"
+  },
+  "transcription": "literal entries visually checked against the published PDF tables",
+  "chance_source": "Methods pp. 2136-2137: PPT 2 alternatives, CCT 4, 64-item word-picture 1 target plus 9 foils, environmental sounds 1 target plus 10 foils",
+  "missing_chance": "not assigned for synonym judgement, fluency, free naming or error proportions",
+  "normalization": "three printed 100 entries in Table 5 coordinate errors become 1.00, original print retained",
+  "cross_table": "Table 5 correct proportions are retained as printed even where not equal to Table 4 naming/64",
+  "csv_sha256": "ef220da715f35a60057baccbc0b4a742d5e348097328b0b1b238683f59f400c5"
+}

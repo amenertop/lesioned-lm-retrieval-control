@@ -1,0 +1,3 @@
+# How the items were made and reviewed
+
+He Wang designed the new item sets in this folder and the rules for building them. M1 reuses the published items of Wu and Hoffman (2022), rebuilt by `scripts/fetch_sources.py` in the public release. Under those rules, a language model drafted the wording of the definitions from WordNet glosses, and the options were taken from WordNet, the association norms and the frequency lists as the rules specify (see `src/lesion/m3_items.py` and the manifests). Jingbo Chen reviewed all of these item sets in late October 2026. The review was recorded here on 2026-11-02, and the `review` block of each manifest in `title_gap/` was updated the same day.

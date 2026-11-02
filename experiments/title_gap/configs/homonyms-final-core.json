@@ -1,0 +1,218 @@
+{
+ "model": "qwen3-30b-a3b-instruct",
+ "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+ "role": "final_state_plan_before_test_scores",
+ "tiny": false,
+ "seed": 1910,
+ "selection_sha256": "fa38a29bb48f3df4fdfac6ec690f473973cf321d986e9136ceaeb4f26853b3ee",
+ "means_sha256": "98b3865a71b0c8e85c530cb78d5438f9223a828fdf77c907315785b1f1de0d52",
+ "states": [
+  {
+   "name": "intact",
+   "kind": "intact",
+   "gates": {}
+  },
+  {
+   "name": "WR8_all_a0",
+   "kind": "reference",
+   "group": "WR8",
+   "region": "all",
+   "alpha": 0.0,
+   "gates": {
+    "expert:46:61": 0.0,
+    "expert:46:101": 0.0,
+    "head:37:24": 0.0,
+    "expert:45:32": 0.0,
+    "expert:45:48": 0.0,
+    "expert:43:70": 0.0,
+    "expert:42:115": 0.0,
+    "expert:45:93": 0.0
+   }
+  },
+  {
+   "name": "WR8_all_a0.5",
+   "kind": "reference",
+   "group": "WR8",
+   "region": "all",
+   "alpha": 0.5,
+   "gates": {
+    "expert:46:61": 0.5,
+    "expert:46:101": 0.5,
+    "head:37:24": 0.5,
+    "expert:45:32": 0.5,
+    "expert:45:48": 0.5,
+    "expert:43:70": 0.5,
+    "expert:42:115": 0.5,
+    "expert:45:93": 0.5
+   }
+  },
+  {
+   "name": "SC4_all_a0",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "all",
+   "alpha": 0.0,
+   "gates": {
+    "head:9:15": 0.0,
+    "head:27:9": 0.0,
+    "head:25:24": 0.0,
+    "head:24:5": 0.0
+   }
+  },
+  {
+   "name": "SC4_all_a0.5",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "all",
+   "alpha": 0.5,
+   "gates": {
+    "head:9:15": 0.5,
+    "head:27:9": 0.5,
+    "head:25:24": 0.5,
+    "head:24:5": 0.5
+   }
+  },
+  {
+   "name": "SC4_all_a0.75",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "all",
+   "alpha": 0.75,
+   "gates": {
+    "head:9:15": 0.75,
+    "head:27:9": 0.75,
+    "head:25:24": 0.75,
+    "head:24:5": 0.75
+   }
+  },
+  {
+   "name": "SC4_answer_a0",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "answer",
+   "alpha": 0.0,
+   "gates": {
+    "head:9:15": 0.0,
+    "head:27:9": 0.0,
+    "head:25:24": 0.0,
+    "head:24:5": 0.0
+   }
+  },
+  {
+   "name": "SC4_answer_a0.5",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "answer",
+   "alpha": 0.5,
+   "gates": {
+    "head:9:15": 0.5,
+    "head:27:9": 0.5,
+    "head:25:24": 0.5,
+    "head:24:5": 0.5
+   }
+  },
+  {
+   "name": "SC4_answer_a0.75",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "answer",
+   "alpha": 0.75,
+   "gates": {
+    "head:9:15": 0.75,
+    "head:27:9": 0.75,
+    "head:25:24": 0.75,
+    "head:24:5": 0.75
+   }
+  },
+  {
+   "name": "SC4_prompt_a0",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "prompt",
+   "alpha": 0.0,
+   "gates": {
+    "head:9:15": 0.0,
+    "head:27:9": 0.0,
+    "head:25:24": 0.0,
+    "head:24:5": 0.0
+   }
+  },
+  {
+   "name": "SC4_prompt_a0.5",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "prompt",
+   "alpha": 0.5,
+   "gates": {
+    "head:9:15": 0.5,
+    "head:27:9": 0.5,
+    "head:25:24": 0.5,
+    "head:24:5": 0.5
+   }
+  },
+  {
+   "name": "SC4_prompt_a0.75",
+   "kind": "reference",
+   "group": "SC4",
+   "region": "prompt",
+   "alpha": 0.75,
+   "gates": {
+    "head:9:15": 0.75,
+    "head:27:9": 0.75,
+    "head:25:24": 0.75,
+    "head:24:5": 0.75
+   }
+  },
+  {
+   "name": "WR8_answer_a0",
+   "kind": "reference",
+   "group": "WR8",
+   "region": "answer",
+   "alpha": 0.0,
+   "gates": {
+    "expert:46:61": 0.0,
+    "expert:46:101": 0.0,
+    "head:37:24": 0.0,
+    "expert:45:32": 0.0,
+    "expert:45:48": 0.0,
+    "expert:43:70": 0.0,
+    "expert:42:115": 0.0,
+    "expert:45:93": 0.0
+   }
+  },
+  {
+   "name": "PC8_all_a0",
+   "kind": "production_candidate",
+   "region": "all",
+   "gates": {
+    "head:47:21": 0.0,
+    "expert:47:2": 0.0,
+    "expert:47:101": 0.0,
+    "expert:47:125": 0.0,
+    "expert:41:62": 0.0,
+    "head:43:29": 0.0,
+    "head:47:28": 0.0,
+    "head:41:21": 0.0
+   },
+   "members": 8,
+   "alpha": 0.0
+  },
+  {
+   "name": "PC8_answer_a0",
+   "kind": "production_candidate",
+   "region": "answer",
+   "gates": {
+    "head:47:21": 0.0,
+    "expert:47:2": 0.0,
+    "expert:47:101": 0.0,
+    "expert:47:125": 0.0,
+    "expert:41:62": 0.0,
+    "head:43:29": 0.0,
+    "head:47:28": 0.0,
+    "head:41:21": 0.0
+   },
+   "members": 8,
+   "alpha": 0.0
+  }
+ ]
+}

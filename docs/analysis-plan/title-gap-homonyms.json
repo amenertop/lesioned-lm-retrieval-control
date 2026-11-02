@@ -1,0 +1,57 @@
+{
+  "status": "frozen",
+  "scope": "homonym held-out battery only",
+  "model": "qwen3-30b-a3b-instruct",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "dtype": "float16",
+  "moe": "sorted",
+  "batches": [
+    16,
+    11,
+    7
+  ],
+  "items_sha256": "27c8c98d98e0529ab17f8d82e14a0cf767b5e4e70b6ac0c65fd5382ad4560869",
+  "means_sha256": "98b3865a71b0c8e85c530cb78d5438f9223a828fdf77c907315785b1f1de0d52",
+  "states_sha256": {
+    "experiments/title_gap/configs/homonyms-final-core.json": "04341a5bf3abb939cda04478b06e11011d625321c3c3f24ebe0b78f3e2f870d6",
+    "experiments/title_gap/configs/homonyms-final-pc-random.json": "ebe8f6f6e548a56b87a1b3fcc187977ba330c83295118ad2e603a500b72a1d9f"
+  },
+  "sources_sha256": {
+    "docs/analysis-plan/title-gap.md": "242a49d5901509eff4b5a85f71eee542a6f4c4da896a924951c6ee078ebed74d",
+    "docs/analysis-plan/title-gap-homonyms.md": "5febbd56f828a94433c38b2523d97b62c5ab98277d449d7d5b99a15af5987696",
+    "docs/analysis-plan/selections/title-gap-production.json": "fa38a29bb48f3df4fdfac6ec690f473973cf321d986e9136ceaeb4f26853b3ee",
+    "docs/plans/title-gap-production-search.md": "16729eddbb449366b61e1000534773bac5cc543f174fab64feb5ecd0fa038d3e",
+    "data/materials/title_gap/homonyms/manifest.json": "141b1052cdf2c3686837a3ada6fe1233bf5e7b49255a3954a144d1361e50a993",
+    "data/materials/title_gap/homonyms/contexts.tsv": "efb26f23b4a147b65eb7fafd9b141e569b9638fdbf6ee0de82717c3aa081b3b4",
+    "experiments/title_gap/run_battery.py": "613b57c38b97535bbe281f2b3cacfa15756abf9d4bf62ce1b0369b37b7782d0a",
+    "experiments/title_gap/analyze_battery.py": "b6ca46dc825363f0d6a37137f51754daddd4f2b05c3ab069616ad7e4d585f634",
+    "src/lesion/title_gap_analysis.py": "93e3beaeb496f828bc7a9a49bbbbffa2db15a08fbf8aa7136804987bb54d4355",
+    "src/lesion/title_gap_scoring.py": "0ded7bf4c347fcede07b3d2200d4ef2e1a35026c163c0b09b2ff1b01237def33",
+    "src/lesion/title_gap_states.py": "c93771289445590cf1b96f48155a614c87366c052dadd13664f0cdd910c650b9",
+    "src/lesion/homonym_items.py": "88322a1ca69e047166357722343393286caa7f2ac825bfd1fa9f5b5089cb3a49",
+    "src/lesion/m3_scoring.py": "514eb5a0bfeccaebba6319b1599034063526a1583ae7478f58bd1ace43a241b0",
+    "src/lesion/m3_battery.py": "2d72c3384642fde22fbb1a46942484bf408e067cc481ca5195b27d9551673623",
+    "src/lesion/regional_generation.py": "4890e1cca706b7f6cacac79f935d0e6c3fa1772de2c2898b059ce3afc66ebe16",
+    "src/lesion/hooks.py": "492efc5d194eb6d26d484b994cc72b7adc2ee244a0e5b7122a45f524cbfd0187",
+    "src/lesion/scoring.py": "de3fc80f2e3eeefb36f2309a12a348665880519dddd874434336cacc24568b3b",
+    "src/lesion/fast_moe.py": "6a6562d1fef034d79b1ab7c103c52f04f75c3e9a82f1d9cde1c0c0ce8b36f6b9",
+    "src/lesion/baselines.py": "be6b3aeb0029953c666bbf3564dea81743218b591a0d7b7fe6e3a82737e8bf69",
+    "src/lesion/runinfo.py": "b0e3c405f30cf48ccc58f21b205032c89c16c607187df0ab673976684ff11488",
+    "docs/analysis-plan/selections/title-gap-pc-random-check.json": "4f95f19c37a15f342679561b1ed8b634b2ff35e38c69d593a5fa6e4686e0b9d4"
+  },
+  "n_families": 40,
+  "n_random": 200,
+  "n_boot": 10000,
+  "seed": 1910,
+  "comparisons": [
+    "PC8_all_a0:WR8_all_a0",
+    "PC8_all_a0:intact",
+    "SC4_all_a0:WR8_all_a0",
+    "SC4_answer_a0:WR8_all_a0",
+    "SC4_answer_a0:SC4_all_a0",
+    "SC4_prompt_a0:SC4_all_a0",
+    "PC8_all_a0:PC8_answer_a0"
+  ],
+  "note": "Effective only at an analysis-frozen tag after review. Core and random reference repeats are one observation each.",
+  "lexicon_sha256": "24122b9fb073dbcc7c23459b69d59e35a35d2fe2a904ec5f524463a6780b8017"
+}

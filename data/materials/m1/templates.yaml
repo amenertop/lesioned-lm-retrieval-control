@@ -1,0 +1,61 @@
+# Prompt templates for Experiment 0. Draft v0.1, see docs/plans/pilot-protocol.md §4.
+#
+# main is the G1 template; alt1 and alt2 are used only in the "insufficient evidence" branch (§6).
+# The alternatives are neutral paraphrases. They must not tell the model to ignore associations or
+# attend to one dimension only: that is Experiment 4's task-prompt intervention.
+#
+# Prompt assembly (label scoring):
+#   {instruction}\n\n{demo block + demo_answer} x 6, separated by \n\n\n\n{test block}
+# base: the prompt is scored as is, at the position after the final "Answer:".
+# instruct: the same text, with reply_rule appended to the instruction, goes into one user message;
+#   scoring is on the first assistant token.
+# Each test item runs twice, with options in both orders. Demos stay fixed (demos.csv order),
+# except for synonym, where A/B name the response options themselves (see synonym_options).
+
+instructions:
+  colour:
+    main: "Choose the word that is closer to the first word in colour."
+    alt1: "Pick the option whose typical colour is most like that of the first word."
+    alt2: "Decide which option is more similar in colour to the given word."
+  size:
+    main: "Choose the word that is closer to the first word in size."
+    alt1: "Pick the option whose typical size is most like that of the first word."
+    alt2: "Decide which option is more similar in size to the given word."
+  synonym:
+    main: "Decide whether the two words have similar meanings."
+    alt1: "Judge whether the two words mean roughly the same thing."
+    alt2: "Say whether the two words are close in meaning."
+  string:
+    main: "Choose the string that is closer to the first string in spelling."
+    alt1: "Pick the option whose letters are most like those of the first string."
+    alt2: "Decide which option is spelled more like the given string."
+
+blocks:
+  colour: "Word: {probe}\nA: {a}\nB: {b}\nAnswer:"
+  size: "Word: {probe}\nA: {a}\nB: {b}\nAnswer:"
+  string: "String: {probe}\nA: {a}\nB: {b}\nAnswer:"
+  synonym: "Words: {word1}, {word2}\nA: {a}\nB: {b}\nAnswer:"
+
+# Synonym options are labelled like the other tasks so that both orders can be run.
+# In the swapped order the demos swap too, so the demo answer letters flip (A,B,B,A,B,A -> B,A,A,B,A,B).
+synonym_options:
+  similar: "similar in meaning"
+  different: "different in meaning"
+
+demo_answer: " {label}"
+
+base:
+  score_tokens: [" A", " B"]   # ticket 04 checks each is a single token
+
+instruct:
+  reply_rule: " Reply with a single letter: A or B."
+  score_tokens: ["A", "B"]
+
+# Secondary scoring, colour and size only (§4.2). Same six demos, answered with the target word;
+# the test item is scored by the summed log-probability of " {option}" for each option.
+cloze:
+  instructions:
+    colour: "For each word, give the thing that is closest to it in colour."
+    size: "For each word, give the thing that is closest to it in size."
+  block: "Word: {probe}\nClosest in {dimension}:"
+  demo_answer: " {target}"

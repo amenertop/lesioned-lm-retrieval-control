@@ -1,0 +1,116 @@
+{
+  "model": "qwen3-30b-a3b-instruct",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "purpose": "Development fine and clinical comparison selected from old-item submatrix scores. No final-item selection.",
+  "selection_plan": "docs/plans/title-gap-coarse-followup.md",
+  "sources": {
+    "experiments\\title_gap\\configs\\submatrix-dev.json": "55a96cbe00c98f8ed939251b91dace5aec7fd7beee626cdda857e2e3dbbc131f",
+    "reports\\explore\\2026-10-19-title-gap-execution\\submatrix-dev.json": "8b2838823cdc6bdcaad07083bd925d9ca8350c375503a11a043695a2cde1930c"
+  },
+  "states": [
+    {
+      "name": "intact",
+      "kind": "intact",
+      "gates": {}
+    },
+    {
+      "name": "weight_q_L4_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "q",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_q_L4_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "q",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_q_L4_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "q",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_v_L4_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "v",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_gate_L28_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "gate",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_up_L28_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "up",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_up_L28_s0.5_seed1911",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "up",
+        "severity": 0.5,
+        "seed": 1911
+      }
+    },
+    {
+      "name": "weight_gate_L44_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 44,
+        "family": "gate",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_q_L28_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 28,
+        "family": "q",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    }
+  ]
+}

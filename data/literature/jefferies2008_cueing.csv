@@ -1,0 +1,29 @@
+marker,measure,group,value,spread,unit,n,source,how,note
+lesion,lesion site,SD,bilateral anterior and inferior temporal atrophy,,,8,Participants,text,MRI in every case
+lesion,lesion site,SA,left temporoparietal and/or prefrontal,,,6,Table 1; Participants,text,6 of the 10 SA patients of Jefferies & Lambon Ralph 2006; the paper calls the group SA (CVA in the figure)
+naming,uncued naming,SD,0.338,,proportion correct,8,Fig. 2,figure estimate,"30 Snodgrass pictures (10 each of 1, 2, 3 syllables); mean of the 8 patients' bars, each a multiple of 1/30"
+naming,uncued naming,SA,0.456,,proportion correct,6,Fig. 2,figure estimate,"SD and SA did not differ (t < 1, Results)"
+phonemic cueing,naming with a two-phoneme cue,SD,0.454,,proportion correct,8,Fig. 2,figure estimate,
+phonemic cueing,naming with a two-phoneme cue,SA,0.767,,proportion correct,6,Fig. 2,figure estimate,
+phonemic cueing,naming at the final cue,SD,0.579,,proportion correct,8,Fig. 2,figure estimate,final cue: the whole word minus its last phoneme
+phonemic cueing,naming at the final cue,SA,0.944,,proportion correct,6,Fig. 2,figure estimate,
+phonemic cueing,benefit of a two-phoneme cue,SD,0.116,,"proportion correct, cued minus uncued",8,Fig. 2,figure estimate (difference),
+phonemic cueing,benefit of a two-phoneme cue,SA,0.311,,"proportion correct, cued minus uncued",6,Fig. 2,figure estimate (difference),
+phonemic cueing,benefit of the final cue,SD,0.241,,"proportion correct, cued minus uncued",8,Fig. 2,figure estimate (difference),
+phonemic cueing,benefit of the final cue,SA,0.488,,"proportion correct, cued minus uncued",6,Fig. 2,figure estimate (difference),
+phonemic cueing,two-phoneme cue vs no cue,SD,"t(7) = 4.5, p = .003",,,8,"Results, Effect of phonological cueing",text,
+phonemic cueing,two-phoneme cue vs no cue,SA,"t(5) = 4.2, p = .009",,,6,"Results, Effect of phonological cueing",text,
+phonemic cueing,"SA benefit larger than SD, two-phoneme cue",SA vs SD,"F(1,12) = 8.0, p = .02",,,14,"Results, Effect of phonological cueing",text,
+phonemic cueing,"SA benefit larger than SD, final cue",SA vs SD,"F(1,12) = 5.0, p = .05",,,14,"Results, Effect of phonological cueing",text,
+phonemic cueing,share of target phonemes given when cueing succeeded,SD,54,,% of phonemes,8,"Results, Effect of phonological cueing",text,"SD vs SA: t(12) = 2.7, p = .02"
+phonemic cueing,share of target phonemes given when cueing succeeded,SA,40,,% of phonemes,6,"Results, Effect of phonological cueing",text,
+familiarity,item frequency vs proportion of patients naming the item,SD,"r = .39, one-tailed p = .02",,,8,"Results, Spontaneous naming accuracy",text,"CELEX frequency, across the 30 items"
+familiarity,item frequency vs proportion of patients naming the item,SA,"r = .27, one-tailed p = .08",,,6,"Results, Spontaneous naming accuracy",text,
+familiarity,item frequency vs share of phonology needed to cue,SD,"r = -.38, two-tailed p = .05",,,8,"Results, Effect of phonological cueing",text,higher-frequency items cued with less of the word
+familiarity,item frequency vs share of phonology needed to cue,SA,r = -.15,,,6,"Results, Effect of phonological cueing",text,not significant
+phonemic cueing,final cue vs two-phoneme cue,SD,"t(7) = 3.8, p = .006",,,8,"Results, Effect of phonological cueing",text,
+phonemic cueing,final cue vs two-phoneme cue,SA,"t(5) = 2.7, p = .04",,,6,"Results, Effect of phonological cueing",text,
+phonemic cueing,"individual patients, final cue vs no cue (McNemar)",SA,every patient p = .03 to < .0001,,,6,"Results, Effect of phonological cueing",text,
+phonemic cueing,"individual patients, final cue vs no cue (McNemar)",SD,all but one patient p = .03 to .0002,,,8,"Results, Effect of phonological cueing",text,
+naming,composite semantic score vs uncued naming,SD,"r = .89, one-tailed p = .002",,,8,"Results, Spontaneous naming accuracy",text,
+naming,composite semantic score vs uncued naming,SA,"r = .80, one-tailed p = .03",,,6,"Results, Spontaneous naming accuracy",text,

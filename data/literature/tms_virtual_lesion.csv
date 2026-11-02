@@ -1,0 +1,42 @@
+marker,measure,group,value,spread,unit,n,source,how,note
+lesion,stimulation site,rTMS left ATL,"10 mm posterior to the left temporal pole tip, middle temporal gyrus",,,11,"Pobric 2007, Materials and Methods",text,"1 Hz for 10 min at 120% motor threshold, offline; healthy right-handed adults; RT is the measure"
+naming,"basic-level picture naming RT, no TMS",rTMS left ATL,737,,ms,11,"Pobric 2007, Fig. 1A",figure estimate,"12 tested, 1 excluded; read to about 5 ms"
+naming,"basic-level picture naming RT, after TMS",rTMS left ATL,771,,ms,11,"Pobric 2007, Fig. 1A",figure estimate,"TMS effect not significant, t(10) < 1.5"
+naming,"specific-level picture naming RT, no TMS",rTMS left ATL,1011,,ms,11,"Pobric 2007, Fig. 1A",figure estimate,
+naming,"specific-level picture naming RT, after TMS",rTMS left ATL,1121,,ms,11,"Pobric 2007, Fig. 1A",figure estimate,"TMS slowed it: t(10) = 3.87, P < 0.02 (Bonferroni)"
+nonsemantic task,"number naming RT, no TMS",rTMS left ATL,682,,ms,11,"Pobric 2007, Fig. 1A",figure estimate,six-digit numbers
+nonsemantic task,"number naming RT, after TMS",rTMS left ATL,683,,ms,11,"Pobric 2007, Fig. 1A",figure estimate,"not significant, t(10) < 1.5"
+specificity,"TMS x naming task (basic, specific, number)",rTMS left ATL,"F(2,10) = 4.79, P = 0.03",,,11,"Pobric 2007, Results",text,degrees of freedom as printed
+naming,naming errors,rTMS left ATL,"13% specific, 2% basic, 4% number",,% errors,11,"Pobric 2007, Results",text,no TMS effect on accuracy reported; the effect was in speed
+comprehension,"synonym judgement RT, no TMS",rTMS left ATL,1697,,ms,10,"Pobric 2007, Fig. 1B",figure estimate,"144 trials, probe plus target and two unrelated words"
+comprehension,"synonym judgement RT, after TMS",rTMS left ATL,1866,,ms,10,"Pobric 2007, Fig. 1B",figure estimate,"slowed by 9.9% on average: t(9) = 7.58, P < 0.001 (Results); the bars give 10.0%"
+nonsemantic task,"number judgement RT, no TMS",rTMS left ATL,1805,,ms,10,"Pobric 2007, Fig. 1B",figure estimate,
+nonsemantic task,"number judgement RT, after TMS",rTMS left ATL,1754,,ms,10,"Pobric 2007, Fig. 1B",figure estimate,"unaffected: t(9) = -1.08, P = 0.31"
+comprehension,TMS x task (synonym vs number judgement),rTMS left ATL,"F(1,9) = 19.1, P = 0.002",,,10,"Pobric 2007, Results",text,
+comprehension,judgement errors,rTMS left ATL,"3.9% synonyms, 8.0% numbers",,% errors,10,"Pobric 2007, Results",text,no effect of TMS and no interaction (both F < 1)
+lesion,stimulation sites,rTMS left IFG; rTMS left pMTG; rTMS vertex,"IFG pars triangularis (MNI -54, 21, 12); pMTG (MNI -56, -50, 3); vertex as control site",,,16,"Whitney 2011, Localization of Stimulation Sites",text,"1 Hz for 10 min at up to 120% motor threshold, offline; each site on a different day"
+control demand,"cue-target association strength, strong vs weak trials",stimuli,0.240 vs 0.035,,proportion giving the target in free association,16,"Whitney 2011, Stimuli",text,"pick the related word of three; strong: salt-pepper, weak: salt-grain; words matched for frequency and length"
+control demand,"weak-association semantic judgement, RT TMS effect",rTMS left IFG,193,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"t(15) = 4.24, p = .001; low-resolution figure, read to about 10 ms"
+control demand,"strong-association semantic judgement, RT TMS effect",rTMS left IFG,0,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+nonsemantic task,"local Navon letter matching (high control), RT TMS effect",rTMS left IFG,33,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+nonsemantic task,"global Navon letter matching (low control), RT TMS effect",rTMS left IFG,-5,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+control demand,"weak-association semantic judgement, RT TMS effect",rTMS left pMTG,208,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"t(15) = 2.51, p = .024; low-resolution figure, read to about 10 ms"
+control demand,"strong-association semantic judgement, RT TMS effect",rTMS left pMTG,-10,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+nonsemantic task,"local Navon letter matching (high control), RT TMS effect",rTMS left pMTG,64,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+nonsemantic task,"global Navon letter matching (low control), RT TMS effect",rTMS left pMTG,-15,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+control demand,"weak-association semantic judgement, RT TMS effect",rTMS vertex,-48,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+control demand,"strong-association semantic judgement, RT TMS effect",rTMS vertex,-87,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"t(15) = 2.21, p = .043 (faster); low-resolution figure, read to about 10 ms"
+nonsemantic task,"local Navon letter matching (high control), RT TMS effect",rTMS vertex,-8,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+nonsemantic task,"global Navon letter matching (low control), RT TMS effect",rTMS vertex,-15,,"ms, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"not significant; low-resolution figure, read to about 10 ms"
+control demand,TMS effect larger for weak than strong associations,rTMS left IFG,"t(15) = 3.35, p = .004",,,16,"Whitney 2011, Results",text,
+control demand,TMS effect larger for weak than strong associations,rTMS left pMTG,"t(15) = 2.41, p = .029",,,16,"Whitney 2011, Results",text,
+control demand,weak-association TMS effect larger than at the vertex,rTMS left IFG,"t(15) = 3.75, p = .002",,,16,"Whitney 2011, Results",text,
+control demand,weak-association TMS effect larger than at the vertex,rTMS left pMTG,"t(15) = 3.14, p = .007",,,16,"Whitney 2011, Results",text,
+control demand,TMS x domain x control,rTMS left IFG,"F(1,15) = 10.89, p = .005",,,16,"Whitney 2011, Table 2",table,semantic control specifically
+control demand,TMS x domain x control,rTMS left pMTG,"F(1,15) = 2.23, p = .16",,,16,"Whitney 2011, Table 2",table,"TMS x control F(1,15) = 8.64, p = .010: local Navon also slowed, but significant only in the semantic task"
+control demand,"weak-association errors, TMS effect",rTMS left IFG,5.4,,"% errors, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"t(15) = 2.59, p = .022"
+control demand,"weak-association errors, TMS effect",rTMS left pMTG,3.8,,"% errors, TMS minus baseline",16,"Whitney 2011, Fig. 5",figure estimate,"t(15) = 2.04, p = .059"
+specificity,naming task main effect,rTMS left ATL,"F(2,10) = 34.39, P < 0.001",,,11,"Pobric 2007, Results",text,
+naming,TMS main effect on naming RT,rTMS left ATL,"F(1,10) = 5.10, P < 0.05",,,11,"Pobric 2007, Results",text,
+control demand,error rates: site x TMS,rTMS left IFG; rTMS left pMTG; rTMS vertex,"F(2,30) = 4.77, p = .018",,,16,"Whitney 2011, Results, Error Rate",text,
+control demand,error rates: TMS x task,rTMS left IFG; rTMS left pMTG; rTMS vertex,"F(3,45) = 3.05, p = .048",,,16,"Whitney 2011, Results, Error Rate",text,"site x TMS x task F(6,90) < 1, p = .72"

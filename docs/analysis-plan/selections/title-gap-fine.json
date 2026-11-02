@@ -1,0 +1,48 @@
+{
+  "selected": {
+    "comprehension_learned": {
+      "state": "comprehension_s2_learned_soft",
+      "complete_profile": false,
+      "n_eligible": 3,
+      "n_candidates": 3
+    },
+    "comprehension_learned_hard": {
+      "state": "comprehension_s0_learned_hard_64",
+      "complete_profile": false,
+      "n_eligible": 15,
+      "n_candidates": 15
+    },
+    "hub_learned": {
+      "state": "hub_s2_learned_soft",
+      "complete_profile": false,
+      "n_eligible": 3,
+      "n_candidates": 3
+    },
+    "hub_learned_hard": {
+      "state": "hub_s2_learned_hard_4",
+      "complete_profile": true,
+      "n_eligible": 15,
+      "n_candidates": 15
+    }
+  },
+  "provenance": {
+    "commit": "552ddffb22d6d8e0ac2197bf114585ae43a77319",
+    "model": "qwen3-30b-a3b-instruct",
+    "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+    "tiny": false,
+    "dtype": "float16",
+    "moe": "sorted",
+    "split": "dev",
+    "freeze_tag": null,
+    "items_sha256": "b187bb02f03c63d3ae62c948bbf23a5c48ad75a8c73e55de247a4b13145051c9",
+    "means_sha256": "98b3865a71b0c8e85c530cb78d5438f9223a828fdf77c907315785b1f1de0d52",
+    "manifest_sha256": "f530852da8128f2af78f4ec7664163b45bf8d70f6a7062d59d12947bb759df09",
+    "states_sha256": "09044c0d62a128503d50b5f835ac9ecaad98ce988f22d357750e6f2f6302d2cf",
+    "battery": "fine"
+  },
+  "source_fingerprint": "40ba4cf9efe72136e8d2ee57083fad542e8abb9613017a5899493172cb770d12",
+  "selection_commit": "789adb9a469f1752e8fb2bdf9cea9692d871b132",
+  "analysis_sha256": "27989c27731c7be3f01d21c7efb8390a7c604da7918ceb9da3ccafaab764f9cc",
+  "norms_sha256": "cf4dc3ab8244d50cdb3f74f925da172872770baa7a8b03eb2df16e71408241a8",
+  "rule_sha256": "67c591eeccfd1c69fa9c6aa218eba3d0512f63cb07edcab6e6530ebe24709250"
+}

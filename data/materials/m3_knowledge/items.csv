@@ -1,0 +1,601 @@
+item_id,target,definition,zipf,category,synset,n_noun_senses,n_other_senses,n_gloss_words,zipf_bin,split
+k000,affenpinscher,European breed of small dog resembling a terrier with dark wiry hair and a tufted muzzle,1.301,organism,affenpinscher.n.01,1,0,16,0,test
+k001,aileron,an airfoil that controls lateral motion,1.301,artifact,aileron.n.01,1,0,6,0,dev
+k002,alembic,an obsolete kind of container used for distillation; two retorts connected by a tube,1.301,artifact,alembic.n.01,1,0,14,0,test
+k003,amphora,an ancient jar with two handles and a narrow neck; used to hold oil or wine,1.301,artifact,amphora.n.01,1,0,16,0,screening
+k004,bezel,a sloping edge on a cutting tool,1.301,artifact,bezel.n.01,1,0,7,0,screening
+k005,botfly,stout-bodied hairy dipterous fly whose larvae are parasites on humans and other mammals,1.301,organism,botfly.n.01,1,0,13,0,dev
+k006,catling,a long double-edged knife used for amputations,1.301,artifact,catling.n.01,1,0,7,0,screening
+k007,daybed,an armless couch; a seat by day and a bed by night,1.301,artifact,daybed.n.01,2,0,12,0,test
+k008,decolletage,a low-cut neckline on a woman's dress,1.301,artifact,decolletage.n.01,1,0,7,0,screening
+k009,dracaena,an agave that is often cultivated for its decorative foliage,1.301,organism,dracaena.n.01,1,0,10,0,screening
+k010,hod,an open box attached to a long pole handle; bricks or mortar are carried on the shoulder,1.301,artifact,hod.n.01,1,0,17,0,test
+k011,icepick,pick consisting of a steel rod with a sharp point; used for breaking up blocks of ice,1.301,artifact,icepick.n.01,1,0,17,0,test
+k012,kinescope,a cathode-ray tube in a television receiver; translates the received signal into a picture on a luminescent screen,1.301,artifact,kinescope.n.01,1,0,18,0,test
+k013,mycoplasma,any of a group of small parasitic bacteria that lack cell walls and can survive without oxygen; can cause pneumonia and urinary tract infection,1.301,organism,mycoplasma.n.01,1,0,24,0,dev
+k014,packhorse,a workhorse used as a pack animal,1.301,organism,packhorse.n.01,1,0,7,0,screening
+k015,playsuit,a sports outfit for women or children; usually consists of shorts and a blouse,1.301,artifact,playsuit.n.01,1,0,14,0,test
+k016,plethysmograph,a measuring instrument for measuring changes in volume of a part or organ or whole body (usually resulting from fluctuations in the amount of blood it contains),1.301,artifact,plethysmograph.n.01,1,0,27,0,screening
+k017,privet,any of various Old World shrubs having smooth entire leaves and terminal panicles of small white flowers followed by small black berries; many used for hedges,1.301,organism,privet.n.01,1,0,26,0,test
+k018,sandblaster,a tool that throws out a blast of steam laden with sand; used to clean or grind hard surfaces,1.301,artifact,sandblaster.n.01,1,0,19,0,test
+k019,sateen,a cotton fabric with a satiny finish,1.301,artifact,sateen.n.01,1,0,7,0,screening
+k020,souk,an open-air market in an Arabian city,1.301,artifact,souk.n.01,1,0,7,0,screening
+k021,sprit,a light spar that crosses a fore-and-aft sail diagonally,1.301,artifact,sprit.n.01,1,0,9,0,dev
+k022,voltmeter,meter that measures the potential difference between two points,1.301,artifact,voltmeter.n.01,1,0,9,0,test
+k023,wolfhound,the largest breed of dogs; formerly used to hunt wolves,1.301,organism,wolfhound.n.01,1,0,10,0,test
+k024,actuator,a mechanism that puts something into automatic action,1.6021,artifact,actuator.n.01,1,0,8,0,screening
+k025,barbet,small brightly colored stout-billed tropical bird having short weak wings,1.6021,organism,barbet.n.01,1,0,10,0,screening
+k026,carpel,a simple pistil or one element of a compound pistil,1.6021,natural_object,carpel.n.01,1,0,10,0,screening
+k027,frogfish,fish having a frog-like mouth with a lure on the snout,1.6021,organism,frogfish.n.01,1,0,11,0,dev
+k028,outwork,subsidiary defensive structure lying outside the main fortified area,1.6021,artifact,outwork.n.01,1,0,9,0,test
+k029,pentimento,the reappearance in a painting of an underlying image that had been painted over (usually when the later painting becomes transparent with age),1.6021,artifact,pentimento.n.01,1,0,23,0,screening
+k030,radicchio,prized variety of chicory having globose heads of red leaves,1.6021,food,radicchio.n.01,1,0,10,0,screening
+k031,sailcloth,a strong fabric (such as cotton canvas) used for making sails and tents,1.6021,artifact,sailcloth.n.01,1,0,13,0,dev
+k032,yurt,a circular domed dwelling that is portable and self-supporting; originally used by nomadic Mongol and Turkic people of central Asia but now used as inexpensive alternative or temporary housing,1.6021,artifact,yurt.n.01,1,0,29,0,dev
+k033,acidophilus,a bacterium that is used to make yogurt and to supplement probiotics,1.7782,organism,acidophilus.n.01,1,0,12,0,test
+k034,godown,(in India and Malaysia) a warehouse,1.7782,artifact,godown.n.01,1,0,6,0,test
+k035,ironwork,work made of iron (gratings or rails or railings etc),1.7782,artifact,ironwork.n.01,1,0,10,0,dev
+k036,lath,a narrow thin strip of wood used as backing for plaster or to make latticework,1.7782,artifact,lath.n.01,1,0,15,0,test
+k037,marmoset,small soft-furred South American and Central American monkey with claws instead of nails,1.7782,organism,marmoset.n.01,1,0,13,0,screening
+k038,marmot,stocky coarse-furred burrowing rodent with a short bushy tail found throughout the northern hemisphere; hibernates in winter,1.7782,organism,marmot.n.01,1,0,17,0,screening
+k039,seersucker,a light puckered fabric (usually striped),1.7782,artifact,seersucker.n.01,1,0,6,0,test
+k040,seismograph,a measuring instrument for detecting and measuring the intensity and direction and duration of movements of the ground (as an earthquake),1.7782,artifact,seismograph.n.01,1,0,21,0,screening
+k041,agal,a cord (usually of goat's hair) that Arabs (especially Bedouins) wind around their heads to hold down the kaffiyeh,1.9031,artifact,agal.n.01,1,0,19,0,screening
+k042,foredeck,the deck between the bridge and the forecastle,1.9031,artifact,foredeck.n.01,1,0,8,0,test
+k043,galea,an organ shaped like a helmet; usually a vaulted and enlarged petal as in Aconitum,1.9031,natural_object,galea.n.01,1,0,15,0,dev
+k044,layette,kit consisting of a complete outfit (clothing and accessories) for a new baby,1.9031,artifact,layette.n.01,1,0,13,0,test
+k045,lectern,desk or stand with a slanted top used to hold a text at the proper height for a lecturer,1.9031,artifact,lectern.n.01,1,0,19,0,test
+k046,lyre,a harp used by ancient Greeks for accompaniment,1.9031,artifact,lyre.n.01,1,0,8,0,dev
+k047,nailfile,a small flat file for shaping the nails,1.9031,artifact,nailfile.n.01,1,0,8,0,screening
+k048,palmetto,any of several low-growing palms with fan-shaped leaves,1.9031,organism,palmetto.n.01,1,0,8,0,screening
+k049,wineglass,a glass that has a stem and in which wine is served,1.9031,artifact,wineglass.n.01,1,0,12,0,test
+k050,balalaika,a stringed instrument that has a triangular body and three strings,2.0,artifact,balalaika.n.01,1,0,11,1,screening
+k051,bathysphere,spherical deep diving apparatus (lowered by a cable) for underwater exploration,2.0,artifact,bathysphere.n.01,1,0,11,1,test
+k052,dormouse,small furry-tailed squirrel-like Old World rodent that becomes torpid in cold weather,2.0,organism,dormouse.n.01,1,0,12,1,test
+k053,earwig,any of numerous insects of the order Dermaptera having elongate bodies and slender many-jointed antennae and a pair of large pincers at the rear of the abdomen,2.0,organism,earwig.n.01,1,0,27,1,dev
+k054,sparerib,a cut of pork ribs with much of the meat trimmed off,2.0,food,sparerib.n.01,1,0,12,1,screening
+k055,vermicelli,pasta in strings thinner than spaghetti,2.0,food,vermicelli.n.01,1,0,6,1,test
+k056,whippet,small slender dog of greyhound type developed in England,2.0,organism,whippet.n.01,1,0,9,1,screening
+k057,civet,cat-like mammal typically secreting musk used in perfumes,2.0792,organism,civet.n.01,1,0,8,1,screening
+k058,gabardine,a firm durable fabric with a twill weave,2.0792,artifact,gabardine.n.01,3,0,8,1,screening
+k059,goldenrod,any of numerous chiefly summer-blooming and fall-blooming North American plants especially of the genus Solidago,2.0792,organism,goldenrod.n.01,1,0,15,1,screening
+k060,ibis,wading birds of warm regions having long slender down-curved bills,2.0792,organism,ibis.n.01,1,0,10,1,screening
+k061,lionfish,brightly striped fish of the tropical Pacific having elongated spiny fins,2.0792,organism,lionfish.n.01,1,0,11,1,screening
+k062,patina,a fine coating of oxide on the surface of a metal,2.0792,artifact,patina.n.01,1,0,11,1,test
+k063,penlight,a small flashlight resembling a fountain pen,2.0792,artifact,penlight.n.01,1,0,7,1,test
+k064,saltshaker,a shaker with a perforated top for sprinkling salt,2.0792,artifact,saltshaker.n.01,1,0,9,1,screening
+k065,hatpin,a long sturdy pin used by women to secure a hat to their hair,2.1461,artifact,hatpin.n.01,1,0,14,1,screening
+k066,outtake,a scene that is filmed but is not used in the final editing of the film,2.1461,artifact,outtake.n.01,1,0,16,1,screening
+k067,teakettle,kettle for boiling water to make tea,2.1461,artifact,teakettle.n.01,1,0,7,1,screening
+k068,wraparound,a garment (as a dress or coat) with a full length opening; adjusts to the body by wrapping around,2.1461,artifact,wraparound.n.01,1,0,19,1,test
+k069,cockatoo,white or light-colored crested parrot of the Australian region; often kept as cage birds,2.2041,organism,cockatoo.n.01,1,0,14,1,test
+k070,gatehouse,a house built at a gateway; usually the gatekeeper's residence,2.2041,artifact,gatehouse.n.01,1,0,10,1,test
+k071,puffin,any of two genera of northern seabirds having short necks and brightly colored compressed bills,2.2041,organism,puffin.n.01,1,0,15,1,test
+k072,salamander,any of various typically terrestrial amphibians that resemble lizards and that return to water only to breed,2.2041,organism,salamander.n.01,3,0,17,1,screening
+k073,gearbox,the shell (metal casing) in which a train of gears is sealed,2.2553,artifact,gearbox.n.01,1,0,12,1,test
+k074,hatbox,a round piece of luggage for carrying hats,2.2553,artifact,hatbox.n.01,1,0,8,1,dev
+k075,periwinkle,chiefly trailing poisonous plants with blue flowers,2.2553,organism,periwinkle.n.01,4,0,7,1,dev
+k076,snowdrift,a mass of snow heaped up by the wind,2.2553,natural_object,snowdrift.n.01,1,0,9,1,screening
+k077,lederhosen,leather shorts often worn with suspenders; worn especially by men and boys in Bavaria,2.301,artifact,lederhosen.n.01,1,0,14,1,test
+k078,manatee,sirenian mammal of tropical coastal waters of America; the flat tail is rounded,2.301,organism,manatee.n.01,1,0,13,1,test
+k079,sloop,a sailing vessel with a single mast set about one third of the boat's length aft of the bow,2.301,artifact,sloop.n.01,1,0,19,1,dev
+k080,blockhouse,a stronghold that is reinforced for protection from enemy fire; with apertures for defensive fire,2.3424,artifact,blockhouse.n.01,1,0,15,1,dev
+k081,outbuilding,a building that is subordinate to and separate from a main building,2.3424,artifact,outbuilding.n.01,1,0,12,1,dev
+k082,scabbard,a sheath for a sword or dagger or bayonet,2.3424,artifact,scabbard.n.01,1,0,9,1,screening
+k083,caber,a heavy wooden pole (such as the trunk of a young fir) that is tossed as a test of strength (in the Highlands of northern Scotland),2.3802,artifact,caber.n.01,1,0,26,1,dev
+k084,hairnet,a small net that some women wear over their hair to keep it in place,2.3802,artifact,hairnet.n.01,1,0,15,1,test
+k085,mohair,fabric made with yarn made from the silky hair of the Angora goat,2.3802,artifact,mohair.n.01,1,0,13,1,screening
+k086,chopstick,one of a pair of slender sticks used as oriental tableware to eat food with,2.3979,artifact,chopstick.n.01,1,0,15,1,test
+k087,codpiece,(15th-16th century) a flap for the crotch of men's tight-fitting breeches,2.3979,artifact,codpiece.n.01,1,0,11,1,screening
+k088,larva,the immature free-living form of most invertebrates and amphibians and fish which at hatching from the egg is fundamentally unlike its parent and must metamorphose,2.3979,organism,larva.n.01,1,0,25,1,test
+k089,poorhouse,an establishment maintained at public expense in order to provide housing for the poor and homeless,2.3979,artifact,poorhouse.n.01,1,0,16,1,screening
+k090,supercomputer,a mainframe computer that is one of the most powerful available at a given time,2.3979,artifact,supercomputer.n.01,1,0,15,1,test
+k091,lampshade,a protective ornamental shade used to screen a light bulb from direct view,2.4314,artifact,lampshade.n.01,1,0,13,1,screening
+k092,minnow,very small European freshwater fish common in gravelly streams,2.4314,organism,minnow.n.01,1,0,9,1,test
+k093,superstructure,structure consisting of the part of a ship above the main deck,2.4314,artifact,superstructure.n.01,1,0,12,1,dev
+k094,wardroom,military quarters for dining and recreation for officers of a warship (except the captain),2.4314,artifact,wardroom.n.01,1,0,14,1,test
+k095,baklava,rich Middle Eastern cake made of thin layers of flaky pastry filled with nuts and honey,2.4624,food,baklava.n.01,1,0,16,1,screening
+k096,bough,any of the larger branches of a tree,2.4624,natural_object,bough.n.01,1,0,8,1,dev
+k097,wombat,burrowing herbivorous Australian marsupials about the size of a badger,2.4624,organism,wombat.n.01,1,0,10,1,test
+k098,repertory,a storehouse where a stock of things is kept,2.4914,artifact,repertory.n.01,3,0,9,1,test
+k099,snifter,a globular glass with a small top; used for serving brandy,2.4914,artifact,snifter.n.01,1,0,11,1,dev
+k100,aqueduct,a conduit that resembles a bridge but carries water over a valley,2.5185,artifact,aqueduct.n.01,1,0,12,2,screening
+k101,collard,variety of kale having smooth leaves,2.5185,organism,collard.n.01,1,0,6,2,test
+k102,crumpet,a thick soft cake with a porous texture; cooked on a griddle,2.5185,food,crumpet.n.01,1,0,12,2,dev
+k103,stiletto,a small dagger with a tapered blade,2.5185,artifact,stiletto.n.01,1,0,7,2,test
+k104,hardtop,a car that resembles a convertible but has a fixed rigid top,2.5441,artifact,hardtop.n.01,1,0,12,2,dev
+k105,culvert,a transverse and totally enclosed drain under a road or railway,2.5682,artifact,culvert.n.01,1,0,11,2,test
+k106,gecko,any of various small chiefly tropical and usually nocturnal insectivorous terrestrial lizards typically with immovable eyelids; completely harmless,2.5682,organism,gecko.n.01,1,0,18,2,screening
+k107,jerkin,a tight sleeveless and collarless jacket (often made of leather) worn by men in former times,2.5682,artifact,jerkin.n.01,1,0,16,2,test
+k108,microprocessor,integrated circuit semiconductor chip that performs the bulk of the processing and controls the parts of a system,2.5682,artifact,microprocessor.n.01,1,0,18,2,test
+k109,turnstile,a gate consisting of a post that acts as a pivot for rotating arms; set in a passageway for controlling the persons entering,2.5682,artifact,turnstile.n.01,1,0,23,2,screening
+k110,angiogram,an X-ray representation of blood vessels made after the injection of a radiopaque substance,2.5911,artifact,angiogram.n.01,1,0,14,2,dev
+k111,conch,any of various edible tropical marine gastropods of the genus Strombus having a brightly-colored spiral shell with large outer lip,2.5911,organism,conch.n.01,1,0,20,2,test
+k112,bookmark,a marker (a piece of paper or ribbon) placed between the pages of a book to mark the reader's place,2.6128,artifact,bookmark.n.01,1,0,20,2,test
+k113,wallflower,any of numerous plants of the genus Erysimum having fragrant yellow or orange or brownish flowers,2.6128,organism,wallflower.n.01,3,0,16,2,dev
+k114,centipede,"chiefly nocturnal predacious arthropod having a flattened body of 15 to 173 segments each with a pair of legs, the foremost pair being modified as prehensors",2.6335,organism,centipede.n.01,1,0,26,2,dev
+k115,pinnacle,(architecture) a slender upright spire at the top of a buttress of tower,2.6335,artifact,pinnacle.n.01,3,2,13,2,test
+k116,roadkill,the dead body of an animal that has been killed on a road by a vehicle,2.6335,natural_object,roadkill.n.01,1,0,16,2,screening
+k117,sunroof,an automobile roof having a sliding or raisable panel,2.6335,artifact,sunroof.n.01,1,0,9,2,screening
+k118,blackface,the makeup (usually burnt cork) used by a performer in order to imitate a Negro,2.6532,artifact,blackface.n.01,1,0,15,2,screening
+k119,fuchsia,any of various tropical shrubs widely cultivated for their showy drooping purplish or reddish or white flowers; Central and South America and New Zealand and Tahiti,2.6532,organism,fuchsia.n.01,1,0,26,2,test
+k120,mosaic,art consisting of a design made of small pieces of colored stone or glass,2.6532,artifact,mosaic.n.01,6,2,14,2,test
+k121,buckboard,an open horse-drawn carriage with four wheels; has a seat attached to a flexible board between the two axles,2.6721,artifact,buckboard.n.01,1,0,19,2,test
+k122,pane,sheet glass cut in shapes for windows or doors,2.6721,artifact,pane.n.01,3,0,9,2,test
+k123,chiffon,a sheer fabric of silk or rayon,2.6902,artifact,chiffon.n.01,1,0,7,2,screening
+k124,hovercraft,a craft capable of moving over water or land on a cushion of air created by jet engines,2.7076,artifact,hovercraft.n.01,1,0,18,2,test
+k125,photon,a quantum of electromagnetic radiation; an elementary particle that is its own antiparticle,2.7243,natural_object,photon.n.01,1,0,13,2,screening
+k126,tassel,adornment consisting of a bunch of cords fastened at one end,2.7243,artifact,tassel.n.01,1,0,11,2,screening
+k127,whippoorwill,American nocturnal goatsucker with grey-and-white plumage,2.7243,organism,whippoorwill.n.01,1,0,6,2,test
+k128,stockroom,storeroom for storing goods and supplies used in a business,2.7404,artifact,stockroom.n.01,1,0,10,2,screening
+k129,commissary,a retail store that sells equipment and provisions (usually to military personnel),2.7559,artifact,commissary.n.01,2,0,12,2,screening
+k130,substation,a subsidiary station where electricity is transformed for distribution by a low-voltage network,2.7559,artifact,substation.n.01,1,0,13,2,screening
+k131,chamomile,Eurasian plant with apple-scented foliage and white-rayed flowers and feathery leaves used medicinally; in some classification systems placed in genus Anthemis,2.7853,organism,chamomile.n.01,1,0,21,2,screening
+k132,kazoo,a toy wind instrument that has a membrane that makes a sound when you hum into the mouthpiece,2.7853,artifact,kazoo.n.01,1,0,18,2,test
+k133,sarcophagus,a stone coffin (usually bearing sculpture or inscriptions),2.7853,artifact,sarcophagus.n.01,1,0,8,2,test
+k134,emblem,"special design or visual object representing a quality, type, group, etc.",2.8129,artifact,emblem.n.01,2,0,11,2,test
+k135,playhouse,plaything consisting of a small model of a house that children can play inside of,2.8129,artifact,playhouse.n.01,1,0,15,2,dev
+k136,valise,a small overnight bag for short trips,2.8388,artifact,valise.n.01,1,0,7,2,screening
+k137,barometer,an instrument that measures atmospheric pressure,2.8513,artifact,barometer.n.01,1,0,6,2,screening
+k138,boathouse,a shed at the edge of a river or lake; used to store boats,2.8808,artifact,boathouse.n.01,1,0,14,2,dev
+k139,airlock,a chamber that provides access to space where air is under pressure,2.9138,artifact,airlock.n.01,1,0,12,2,screening
+k140,taillight,lamp (usually red) mounted at the rear of a motor vehicle,2.9138,artifact,taillight.n.01,1,0,11,2,screening
+k141,monolith,a single great stone (often in the form of a column or obelisk),2.9243,artifact,monolith.n.01,1,0,13,2,screening
+k142,poncho,a blanket-like cloak with a hole in the center for the head,2.9345,artifact,poncho.n.01,1,0,12,2,dev
+k143,turbine,rotary engine in which the kinetic energy of a moving fluid is converted into mechanical energy by causing a bladed rotor to rotate,2.9542,artifact,turbine.n.01,1,0,23,2,test
+k144,toga,a one-piece cloak worn by men in ancient Rome,2.9638,artifact,toga.n.01,1,0,9,2,screening
+k145,turnpike,(from 16th to 19th centuries) gates set across a road to prevent passage until a toll had been paid,2.9638,artifact,turnpike.n.01,2,0,19,2,screening
+k146,bedpan,a shallow vessel used by a bedridden patient for defecation and urination,2.9731,artifact,bedpan.n.01,1,0,12,2,test
+k147,silo,a cylindrical tower used for storing silage,2.9731,artifact,silo.n.01,2,0,7,2,test
+k148,warship,a government ship that is available for waging war,2.9731,artifact,warship.n.01,1,0,9,2,dev
+k149,hourglass,a sandglass that runs for sixty minutes,2.9823,artifact,hourglass.n.01,1,0,7,2,dev
+k150,keyhole,the hole where a key is inserted,3.017,artifact,keyhole.n.01,1,0,7,3,screening
+k151,goatee,a small chin beard trimmed to a point; named for its resemblance to a goat's beard,3.0253,natural_object,goatee.n.01,1,0,16,3,dev
+k152,kimono,a loose robe; imitated from robes originally worn by Japanese,3.0334,artifact,kimono.n.01,1,0,10,3,test
+k153,tortoise,usually herbivorous land turtles having clawed elephant-like limbs; worldwide in arid area except Australia and Antarctica,3.0492,organism,tortoise.n.01,1,0,16,3,screening
+k154,filly,a young female horse under the age of four,3.0719,organism,filly.n.01,1,0,9,3,test
+k155,mosque,(Islam) a Muslim place of worship that usually has a minaret,3.0719,artifact,mosque.n.01,1,0,11,3,test
+k156,gazelle,small swift graceful antelope of Africa and Asia having lustrous eyes,3.0864,organism,gazelle.n.01,1,0,11,3,dev
+k157,pollen,the fine spores that contain male gametes and that are borne by an anther in a flowering plant,3.0864,natural_object,pollen.n.01,1,0,18,3,screening
+k158,mascara,makeup that is used to darken and thicken the eye lashes,3.0969,artifact,mascara.n.01,1,0,11,3,test
+k159,turban,a traditional Muslim headdress consisting of a long scarf wrapped around the head,3.1106,artifact,turban.n.01,2,0,13,3,screening
+k160,bodega,a small Hispanic shop selling wine and groceries,3.1173,artifact,bodega.n.01,1,0,8,3,dev
+k161,crutch,a wooden or metal staff that fits under the armpit and reaches to the ground; used by disabled person while walking,3.1173,artifact,crutch.n.01,2,0,21,3,dev
+k162,lockup,jail in a local police station,3.1303,artifact,lockup.n.01,2,0,6,3,screening
+k163,sauna,a Finnish steam bath; steam is produced by pouring water over heated rocks,3.1303,artifact,sauna.n.01,1,0,13,3,screening
+k164,trapeze,a swing used by circus acrobats,3.1303,artifact,trapeze.n.01,1,0,6,3,test
+k165,flannel,a soft light woolen fabric; used for clothing,3.1367,artifact,flannel.n.01,3,0,8,3,dev
+k166,tablet,a slab of stone or wood suitable for bearing an inscription,3.1732,artifact,tablet.n.01,4,0,11,3,screening
+k167,auditorium,the area of a theater or concert hall where the audience sits,3.1959,artifact,auditorium.n.01,1,0,12,3,test
+k168,minivan,a small box-shaped passenger van; usually has removable seats; used as a family car,3.2014,artifact,minivan.n.01,1,0,14,3,screening
+k169,polygraph,"a medical instrument that records several physiological processes simultaneously (e.g., pulse rate and blood pressure and respiration and perspiration)",3.2014,artifact,polygraph.n.01,1,0,19,3,dev
+k170,banjo,a stringed instrument of the guitar family that has long neck and circular body,3.2122,artifact,banjo.n.01,1,0,14,3,test
+k171,directory,an alphabetical list of names and addresses,3.2175,artifact,directory.n.01,2,0,7,3,screening
+k172,bathrobe,a loose-fitting robe of towelling; worn after a bath or swim,3.2227,artifact,bathrobe.n.01,1,0,11,3,screening
+k173,flats,footwear (shoes or slippers) with no heel (or a very low heel),3.2279,artifact,flats.n.01,8,0,12,3,dev
+k174,washroom,a lavatory (particularly a lavatory in a public place),3.2279,artifact,washroom.n.01,1,0,9,3,test
+k175,canteen,a flask for carrying water; used by soldiers or travelers,3.233,artifact,canteen.n.01,5,0,10,3,screening
+k176,seaweed,"plant growing in the sea, especially marine algae",3.238,organism,seaweed.n.01,1,0,8,3,test
+k177,snail,freshwater or marine or terrestrial gastropod mollusk usually having an external enclosing spiral shell,3.2455,organism,snail.n.01,2,1,14,3,test
+k178,vulture,any of various large diurnal birds of prey having naked heads and weak claws and feeding chiefly on carrion,3.2455,organism,vulture.n.01,2,0,19,3,test
+k179,mosquito,two-winged insect whose female has a long proboscis to pierce the skin and suck the blood of humans and animals,3.2601,organism,mosquito.n.01,1,0,20,3,test
+k180,slab,block consisting of a thick piece of something,3.2648,artifact,slab.n.01,1,0,8,3,dev
+k181,cello,a large stringed instrument; seated player holds it upright while playing,3.2695,artifact,cello.n.01,1,0,11,3,test
+k182,lantern,light in a transparent protective case,3.3054,artifact,lantern.n.01,1,0,6,3,screening
+k183,bale,a large bundle bound for storage or transport,3.3096,artifact,bale.n.01,2,1,8,3,dev
+k184,portfolio,"a large, flat, thin case for carrying loose papers or drawings or maps; usually leather",3.3096,artifact,portfolio.n.01,4,0,15,3,screening
+k185,plaque,(pathology) a small abnormal patch on or inside the body,3.3181,artifact,plaque.n.01,2,0,10,3,test
+k186,barbershop,a shop where men can get their hair cut,3.3263,artifact,barbershop.n.01,1,0,9,3,screening
+k187,holster,a sheath (usually leather) for carrying a handgun,3.3385,artifact,holster.n.01,2,0,8,3,test
+k188,shrapnel,shell containing lead pellets that explodes in flight,3.3464,artifact,shrapnel.n.01,1,0,8,3,screening
+k189,sweatshirt,cotton knit pullover with long sleeves worn during athletic activity,3.3711,artifact,sweatshirt.n.01,1,0,10,3,screening
+k190,weeds,a black garment (dress) worn by a widow as a sign of mourning,3.3747,artifact,weeds.n.01,4,1,13,3,test
+k191,chateau,an impressive country house (or castle) in France,3.4031,artifact,chateau.n.01,1,0,8,3,screening
+k192,apron,a garment of cloth or leather or plastic that is tied about the waist and worn to protect your clothing,3.4265,artifact,apron.n.01,4,0,20,3,test
+k193,earring,jewelry to ornament the ear; usually clipped to the earlobe or fastened through a hole in the lobe,3.433,artifact,earring.n.01,1,0,18,3,test
+k194,furnace,"an enclosed chamber in which heat is produced to heat buildings, destroy refuse, smelt or refine ores, etc.",3.433,artifact,furnace.n.01,1,0,18,3,dev
+k195,drone,stingless male bee in a colony of social bees (especially honeybees) whose sole function is to mate with the queen,3.4502,organism,drone.n.01,5,2,20,3,test
+k196,poodle,an intelligent dog with a heavy curly solid-colored coat that is usually clipped; an old breed sometimes trained as sporting dogs or as performing dogs,3.4533,organism,poodle.n.01,1,0,25,3,screening
+k197,latrine,a public toilet in a military area,3.4654,artifact,latrine.n.01,1,0,7,3,screening
+k198,comet,(astronomy) a relatively small extraterrestrial body consisting of a frozen mass that travels around the sun in a highly elliptical orbit,3.4886,natural_object,comet.n.01,1,0,21,3,test
+k199,typewriter,hand-operated character printer for printing written messages one character at a time,3.4997,artifact,typewriter.n.01,1,0,12,3,screening
+k200,lever,a rigid bar pivoted about a fulcrum,3.5051,artifact,lever.n.01,3,1,7,4,test
+k201,lotion,any of various cosmetic preparations that are applied to the skin,3.5119,artifact,lotion.n.01,2,0,11,4,dev
+k202,parrot,usually brightly colored zygodactyl tropical birds with short hooked beaks and the ability to mimic sounds,3.5145,organism,parrot.n.01,2,1,16,4,screening
+k203,flea,any wingless bloodsucking parasitic insect noted for ability to leap,3.5198,organism,flea.n.01,1,0,10,4,screening
+k204,manor,the mansion of a lord or wealthy person,3.5328,artifact,manor.n.01,2,0,8,4,test
+k205,laptop,a portable computer small enough to use in your lap,3.5403,artifact,laptop.n.01,1,0,10,4,test
+k206,mat,a thick flat pad used as a floor covering,3.5428,artifact,mat.n.01,7,4,9,4,test
+k207,masterpiece,the most outstanding work of a creative artist or craftsman,3.5478,artifact,masterpiece.n.01,2,0,10,4,screening
+k208,coyote,small wolf native to western North America,3.5599,organism,coyote.n.01,3,0,7,4,screening
+k209,prop,a support placed beneath or against something to keep it from shaking or falling,3.567,artifact,prop.n.01,3,1,14,4,dev
+k210,monastery,the residence of a religious community,3.5694,artifact,monastery.n.01,1,0,6,4,test
+k211,tractor,a wheeled vehicle with large wheels; used in farming and other applications,3.5717,artifact,tractor.n.01,2,0,12,4,screening
+k212,rudder,a hinged vertical airfoil mounted at the tail of an aircraft and used to make horizontal course changes,3.5888,artifact,rudder.n.01,2,0,18,4,test
+k213,bulb,a modified bud consisting of a thickened globular underground stem serving as a reproductive structure,3.5933,natural_object,bulb.n.01,6,0,15,4,test
+k214,clam,burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness,3.5933,organism,clam.n.01,3,1,14,4,screening
+k215,dinosaur,any of numerous extinct terrestrial reptiles of the Mesozoic era,3.5999,organism,dinosaur.n.01,1,0,10,4,screening
+k216,container,any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another),3.6325,artifact,container.n.01,1,0,29,4,screening
+k217,ballroom,large room used mainly for dancing,3.6345,artifact,ballroom.n.01,1,0,6,4,test
+k218,portal,a grand and imposing entrance (often extended metaphorically),3.6385,artifact,portal.n.01,3,0,8,4,dev
+k219,crow,black birds having a raucous call,3.6484,organism,crow.n.01,6,3,6,4,test
+k220,broom,a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle,3.6776,artifact,broom.n.01,3,2,15,4,screening
+k221,torch,a light usually carried in the hand; consists of some flammable substance,3.6972,artifact,torch.n.01,4,1,12,4,dev
+k222,toothbrush,small brush; has long handle; used to clean teeth,3.699,artifact,toothbrush.n.01,2,0,9,4,dev
+k223,nude,a painting of a naked human figure,3.7709,artifact,nude.n.01,4,2,7,4,test
+k224,pigeon,wild and domesticated birds having a heavy body and short legs,3.7709,organism,pigeon.n.01,1,0,11,4,test
+k225,tomato,mildly acid red or yellow pulpy fruit eaten as a vegetable,3.7709,food,tomato.n.01,2,0,11,4,test
+k226,comb,a flat device with narrow pointed teeth on one edge; disentangles or arranges hair,3.7825,artifact,comb.n.01,5,3,14,4,test
+k227,timer,a timepiece that measures a time interval and signals its end,3.7959,artifact,timer.n.01,3,0,11,4,test
+k228,bunk,a long trough for feeding cattle,3.7973,artifact,bunk.n.01,6,3,6,4,test
+k229,salmon,any of various large food and game fishes of northern waters; usually migrate from salt to fresh water to spawn,3.8162,organism,salmon.n.01,4,2,20,4,test
+k230,circuit,an electrical device that provides a path for electrical current to flow,3.8241,artifact,circuit.n.01,7,1,12,4,test
+k231,bean,any of various edible seeds of plants of the family Leguminosae used for food,3.8351,food,bean.n.01,4,1,14,4,dev
+k232,fountain,a structure from which an artificially produced jet of water arises,3.8388,artifact,fountain.n.01,4,0,11,4,dev
+k233,shelf,a support that consists of a horizontal surface for holding objects,3.8426,artifact,shelf.n.01,2,0,11,4,dev
+k234,panel,sheet that forms a distinct (usually flat and rectangular) section or component of something,3.8627,artifact,panel.n.01,8,2,14,4,test
+k235,spoon,a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food,3.8814,artifact,spoon.n.01,3,2,21,4,screening
+k236,embassy,a diplomatic building where ambassadors live or work,3.891,artifact,embassy.n.01,2,0,8,4,test
+k237,sausage,highly seasoned minced meat stuffed in casings,3.891,food,sausage.n.01,2,0,7,4,screening
+k238,chapel,a place of worship that has its own altar,3.9009,artifact,chapel.n.01,2,0,9,4,screening
+k239,ceiling,the overhead upper surface of a covered space,3.9217,artifact,ceiling.n.01,4,0,8,4,screening
+k240,wig,hairpiece covering the head and made of real or synthetic hair,3.9217,artifact,wig.n.01,2,0,11,4,screening
+k241,laser,an acronym for light amplification by stimulated emission of radiation; an optical device that produces an intense monochromatic beam of coherent light,3.9289,artifact,laser.n.01,1,0,22,4,screening
+k242,fork,cutlery used for serving and eating food,3.9455,artifact,fork.n.01,5,4,7,4,screening
+k243,dial,the face of a timepiece; graduated to show the hours,3.9474,artifact,dial.n.01,4,2,10,4,test
+k244,oven,kitchen appliance used for baking or roasting,3.9484,artifact,oven.n.01,1,0,7,4,dev
+k245,sock,hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee,3.9533,artifact,sock.n.01,2,1,21,4,screening
+k246,takin,large heavily built goat antelope of eastern Himalayan area,3.9571,organism,takin.n.01,1,0,9,4,dev
+k247,bench,a long seat for more than one person,3.9854,artifact,bench.n.01,7,2,8,4,screening
+k248,necklace,jewelry consisting of a cord or chain (often bearing gems) worn about the neck as an ornament (especially by women),3.989,artifact,necklace.n.01,1,0,20,4,screening
+k249,pencil,a thin cylindrical pointed writing implement; a rod of marking substance encased in wood,3.9939,artifact,pencil.n.01,4,1,14,4,screening
+k250,shotgun,firearm that is a double-barreled smoothbore shoulder weapon for firing shot at short ranges,4.0017,artifact,shotgun.n.01,1,0,14,5,screening
+k251,worm,any of numerous relatively small elongated soft-bodied animals especially of the phyla Annelida and Chaetognatha and Nematoda and Nemertea and Platyhelminthes; also many insect larvae,4.0052,organism,worm.n.01,4,1,25,5,dev
+k252,album,one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc,4.0103,artifact,album.n.01,2,0,25,5,test
+k253,bee,any of numerous hairy-bodied insects including social and solitary species,4.0149,organism,bee.n.01,2,0,10,5,test
+k254,collar,a band that fits around the neck and is usually folded over,4.0216,artifact,collar.n.01,9,3,12,5,test
+k255,goat,any of numerous agile ruminants related to sheep but having a beard and straight horns,4.0224,organism,goat.n.01,4,0,15,5,test
+k256,pork,meat from a domestic hog or pig,4.0224,food,pork.n.01,2,0,7,5,screening
+k257,rod,a long thin implement made of metal or wood,4.0306,artifact,rod.n.01,6,0,9,5,dev
+k258,nest,a structure in which animals lay eggs or give birth to their young,4.0453,natural_object,nest.n.01,5,4,13,5,screening
+k259,chamber,a natural or artificial enclosed space,4.1055,artifact,chamber.n.01,5,1,6,5,test
+k260,blade,especially a leaf of grass or the broad portion of a leaf as distinct from the petiole,4.1139,natural_object,blade.n.01,9,0,17,5,test
+k261,drawer,a boxlike container in a piece of furniture; made so as to slide in and out,4.1139,artifact,drawer.n.01,3,0,16,5,test
+k262,shell,ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun,4.1212,artifact,shell.n.01,10,8,19,5,test
+k263,barn,an outlying farm building for storing grain or animal feed and housing farm animals,4.1332,artifact,barn.n.01,2,0,14,5,screening
+k264,facility,a building or place that provides a particular service or is used for a particular industry,4.1517,artifact,facility.n.01,5,0,16,5,screening
+k265,corn,tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times,4.1529,organism,corn.n.01,7,2,29,5,screening
+k266,lion,large gregarious predatory feline of Africa and India having a tawny coat with a shaggy mane in the male,4.1861,organism,lion.n.01,4,0,19,5,test
+k267,makeup,cosmetics applied to the face to improve or change your appearance,4.1901,artifact,makeup.n.01,3,0,11,5,test
+k268,guitar,a stringed instrument usually having six strings; played by strumming or plucking,4.1928,artifact,guitar.n.01,1,0,12,5,screening
+k269,alley,a narrow street with walls on both sides,4.2119,artifact,alley.n.01,2,0,8,5,screening
+k270,tube,conduit consisting of a long hollow object (usually cylindrical) used to hold and conduct objects or liquids or gases,4.2156,artifact,tube.n.01,5,4,19,5,screening
+k271,slide,a small flat rectangular piece of glass on which specimens can be mounted for microscopic study,4.2509,artifact,slide.n.01,7,3,16,5,dev
+k272,highway,a major road for any form of motor transport,4.2519,artifact,highway.n.01,1,0,9,5,dev
+k273,device,an instrumentality invented for a particular purpose,4.2591,artifact,device.n.01,5,0,7,5,test
+k274,mouse,any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails,4.2815,organism,mouse.n.01,4,2,23,5,test
+k275,pipe,a tube with a small bowl at one end; used for smoking tobacco,4.2876,artifact,pipe.n.01,5,4,13,5,dev
+k276,butter,an edible emulsion of fat globules made by churning milk or cream; for cooking and table use,4.3103,food,butter.n.01,2,1,17,5,test
+k277,bug,general term for any insect or similar creeping or crawling invertebrate,4.321,organism,bug.n.01,5,2,11,5,screening
+k278,bowl,a round vessel that is open at the top; used chiefly for holding food or liquids,4.3314,artifact,bowl.n.01,9,3,16,5,screening
+k279,ambulance,a vehicle that takes people to and from hospitals,4.3504,artifact,ambulance.n.01,1,0,9,5,test
+k280,library,a room where books are kept,4.3606,artifact,library.n.01,5,0,6,5,screening
+k281,deck,any of various platforms built into a vessel,4.3758,artifact,deck.n.01,4,3,8,5,dev
+k282,wheel,a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines),4.4323,artifact,wheel.n.01,7,4,28,5,screening
+k283,pie,dish baked in pastry-lined pan often with a pastry top,4.4586,food,pie.n.01,2,0,10,5,screening
+k284,magazine,a periodic publication containing pictures and stories and articles of interest to those who purchase it or subscribe to it,4.5211,artifact,magazine.n.01,6,0,20,5,test
+k285,base,installation from which a military force initiates operations,4.5486,artifact,base.n.01,20,17,8,5,test
+k286,pocket,a small pouch inside a garment for carrying small articles,4.5528,artifact,pocket.n.01,9,2,10,5,dev
+k287,desk,a piece of furniture with a writing surface and usually drawers or other compartments,4.6425,artifact,desk.n.01,1,0,14,5,screening
+k288,restaurant,a building where people go to eat,4.6677,artifact,restaurant.n.01,1,0,7,5,screening
+k289,camera,equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other),4.7559,artifact,camera.n.01,2,0,22,5,test
+k290,tape,a long thin piece of cloth or paper as used for binding or fastening,4.8378,artifact,tape.n.01,5,3,14,5,screening
+k291,key,metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated,4.9388,artifact,key.n.01,15,7,22,5,test
+k292,dance,an artistic form of nonverbal communication,5.1704,artifact,dance.n.01,4,3,6,5,test
+k293,hair,a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss,5.1862,natural_object,hair.n.01,6,0,27,5,screening
+k294,book,a written work or composition that has been published (printed on pages bound together),5.2479,artifact,book.n.01,11,4,14,5,dev
+k295,dog,a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds,5.2852,organism,dog.n.01,7,1,25,5,dev
+k296,office,place of business where professional or clerical duties are performed,5.3094,artifact,office.n.01,7,0,10,5,screening
+k297,door,a swinging or sliding barrier that will close the entrance to a room or building or vehicle,5.4655,artifact,door.n.01,5,0,17,5,dev
+k298,house,a dwelling that serves as living quarters for one or more families,5.711,artifact,house.n.01,12,2,12,5,screening
+k299,can,airtight sealed metal container for food or drink or paint etc.,6.7199,artifact,can.n.01,6,2,11,5,test
+k300,annunciator,an indicator that announces which electrical circuit has been active (as on a telephone switchboard),1.301,artifact,annunciator.n.01,1,0,15,0,screening
+k301,bulbul,nightingale spoken of in Persian poetry,1.301,organism,bulbul.n.01,1,0,6,0,screening
+k302,caff,informal British term for a cafe,1.301,artifact,caff.n.01,1,0,6,0,screening
+k303,countinghouse,office used by the accountants of a business,1.301,artifact,countinghouse.n.01,1,0,8,0,dev
+k304,crossjack,the lowermost sail on a mizzenmast,1.301,artifact,crossjack.n.01,1,0,6,0,test
+k305,dermatome,a surgical instrument used to cut very thin slices of skin,1.301,artifact,dermatome.n.01,1,0,11,0,test
+k306,dichondra,a creeping perennial herb with hairy stems and orbicular to reniform leaves and small white to greenish flowers; used as a grass substitute in warm regions,1.301,organism,dichondra.n.01,1,0,26,0,screening
+k307,eland,either of two large African antelopes of the genus Taurotragus having short spirally twisted horns in both sexes,1.301,organism,eland.n.01,1,0,18,0,test
+k308,footplate,the platform in the cab of a locomotive on which the engineer stands to operate the controls,1.301,artifact,footplate.n.01,1,0,17,0,test
+k309,foremast,the mast nearest the bow in vessels with two or more masts,1.301,artifact,foremast.n.01,1,0,12,0,test
+k310,hatband,a band around the crown of a hat just above the brim,1.301,artifact,hatband.n.01,1,0,12,0,dev
+k311,ossuary,any receptacle for the burial of human bones,1.301,artifact,ossuary.n.01,1,0,8,0,screening
+k312,postmodernism,genre of art and literature and especially architecture in reaction against principles and practices of established modernism,1.301,artifact,postmodernism.n.01,1,0,17,0,test
+k313,proctoscope,an endoscope for examining the rectum,1.301,artifact,proctoscope.n.01,1,0,6,0,screening
+k314,sandglass,timepiece in which the passage of time is indicated by the flow of sand from one transparent container to another through a narrow passage,1.301,artifact,sandglass.n.01,1,0,24,0,test
+k315,stob,a short straight stick of wood,1.301,artifact,stob.n.01,1,0,6,0,screening
+k316,theropod,any of numerous carnivorous dinosaurs of the Triassic to Cretaceous with short forelimbs that walked or ran on strong hind legs,1.301,organism,theropod.n.01,1,0,21,0,test
+k317,towpath,a path along a canal or river used by animals towing boats,1.301,artifact,towpath.n.01,1,0,12,0,test
+k318,triphammer,a massive power hammer; raised by a cam until released to fall under gravity,1.301,artifact,triphammer.n.01,1,0,14,0,screening
+k319,waxwing,brown velvety-plumaged songbirds of the northern hemisphere having crested heads and red waxy wing tips,1.301,organism,waxwing.n.01,1,0,15,0,test
+k320,anther,the part of the stamen that contains pollen; usually borne on a stalk,1.6021,natural_object,anther.n.01,1,0,13,0,test
+k321,apiary,a shed containing a number of beehives,1.6021,artifact,apiary.n.01,1,0,7,0,test
+k322,bittern,relatively small compact tawny-brown heron with nocturnal habits and a booming cry; found in marshes,1.6021,organism,bittern.n.01,1,0,15,0,dev
+k323,brilliantine,a pomade to make the hair manageable and lustrous,1.6021,artifact,brilliantine.n.01,1,0,9,0,screening
+k324,forecourt,the outer or front court of a building or of a group of buildings,1.6021,artifact,forecourt.n.01,1,0,14,0,screening
+k325,foxhound,medium-sized glossy-coated hounds developed for hunting foxes,1.6021,organism,foxhound.n.01,1,0,7,0,test
+k326,frond,compound leaf of a fern or palm or cycad,1.6021,natural_object,frond.n.01,1,0,9,0,screening
+k327,gristmill,a mill for grinding grain (especially the customer's own grain),1.6021,artifact,gristmill.n.01,1,0,10,0,dev
+k328,inverter,an electrical converter that converts direct current into alternating current,1.6021,artifact,inverter.n.01,1,0,10,0,screening
+k329,jamb,upright consisting of a vertical side member of a door or window frame,1.6021,artifact,jamb.n.01,1,0,13,0,dev
+k330,photojournalism,journalism that presents a story primarily through the use of pictures,1.6021,artifact,photojournalism.n.01,1,0,11,0,test
+k331,reliquary,a container where religious relics are stored or displayed (especially relics of saints),1.6021,artifact,reliquary.n.01,1,0,13,0,screening
+k332,shearwater,long-winged oceanic bird that in flight skims close to the waves,1.6021,organism,shearwater.n.01,1,0,11,0,screening
+k333,slipcover,a removable fitted cloth covering for upholstered furniture,1.6021,artifact,slipcover.n.01,1,0,8,0,screening
+k334,tempera,pigment mixed with water-soluble glutinous materials such as size and egg yolk,1.6021,artifact,tempera.n.01,1,0,12,0,screening
+k335,vestment,gown (especially ceremonial garments) worn by the clergy,1.6021,artifact,vestment.n.01,1,0,8,0,screening
+k336,brigantine,two-masted sailing vessel square-rigged on the foremast and fore-and-aft rigged on the mainmast,1.7782,artifact,brigantine.n.01,1,0,13,0,dev
+k337,instar,an insect or other arthropod between molts,1.7782,organism,instar.n.01,1,0,7,0,screening
+k338,poinsettia,tropical American plant having poisonous milk and showy tapering usually scarlet petallike leaves surrounding small yellow flowers,1.7782,organism,poinsettia.n.01,1,0,17,0,test
+k339,protractor,drafting instrument used to draw or measure angles,1.7782,artifact,protractor.n.01,1,0,8,0,dev
+k340,railhead,a railroad depot in a theater of operations where military supplies are unloaded for distribution,1.7782,artifact,railhead.n.01,2,0,15,0,dev
+k341,baobab,African tree having an exceedingly thick trunk and fruit that resembles a gourd and has an edible pulp called monkey bread,1.9031,organism,baobab.n.01,1,0,21,0,test
+k342,copybook,a book containing models of good penmanship; used in teaching penmanship,1.9031,artifact,copybook.n.01,1,0,11,0,test
+k343,cyclotron,an accelerator that imparts energies of several million electron-volts to rapidly moving particles,1.9031,artifact,cyclotron.n.01,1,0,13,0,test
+k344,dormer,a gabled extension built out from a sloping roof to accommodate a vertical window,1.9031,artifact,dormer.n.01,1,0,14,0,dev
+k345,drosophila,small fruit fly used by Thomas Hunt Morgan in studying basic mechanisms of inheritance,1.9031,organism,drosophila.n.01,1,0,14,0,screening
+k346,intranet,a restricted computer network; a private network created using World Wide Web software,1.9031,artifact,intranet.n.01,1,0,13,0,dev
+k347,missal,(Roman Catholic Church) a book containing all the prayers and responses needed to celebrate Mass throughout the year,1.9031,artifact,missal.n.01,1,0,18,0,test
+k348,quipu,calculator consisting of a cord with attached cords; used by ancient Peruvians for calculating and keeping records,1.9031,artifact,quipu.n.01,1,0,17,0,screening
+k349,woodcarving,a carving created by carving wood,1.9031,artifact,woodcarving.n.01,1,0,6,0,test
+k350,babushka,a woman's headscarf folded into a triangle and tied under the chin; worn by Russian peasant women,2.0,artifact,babushka.n.01,1,0,17,1,test
+k351,barouche,a horse-drawn carriage having four wheels; has an outside seat for the driver and facing inside seats for two couples and a folding top,2.0,artifact,barouche.n.01,1,0,24,1,test
+k352,catacomb,an underground tunnel with recesses where bodies were buried (as in ancient Rome),2.0,artifact,catacomb.n.01,1,0,13,1,test
+k353,catchment,a structure in which water is collected (especially a natural drainage area),2.0,artifact,catchment.n.01,1,0,12,1,screening
+k354,cufflink,jewelry consisting of one of a pair of linked buttons used to fasten the cuffs of a shirt,2.0,artifact,cufflink.n.01,1,0,18,1,test
+k355,defilade,the arrangement of defensive fortifications to protect against enemy fire,2.0,artifact,defilade.n.01,1,0,10,1,test
+k356,oubliette,a dungeon with the only entrance or exit being a trap door in the ceiling,2.0,artifact,oubliette.n.01,1,0,15,1,dev
+k357,salver,a tray (or large plate) for serving food or drinks; usually made of silver,2.0,artifact,salver.n.01,1,0,14,1,screening
+k358,sifter,a household sieve (as for flour),2.0,artifact,sifter.n.01,1,0,6,1,dev
+k359,skullcap,rounded brimless cap fitting the crown of the head,2.0,artifact,skullcap.n.01,3,0,9,1,test
+k360,washtub,a tub in which clothes or linens can be washed,2.0,artifact,washtub.n.01,1,0,10,1,dev
+k361,dartboard,a circular board of wood or cork used as the target in the game of darts,2.0792,artifact,dartboard.n.01,1,0,16,1,screening
+k362,halberd,a pike fitted with an ax head,2.0792,artifact,halberd.n.01,1,0,7,1,test
+k363,mastiff,an old breed of powerful deep-chested smooth-coated dog used chiefly as a watchdog and guard dog,2.0792,organism,mastiff.n.01,1,0,16,1,dev
+k364,microdot,photograph reduced to the size of a dot (usually for purposes of security),2.0792,artifact,microdot.n.01,1,0,13,1,dev
+k365,oilcan,a can with a long nozzle to apply oil to machinery,2.0792,artifact,oilcan.n.01,1,0,11,1,dev
+k366,pion,a meson involved in holding the nucleus together; produced as the result of high-energy particle collision,2.0792,natural_object,pion.n.01,1,0,16,1,screening
+k367,piton,a metal spike with a hole for a rope; mountaineers drive it into ice or rock to use as a hold,2.0792,artifact,piton.n.01,1,0,21,1,test
+k368,radiometer,meter to detect and measure radiant energy (electromagnetic or acoustic),2.0792,artifact,radiometer.n.01,1,0,10,1,screening
+k369,stickpin,a decorative pin that is worn in a necktie,2.0792,artifact,stickpin.n.01,1,0,9,1,screening
+k370,tureen,large deep serving dish with a cover; for serving soups and stews,2.0792,artifact,tureen.n.01,1,0,12,1,test
+k371,concertina,coiled barbed wire used as an obstacle,2.1461,artifact,concertina.n.01,2,1,7,1,test
+k372,curbside,the side of a sidewalk that is bordered by a curb,2.1461,artifact,curbside.n.01,1,0,11,1,screening
+k373,hubcap,cap that fits over the hub of a wheel,2.1461,artifact,hubcap.n.01,1,0,9,1,dev
+k374,sarong,a loose skirt consisting of brightly colored fabric wrapped around the body; worn by both women and men in the South Pacific,2.1461,artifact,sarong.n.01,1,0,22,1,screening
+k375,topsail,a sail (or either of a pair of sails) immediately above the lowermost sail of a mast and supported by a topmast,2.1461,artifact,topsail.n.01,1,0,22,1,screening
+k376,highchair,a chair for feeding a very young child; has four long legs and a footrest and a detachable tray,2.2041,artifact,highchair.n.01,1,0,19,1,screening
+k377,sandpiper,any of numerous usually small wading birds having a slender bill and piping call; closely related to the plovers,2.2041,organism,sandpiper.n.01,1,0,19,1,test
+k378,trestle,a supporting tower used to support a bridge,2.2041,artifact,trestle.n.01,2,0,8,1,screening
+k379,gingham,a clothing fabric in a plaid weave,2.2553,artifact,gingham.n.01,1,0,7,1,test
+k380,pincushion,a small stiff cushion into which pins are stuck ready for use,2.2553,artifact,pincushion.n.01,1,0,12,1,screening
+k381,tarpon,large silvery game fish of warm Atlantic coastal waters especially off Florida,2.2553,organism,tarpon.n.01,1,0,12,1,test
+k382,chintz,a brightly printed and glazed cotton fabric,2.3424,artifact,chintz.n.01,1,0,7,1,screening
+k383,roadway,a road (especially that part of a road) over which vehicles travel,2.3424,artifact,roadway.n.01,1,0,12,1,screening
+k384,signet,a seal (especially one used to mark documents officially),2.3424,artifact,signet.n.01,1,0,9,1,screening
+k385,viaduct,bridge consisting of a series of arches supported by piers used to carry a road (or railroad) over a valley,2.3424,artifact,viaduct.n.01,1,0,20,1,test
+k386,goalpost,one of a pair of posts (usually joined by a crossbar) that are set up as a goal at each end of a playing field,2.3979,artifact,goalpost.n.01,1,0,25,1,dev
+k387,handset,telephone set with the mouthpiece and earpiece mounted on a single handle,2.3979,artifact,handset.n.01,1,0,12,1,test
+k388,maser,an acronym for microwave amplification by stimulated emission of radiation; an amplifier that works on the same principle as a laser and emits coherent microwave radiation,2.3979,artifact,maser.n.01,1,0,26,1,test
+k389,ziti,medium-sized tubular pasta in short pieces,2.3979,food,ziti.n.01,1,0,6,1,test
+k390,easel,an upright tripod for displaying something (usually an artist's canvas),2.4314,artifact,easel.n.01,1,0,10,1,test
+k391,finery,elaborate or showy attire and accessories,2.4314,artifact,finery.n.01,1,0,6,1,screening
+k392,strainer,a filter to retain larger pieces while smaller pieces and liquids pass through,2.4314,artifact,strainer.n.01,1,0,13,1,dev
+k393,cartwheel,a wheel that has wooden spokes and a metal rim,2.4624,artifact,cartwheel.n.01,3,1,10,1,screening
+k394,headboard,a vertical board or panel forming the head of a bedstead,2.4624,artifact,headboard.n.01,1,0,11,1,screening
+k395,neckline,the line formed by the edge of a garment around the neck,2.4624,artifact,neckline.n.01,1,0,12,1,test
+k396,amplifier,electronic equipment that increases strength of signals passing through it,2.4914,artifact,amplifier.n.01,1,0,10,1,dev
+k397,bedpost,any of 4 vertical supports at the corners of a bedstead,2.4914,artifact,bedpost.n.01,1,0,11,1,screening
+k398,seashell,the shell of a marine organism,2.4914,natural_object,seashell.n.01,1,0,6,1,test
+k399,warthog,African wild swine with warty protuberances on the face and large protruding tusks,2.4914,organism,warthog.n.01,1,0,13,1,screening
+k400,blower,a device that produces a current of air,2.5185,artifact,blower.n.01,3,0,8,2,test
+k401,toadstool,common name for an inedible or poisonous agaric (contrasting with the edible mushroom),2.5185,organism,toadstool.n.01,1,0,13,2,screening
+k402,bassinet,a basket (usually hooded) used as a baby's bed,2.5441,artifact,bassinet.n.01,2,0,9,2,screening
+k403,derringer,a pocket pistol of large caliber with a short barrel,2.5441,artifact,derringer.n.01,1,0,10,2,test
+k404,turntable,a circular horizontal platform that rotates a phonograph record while it is being played,2.5441,artifact,turntable.n.01,3,0,14,2,screening
+k405,sturgeon,large primitive fishes valued for their flesh and roe; widely distributed in the North Temperate Zone,2.5682,organism,sturgeon.n.01,1,0,16,2,test
+k406,girder,a beam made usually of steel; a main support in a structure,2.5911,artifact,girder.n.01,1,0,12,2,dev
+k407,ion,a particle that is electrically charged (positive or negative); an atom or molecule or group that has lost or gained one or more electrons,2.5911,natural_object,ion.n.01,1,0,24,2,screening
+k408,undercarriage,framework that serves as a support for the body of a vehicle,2.5911,artifact,undercarriage.n.01,1,0,12,2,test
+k409,vise,a holding device attached to a workbench; has two jaws to hold workpiece firmly in place,2.5911,artifact,vise.n.01,1,0,16,2,dev
+k410,longboat,the largest boat carried by a merchant sailing vessel,2.6128,artifact,longboat.n.01,1,0,9,2,screening
+k411,pizzeria,a shop where pizzas are made and sold,2.6128,artifact,pizzeria.n.01,1,0,8,2,dev
+k412,scullery,a small room (in large old British houses) next to the kitchen; where kitchen utensils are cleaned and kept and other rough household jobs are done,2.6128,artifact,scullery.n.01,1,0,26,2,test
+k413,wringer,a clothes dryer consisting of two rollers between which the wet clothes are squeezed,2.6128,artifact,wringer.n.01,1,0,14,2,dev
+k414,cleat,a metal or leather projection (as from the sole of a shoe); prevents slipping,2.6335,artifact,cleat.n.01,3,2,14,2,test
+k415,gulag,a Russian prison camp for political prisoners,2.6335,artifact,gulag.n.01,1,0,7,2,screening
+k416,receptacle,a container that is used to put or keep things in,2.6335,artifact,receptacle.n.01,3,0,11,2,test
+k417,searchlight,a light source with reflectors that projects a beam of light in a particular direction,2.6335,artifact,searchlight.n.01,1,0,15,2,test
+k418,switchblade,a pocketknife with a blade that springs open at the press of a button,2.6335,artifact,switchblade.n.01,1,0,14,2,dev
+k419,altimeter,an instrument that measures the height above ground; used in navigation,2.6532,artifact,altimeter.n.01,1,0,11,2,screening
+k420,hacksaw,saw used with one hand for cutting metal,2.6532,artifact,hacksaw.n.01,1,0,8,2,screening
+k421,sundial,timepiece that indicates the daylight hours by the shadow that the gnomon casts on a calibrated dial,2.6532,artifact,sundial.n.01,1,0,17,2,screening
+k422,rotor,the rotating armature of a motor or generator,2.6721,artifact,rotor.n.01,3,0,8,2,test
+k423,dipstick,a graduated rod dipped into a container to indicate the fluid level,2.6902,artifact,dipstick.n.01,1,0,12,2,screening
+k424,lapel,lap at the front of a coat; continuation of the coat collar,2.6902,artifact,lapel.n.01,1,0,12,2,screening
+k425,sheath,a protective covering (as for a knife or sword),2.6902,artifact,sheath.n.01,3,0,9,2,screening
+k426,tailpipe,a pipe carrying fumes from the muffler to the rear of a car,2.6902,artifact,tailpipe.n.01,1,0,13,2,test
+k427,bullfrog,largest North American frog; highly aquatic with a deep-pitched voice,2.7076,organism,bullfrog.n.01,1,0,10,2,test
+k428,chalet,a Swiss house with a sloping roof and wide eaves or a house built in this style,2.7076,artifact,chalet.n.01,1,0,17,2,test
+k429,transformer,an electrical device by which alternating current of one voltage is changed to another voltage,2.7243,artifact,transformer.n.01,1,0,15,2,test
+k430,flamethrower,a weapon that squirts ignited fuel for several yards,2.7559,artifact,flamethrower.n.01,1,0,9,2,screening
+k431,transistor,a semiconductor device capable of amplification,2.7709,artifact,transistor.n.01,1,0,6,2,dev
+k432,hummingbird,tiny American bird having brilliant iridescent plumage and long slender bills; wings are specialized for vibrating flight,2.7853,organism,hummingbird.n.01,1,0,17,2,test
+k433,porker,a pig fattened to provide meat,2.7853,organism,porker.n.01,1,0,6,2,test
+k434,mongoose,agile grizzled Old World viverrine; preys on snakes and rodents,2.8129,organism,mongoose.n.01,1,0,10,2,test
+k435,futon,mattress consisting of a pad of cotton batting that is used for sleeping on the floor or on a raised frame,2.8261,artifact,futon.n.01,1,0,21,2,dev
+k436,cookbook,a book of recipes and cooking directions,2.8633,artifact,cookbook.n.01,1,0,7,2,test
+k437,hurdle,a light movable barrier that competitors must leap over in certain races,2.8633,artifact,hurdle.n.01,3,1,12,2,screening
+k438,starfish,echinoderms characterized by five arms extending from a central disk,2.8751,organism,starfish.n.01,1,0,10,2,test
+k439,houseboat,a barge that is designed and equipped for use as a dwelling,2.8921,artifact,houseboat.n.01,1,0,12,2,screening
+k440,tongs,any of various devices for taking hold of objects; usually have two hinged legs with handles above and pointed hooks below,2.8921,artifact,tongs.n.01,1,0,21,2,dev
+k441,cellophane,a transparent paperlike product that is impervious to moisture and used to wrap candy or cigarettes etc.,2.9138,artifact,cellophane.n.01,1,0,17,2,test
+k442,chipmunk,a burrowing ground squirrel of western America and Asia; has cheek pouches and a light and dark stripe running down the body,2.9138,organism,chipmunk.n.01,1,0,22,2,screening
+k443,tripod,a three-legged rack used for support,2.9542,artifact,tripod.n.01,1,0,6,2,screening
+k444,bulkhead,a partition that divides a ship or plane into compartments,2.9731,artifact,bulkhead.n.01,1,0,10,2,dev
+k445,nutshell,the shell around the kernel of a nut,2.9731,natural_object,nutshell.n.01,1,0,8,2,screening
+k446,stethoscope,a medical instrument for listening to the sounds generated inside the body,2.9731,artifact,stethoscope.n.01,1,0,12,2,screening
+k447,refinery,an industrial plant for purifying a crude substance,2.9823,artifact,refinery.n.01,1,0,8,2,test
+k448,terrier,any of several usually small short-bodied breeds originally trained to hunt animals living underground,2.9823,organism,terrier.n.01,1,0,14,2,screening
+k449,bonsai,a dwarfed ornamental tree or shrub grown in a tray or shallow pot,2.9912,organism,bonsai.n.01,1,0,13,2,dev
+k450,eyeliner,makeup applied to emphasize the shape of the eyes,3.0086,artifact,eyeliner.n.01,1,0,9,3,screening
+k451,toothpick,pick consisting of a small strip of wood or plastic; used to pick food from between the teeth,3.0086,artifact,toothpick.n.01,1,0,18,3,dev
+k452,pew,long bench with backs; used in church by the congregation,3.017,artifact,pew.n.01,1,0,10,3,test
+k453,catheter,a thin flexible tube inserted into the body to permit introduction or withdrawal of fluids or to keep the passageway open,3.0334,artifact,catheter.n.01,1,0,21,3,test
+k454,modem,(from a combination of MOdulate and DEModulate) electronic equipment consisting of a device used to connect computers by a telephone line,3.0334,artifact,modem.n.01,1,0,21,3,dev
+k455,flask,bottle that has a narrow neck,3.0492,artifact,flask.n.01,2,0,6,3,test
+k456,thermos,vacuum flask that preserves temperature of hot or cold drinks,3.0492,artifact,thermos.n.01,1,0,10,3,dev
+k457,sash,a framework that holds the panes of a window in the window frame,3.0569,artifact,sash.n.01,2,0,13,3,screening
+k458,blazer,lightweight single-breasted jacket; often striped in the colors of a club or school,3.0864,artifact,blazer.n.01,1,0,13,3,dev
+k459,toolbox,a box or chest or cabinet for holding hand tools,3.0969,artifact,toolbox.n.01,1,0,10,3,screening
+k460,trombone,a brass instrument consisting of a long tube whose length can be varied by a U-shaped slide,3.1038,artifact,trombone.n.01,1,0,17,3,dev
+k461,windmill,a mill that is powered by the wind,3.1038,artifact,windmill.n.01,2,0,8,3,screening
+k462,accordion,a portable box-shaped free-reed instrument; the reeds are made to vibrate by air from the bellows controlled by the player,3.1173,artifact,accordion.n.01,1,0,20,3,dev
+k463,farmhouse,house for a farmer and family,3.1173,artifact,farmhouse.n.01,1,0,6,3,test
+k464,pear,sweet juicy gritty-textured fruit available in many varieties,3.1239,natural_object,pear.n.01,2,0,8,3,screening
+k465,crypt,a cellar or vault or underground burial chamber (especially beneath a church),3.1367,artifact,crypt.n.01,1,0,12,3,test
+k466,periscope,an optical instrument that provides a view of an otherwise obstructed field,3.1367,artifact,periscope.n.01,1,0,12,3,screening
+k467,shawl,cloak consisting of an oblong piece of cloth used to cover the head and shoulders,3.1367,artifact,shawl.n.01,1,0,15,3,test
+k468,lifeboat,a strong sea boat designed to rescue people from a sinking ship,3.143,artifact,lifeboat.n.01,1,0,12,3,test
+k469,snowball,plant having heads of fragrant white trumpet-shaped flowers; grows in sandy arid regions,3.143,organism,snowball.n.01,4,2,13,3,dev
+k470,llama,wild or domesticated South American cud-chewing animal related to camels but smaller and lacking a hump,3.1492,organism,llama.n.01,1,0,16,3,test
+k471,shutter,a mechanical device on a camera that opens and closes to control the time of a photographic exposure,3.1614,artifact,shutter.n.01,2,1,18,3,screening
+k472,stockade,fortification consisting of a fence made of a line of stout posts set firmly for defense,3.1614,artifact,stockade.n.01,2,1,16,3,screening
+k473,clarinet,a single-reed instrument with a straight tube,3.1959,artifact,clarinet.n.01,1,0,7,3,test
+k474,porcelain,ceramic ware made of a more or less translucent ceramic,3.1959,artifact,porcelain.n.01,1,0,10,3,screening
+k475,maggot,the larva of the housefly and blowfly commonly found in decaying organic matter,3.2014,organism,maggot.n.01,1,0,13,3,dev
+k476,mast,a vertical spar for supporting sails,3.2122,artifact,mast.n.01,4,0,6,3,dev
+k477,mascot,a person or animal that is adopted by a team or other group as a symbolic figure,3.2175,organism,mascot.n.01,1,0,17,3,test
+k478,louse,wingless usually flattened bloodsucking insect parasitic on warm-blooded animals,3.2279,organism,louse.n.01,4,0,9,3,screening
+k479,locket,a small ornamental case; usually contains a picture or a lock of hair and is worn on a necklace,3.233,artifact,locket.n.01,1,0,19,3,screening
+k480,bugle,a brass instrument without valves; used for military calls and fanfares,3.238,artifact,bugle.n.01,3,1,11,3,screening
+k481,gallows,an instrument of execution consisting of a wooden frame from which a condemned person is executed by hanging,3.2504,artifact,gallows.n.01,1,0,18,3,screening
+k482,burner,an apparatus for burning fuel (or refuse),3.2601,artifact,burner.n.01,2,0,7,3,test
+k483,basin,a bowl-shaped vessel; usually used for holding food or liquids,3.2742,artifact,basin.n.01,5,0,10,3,screening
+k484,snowman,a figure of a person made of packed snow,3.2788,artifact,snowman.n.01,1,0,9,3,test
+k485,pretzel,glazed and salted cracker typically in the shape of a loose knot,3.301,food,pretzel.n.01,1,0,12,3,test
+k486,rink,building that contains a surface for ice skating or roller skating,3.3304,artifact,rink.n.01,1,0,11,3,test
+k487,salami,highly seasoned fatty sausage of pork and beef usually dried,3.3502,food,salami.n.01,1,0,10,3,test
+k488,kangaroo,any of several herbivorous leaping marsupials of Australia and New Guinea having large powerful hind legs and a long thick tail,3.3636,organism,kangaroo.n.01,1,0,21,3,dev
+k489,vocabulary,a listing of the words used in some enterprise,3.3674,artifact,vocabulary.n.01,3,0,9,3,screening
+k490,parasite,an animal or plant that lives in or on a host (another animal or plant); it obtains nourishment from the host without benefiting or killing the host,3.3927,organism,parasite.n.01,2,0,27,3,screening
+k491,archives,collection of records especially about an institution,3.4031,artifact,archives.n.01,2,1,7,3,screening
+k492,pepperoni,a pork and beef sausage (or a thin slice of this sausage),3.4099,food,pepperoni.n.01,1,0,12,3,test
+k493,satin,a smooth fabric of silk or rayon; has a glossy face and a dull back,3.4166,artifact,satin.n.01,1,0,15,3,test
+k494,hoop,a light curved skeleton to spread out a skirt,3.4298,artifact,hoop.n.01,4,1,9,3,screening
+k495,links,a golf course that is built on sandy ground near a shore,3.4409,artifact,links.n.01,10,4,12,3,test
+k496,boiler,sealed vessel where water is converted to steam,3.4502,artifact,boiler.n.01,2,0,8,3,screening
+k497,penguin,short-legged flightless birds of cold southern especially Antarctic regions having webbed feet and wings modified as flippers,3.4594,organism,penguin.n.01,1,0,17,3,screening
+k498,tavern,a building with a bar that is licensed to sell alcoholic drinks,3.4914,artifact,tavern.n.01,1,0,12,3,test
+k499,scalpel,a thin straight surgical knife used in dissection and surgery,3.4997,artifact,scalpel.n.01,1,0,10,3,test
+k500,cockpit,compartment where the pilot sits while flying the aircraft,3.5079,artifact,cockpit.n.01,3,0,9,4,dev
+k501,ashtray,a receptacle for the ash from smokers' cigars or cigarettes,3.5119,artifact,ashtray.n.01,1,0,10,4,screening
+k502,reel,a roll of photographic film holding a series of frames to be projected by a movie projector,3.5119,artifact,reel.n.01,6,3,17,4,test
+k503,cupcake,small cake baked in a muffin tin,3.5145,food,cupcake.n.01,1,0,7,4,test
+k504,windshield,transparent screen (as of glass) to protect occupants of a vehicle,3.5145,artifact,windshield.n.01,1,0,11,4,screening
+k505,barrier,a structure or object that impedes free movement,3.5302,artifact,barrier.n.01,3,0,8,4,screening
+k506,destroyer,a small fast lightly armored but heavily armed warship,3.5599,artifact,destroyer.n.01,2,0,9,4,dev
+k507,dictionary,a reference book containing an alphabetical list of words with information about them,3.5717,artifact,dictionary.n.01,1,0,13,4,test
+k508,caviar,salted roe of sturgeon or other large fish; usually served as an hors d'oeuvre,3.5821,food,caviar.n.01,1,0,14,4,test
+k509,vase,an open jar of glass or porcelain used as an ornament or to hold flowers,3.5843,artifact,vase.n.01,1,0,15,4,screening
+k510,grape,any of various juicy fruit of the genus Vitis with green or purple skins; grow in clusters,3.6021,natural_object,grape.n.01,3,0,17,4,test
+k511,nursery,a child's room for a baby,3.6085,artifact,nursery.n.01,2,0,6,4,screening
+k512,mailbox,a private box for delivery of mail,3.6191,artifact,mailbox.n.01,2,0,7,4,screening
+k513,chimney,a vertical flue that provides a path through which smoke from a fire is carried away through the wall or roof of a building,3.6212,artifact,chimney.n.01,2,0,24,4,test
+k514,penthouse,an apartment located on the top floors of a building,3.6561,artifact,penthouse.n.01,1,0,10,4,test
+k515,salon,gallery where works of art can be displayed,3.6618,artifact,salon.n.01,3,0,8,4,screening
+k516,grenade,a small explosive bomb thrown by hand or fired from a missile,3.6637,artifact,grenade.n.01,1,0,12,4,dev
+k517,lens,a transparent optical device used to converge or diverge transmitted light and to form images,3.6693,artifact,lens.n.01,5,0,15,4,test
+k518,supermarket,a large self-service grocery store selling groceries and dairy products and household goods,3.699,artifact,supermarket.n.01,1,0,13,4,dev
+k519,hound,any of several breeds of dog used for hunting typically having large drooping ears,3.7024,organism,hound.n.01,2,1,14,4,test
+k520,bin,a container; usually has a lid,3.73,artifact,bin.n.01,3,1,6,4,dev
+k521,squirrel,a kind of arboreal rodent having a long bushy tail,3.738,organism,squirrel.n.01,2,0,10,4,test
+k522,gorilla,largest anthropoid ape; terrestrial and vegetarian; of forests of central west Africa,3.7443,organism,gorilla.n.01,1,0,12,4,test
+k523,corridor,an enclosed passageway; rooms usually open onto it,3.7459,artifact,corridor.n.01,1,0,8,4,test
+k524,owl,nocturnal bird of prey with hawk-like beak and claws and large head with front-facing eyes,3.749,organism,owl.n.01,1,0,15,4,screening
+k525,cafeteria,a restaurant where you serve yourself and pay a cashier,3.7536,artifact,cafeteria.n.01,1,0,10,4,dev
+k526,generator,an apparatus that produces a vapor or gas,3.7551,artifact,generator.n.01,4,0,8,4,test
+k527,cracker,a thin crisp wafer made of flour and water with or without leavening and shortening; unsweetened or semisweet,3.7604,food,cracker.n.01,5,0,18,4,screening
+k528,brake,a restraint used to slow or stop a vehicle,3.7767,artifact,brake.n.01,5,2,9,4,screening
+k529,gown,"a woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions",3.8162,artifact,gown.n.01,5,1,18,4,screening
+k530,mattress,"a large thick pad filled with resilient material and often incorporating coiled springs, used as a bed or part of a bed",3.8202,artifact,mattress.n.01,1,0,22,4,test
+k531,shovel,a hand tool for lifting loose material; consists of a curved container or scoop and a handle,3.8351,artifact,shovel.n.01,4,1,17,4,screening
+k532,crab,decapod having eyes on short stalks and a broad flattened carapace with a small abdomen folded under the thorax and pincers,3.8388,organism,crab.n.01,7,4,21,4,screening
+k533,cord,a line made of twisted fibers or threads,3.8463,artifact,cord.n.01,4,2,8,4,dev
+k534,mule,hybrid offspring of a male donkey and a female horse; usually sterile,3.8463,organism,mule.n.01,2,0,12,4,screening
+k535,medium,a means or instrumentality for storing or communicating information,3.8513,artifact,medium.n.01,11,4,9,4,dev
+k536,anchor,a mechanical device that prevents a vessel from moving,3.8698,artifact,anchor.n.01,3,2,9,4,test
+k537,aisle,a long narrow passage (as in a cave or woods),3.871,artifact,aisle.n.01,3,0,10,4,test
+k538,saddle,a seat for the rider of a horse or camel,3.8932,artifact,saddle.n.01,6,3,10,4,screening
+k539,pony,a range horse of the western United States,3.9085,organism,pony.n.01,5,0,8,4,screening
+k540,cabinet,a piece of furniture resembling a cupboard with doors and shelves and drawers; for storage or display,3.9206,artifact,cabinet.n.01,4,0,17,4,dev
+k541,cane,a stick that people can lean on to help them walk,3.9206,artifact,cane.n.01,3,1,11,4,test
+k542,haircut,the style in which hair has been cut,3.9248,natural_object,haircut.n.01,2,0,8,4,screening
+k543,briefcase,a case with a handle; for carrying papers or files or books,3.934,artifact,briefcase.n.01,1,0,12,4,screening
+k544,throne,"the chair of state for a monarch, bishop, etc.",3.937,artifact,throne.n.01,3,2,9,4,test
+k545,ladder,steps consisting of two parallel members connected by rungs; for climbing up or down,3.9661,artifact,ladder.n.01,3,1,14,4,screening
+k546,porch,a structure attached to the exterior of a building often forming a covered entrance,3.9836,artifact,porch.n.01,1,0,14,4,dev
+k547,ape,any of various primates with short tails or no tail at all,3.9854,organism,ape.n.01,3,2,12,4,test
+k548,dock,an enclosure in a court of law where the defendant sits during the trial,3.989,artifact,dock.n.01,7,5,14,4,test
+k549,silk,a fabric made from the fine threads produced by certain insect larvae,3.9903,artifact,silk.n.01,2,0,12,4,screening
+k550,envelope,"a flat (usually rectangular) container for a letter, thin package, etc.",4.0026,artifact,envelope.n.01,6,0,11,5,screening
+k551,root,(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground,4.0199,natural_object,root.n.01,8,6,25,5,screening
+k552,statue,a sculpture representing a human or animal,4.0249,artifact,statue.n.01,1,0,7,5,screening
+k553,banana,any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits,4.0306,organism,banana.n.01,2,0,28,5,dev
+k554,gig,long and light rowing boat; especially for racing,4.0492,artifact,gig.n.01,6,0,8,5,screening
+k555,weed,any plant that crowds out cultivated plants,4.0704,organism,weed.n.01,3,1,7,5,screening
+k556,pill,something that resembles a tablet of medicine in shape or size,4.0726,artifact,pill.n.01,5,0,11,5,test
+k557,lemon,yellow oval fruit with juicy acidic flesh,4.0799,natural_object,lemon.n.01,5,0,7,5,screening
+k558,pole,a long (usually round) rod of wood or metal or plastic,4.1,artifact,pole.n.01,10,3,11,5,dev
+k559,lamp,an artificial source of visible illumination,4.1099,artifact,lamp.n.01,2,0,6,5,dev
+k560,counter,table consisting of a horizontal surface over which business is transacted,4.143,artifact,counter.n.01,9,5,11,5,screening
+k561,invitation,a request (spoken or written) to participate or be present or take part in something,4.1726,artifact,invitation.n.01,2,0,15,5,test
+k562,steak,a slice of meat cut from the fleshy part of an animal or large fish,4.2106,food,steak.n.01,1,0,15,5,screening
+k563,tent,a portable shelter (usually of canvas stretched over supporting poles and fastened to the ground with ropes and pegs),4.2428,artifact,tent.n.01,2,1,19,5,test
+k564,temple,place of worship consisting of an edifice for the worship of a deity,4.2443,artifact,temple.n.01,4,0,13,5,test
+k565,article,nonfictional prose forming an independent part of a publication,4.2916,artifact,article.n.01,4,1,9,5,screening
+k566,cabin,small room on a ship or boat where people sleep,4.2934,artifact,cabin.n.01,3,1,10,5,screening
+k567,beef,cattle that are reared for their meat,4.2947,organism,beef.n.01,3,1,7,5,screening
+k568,casino,a public building for gambling and entertainment,4.309,artifact,casino.n.01,2,0,7,5,test
+k569,fruit,the ripened reproductive body of a seed plant,4.3371,natural_object,fruit.n.01,3,2,8,5,screening
+k570,pot,metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid,4.3528,artifact,pot.n.01,9,1,17,5,test
+k571,turkey,large gallinaceous bird with fan-shaped tail; widely domesticated for food,4.3543,organism,turkey.n.01,5,0,10,5,dev
+k572,tower,a structure taller than its diameter; can stand alone or be attached to a larger building,4.3587,artifact,tower.n.01,3,1,16,5,dev
+k573,trap,a device in which something (usually an animal) can be caught and penned,4.3773,artifact,trap.n.01,8,4,13,5,dev
+k574,garage,an outbuilding (or part of a building) for housing automobiles,4.4349,artifact,garage.n.01,2,1,10,5,screening
+k575,bull,uncastrated adult male of domestic cattle,4.4395,organism,bull.n.01,11,4,6,5,test
+k576,bath,a vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it),4.493,artifact,bath.n.01,6,1,25,5,test
+k577,cab,a compartment at the front of a motor vehicle or locomotive where driver sits,4.5539,artifact,cab.n.01,3,1,14,5,screening
+k578,release,merchandise issued for sale or public showing (especially a record or film),4.5598,artifact,release.n.01,12,10,12,5,screening
+k579,bell,a hollow device made of metal that makes a ringing sound when struck,4.5947,artifact,bell.n.01,10,1,13,5,screening
+k580,bird,warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings,4.6575,organism,bird.n.01,5,1,11,5,test
+k581,pool,an excavation that is (usually) filled with water,4.6719,artifact,pool.n.01,9,2,8,5,dev
+k582,chair,"a seat for one person, with a support for the back",4.6923,artifact,chair.n.01,5,2,11,5,test
+k583,cup,a small open container usually used for drinking; usually has a handle,4.7131,artifact,cup.n.01,8,3,12,5,test
+k584,bomb,an explosive device fused to explode under specific conditions,4.7296,artifact,bomb.n.01,3,2,9,5,test
+k585,queen,the only fertile female in a colony of social insects such as bees and ants and termites; its function is to lay eggs,4.7379,organism,queen.n.01,10,2,23,5,dev
+k586,computer,a machine for performing calculations automatically,4.7711,artifact,computer.n.01,2,0,6,5,test
+k587,prison,a correctional institution where persons are confined while on trial or for punishment,4.8198,artifact,prison.n.01,2,0,13,5,test
+k588,suit,a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color,4.8364,artifact,suit.n.01,6,4,21,5,dev
+k589,wall,an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure,4.8494,artifact,wall.n.01,8,1,24,5,test
+k590,star,(astronomy) a celestial body of hot gases that radiates energy derived from thermonuclear reactions in the interior,4.9104,natural_object,star.n.01,8,5,17,5,test
+k591,fish,any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills,4.9216,organism,fish.n.01,4,2,14,5,test
+k592,bag,a flexible container with a single opening,4.9733,artifact,bag.n.01,9,5,7,5,test
+k593,boat,a small vessel for travel on water,4.9813,artifact,boat.n.01,2,1,7,5,test
+k594,floor,"the inside lower horizontal surface (as of a room, hallway, tent, or other structure)",5.0027,artifact,floor.n.01,10,2,14,5,screening
+k595,ball,round object that is hit or thrown or kicked in games,5.021,artifact,ball.n.01,12,1,11,5,test
+k596,street,a thoroughfare (usually including sidewalks) that is lined with buildings,5.1708,artifact,street.n.01,5,0,10,5,screening
+k597,bed,a piece of furniture that provides a place to sleep,5.2721,artifact,bed.n.01,8,5,10,5,screening
+k598,gun,a weapon that discharges a missile at high velocity (especially from a metal tube or barrel),5.3288,artifact,gun.n.01,7,1,16,5,screening
+k599,haven,a shelter serving as a place of safety or sanctuary,5.5676,artifact,haven.n.01,2,0,10,5,dev

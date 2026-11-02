@@ -1,0 +1,287 @@
+{
+  "status": "approved_for_execution",
+  "seed": 1910,
+  "wordnet": "3.0",
+  "sources": {
+    "wordnet.zip": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+    "SemD.xlsx": "cf4dc3ab8244d50cdb3f74f925da172872770baa7a8b03eb2df16e71408241a8"
+  },
+  "items_sha256": "b187bb02f03c63d3ae62c948bbf23a5c48ad75a8c73e55de247a4b13145051c9",
+  "active_items": 184,
+  "excluded_items": 176,
+  "split_counts": {
+    "screening": 78,
+    "test": 63,
+    "dev": 43
+  },
+  "accepted_answers_source": "single-word WordNet lemmas from the recorded exact synset, frozen before model answers",
+  "split_rule": "connected components of stems and exact synsets, frequency and SemD stratified, seed 1910",
+  "review_note": "Source-based review and fresh same-family model review resolved. All excluded rows retained.",
+  "pool_counts": {
+    "high": {
+      "dev": 27,
+      "screening": 53,
+      "test": 40
+    },
+    "low": {
+      "dev": 26,
+      "screening": 54,
+      "test": 40
+    },
+    "middle": {
+      "dev": 27,
+      "screening": 53,
+      "test": 40
+    }
+  },
+  "pool_joint_counts": [
+    {
+      "split": "dev",
+      "frequency_bin": "high",
+      "semd_bin": "high",
+      "n": 13
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "high",
+      "semd_bin": "low",
+      "n": 14
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "low",
+      "semd_bin": "high",
+      "n": 13
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "low",
+      "semd_bin": "low",
+      "n": 13
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "middle",
+      "semd_bin": "high",
+      "n": 13
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "middle",
+      "semd_bin": "low",
+      "n": 14
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "high",
+      "semd_bin": "high",
+      "n": 27
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "high",
+      "semd_bin": "low",
+      "n": 26
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "low",
+      "semd_bin": "high",
+      "n": 27
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "low",
+      "semd_bin": "low",
+      "n": 27
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "middle",
+      "semd_bin": "high",
+      "n": 27
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "middle",
+      "semd_bin": "low",
+      "n": 26
+    },
+    {
+      "split": "test",
+      "frequency_bin": "high",
+      "semd_bin": "high",
+      "n": 20
+    },
+    {
+      "split": "test",
+      "frequency_bin": "high",
+      "semd_bin": "low",
+      "n": 20
+    },
+    {
+      "split": "test",
+      "frequency_bin": "low",
+      "semd_bin": "high",
+      "n": 20
+    },
+    {
+      "split": "test",
+      "frequency_bin": "low",
+      "semd_bin": "low",
+      "n": 20
+    },
+    {
+      "split": "test",
+      "frequency_bin": "middle",
+      "semd_bin": "high",
+      "n": 20
+    },
+    {
+      "split": "test",
+      "frequency_bin": "middle",
+      "semd_bin": "low",
+      "n": 20
+    }
+  ],
+  "review": {
+    "execution_clearance": "agent3",
+    "independent_reviewer": "agent3, same-family provisional review",
+    "human_review": true,
+    "human_reviewer": "Jingbo Chen",
+    "human_review_period": "late October 2026",
+    "human_review_recorded": "2026-11-02, see data/materials/ITEM_REVIEW.md",
+    "agent1_review": false,
+    "basis": "source checking and two rounds of semantic review before any new-material model scores"
+  },
+  "properties_sha256": "dc0af5bc49824cbc677315b79b9e9d806b0d9ff266df0f5a2a10af9b508d340d",
+  "property_items": 126,
+  "property_authoring_pool": 168,
+  "counts": {
+    "high": {
+      "dev": 14,
+      "screening": 23,
+      "test": 25
+    },
+    "low": {
+      "dev": 15,
+      "screening": 30,
+      "test": 23
+    },
+    "middle": {
+      "dev": 14,
+      "screening": 25,
+      "test": 15
+    }
+  },
+  "joint_counts": [
+    {
+      "split": "dev",
+      "frequency_bin": "high",
+      "semd_bin": "high",
+      "n": 6
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "high",
+      "semd_bin": "low",
+      "n": 8
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "low",
+      "semd_bin": "high",
+      "n": 8
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "low",
+      "semd_bin": "low",
+      "n": 7
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "middle",
+      "semd_bin": "high",
+      "n": 8
+    },
+    {
+      "split": "dev",
+      "frequency_bin": "middle",
+      "semd_bin": "low",
+      "n": 6
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "high",
+      "semd_bin": "high",
+      "n": 8
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "high",
+      "semd_bin": "low",
+      "n": 15
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "low",
+      "semd_bin": "high",
+      "n": 18
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "low",
+      "semd_bin": "low",
+      "n": 12
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "middle",
+      "semd_bin": "high",
+      "n": 11
+    },
+    {
+      "split": "screening",
+      "frequency_bin": "middle",
+      "semd_bin": "low",
+      "n": 14
+    },
+    {
+      "split": "test",
+      "frequency_bin": "high",
+      "semd_bin": "high",
+      "n": 12
+    },
+    {
+      "split": "test",
+      "frequency_bin": "high",
+      "semd_bin": "low",
+      "n": 13
+    },
+    {
+      "split": "test",
+      "frequency_bin": "low",
+      "semd_bin": "high",
+      "n": 13
+    },
+    {
+      "split": "test",
+      "frequency_bin": "low",
+      "semd_bin": "low",
+      "n": 10
+    },
+    {
+      "split": "test",
+      "frequency_bin": "middle",
+      "semd_bin": "high",
+      "n": 6
+    },
+    {
+      "split": "test",
+      "frequency_bin": "middle",
+      "semd_bin": "low",
+      "n": 9
+    }
+  ]
+}

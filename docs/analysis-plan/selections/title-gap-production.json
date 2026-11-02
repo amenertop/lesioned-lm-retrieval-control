@@ -1,0 +1,294 @@
+{
+  "status": "ok",
+  "state": {
+    "name": "PC8_all_a0",
+    "kind": "production_candidate",
+    "region": "all",
+    "gates": {
+      "head:47:21": 0.0,
+      "expert:47:2": 0.0,
+      "expert:47:101": 0.0,
+      "expert:47:125": 0.0,
+      "expert:41:62": 0.0,
+      "head:43:29": 0.0,
+      "head:47:28": 0.0,
+      "head:41:21": 0.0
+    },
+    "members": 8,
+    "alpha": 0.0
+  },
+  "single_ranking": [
+    "head:47:21",
+    "expert:47:2",
+    "expert:47:101",
+    "expert:47:125",
+    "expert:41:62",
+    "head:43:29",
+    "head:47:28",
+    "head:41:21",
+    "head:40:15",
+    "expert:17:62",
+    "expert:45:45",
+    "head:42:26",
+    "expert:43:97",
+    "head:33:20",
+    "expert:38:110",
+    "head:33:1",
+    "head:25:8",
+    "head:37:24",
+    "head:36:23",
+    "head:37:28",
+    "head:25:27",
+    "head:38:5",
+    "expert:16:105",
+    "expert:16:115",
+    "head:40:10",
+    "head:26:3",
+    "expert:5:54",
+    "head:25:14",
+    "head:26:5",
+    "head:33:24",
+    "head:22:15",
+    "expert:25:32"
+  ],
+  "copy_checks": [
+    {
+      "state": "PC8_all_a0",
+      "copy_drop": 0.0
+    }
+  ],
+  "candidates": [
+    {
+      "name": "intact",
+      "kind": "intact",
+      "gates": {}
+    },
+    {
+      "name": "PC2_all_a0",
+      "kind": "production_candidate",
+      "region": "all",
+      "gates": {
+        "head:47:21": 0.0,
+        "expert:47:2": 0.0
+      },
+      "members": 2,
+      "alpha": 0.0
+    },
+    {
+      "name": "PC2_all_a0.5",
+      "kind": "production_candidate",
+      "region": "all",
+      "gates": {
+        "head:47:21": 0.5,
+        "expert:47:2": 0.5
+      },
+      "members": 2,
+      "alpha": 0.5
+    },
+    {
+      "name": "PC2_answer_a0",
+      "kind": "production_candidate",
+      "region": "answer",
+      "gates": {
+        "head:47:21": 0.0,
+        "expert:47:2": 0.0
+      },
+      "members": 2,
+      "alpha": 0.0
+    },
+    {
+      "name": "PC2_answer_a0.5",
+      "kind": "production_candidate",
+      "region": "answer",
+      "gates": {
+        "head:47:21": 0.5,
+        "expert:47:2": 0.5
+      },
+      "members": 2,
+      "alpha": 0.5
+    },
+    {
+      "name": "PC4_all_a0",
+      "kind": "production_candidate",
+      "region": "all",
+      "gates": {
+        "head:47:21": 0.0,
+        "expert:47:2": 0.0,
+        "expert:47:101": 0.0,
+        "expert:47:125": 0.0
+      },
+      "members": 4,
+      "alpha": 0.0
+    },
+    {
+      "name": "PC4_all_a0.5",
+      "kind": "production_candidate",
+      "region": "all",
+      "gates": {
+        "head:47:21": 0.5,
+        "expert:47:2": 0.5,
+        "expert:47:101": 0.5,
+        "expert:47:125": 0.5
+      },
+      "members": 4,
+      "alpha": 0.5
+    },
+    {
+      "name": "PC4_answer_a0",
+      "kind": "production_candidate",
+      "region": "answer",
+      "gates": {
+        "head:47:21": 0.0,
+        "expert:47:2": 0.0,
+        "expert:47:101": 0.0,
+        "expert:47:125": 0.0
+      },
+      "members": 4,
+      "alpha": 0.0
+    },
+    {
+      "name": "PC4_answer_a0.5",
+      "kind": "production_candidate",
+      "region": "answer",
+      "gates": {
+        "head:47:21": 0.5,
+        "expert:47:2": 0.5,
+        "expert:47:101": 0.5,
+        "expert:47:125": 0.5
+      },
+      "members": 4,
+      "alpha": 0.5
+    },
+    {
+      "name": "PC8_all_a0",
+      "kind": "production_candidate",
+      "region": "all",
+      "gates": {
+        "head:47:21": 0.0,
+        "expert:47:2": 0.0,
+        "expert:47:101": 0.0,
+        "expert:47:125": 0.0,
+        "expert:41:62": 0.0,
+        "head:43:29": 0.0,
+        "head:47:28": 0.0,
+        "head:41:21": 0.0
+      },
+      "members": 8,
+      "alpha": 0.0
+    },
+    {
+      "name": "PC8_all_a0.5",
+      "kind": "production_candidate",
+      "region": "all",
+      "gates": {
+        "head:47:21": 0.5,
+        "expert:47:2": 0.5,
+        "expert:47:101": 0.5,
+        "expert:47:125": 0.5,
+        "expert:41:62": 0.5,
+        "head:43:29": 0.5,
+        "head:47:28": 0.5,
+        "head:41:21": 0.5
+      },
+      "members": 8,
+      "alpha": 0.5
+    },
+    {
+      "name": "PC8_answer_a0",
+      "kind": "production_candidate",
+      "region": "answer",
+      "gates": {
+        "head:47:21": 0.0,
+        "expert:47:2": 0.0,
+        "expert:47:101": 0.0,
+        "expert:47:125": 0.0,
+        "expert:41:62": 0.0,
+        "head:43:29": 0.0,
+        "head:47:28": 0.0,
+        "head:41:21": 0.0
+      },
+      "members": 8,
+      "alpha": 0.0
+    },
+    {
+      "name": "PC8_answer_a0.5",
+      "kind": "production_candidate",
+      "region": "answer",
+      "gates": {
+        "head:47:21": 0.5,
+        "expert:47:2": 0.5,
+        "expert:47:101": 0.5,
+        "expert:47:125": 0.5,
+        "expert:41:62": 0.5,
+        "head:43:29": 0.5,
+        "head:47:28": 0.5,
+        "head:41:21": 0.5
+      },
+      "members": 8,
+      "alpha": 0.5
+    }
+  ],
+  "provenance": {
+    "commit": "26671305198c6e57e743b3a8e3a769d3b9328af1",
+    "model": "qwen3-30b-a3b-instruct",
+    "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+    "tiny": false,
+    "dtype": "float16",
+    "moe": "sorted",
+    "split": "dev",
+    "battery": "homonyms",
+    "purpose": "production_search",
+    "items_sha256": "27c8c98d98e0529ab17f8d82e14a0cf767b5e4e70b6ac0c65fd5382ad4560869",
+    "means_sha256": "98b3865a71b0c8e85c530cb78d5438f9223a828fdf77c907315785b1f1de0d52",
+    "manifest_sha256": "141b1052cdf2c3686837a3ada6fe1233bf5e7b49255a3954a144d1361e50a993",
+    "partition": {
+      "items_sha256": "27c8c98d98e0529ab17f8d82e14a0cf767b5e4e70b6ac0c65fd5382ad4560869",
+      "seed": 1920,
+      "screening": [
+        "ace",
+        "bolt",
+        "bonnet",
+        "cap",
+        "change",
+        "fan",
+        "gear",
+        "lace",
+        "landing",
+        "log",
+        "model",
+        "mouse",
+        "nail",
+        "poker",
+        "rare",
+        "sink",
+        "skip",
+        "speaker",
+        "spring",
+        "watch"
+      ],
+      "dev": [
+        "article",
+        "ash",
+        "blind",
+        "bulb",
+        "cabinet",
+        "cold",
+        "file",
+        "horn",
+        "interest",
+        "lobby",
+        "match",
+        "note",
+        "park",
+        "sage",
+        "scale",
+        "sentence",
+        "shell",
+        "trailer",
+        "trunk",
+        "wake"
+      ]
+    },
+    "partition_sha256": "9ec4437894ae2d470f574b1595f5d3d064bd0fcc41ad8b9f6d704c857f591f55"
+  }
+}

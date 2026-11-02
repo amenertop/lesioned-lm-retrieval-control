@@ -1,0 +1,45 @@
+{
+  "ledger": "../results_ledger.csv",
+  "ledger_sha256": "69f51b612c5ef5632c5757720fdf64a87387f6c4db98d08fec33f1be85b21bf1",
+  "main_policy": "Only confirmatory endpoints. Design diagrams contain no empirical estimates.",
+  "table2_policy": "Patient markers, final measured states and fixed group-profile transfer under the prespecified healthy-to-chance calibration. This is a cross-task proxy, not a validated common clinical scale. Preserve prior material use, denominators and reading-precision scenarios separately from confidence intervals. No development outcomes.",
+  "semantic_diversity_final": "Six frozen paired regressions complete. Main contrasts are copied to numbers-by-section.md. Random ranking omitted by user decision.",
+  "fine_core_readout": "Selected candidate intervals complete. Text numbers preserve all three comprehension correlations for each highlighted candidate. Remaining frozen core comparisons are in progress.",
+  "table2_continuous_tests": "All completed candidate profiles and all six semantic-diversity pairs across four tasks. Continuous evidence and correlation tests stay separate from patient proportions and fixed transfer errors.",
+  "table2_pending": [
+    "generated naming consistency unavailable where classifications remain unresolved",
+    "remaining graded, combined, equal-size and coarse lesion comparisons",
+    "final non-dominant meaning and cueing comparisons"
+  ],
+  "files": {
+    "main-confirmatory.csv": {
+      "rows": 20,
+      "sha256": "0073085023e0c5e1e5174e9be227508e061f9003ada45cc9d649678fed1ccebe"
+    },
+    "table1-confirmatory.csv": {
+      "rows": 38,
+      "sha256": "b6e47fe21fd45abda8f5c642391a78081dc3f9bad0f52eca13149b5b53e5d3b6"
+    },
+    "table2-clinical-evidence.csv": {
+      "rows": 60,
+      "sha256": "ae0dac00ba66c40014108420a0d805098a811bc0c078d6784316d426c9859369"
+    },
+    "table2-profile-predictions.csv": {
+      "rows": 11,
+      "sha256": "ff0da0e23f43aa483fd365f3cf327eee4d745c6c7c10c5215552cdaeaeb18b13"
+    },
+    "table2-model-marker-tests.csv": {
+      "rows": 178,
+      "sha256": "20482bf7dfb071e3069e4cc0766769ea27d650b4144782187e1b0ffcd16221e7"
+    }
+  },
+  "historical_csvs": {
+    "fig2c_dissociation.csv": "supplement_only",
+    "fig2d_similarity.csv": "supplement_only",
+    "fig3a_formats.csv": "supplement_only",
+    "fig3b_dla.csv": "supplement_only",
+    "fig4a_errors.csv": "supplement_only",
+    "fig4b_hints.csv": "supplement_only",
+    "fig4c_cue_vs_loss.csv": "supplement_only"
+  }
+}

@@ -1,0 +1,1183 @@
+{
+  "doi": "10.1016/j.neuropsychologia.2007.09.007",
+  "source_pdf": "article/jefferies2008.pdf, author-archived manuscript (White Rose 3725), not the typeset version",
+  "source_pdf_sha256": "86f687bc131e840a5e23bb72edd18544fd9bb873f3b51d8ff3d92a2badb3fef9",
+  "figure": "Fig. 2, 'Impact of progressive phonemic cueing on naming performance', PDF page 24 (printed page 22)",
+  "method": "poppler pdftoppm renders the page in greyscale; the y-axis is the first tall dark column and the 11 tick marks left of it give a least-squares row-to-proportion line; a bar top is the centre row of its black top outline (grey < 40) in columns away from the vertical edges; fill grey 51/150/255 gives no cue/two phonemes/final cue; clusters are matched to the axis labels from pdftotext -bbox; each value is rounded to the nearest 1/30 (30-item test)",
+  "script": "tools/measure_jefferies2008_fig2.py",
+  "render": {
+    "tool": "pdftoppm (MiKTeX poppler), greyscale PNG",
+    "dpi": 600,
+    "size_px": [
+      7017,
+      4959
+    ]
+  },
+  "axis_calibration": {
+    "y_axis_column_px": 1143,
+    "tick_rows_px_1_to_0": [
+      923.0,
+      1085.0,
+      1241.0,
+      1402.0,
+      1558.0,
+      1720.0,
+      1875.0,
+      2037.0,
+      2193.0,
+      2354.0,
+      2510.0
+    ],
+    "px_per_unit": 1586.74,
+    "px_per_item": 52.89,
+    "max_tick_residual": 0.0013,
+    "vector_ticks_pt_0_to_1": [
+      301.199,
+      282.539,
+      263.16,
+      244.441,
+      225.059,
+      206.398,
+      186.961,
+      168.301,
+      148.922,
+      130.199,
+      110.82
+    ],
+    "note": "tick spacing alternates near 156 and 162 px because the chart's coordinates were stored on a grid of about 0.72 pt (1/100 inch), about 0.004 of the axis; bar tops carry the same quantisation"
+  },
+  "vector_cross_check": "pdftocairo -svg gives the bar fill rectangles in page points; each top is read on the least-squares line through the 11 vector tick marks",
+  "group_rescue_definition": "two = (two - none)/(1 - none), final = (final - none)/(1 - none). The paper text and the results ledger use the ratio of the group means in jefferies2008_cueing.csv (src/lesion/clinical_alignment.py, 'ratio of group means'); per-patient ratios and their mean and median are given for comparison",
+  "checks": {
+    "bars_more_than_0.01_from_1/30": [],
+    "max_abs_rounding_distance": 0.0025,
+    "pixel_vs_vector_max_abs_diff": 0.0005,
+    "vector_max_abs_rounding_distance": 0.0022,
+    "vector_rounds_to_same_1/30": true,
+    "labels_match_tables_1_2_order": true,
+    "group_captions_over_their_patients": {
+      "SD": true,
+      "SA": true,
+      "Average": true
+    },
+    "cumulative_non_decreasing": {
+      "SJ": true,
+      "JC": true,
+      "EK": true,
+      "KH1": true,
+      "AT": true,
+      "GT": true,
+      "GE": true,
+      "PD": true,
+      "SC": true,
+      "KH2": true,
+      "JM": true,
+      "BB": true,
+      "ME": true,
+      "LS": true
+    },
+    "stats_SD": {
+      "t_two_vs_none": 4.63,
+      "t_final_vs_two": 3.84,
+      "r_composite_uncued": 0.883,
+      "mcnemar_vs_none": {
+        "two": {
+          "summary": {
+            "exact_p": {
+              "n_significant": 1,
+              "of": 8,
+              "significant_range": [
+                0.016,
+                0.016
+              ]
+            },
+            "chi2_p": {
+              "n_significant": 4,
+              "of": 8,
+              "significant_range": [
+                0.046,
+                0.0082
+              ]
+            },
+            "chi2_cc_p": {
+              "n_significant": 1,
+              "of": 8,
+              "significant_range": [
+                0.023,
+                0.023
+              ]
+            }
+          },
+          "patients": {
+            "SJ": {
+              "gain_items": 5,
+              "exact_p": 0.062,
+              "chi2_p": 0.025,
+              "chi2_cc_p": 0.074
+            },
+            "JC": {
+              "gain_items": 3,
+              "exact_p": 0.25,
+              "chi2_p": 0.083,
+              "chi2_cc_p": 0.25
+            },
+            "EK": {
+              "gain_items": 7,
+              "exact_p": 0.016,
+              "chi2_p": 0.0082,
+              "chi2_cc_p": 0.023
+            },
+            "KH1": {
+              "gain_items": 5,
+              "exact_p": 0.062,
+              "chi2_p": 0.025,
+              "chi2_cc_p": 0.074
+            },
+            "AT": {
+              "gain_items": 1,
+              "exact_p": 1.0,
+              "chi2_p": 0.32,
+              "chi2_cc_p": 1.0
+            },
+            "GT": {
+              "gain_items": 1,
+              "exact_p": 1.0,
+              "chi2_p": 0.32,
+              "chi2_cc_p": 1.0
+            },
+            "GE": {
+              "gain_items": 4,
+              "exact_p": 0.12,
+              "chi2_p": 0.046,
+              "chi2_cc_p": 0.13
+            },
+            "PD": {
+              "gain_items": 2,
+              "exact_p": 0.5,
+              "chi2_p": 0.16,
+              "chi2_cc_p": 0.48
+            }
+          }
+        },
+        "final": {
+          "summary": {
+            "exact_p": {
+              "n_significant": 6,
+              "of": 8,
+              "significant_range": [
+                0.031,
+                0.00049
+              ]
+            },
+            "chi2_p": {
+              "n_significant": 7,
+              "of": 8,
+              "significant_range": [
+                0.025,
+                0.00053
+              ]
+            },
+            "chi2_cc_p": {
+              "n_significant": 6,
+              "of": 8,
+              "significant_range": [
+                0.041,
+                0.0015
+              ]
+            }
+          },
+          "patients": {
+            "SJ": {
+              "gain_items": 8,
+              "exact_p": 0.0078,
+              "chi2_p": 0.0047,
+              "chi2_cc_p": 0.013
+            },
+            "JC": {
+              "gain_items": 5,
+              "exact_p": 0.062,
+              "chi2_p": 0.025,
+              "chi2_cc_p": 0.074
+            },
+            "EK": {
+              "gain_items": 9,
+              "exact_p": 0.0039,
+              "chi2_p": 0.0027,
+              "chi2_cc_p": 0.0077
+            },
+            "KH1": {
+              "gain_items": 7,
+              "exact_p": 0.016,
+              "chi2_p": 0.0082,
+              "chi2_cc_p": 0.023
+            },
+            "AT": {
+              "gain_items": 2,
+              "exact_p": 0.5,
+              "chi2_p": 0.16,
+              "chi2_cc_p": 0.48
+            },
+            "GT": {
+              "gain_items": 9,
+              "exact_p": 0.0039,
+              "chi2_p": 0.0027,
+              "chi2_cc_p": 0.0077
+            },
+            "GE": {
+              "gain_items": 12,
+              "exact_p": 0.00049,
+              "chi2_p": 0.00053,
+              "chi2_cc_p": 0.0015
+            },
+            "PD": {
+              "gain_items": 6,
+              "exact_p": 0.031,
+              "chi2_p": 0.014,
+              "chi2_cc_p": 0.041
+            }
+          }
+        }
+      }
+    },
+    "stats_SA": {
+      "t_two_vs_none": 4.16,
+      "t_final_vs_two": 2.67,
+      "r_composite_uncued": 0.837,
+      "mcnemar_vs_none": {
+        "two": {
+          "summary": {
+            "exact_p": {
+              "n_significant": 4,
+              "of": 6,
+              "significant_range": [
+                0.016,
+                7.6e-06
+              ]
+            },
+            "chi2_p": {
+              "n_significant": 6,
+              "of": 6,
+              "significant_range": [
+                0.046,
+                2.2e-05
+              ]
+            },
+            "chi2_cc_p": {
+              "n_significant": 4,
+              "of": 6,
+              "significant_range": [
+                0.023,
+                6.2e-05
+              ]
+            }
+          },
+          "patients": {
+            "SC": {
+              "gain_items": 7,
+              "exact_p": 0.016,
+              "chi2_p": 0.0082,
+              "chi2_cc_p": 0.023
+            },
+            "KH2": {
+              "gain_items": 4,
+              "exact_p": 0.12,
+              "chi2_p": 0.046,
+              "chi2_cc_p": 0.13
+            },
+            "JM": {
+              "gain_items": 4,
+              "exact_p": 0.12,
+              "chi2_p": 0.046,
+              "chi2_cc_p": 0.13
+            },
+            "BB": {
+              "gain_items": 13,
+              "exact_p": 0.00024,
+              "chi2_p": 0.00031,
+              "chi2_cc_p": 0.00087
+            },
+            "ME": {
+              "gain_items": 10,
+              "exact_p": 0.002,
+              "chi2_p": 0.0016,
+              "chi2_cc_p": 0.0044
+            },
+            "LS": {
+              "gain_items": 18,
+              "exact_p": 7.6e-06,
+              "chi2_p": 2.2e-05,
+              "chi2_cc_p": 6.2e-05
+            }
+          }
+        },
+        "final": {
+          "summary": {
+            "exact_p": {
+              "n_significant": 5,
+              "of": 6,
+              "significant_range": [
+                0.031,
+                6e-08
+              ]
+            },
+            "chi2_p": {
+              "n_significant": 6,
+              "of": 6,
+              "significant_range": [
+                0.025,
+                5.7e-07
+              ]
+            },
+            "chi2_cc_p": {
+              "n_significant": 5,
+              "of": 6,
+              "significant_range": [
+                0.041,
+                1.6e-06
+              ]
+            }
+          },
+          "patients": {
+            "SC": {
+              "gain_items": 9,
+              "exact_p": 0.0039,
+              "chi2_p": 0.0027,
+              "chi2_cc_p": 0.0077
+            },
+            "KH2": {
+              "gain_items": 5,
+              "exact_p": 0.062,
+              "chi2_p": 0.025,
+              "chi2_cc_p": 0.074
+            },
+            "JM": {
+              "gain_items": 6,
+              "exact_p": 0.031,
+              "chi2_p": 0.014,
+              "chi2_cc_p": 0.041
+            },
+            "BB": {
+              "gain_items": 19,
+              "exact_p": 3.8e-06,
+              "chi2_p": 1.3e-05,
+              "chi2_cc_p": 3.6e-05
+            },
+            "ME": {
+              "gain_items": 24,
+              "exact_p": 1.2e-07,
+              "chi2_p": 9.6e-07,
+              "chi2_cc_p": 2.7e-06
+            },
+            "LS": {
+              "gain_items": 25,
+              "exact_p": 6e-08,
+              "chi2_p": 5.7e-07,
+              "chi2_cc_p": 1.6e-06
+            }
+          }
+        }
+      }
+    },
+    "stats_between_groups": {
+      "F_benefit_two": 7.64,
+      "F_benefit_final": 4.75,
+      "t_uncued_SD_vs_SA": -0.86
+    },
+    "group_means": {
+      "SD none": {
+        "patient_mean": 0.3375,
+        "average_bar_pixel": 0.3371,
+        "average_bar_vector": 0.3369,
+        "diff_to_average_bar_pixel": 0.0004,
+        "diff_to_average_bar_vector": 0.0006,
+        "within_0_002": true,
+        "patients_summed_items": 81,
+        "of_items": 240,
+        "average_bar_nearest_summed_items": 81,
+        "cueing_csv": 0.338,
+        "equals_cueing_csv_at_3_decimals": true
+      },
+      "SD two": {
+        "patient_mean": 0.4542,
+        "average_bar_pixel": 0.454,
+        "average_bar_vector": 0.4538,
+        "diff_to_average_bar_pixel": 0.0002,
+        "diff_to_average_bar_vector": 0.0004,
+        "within_0_002": true,
+        "patients_summed_items": 109,
+        "of_items": 240,
+        "average_bar_nearest_summed_items": 109,
+        "cueing_csv": 0.454,
+        "equals_cueing_csv_at_3_decimals": true
+      },
+      "SD final": {
+        "patient_mean": 0.5792,
+        "average_bar_pixel": 0.5785,
+        "average_bar_vector": 0.5783,
+        "diff_to_average_bar_pixel": 0.0007,
+        "diff_to_average_bar_vector": 0.0009,
+        "within_0_002": true,
+        "patients_summed_items": 139,
+        "of_items": 240,
+        "average_bar_nearest_summed_items": 139,
+        "cueing_csv": 0.579,
+        "equals_cueing_csv_at_3_decimals": true
+      },
+      "SA none": {
+        "patient_mean": 0.4556,
+        "average_bar_pixel": 0.4578,
+        "average_bar_vector": 0.4576,
+        "diff_to_average_bar_pixel": -0.0022,
+        "diff_to_average_bar_vector": -0.002,
+        "within_0_002": false,
+        "patients_summed_items": 82,
+        "of_items": 180,
+        "average_bar_nearest_summed_items": 82,
+        "cueing_csv": 0.456,
+        "equals_cueing_csv_at_3_decimals": true
+      },
+      "SA two": {
+        "patient_mean": 0.7667,
+        "average_bar_pixel": 0.7672,
+        "average_bar_vector": 0.767,
+        "diff_to_average_bar_pixel": -0.0005,
+        "diff_to_average_bar_vector": -0.0004,
+        "within_0_002": true,
+        "patients_summed_items": 138,
+        "of_items": 180,
+        "average_bar_nearest_summed_items": 138,
+        "cueing_csv": 0.767,
+        "equals_cueing_csv_at_3_decimals": true
+      },
+      "SA final": {
+        "patient_mean": 0.9444,
+        "average_bar_pixel": 0.9443,
+        "average_bar_vector": 0.9441,
+        "diff_to_average_bar_pixel": 0.0001,
+        "diff_to_average_bar_vector": 0.0003,
+        "within_0_002": true,
+        "patients_summed_items": 170,
+        "of_items": 180,
+        "average_bar_nearest_summed_items": 170,
+        "cueing_csv": 0.944,
+        "equals_cueing_csv_at_3_decimals": true
+      }
+    },
+    "average_bars_round_to_patients_summed_items": true,
+    "reported_vs_reproduced": {
+      "t_two_vs_none": {
+        "SD": [
+          4.5,
+          4.63
+        ],
+        "SA": [
+          4.2,
+          4.16
+        ]
+      },
+      "t_final_vs_two": {
+        "SD": [
+          3.8,
+          3.84
+        ],
+        "SA": [
+          2.7,
+          2.67
+        ]
+      },
+      "F_benefit_two": [
+        8.0,
+        7.64
+      ],
+      "F_benefit_final": [
+        5.0,
+        4.75
+      ],
+      "t_uncued_SD_vs_SA": [
+        "< 1",
+        -0.86
+      ],
+      "r_composite_uncued": {
+        "SD": [
+          0.89,
+          0.883
+        ],
+        "SA": [
+          0.8,
+          0.837
+        ]
+      },
+      "note": "F is the squared pooled t on the patients' cue gains (group x cue interaction with two cue levels)"
+    },
+    "reported_statistics": {
+      "t_two_vs_none": {
+        "SD": 4.5,
+        "SA": 4.2
+      },
+      "t_final_vs_two": {
+        "SD": 3.8,
+        "SA": 2.7
+      },
+      "F_benefit_two": 8.0,
+      "F_benefit_final": 5.0,
+      "t_uncued_SD_vs_SA": "< 1",
+      "r_composite_uncued": {
+        "SD": 0.89,
+        "SA": 0.8
+      },
+      "mcnemar_final_vs_none": {
+        "SA": "every patient p = .03 to < .0001",
+        "SD": "all but one patient p = .03 to .0002"
+      },
+      "mcnemar_two_vs_none": {
+        "SA": "p = .06 to .0002 (significant or nearly so in each)",
+        "SD": "half of the cases significant, p = .06 to .0002"
+      }
+    }
+  },
+  "rescue": {
+    "SD": {
+      "two": {
+        "ratio_of_cueing_csv_means": 0.1752,
+        "ratio_of_unrounded_group_means": 0.1761,
+        "mean_of_patient_ratios": 0.2279,
+        "median_of_patient_ratios": 0.1923,
+        "per_patient": {
+          "SJ": 0.5556,
+          "JC": 0.2308,
+          "EK": 0.4375,
+          "KH1": 0.2941,
+          "AT": 0.0385,
+          "GT": 0.0417,
+          "GE": 0.1538,
+          "PD": 0.0714
+        }
+      },
+      "final": {
+        "ratio_of_cueing_csv_means": 0.364,
+        "ratio_of_unrounded_group_means": 0.3648,
+        "mean_of_patient_ratios": 0.4219,
+        "median_of_patient_ratios": 0.3982,
+        "per_patient": {
+          "SJ": 0.8889,
+          "JC": 0.3846,
+          "EK": 0.5625,
+          "KH1": 0.4118,
+          "AT": 0.0769,
+          "GT": 0.375,
+          "GE": 0.4615,
+          "PD": 0.2143
+        }
+      }
+    },
+    "SA": {
+      "two": {
+        "ratio_of_cueing_csv_means": 0.5717,
+        "ratio_of_unrounded_group_means": 0.5714,
+        "mean_of_patient_ratios": 0.5742,
+        "median_of_patient_ratios": 0.6432,
+        "per_patient": {
+          "SC": 0.6364,
+          "KH2": 0.6667,
+          "JM": 0.4,
+          "BB": 0.65,
+          "ME": 0.4,
+          "LS": 0.6923
+        }
+      },
+      "final": {
+        "ratio_of_cueing_csv_means": 0.8971,
+        "ratio_of_unrounded_group_means": 0.898,
+        "mean_of_patient_ratios": 0.8538,
+        "median_of_patient_ratios": 0.8917,
+        "per_patient": {
+          "SC": 0.8182,
+          "KH2": 0.8333,
+          "JM": 0.6,
+          "BB": 0.95,
+          "ME": 0.96,
+          "LS": 0.9615
+        }
+      }
+    }
+  },
+  "bars": [
+    {
+      "label": "SJ",
+      "condition": "none",
+      "top_row_px": 1402.0,
+      "columns_px": [
+        1188,
+        1235
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.6992,
+      "vector_value": 0.699
+    },
+    {
+      "label": "SJ",
+      "condition": "two",
+      "top_row_px": 1132.5,
+      "columns_px": [
+        1242,
+        1295
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.869,
+      "vector_value": 0.8688
+    },
+    {
+      "label": "SJ",
+      "condition": "final",
+      "top_row_px": 976.5,
+      "columns_px": [
+        1302,
+        1348
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9673,
+      "vector_value": 0.9668
+    },
+    {
+      "label": "JC",
+      "condition": "none",
+      "top_row_px": 1611.5,
+      "columns_px": [
+        1439,
+        1492
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.5671,
+      "vector_value": 0.5669
+    },
+    {
+      "label": "JC",
+      "condition": "two",
+      "top_row_px": 1449.5,
+      "columns_px": [
+        1499,
+        1546
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.6692,
+      "vector_value": 0.6687
+    },
+    {
+      "label": "JC",
+      "condition": "final",
+      "top_row_px": 1348.0,
+      "columns_px": [
+        1553,
+        1605
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.7332,
+      "vector_value": 0.733
+    },
+    {
+      "label": "EK",
+      "condition": "none",
+      "top_row_px": 1767.0,
+      "columns_px": [
+        1696,
+        1743
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.4691,
+      "vector_value": 0.4689
+    },
+    {
+      "label": "EK",
+      "condition": "two",
+      "top_row_px": 1402.0,
+      "columns_px": [
+        1750,
+        1803
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.6992,
+      "vector_value": 0.699
+    },
+    {
+      "label": "EK",
+      "condition": "final",
+      "top_row_px": 1294.0,
+      "columns_px": [
+        1810,
+        1856
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.7672,
+      "vector_value": 0.767
+    },
+    {
+      "label": "KH1",
+      "condition": "none",
+      "top_row_px": 1821.0,
+      "columns_px": [
+        1947,
+        1994
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.4351,
+      "vector_value": 0.4349
+    },
+    {
+      "label": "KH1",
+      "condition": "two",
+      "top_row_px": 1557.5,
+      "columns_px": [
+        2001,
+        2053
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.6012,
+      "vector_value": 0.601
+    },
+    {
+      "label": "KH1",
+      "condition": "final",
+      "top_row_px": 1449.5,
+      "columns_px": [
+        2060,
+        2107
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.6692,
+      "vector_value": 0.6687
+    },
+    {
+      "label": "AT",
+      "condition": "none",
+      "top_row_px": 2299.5,
+      "columns_px": [
+        2198,
+        2251
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.1335,
+      "vector_value": 0.133
+    },
+    {
+      "label": "AT",
+      "condition": "two",
+      "top_row_px": 2246.5,
+      "columns_px": [
+        2258,
+        2304
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.1669,
+      "vector_value": 0.167
+    },
+    {
+      "label": "AT",
+      "condition": "final",
+      "top_row_px": 2192.5,
+      "columns_px": [
+        2311,
+        2364
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.201,
+      "vector_value": 0.2007
+    },
+    {
+      "label": "GT",
+      "condition": "none",
+      "top_row_px": 2192.5,
+      "columns_px": [
+        2455,
+        2502
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.201,
+      "vector_value": 0.2007
+    },
+    {
+      "label": "GT",
+      "condition": "two",
+      "top_row_px": 2138.5,
+      "columns_px": [
+        2509,
+        2561
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.235,
+      "vector_value": 0.2348
+    },
+    {
+      "label": "GT",
+      "condition": "final",
+      "top_row_px": 1719.5,
+      "columns_px": [
+        2568,
+        2615
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.4991,
+      "vector_value": 0.4989
+    },
+    {
+      "label": "GE",
+      "condition": "none",
+      "top_row_px": 2299.5,
+      "columns_px": [
+        2706,
+        2753
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.1335,
+      "vector_value": 0.133
+    },
+    {
+      "label": "GE",
+      "condition": "two",
+      "top_row_px": 2084.5,
+      "columns_px": [
+        2760,
+        2812
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.269,
+      "vector_value": 0.2688
+    },
+    {
+      "label": "GE",
+      "condition": "final",
+      "top_row_px": 1665.5,
+      "columns_px": [
+        2819,
+        2866
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.5331,
+      "vector_value": 0.5329
+    },
+    {
+      "label": "PD",
+      "condition": "none",
+      "top_row_px": 2402.0,
+      "columns_px": [
+        2957,
+        3009
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.0689,
+      "vector_value": 0.0687
+    },
+    {
+      "label": "PD",
+      "condition": "two",
+      "top_row_px": 2299.5,
+      "columns_px": [
+        3016,
+        3063
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.1335,
+      "vector_value": 0.133
+    },
+    {
+      "label": "PD",
+      "condition": "final",
+      "top_row_px": 2084.5,
+      "columns_px": [
+        3070,
+        3123
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.269,
+      "vector_value": 0.2688
+    },
+    {
+      "label": "SC",
+      "condition": "none",
+      "top_row_px": 1503.5,
+      "columns_px": [
+        3465,
+        3511
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.6352,
+      "vector_value": 0.635
+    },
+    {
+      "label": "SC",
+      "condition": "two",
+      "top_row_px": 1132.5,
+      "columns_px": [
+        3518,
+        3571
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.869,
+      "vector_value": 0.8688
+    },
+    {
+      "label": "SC",
+      "condition": "final",
+      "top_row_px": 1030.5,
+      "columns_px": [
+        3578,
+        3625
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9333,
+      "vector_value": 0.9331
+    },
+    {
+      "label": "KH2",
+      "condition": "none",
+      "top_row_px": 1240.5,
+      "columns_px": [
+        3716,
+        3768
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.8009,
+      "vector_value": 0.8007
+    },
+    {
+      "label": "KH2",
+      "condition": "two",
+      "top_row_px": 1030.5,
+      "columns_px": [
+        3775,
+        3822
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.9333,
+      "vector_value": 0.9331
+    },
+    {
+      "label": "KH2",
+      "condition": "final",
+      "top_row_px": 976.5,
+      "columns_px": [
+        3829,
+        3882
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9673,
+      "vector_value": 0.9668
+    },
+    {
+      "label": "JM",
+      "condition": "none",
+      "top_row_px": 1449.5,
+      "columns_px": [
+        3973,
+        4019
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.6692,
+      "vector_value": 0.6687
+    },
+    {
+      "label": "JM",
+      "condition": "two",
+      "top_row_px": 1240.5,
+      "columns_px": [
+        4026,
+        4079
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.8009,
+      "vector_value": 0.8007
+    },
+    {
+      "label": "JM",
+      "condition": "final",
+      "top_row_px": 1132.5,
+      "columns_px": [
+        4086,
+        4133
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.869,
+      "vector_value": 0.8688
+    },
+    {
+      "label": "BB",
+      "condition": "none",
+      "top_row_px": 1982.5,
+      "columns_px": [
+        4223,
+        4270
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.3333,
+      "vector_value": 0.3331
+    },
+    {
+      "label": "BB",
+      "condition": "two",
+      "top_row_px": 1294.0,
+      "columns_px": [
+        4277,
+        4330
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.7672,
+      "vector_value": 0.767
+    },
+    {
+      "label": "BB",
+      "condition": "final",
+      "top_row_px": 976.5,
+      "columns_px": [
+        4337,
+        4384
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9673,
+      "vector_value": 0.9668
+    },
+    {
+      "label": "ME",
+      "condition": "none",
+      "top_row_px": 2246.5,
+      "columns_px": [
+        4474,
+        4527
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.1669,
+      "vector_value": 0.167
+    },
+    {
+      "label": "ME",
+      "condition": "two",
+      "top_row_px": 1719.5,
+      "columns_px": [
+        4534,
+        4581
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.4991,
+      "vector_value": 0.4989
+    },
+    {
+      "label": "ME",
+      "condition": "final",
+      "top_row_px": 976.5,
+      "columns_px": [
+        4588,
+        4641
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9673,
+      "vector_value": 0.9668
+    },
+    {
+      "label": "LS",
+      "condition": "none",
+      "top_row_px": 2299.5,
+      "columns_px": [
+        4731,
+        4778
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.1335,
+      "vector_value": 0.133
+    },
+    {
+      "label": "LS",
+      "condition": "two",
+      "top_row_px": 1348.0,
+      "columns_px": [
+        4785,
+        4838
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.7332,
+      "vector_value": 0.733
+    },
+    {
+      "label": "LS",
+      "condition": "final",
+      "top_row_px": 976.5,
+      "columns_px": [
+        4845,
+        4892
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9673,
+      "vector_value": 0.9668
+    },
+    {
+      "label": "SD",
+      "condition": "none",
+      "top_row_px": 1976.5,
+      "columns_px": [
+        5233,
+        5286
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.3371,
+      "vector_value": 0.3369
+    },
+    {
+      "label": "SD",
+      "condition": "two",
+      "top_row_px": 1791.0,
+      "columns_px": [
+        5293,
+        5340
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.454,
+      "vector_value": 0.4538
+    },
+    {
+      "label": "SD",
+      "condition": "final",
+      "top_row_px": 1593.5,
+      "columns_px": [
+        5347,
+        5400
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.5785,
+      "vector_value": 0.5783
+    },
+    {
+      "label": "CVA",
+      "condition": "none",
+      "top_row_px": 1785.0,
+      "columns_px": [
+        5490,
+        5537
+      ],
+      "fill_grey": 51.0,
+      "pixel_value": 0.4578,
+      "vector_value": 0.4576
+    },
+    {
+      "label": "CVA",
+      "condition": "two",
+      "top_row_px": 1294.0,
+      "columns_px": [
+        5544,
+        5597
+      ],
+      "fill_grey": 150.0,
+      "pixel_value": 0.7672,
+      "vector_value": 0.767
+    },
+    {
+      "label": "CVA",
+      "condition": "final",
+      "top_row_px": 1013.0,
+      "columns_px": [
+        5604,
+        5651
+      ],
+      "fill_grey": 255.0,
+      "pixel_value": 0.9443,
+      "vector_value": 0.9441
+    }
+  ],
+  "csv_sha256": "302e8bb2b422bf16e3bc21ca5b98e38e2723b96ac5e03da5bb409718023add14"
+}

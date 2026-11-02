@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "operation": "CPU extraction of item-level values from completed runs for Figures 2 to 4; no model inference, no new summary statistics",
+  "rule": "each file reproduces its ledger summary (checks) before it is written",
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "inputs": {
+    "data/literature/jefferies2006_individual.csv": "ef220da715f35a60057baccbc0b4a742d5e348097328b0b1b238683f59f400c5",
+    "data/literature/jefferies2008_cueing.csv": "12c83fd924ff6c6088e520cc35647a0673b289fb6dbcb250be4f7431e1fb3baa",
+    "data/literature/jefferies2008_cueing_individual.csv": "302e8bb2b422bf16e3bc21ca5b98e38e2723b96ac5e03da5bb409718023add14",
+    "data/materials/m3/final_items.csv": "d539310755a31f8155cda5db7ae4920760dd36bbde97442800fa0b17df16b98d",
+    "data/materials/m3_knowledge/items.csv": "589708d96baf5979dc35139d4cddf0f13ca549c9800ef8fabb6c2874fb022398",
+    "docs/paper-prep/component-members.csv": "5ca2fd546ed60a2da4b2b0235239b33c7042f0cb290bf78f4db8cea438de47aa",
+    "docs/paper-prep/figdata/build_items.py": "c70db505102c9ea253976f8eef64730798636a22d060fd2c260d1a541ef2c2fc",
+    "docs/paper-prep/results_ledger.csv": "251eef0aadb29cc7bf1275c49380ba3d45631e41cfe6d7269a970baa83ae7564",
+    "experiments/e2_confirm/run_dissociation_test.py": "23c9df21a564434eb5a5277ff3a0fd15d9dec06e97befc482291f6599b6bdc73",
+    "experiments/e3_errors/analyze_battery.py": "749bfd9b09b462760eaedfea30a1c9e8da4aa8f7ca66a81c90b05aa6bf3312b8",
+    "experiments/e3_errors/analyze_optogenetics.py": "76dd1022948c09b435f08442ceee1abdf784773994995d905e796409c0eae4eb",
+    "outputs/e3_errors/qwen3-30b-a3b-instruct/optogenetics_confirm/candidates.parquet": "f14fde3f9129709692bd593fc58ed1ca9ca19a6987fa97218b0e8e47e9611194",
+    "outputs/e3_errors/qwen3-30b-a3b-instruct/optogenetics_confirm/labels.parquet": "8de11d96f01144a95d98eb392edf406298dc70c35b21e343a3842f976bbb08f8",
+    "outputs/server/e2_confirm/qwen3-30b-a3b-instruct/control/per_set_control_effect.csv": "0532a22b43705549ed23fb697c7c32536ecc4d660a7997bc936fc218caf9f22b",
+    "outputs/server/e2_confirm/qwen3-30b-a3b-instruct/dissociation/naming_scores.parquet": "fee95fc0fb16fd6e583243fd137944b36426d5147cb11a2f4cc8a265ea12b35a",
+    "outputs/server/e3_knowledge/qwen3-30b-a3b-instruct/screen/attribution.csv": "35860740e25a54aad325af4fc6d034c1b868aa34d42a43b29333f0eb18e16db1",
+    "outputs/server/e3_knowledge/qwen3-30b-a3b-instruct/screen/screen.csv": "bc824688941f1bb3deedfe0638e7bb6ff08f1a85973968a24f734fbe1bf132ac",
+    "outputs/server/outputs/e1_screen/qwen3-30b-a3b-instruct/attribution/attribution.csv": "f9f962fd0dd19ac8e5a5919279cd05d71de576c68049a11a18509249bc2a53f2",
+    "outputs/server/outputs/e1_screen/qwen3-30b-a3b-instruct/screen/screen.csv": "5b09124a5df95558d52a2161eac6d36e37e4b46a769ac790d036de4fa5e15859",
+    "outputs/title_gap_execution_20261019/core_readout_20261020/fine-points.json": "3a80a0d74c49c9ad6ed5a4e015ea2689b055fe143913bb7af29eb2e8e0897362",
+    "outputs/title_gap_execution_20261019/core_readout_20261020/fine-target-items.csv": "4b645936dbe41763abd80d1933af187c73dddd2d113141f093c75b3904317c6b",
+    "outputs/title_gap_execution_20261019/fine_final_core/plan.json": "6fd468068844fa880e260c05956f94d7f1926ef061cac35f3607d9d155507391",
+    "outputs/title_gap_execution_20261019/fine_final_source/src/lesion/title_gap_analysis.py": "27989c27731c7be3f01d21c7efb8390a7c604da7918ceb9da3ccafaab764f9cc",
+    "outputs/title_gap_execution_20261019/remaining_core_20261020/broad/points.json": "643f8bf7e6c06dea44ddf87a1ac35de78b2e0cf098af0f2857b5799c98940216",
+    "outputs/title_gap_execution_20261019/remaining_core_20261020/broad/target-items.csv": "defbbd1919b0244196210bc82473843f5514c1d4b2c6567c7fcff34aff55dd69",
+    "reports/confirm/optogenetics/result.json": "d8ad11be67d5d1cbdb92851f912d5ee78008e043776213e4ed19f17d1e559b54",
+    "src/lesion/naming.py": "874ab6cbe62505ac829b9b91294052818860e950735e9745d579bdcaf998bb8a"
+  },
+  "checks": {
+    "2a/components": {
+      "detail": "7,680 components in both screens (Methods 2.1: 6,144 experts and 1,536 heads)",
+      "status": "pass"
+    },
+    "2a/kinds": {
+      "detail": "kinds {'expert': 6144, 'head': 1536}",
+      "status": "pass"
+    },
+    "2a/layers": {
+      "detail": "layers numbered 0 to 47",
+      "status": "pass"
+    },
+    "2a/frequency_shortlist": {
+      "detail": "the 32 frequency candidates are the 32 largest gradient scores of the frequency screen",
+      "status": "pass"
+    },
+    "2a/control_shortlist": {
+      "detail": "the 32 control candidates are the 32 largest control scores; the control screen ablated 61 components, the union of these 32 and the 32 largest scores of an earlier frequency direction (common.shortlist)",
+      "status": "pass"
+    },
+    "2a/members": {
+      "detail": "every WR8 member is a frequency candidate and every SC4 member a control candidate",
+      "status": "pass"
+    },
+    "2b/frequency_n": {
+      "detail": "200 matched random sets for the frequency marker",
+      "status": "pass"
+    },
+    "2b/frequency_median": {
+      "ledger_id": "knowledge-f8dda0adcc71",
+      "ledger": 0.03673215544851871,
+      "recomputed": 0.03673215544851871,
+      "status": "pass"
+    },
+    "2b/frequency_max": {
+      "ledger_id": "knowledge-8c54fa5ee735",
+      "ledger": 0.3880578712640076,
+      "recomputed": 0.3880578712640076,
+      "status": "pass"
+    },
+    "2b/frequency_at_least_target": {
+      "ledger_id": "knowledge-f733221fee68",
+      "ledger": 0.0,
+      "recomputed": 0.0,
+      "status": "pass"
+    },
+    "2b/WR8_single_layout": {
+      "ledger_id": "knowledge-516697debdde",
+      "ledger": 1.1248623042291532,
+      "recomputed": 1.1248623042291532,
+      "status": "pass"
+    },
+    "2b/control_n": {
+      "detail": "200 matched random sets for the control marker",
+      "status": "pass"
+    },
+    "2b/control_median": {
+      "ledger_id": "control-f8dda0adcc71",
+      "ledger": 0.08885243535041792,
+      "recomputed": 0.08885243535041765,
+      "status": "pass"
+    },
+    "2b/control_max": {
+      "ledger_id": "control-8c54fa5ee735",
+      "ledger": 1.5718298492867957,
+      "recomputed": 1.5718298492867953,
+      "status": "pass"
+    },
+    "2b/control_at_least_target": {
+      "ledger_id": "control-f733221fee68",
+      "ledger": 0.0,
+      "recomputed": 0.0,
+      "status": "pass"
+    },
+    "2b/SC4_control_effect": {
+      "ledger_id": "control-b9d87e63d005",
+      "ledger": 4.048074483559801,
+      "recomputed": 4.048074483559801,
+      "status": "pass"
+    },
+    "2d/n": {
+      "detail": "240 held-out concepts, 120 rare (Zipf below 2.99965), no missing loss",
+      "status": "pass"
+    },
+    "2d/WR8_frequency_effect": {
+      "ledger_id": "knowledge-f3ce21647c2f",
+      "ledger": 1.1369764158384021,
+      "recomputed": 1.1369764158384021,
+      "status": "pass"
+    },
+    "2d/WR8_naming_loss": {
+      "ledger_id": "knowledge-a6c62f0364c4",
+      "ledger": 0.9077046278189614,
+      "recomputed": 0.9077046278189614,
+      "status": "pass"
+    },
+    "2d/SC4_frequency_effect": {
+      "ledger_id": "knowledge-e06843c7270c",
+      "ledger": -0.13833349290647198,
+      "recomputed": -0.13833349290647198,
+      "status": "pass"
+    },
+    "2d/SC4_naming_loss": {
+      "ledger_id": "knowledge-91368a9460f1",
+      "ledger": 0.030941766526838905,
+      "recomputed": 0.030941766526838905,
+      "status": "pass"
+    },
+    "3d/source_candidates": {
+      "detail": "candidates.parquet is the table the frozen report analysed",
+      "status": "pass"
+    },
+    "3d/source_labels": {
+      "detail": "labels.parquet is the table the frozen report analysed",
+      "status": "pass"
+    },
+    "3d/n": {
+      "detail": "160 held-out battery concepts",
+      "status": "pass"
+    },
+    "3d/WR8@75/naming": {
+      "ledger_id": "optogenetics-838983539d83",
+      "ledger": 0.08337917540724459,
+      "recomputed": 0.08337917540724459,
+      "status": "pass"
+    },
+    "3d/WR8@75/six_choice": {
+      "ledger_id": "optogenetics-d7ef1de56138",
+      "ledger": -0.3263384595595257,
+      "recomputed": -0.3263384595595257,
+      "status": "pass"
+    },
+    "3d/WR8@50/naming": {
+      "ledger_id": "optogenetics-d410a5695072",
+      "ledger": 0.2015619067115876,
+      "recomputed": 0.2015619067115876,
+      "status": "pass"
+    },
+    "3d/WR8@50/six_choice": {
+      "ledger_id": "optogenetics-8d8431b87635",
+      "ledger": -0.5727670518222145,
+      "recomputed": -0.5727670518222145,
+      "status": "pass"
+    },
+    "3d/WR8@25/naming": {
+      "ledger_id": "optogenetics-0d05bc447945",
+      "ledger": 0.40015628651478485,
+      "recomputed": 0.40015628651478485,
+      "status": "pass"
+    },
+    "3d/WR8@25/six_choice": {
+      "ledger_id": "optogenetics-5ce4f5318f12",
+      "ledger": -0.7430736713914211,
+      "recomputed": -0.7430736713914211,
+      "status": "pass"
+    },
+    "3d/WR8@0/naming": {
+      "ledger_id": "optogenetics-8c912a82f7fd",
+      "ledger": 0.8388,
+      "recomputed": 0.8388017659066769,
+      "status": "pass"
+    },
+    "3d/WR8@0/six_choice": {
+      "ledger_id": "optogenetics-6f16be6dd1b8",
+      "ledger": -0.8619,
+      "recomputed": -0.8618940243136158,
+      "status": "pass"
+    },
+    "3d/SC4@75/naming": {
+      "ledger_id": "optogenetics-8f1416b6746b",
+      "ledger": 0.007470213775917967,
+      "recomputed": 0.007470213775917967,
+      "status": "pass"
+    },
+    "3d/SC4@75/six_choice": {
+      "ledger_id": "optogenetics-8293b3e7a7cc",
+      "ledger": 0.21592981257862154,
+      "recomputed": 0.21592981257862154,
+      "status": "pass"
+    },
+    "3d/SC4@50/naming": {
+      "ledger_id": "optogenetics-32cce154f741",
+      "ledger": 0.012571496726970915,
+      "recomputed": 0.012571496726970915,
+      "status": "pass"
+    },
+    "3d/SC4@50/six_choice": {
+      "ledger_id": "optogenetics-1a34feaced56",
+      "ledger": 0.4990964997149862,
+      "recomputed": 0.4990964997149862,
+      "status": "pass"
+    },
+    "3d/SC4@25/naming": {
+      "ledger_id": "optogenetics-6fff2487b4d3",
+      "ledger": 0.019534186994552512,
+      "recomputed": 0.019534186994552512,
+      "status": "pass"
+    },
+    "3d/SC4@25/six_choice": {
+      "ledger_id": "optogenetics-1a837c2b2d93",
+      "ledger": 1.0053054163268893,
+      "recomputed": 1.0053054163268893,
+      "status": "pass"
+    },
+    "3d/SC4@0/naming": {
+      "ledger_id": "optogenetics-5d5add9cfe69",
+      "ledger": 0.0289,
+      "recomputed": 0.028884803290146636,
+      "status": "pass"
+    },
+    "3d/SC4@0/six_choice": {
+      "ledger_id": "optogenetics-a3782f19a542",
+      "ledger": 1.6391,
+      "recomputed": 1.639147120068576,
+      "status": "pass"
+    },
+    "4a/denominator": {
+      "detail": "shares of single-word semantic errors (Jefferies & Lambon Ralph 2006, Table 5)",
+      "status": "pass"
+    },
+    "4a/SD/coordinate/n": {
+      "detail": "10 patients",
+      "status": "pass"
+    },
+    "4a/SD/coordinate": {
+      "ledger_id": "title_gap_patient_markers-22b6a4a99d4b",
+      "ledger": 0.74,
+      "recomputed": 0.74,
+      "status": "pass"
+    },
+    "4a/SD/superordinate/n": {
+      "detail": "10 patients",
+      "status": "pass"
+    },
+    "4a/SD/superordinate": {
+      "ledger_id": "title_gap_patient_markers-444a8f678f57",
+      "ledger": 0.248,
+      "recomputed": 0.24800000000000005,
+      "status": "pass"
+    },
+    "4a/SD/associative/n": {
+      "detail": "10 patients",
+      "status": "pass"
+    },
+    "4a/SD/associative": {
+      "ledger_id": "title_gap_patient_markers-c6e192f47af1",
+      "ledger": 0.013000000000000001,
+      "recomputed": 0.013000000000000001,
+      "status": "pass"
+    },
+    "4a/SA/coordinate/n": {
+      "detail": "8 patients",
+      "status": "pass"
+    },
+    "4a/SA/coordinate": {
+      "ledger_id": "title_gap_patient_markers-7cc27b874df4",
+      "ledger": 0.5449999999999999,
+      "recomputed": 0.5449999999999999,
+      "status": "pass"
+    },
+    "4a/SA/superordinate/n": {
+      "detail": "8 patients",
+      "status": "pass"
+    },
+    "4a/SA/superordinate": {
+      "ledger_id": "title_gap_patient_markers-7b4e973bdb7e",
+      "ledger": 0.18000000000000005,
+      "recomputed": 0.18,
+      "status": "pass"
+    },
+    "4a/SA/associative/n": {
+      "detail": "8 patients",
+      "status": "pass"
+    },
+    "4a/SA/associative": {
+      "ledger_id": "title_gap_patient_markers-80ca3121e20a",
+      "ledger": 0.27375,
+      "recomputed": 0.27375,
+      "status": "pass"
+    },
+    "4d/items": {
+      "detail": "every patient named 30 pictures per condition",
+      "status": "pass"
+    },
+    "4d/patients": {
+      "detail": "8 SD and 6 SA patients",
+      "status": "pass"
+    },
+    "4d/monotone": {
+      "detail": "correct counts never fall as cues grow",
+      "status": "pass"
+    },
+    "4d/SA/none/mean": {
+      "detail": "mean proportion 0.4556 rounds to the group mean 0.456",
+      "status": "pass"
+    },
+    "4d/SA/two/mean": {
+      "detail": "mean proportion 0.7667 rounds to the group mean 0.767",
+      "status": "pass"
+    },
+    "4d/SA/final/mean": {
+      "detail": "mean proportion 0.9444 rounds to the group mean 0.944",
+      "status": "pass"
+    },
+    "4d/SA/two/pooled_ratio": {
+      "ledger_id": "title_gap_patient_markers-fdebb8564dd8",
+      "ledger": 0.5716911764705882,
+      "recomputed": 0.5714285714285714,
+      "status": "pass"
+    },
+    "4d/SA/final/pooled_ratio": {
+      "ledger_id": "title_gap_patient_markers-2b1342db3549",
+      "ledger": 0.8970588235294116,
+      "recomputed": 0.8979591836734694,
+      "status": "pass"
+    },
+    "4d/SD/none/mean": {
+      "detail": "mean proportion 0.3375 rounds to the group mean 0.338",
+      "status": "pass"
+    },
+    "4d/SD/two/mean": {
+      "detail": "mean proportion 0.4542 rounds to the group mean 0.454",
+      "status": "pass"
+    },
+    "4d/SD/final/mean": {
+      "detail": "mean proportion 0.5792 rounds to the group mean 0.579",
+      "status": "pass"
+    },
+    "4d/SD/two/pooled_ratio": {
+      "ledger_id": "title_gap_patient_markers-e6829f2afed2",
+      "ledger": 0.17522658610271905,
+      "recomputed": 0.1761006289308176,
+      "status": "pass"
+    },
+    "4d/SD/final/pooled_ratio": {
+      "ledger_id": "title_gap_patient_markers-26778aefa564",
+      "ledger": 0.36404833836858,
+      "recomputed": 0.36477987421383645,
+      "status": "pass"
+    },
+    "5b/WR8/n": {
+      "detail": "120 final families, one row each, complete",
+      "status": "pass"
+    },
+    "5b/WR8/naming": {
+      "ledger_id": "title_gap_fine_remaining_core-e7c009e99e28",
+      "ledger": 0.9042153134482861,
+      "recomputed": 0.904215313448286,
+      "status": "pass"
+    },
+    "5b/WR8/definition": {
+      "ledger_id": "title_gap_fine_remaining_core-72bb93644bd4",
+      "ledger": -1.1021087884902954,
+      "recomputed": -1.1021087884902954,
+      "status": "pass"
+    },
+    "5b/WR8/partial_r": {
+      "ledger_id": "title_gap_fine_core_readout-648ed349c867",
+      "ledger": -0.13396396082182813,
+      "recomputed": -0.13396396082182815,
+      "status": "pass"
+    },
+    "5b/SC4/n": {
+      "detail": "120 final families, one row each, complete",
+      "status": "pass"
+    },
+    "5b/SC4/naming": {
+      "ledger_id": "title_gap_fine_remaining_core-9a0a976b077d",
+      "ledger": 0.7819584679602284,
+      "recomputed": 0.7819584679602284,
+      "status": "pass"
+    },
+    "5b/SC4/definition": {
+      "ledger_id": "title_gap_fine_remaining_core-3e84cf723965",
+      "ledger": 0.9314740472369726,
+      "recomputed": 0.9314740472369726,
+      "status": "pass"
+    },
+    "5b/SC4/partial_r": {
+      "ledger_id": "title_gap_fine_core_readout-668a9fba898a",
+      "ledger": 0.14213143817944662,
+      "recomputed": 0.14213143817944668,
+      "status": "pass"
+    },
+    "5b/broad_10/n": {
+      "detail": "120 final families, one row each, complete",
+      "status": "pass"
+    },
+    "5b/broad_10/naming": {
+      "ledger_id": "title_gap_fine_remaining_core-5a1d470c13fe",
+      "ledger": -2.7236751582454115,
+      "recomputed": -2.7236751582454115,
+      "status": "pass"
+    },
+    "5b/broad_10/definition": {
+      "ledger_id": "title_gap_fine_remaining_core-f34bb8f3d165",
+      "ledger": 14.214021317164104,
+      "recomputed": 14.214021317164104,
+      "status": "pass"
+    },
+    "5b/broad_10/partial_r": {
+      "ledger_id": "title_gap_fine_remaining_core-50641c69dc33",
+      "ledger": 0.1082133890882451,
+      "recomputed": 0.108213389088245,
+      "status": "pass"
+    },
+    "5b/learned_comprehension/n": {
+      "detail": "120 final families, one row each, complete",
+      "status": "pass"
+    },
+    "5b/learned_comprehension/naming": {
+      "ledger_id": "title_gap_fine_core_readout-f6f815b1577a",
+      "ledger": -1.0507803269603753,
+      "recomputed": -1.0507803269603753,
+      "status": "pass"
+    },
+    "5b/learned_comprehension/definition": {
+      "ledger_id": "title_gap_fine_core_readout-bc43f20250b2",
+      "ledger": 20.118946075439453,
+      "recomputed": 20.118946075439453,
+      "status": "pass"
+    },
+    "5b/learned_comprehension/partial_r": {
+      "ledger_id": "title_gap_fine_core_readout-adcf6e72514c",
+      "ledger": 0.08409448477742174,
+      "recomputed": 0.08409448477742201,
+      "status": "pass"
+    },
+    "5b/learned_hub/n": {
+      "detail": "120 final families, one row each, complete",
+      "status": "pass"
+    },
+    "5b/learned_hub/naming": {
+      "ledger_id": "title_gap_fine_core_readout-2b4e87553076",
+      "ledger": 11.656749379381976,
+      "recomputed": 11.656749379381976,
+      "status": "pass"
+    },
+    "5b/learned_hub/definition": {
+      "ledger_id": "title_gap_fine_core_readout-36b6a70af49b",
+      "ledger": 13.47009723186493,
+      "recomputed": 13.47009723186493,
+      "status": "pass"
+    },
+    "5b/learned_hub/partial_r": {
+      "ledger_id": "title_gap_fine_core_readout-42b468ab42e8",
+      "ledger": 0.15757432402146135,
+      "recomputed": 0.1575743240214614,
+      "status": "pass"
+    },
+    "5b/readout_note": {
+      "status": "note",
+      "target_readout_partial_r": 0.08409448477742174,
+      "accepted_vs_coordinate_partial_r": 0.17103949727732046
+    },
+    "5c/fingerprint": {
+      "detail": "the plan is the one both readouts analysed",
+      "status": "pass"
+    },
+    "5c/WR8_a0/gates": {
+      "detail": "8 gates, off mass 8.0000 as recorded",
+      "status": "pass"
+    },
+    "5c/WR8_a0/members": {
+      "detail": "gates are the set's members",
+      "status": "pass"
+    },
+    "5c/SC4_a0/gates": {
+      "detail": "4 gates, off mass 4.0000 as recorded",
+      "status": "pass"
+    },
+    "5c/SC4_a0/members": {
+      "detail": "gates are the set's members",
+      "status": "pass"
+    },
+    "5c/broad_middle_f1_a0.1_s0/gates": {
+      "detail": "2048 gates, off mass 1843.2000 as recorded",
+      "status": "pass"
+    },
+    "5c/comprehension_s2_learned_soft/gates": {
+      "detail": "2555 gates, off mass 207.4834 as recorded",
+      "status": "pass"
+    },
+    "5c/hub_s2_learned_soft/gates": {
+      "detail": "2560 gates, off mass 221.6925 as recorded",
+      "status": "pass"
+    }
+  },
+  "outputs": {
+    "items_fig2a_screening.csv": {
+      "rows": 7680,
+      "sha256": "0cdd3249d9edea74ee0d4b368a0afb29c12b8417ffba15841e73fdbdd1127d62"
+    },
+    "items_fig2b_random_sets.csv": {
+      "rows": 400,
+      "sha256": "b1a6ece4958ef84d46f7027c2ff8e5bb703b8b60d1b15588675d174f95e5e24a"
+    },
+    "items_fig2d_wr8_concepts.csv": {
+      "rows": 240,
+      "sha256": "ae8551ec731bdfa370fee1f09f615b13b22554e5243d626c87e4a8c0ba9f2963"
+    },
+    "items_fig3d_graded.csv": {
+      "rows": 1280,
+      "sha256": "c31468fdd64202060d507afa1789eb02c88d8d49dedb5b09c7b23351c0c002b9"
+    },
+    "items_fig4a_patient_errors.csv": {
+      "rows": 54,
+      "sha256": "a14e53af0675f8f74b6ebb9c8d9585e1c5d44b114e3f906595932814b15c3d7c"
+    },
+    "items_fig4d_patient_cueing.csv": {
+      "rows": 14,
+      "sha256": "711a1b2dd05710a9cdab92fe9c4b3cf928d4db8cf69e82c0783124aa14b0b64f"
+    },
+    "items_fig5b_families.csv": {
+      "rows": 600,
+      "sha256": "808a9affd77ceeb2c249812eb766daa4cbfcf9a557c6a02f1c61452b51142c1c"
+    },
+    "items_fig5c_badges.csv": {
+      "rows": 57,
+      "sha256": "58b0fec0e3827396a875c25e4e46ce2034bde0c8f892ab58387f82c218b8b5e4"
+    }
+  }
+}

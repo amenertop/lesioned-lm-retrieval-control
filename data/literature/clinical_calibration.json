@@ -1,0 +1,17 @@
+{
+  "frequency": {
+    "healthy_accuracy": 0.95,
+    "n_choices": 3,
+    "figure_mean_tolerance": 0.02,
+    "source": "Hoffman et al. 2011, author manuscript pp. 13 and 17",
+    "url": "https://doi.org/10.1162/jocn.2011.21614",
+    "figure_source": "hoffman2011_frequency.csv, Fig. 3",
+    "tolerance_kind": "transcription precision, not patient sampling uncertainty"
+  },
+  "cueing": {
+    "figure_mean_tolerance": 0.002,
+    "source": "Jefferies et al. 2008, Fig. 2 group means transcribed in jefferies2008_cueing.csv",
+    "url": "https://doi.org/10.1016/j.neuropsychologia.2007.09.007",
+    "tolerance_kind": "transcription precision, not patient sampling uncertainty"
+  }
+}

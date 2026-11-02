@@ -1,0 +1,33 @@
+{
+  "status": "approved_for_execution",
+  "seed": 1910,
+  "families": 80,
+  "source_modality": "spoken British English, homographs only",
+  "source_doi": "10.5334/joc.194",
+  "sources": {
+    "uk_norms.csv": "fc56ef495392f733ec9b3c38f1ca64e9cb972453a363810955370ac4cdbcfba8",
+    "uk_responses.csv": "ae0cec3f786215922b4252af0156bc8a494a2bbdf0e9ed6f4dfceeae0b0ea0b1"
+  },
+  "items_sha256": "27c8c98d98e0529ab17f8d82e14a0cf767b5e4e70b6ac0c65fd5382ad4560869",
+  "contexts_sha256": "efb26f23b4a147b65eb7fafd9b141e569b9638fdbf6ee0de82717c3aa081b3b4",
+  "selection": "original 80 families retained, answers repaired before model scoring",
+  "split_rule": "Porter stems of ambiguous words and candidates in connected components, seed 1910, greedy size balance",
+  "split_families": {
+    "dev": 40,
+    "test": 40
+  },
+  "source_context_families": 98,
+  "cue_primary": "generated meaning-correct answer; cued choice is a hint-use diagnostic",
+  "context_factor": "semantic specification: broad domain versus detailed meaning, equal word counts via neutral padding in low context",
+  "context_note": "not a pure control manipulation; dominance and lesion position supply the planned control contrasts",
+  "review": {
+    "execution_clearance": "agent3",
+    "independent_reviewer": "agent3, same-family provisional review",
+    "human_review": true,
+    "human_reviewer": "Jingbo Chen",
+    "human_review_period": "late October 2026",
+    "human_review_recorded": "2026-11-02, see data/materials/ITEM_REVIEW.md",
+    "agent1_review": false,
+    "basis": "source checking and two rounds of semantic review before any new-material model scores"
+  }
+}

@@ -1,0 +1,5 @@
+set,test,effect,ci_low,ci_high,tier,source,unit,n,related_test,ci_source,note
+K8,frequency,1.1369764158384021,0.538387323540459,1.784002442651241,报,reports/confirm/knowledge/results.json#/sets/main/naming/knowledge.knowledge_effect,log probability (nat),240,H2_delta_F,original_report,Individual set estimate. H2 tests the difference between sets.
+K8,control,-0.09161310063468155,-0.37283931564401745,0.19913691265356537,报,reports/confirm/knowledge/results.json#/sets/main/m1/knowledge.control_effect,logit margin,63,H2_delta_C,original_report,Individual set estimate. H2 tests the difference between sets.
+C4,frequency,-0.13833349290647198,-0.3042963328893113,0.021074564324214753,报,reports/confirm/knowledge/results.json#/sets/main/naming/control.knowledge_effect,log probability (nat),240,H2_delta_F,original_report,Individual set estimate. H2 tests the difference between sets.
+C4,control,4.048074483559801,2.40658668359227,5.660043455837682,报,reports/confirm/knowledge/results.json#/sets/main/m1/control.control_effect,logit margin,63,H2_delta_C,original_report,Individual set estimate. H2 tests the difference between sets.

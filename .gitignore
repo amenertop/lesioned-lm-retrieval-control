@@ -1,0 +1,7 @@
+outputs/
+data/raw/*
+!data/raw/SOURCES.md
+__pycache__/
+*.pyc
+.pytest_cache/
+.env

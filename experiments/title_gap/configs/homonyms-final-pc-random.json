@@ -1,0 +1,3633 @@
+{
+ "model": "qwen3-30b-a3b-instruct",
+ "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+ "role": "final_state_plan_before_test_scores",
+ "tiny": false,
+ "seed": 1910,
+ "selection_sha256": "fa38a29bb48f3df4fdfac6ec690f473973cf321d986e9136ceaeb4f26853b3ee",
+ "means_sha256": "98b3865a71b0c8e85c530cb78d5438f9223a828fdf77c907315785b1f1de0d52",
+ "states": [
+  {
+   "name": "intact",
+   "kind": "intact",
+   "gates": {}
+  },
+  {
+   "name": "PC8_all_a0",
+   "kind": "production_candidate",
+   "region": "all",
+   "gates": {
+    "head:47:21": 0.0,
+    "expert:47:2": 0.0,
+    "expert:47:101": 0.0,
+    "expert:47:125": 0.0,
+    "expert:41:62": 0.0,
+    "head:43:29": 0.0,
+    "head:47:28": 0.0,
+    "head:41:21": 0.0
+   },
+   "members": 8,
+   "alpha": 0.0
+  },
+  {
+   "name": "random_PC8_all_a0_000",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 0,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:67": 0.0,
+    "expert:47:103": 0.0,
+    "expert:47:17": 0.0,
+    "expert:41:50": 0.0,
+    "head:43:24": 0.0,
+    "head:47:13": 0.0,
+    "head:41:2": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_001",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 1,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:103": 0.0,
+    "expert:47:72": 0.0,
+    "expert:47:14": 0.0,
+    "expert:41:79": 0.0,
+    "head:43:9": 0.0,
+    "head:47:26": 0.0,
+    "head:41:13": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_002",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 2,
+   "region": "all",
+   "gates": {
+    "head:47:14": 0.0,
+    "expert:47:98": 0.0,
+    "expert:47:0": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:64": 0.0,
+    "head:43:17": 0.0,
+    "head:47:29": 0.0,
+    "head:41:26": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_003",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 3,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:104": 0.0,
+    "expert:41:100": 0.0,
+    "head:43:23": 0.0,
+    "head:47:30": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_004",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 4,
+   "region": "all",
+   "gates": {
+    "head:47:27": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:93": 0.0,
+    "head:43:6": 0.0,
+    "head:47:25": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_005",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 5,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:44": 0.0,
+    "expert:41:45": 0.0,
+    "head:43:14": 0.0,
+    "head:47:24": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_006",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 6,
+   "region": "all",
+   "gates": {
+    "head:47:6": 0.0,
+    "expert:47:118": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:8": 0.0,
+    "expert:41:18": 0.0,
+    "head:43:16": 0.0,
+    "head:47:4": 0.0,
+    "head:41:14": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_007",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 7,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:18": 0.0,
+    "expert:47:97": 0.0,
+    "expert:47:113": 0.0,
+    "expert:41:42": 0.0,
+    "head:43:18": 0.0,
+    "head:47:2": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_008",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 8,
+   "region": "all",
+   "gates": {
+    "head:47:4": 0.0,
+    "expert:47:72": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:109": 0.0,
+    "expert:41:47": 0.0,
+    "head:43:0": 0.0,
+    "head:47:11": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_009",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 9,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:97": 0.0,
+    "expert:47:118": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:15": 0.0,
+    "head:47:31": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_010",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 10,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:77": 0.0,
+    "expert:47:74": 0.0,
+    "expert:41:122": 0.0,
+    "head:43:30": 0.0,
+    "head:47:14": 0.0,
+    "head:41:31": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_011",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 11,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:103": 0.0,
+    "expert:47:10": 0.0,
+    "expert:41:46": 0.0,
+    "head:43:2": 0.0,
+    "head:47:13": 0.0,
+    "head:41:29": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_012",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 12,
+   "region": "all",
+   "gates": {
+    "head:47:22": 0.0,
+    "expert:47:33": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:18": 0.0,
+    "expert:41:55": 0.0,
+    "head:43:26": 0.0,
+    "head:47:30": 0.0,
+    "head:41:14": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_013",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 13,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:15": 0.0,
+    "head:43:3": 0.0,
+    "head:47:27": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_014",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 14,
+   "region": "all",
+   "gates": {
+    "head:47:8": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:72": 0.0,
+    "expert:47:77": 0.0,
+    "expert:41:57": 0.0,
+    "head:43:18": 0.0,
+    "head:47:27": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_015",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 15,
+   "region": "all",
+   "gates": {
+    "head:47:13": 0.0,
+    "expert:47:87": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:103": 0.0,
+    "expert:41:100": 0.0,
+    "head:43:16": 0.0,
+    "head:47:9": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_016",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 16,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:99": 0.0,
+    "expert:41:64": 0.0,
+    "head:43:21": 0.0,
+    "head:47:23": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_017",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 17,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:33": 0.0,
+    "expert:47:51": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:15": 0.0,
+    "head:47:25": 0.0,
+    "head:41:31": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_018",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 18,
+   "region": "all",
+   "gates": {
+    "head:47:18": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:96": 0.0,
+    "expert:47:39": 0.0,
+    "expert:41:87": 0.0,
+    "head:43:28": 0.0,
+    "head:47:27": 0.0,
+    "head:41:10": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_019",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 19,
+   "region": "all",
+   "gates": {
+    "head:47:13": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:45": 0.0,
+    "expert:47:24": 0.0,
+    "expert:41:69": 0.0,
+    "head:43:9": 0.0,
+    "head:47:14": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_020",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 20,
+   "region": "all",
+   "gates": {
+    "head:47:2": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:61": 0.0,
+    "expert:47:92": 0.0,
+    "expert:41:48": 0.0,
+    "head:43:0": 0.0,
+    "head:47:5": 0.0,
+    "head:41:10": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_021",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 21,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:38": 0.0,
+    "expert:47:67": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:93": 0.0,
+    "head:43:9": 0.0,
+    "head:47:0": 0.0,
+    "head:41:2": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_022",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 22,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:24": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:92": 0.0,
+    "expert:41:79": 0.0,
+    "head:43:30": 0.0,
+    "head:47:19": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_023",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 23,
+   "region": "all",
+   "gates": {
+    "head:47:27": 0.0,
+    "expert:47:24": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:20": 0.0,
+    "head:43:21": 0.0,
+    "head:47:22": 0.0,
+    "head:41:2": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_024",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 24,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:92": 0.0,
+    "head:43:24": 0.0,
+    "head:47:22": 0.0,
+    "head:41:6": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_025",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 25,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:98": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:118": 0.0,
+    "expert:41:120": 0.0,
+    "head:43:7": 0.0,
+    "head:47:4": 0.0,
+    "head:41:10": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_026",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 26,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:99": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:19": 0.0,
+    "expert:41:90": 0.0,
+    "head:43:14": 0.0,
+    "head:47:7": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_027",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 27,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:94": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:88": 0.0,
+    "head:43:25": 0.0,
+    "head:47:7": 0.0,
+    "head:41:8": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_028",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 28,
+   "region": "all",
+   "gates": {
+    "head:47:17": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:59": 0.0,
+    "head:43:1": 0.0,
+    "head:47:1": 0.0,
+    "head:41:26": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_029",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 29,
+   "region": "all",
+   "gates": {
+    "head:47:11": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:76": 0.0,
+    "expert:41:79": 0.0,
+    "head:43:30": 0.0,
+    "head:47:18": 0.0,
+    "head:41:0": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_030",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 30,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:84": 0.0,
+    "expert:41:115": 0.0,
+    "head:43:12": 0.0,
+    "head:47:30": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_031",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 31,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:110": 0.0,
+    "expert:47:45": 0.0,
+    "expert:41:85": 0.0,
+    "head:43:4": 0.0,
+    "head:47:11": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_032",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 32,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:80": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:25": 0.0,
+    "head:47:16": 0.0,
+    "head:41:24": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_033",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 33,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:92": 0.0,
+    "expert:47:104": 0.0,
+    "expert:41:126": 0.0,
+    "head:43:6": 0.0,
+    "head:47:17": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_034",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 34,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:45": 0.0,
+    "expert:41:117": 0.0,
+    "head:43:6": 0.0,
+    "head:47:9": 0.0,
+    "head:41:20": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_035",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 35,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:24": 0.0,
+    "expert:41:102": 0.0,
+    "head:43:1": 0.0,
+    "head:47:5": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_036",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 36,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:109": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:11": 0.0,
+    "head:47:1": 0.0,
+    "head:41:20": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_037",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 37,
+   "region": "all",
+   "gates": {
+    "head:47:14": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:74": 0.0,
+    "expert:41:85": 0.0,
+    "head:43:27": 0.0,
+    "head:47:25": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_038",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 38,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:98": 0.0,
+    "expert:47:42": 0.0,
+    "expert:41:64": 0.0,
+    "head:43:12": 0.0,
+    "head:47:10": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_039",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 39,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:124": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:8": 0.0,
+    "expert:41:55": 0.0,
+    "head:43:6": 0.0,
+    "head:47:11": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_040",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 40,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:98": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:74": 0.0,
+    "expert:41:78": 0.0,
+    "head:43:28": 0.0,
+    "head:47:2": 0.0,
+    "head:41:14": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_041",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 41,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:51": 0.0,
+    "expert:47:103": 0.0,
+    "expert:41:34": 0.0,
+    "head:43:18": 0.0,
+    "head:47:29": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_042",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 42,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:17": 0.0,
+    "expert:41:39": 0.0,
+    "head:43:11": 0.0,
+    "head:47:8": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_043",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 43,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:84": 0.0,
+    "expert:41:89": 0.0,
+    "head:43:8": 0.0,
+    "head:47:19": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_044",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 44,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:37": 0.0,
+    "expert:41:100": 0.0,
+    "head:43:4": 0.0,
+    "head:47:13": 0.0,
+    "head:41:0": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_045",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 45,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:124": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:80": 0.0,
+    "expert:41:17": 0.0,
+    "head:43:13": 0.0,
+    "head:47:23": 0.0,
+    "head:41:31": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_046",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 46,
+   "region": "all",
+   "gates": {
+    "head:47:18": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:28": 0.0,
+    "expert:41:122": 0.0,
+    "head:43:3": 0.0,
+    "head:47:0": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_047",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 47,
+   "region": "all",
+   "gates": {
+    "head:47:6": 0.0,
+    "expert:47:0": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:33": 0.0,
+    "expert:41:81": 0.0,
+    "head:43:28": 0.0,
+    "head:47:22": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_048",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 48,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:63": 0.0,
+    "expert:41:30": 0.0,
+    "head:43:3": 0.0,
+    "head:47:6": 0.0,
+    "head:41:6": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_049",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 49,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:119": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:10": 0.0,
+    "expert:41:75": 0.0,
+    "head:43:8": 0.0,
+    "head:47:12": 0.0,
+    "head:41:25": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_050",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 50,
+   "region": "all",
+   "gates": {
+    "head:47:22": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:61": 0.0,
+    "expert:41:53": 0.0,
+    "head:43:4": 0.0,
+    "head:47:25": 0.0,
+    "head:41:10": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_051",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 51,
+   "region": "all",
+   "gates": {
+    "head:47:6": 0.0,
+    "expert:47:72": 0.0,
+    "expert:47:83": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:8": 0.0,
+    "head:47:18": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_052",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 52,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:113": 0.0,
+    "expert:41:20": 0.0,
+    "head:43:24": 0.0,
+    "head:47:18": 0.0,
+    "head:41:16": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_053",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 53,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:104": 0.0,
+    "expert:41:14": 0.0,
+    "head:43:4": 0.0,
+    "head:47:22": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_054",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 54,
+   "region": "all",
+   "gates": {
+    "head:47:13": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:99": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:18": 0.0,
+    "head:43:5": 0.0,
+    "head:47:1": 0.0,
+    "head:41:8": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_055",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 55,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:54": 0.0,
+    "expert:41:72": 0.0,
+    "head:43:16": 0.0,
+    "head:47:26": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_056",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 56,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:65": 0.0,
+    "expert:41:17": 0.0,
+    "head:43:26": 0.0,
+    "head:47:29": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_057",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 57,
+   "region": "all",
+   "gates": {
+    "head:47:17": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:109": 0.0,
+    "expert:41:89": 0.0,
+    "head:43:13": 0.0,
+    "head:47:19": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_058",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 58,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:77": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:38": 0.0,
+    "expert:41:19": 0.0,
+    "head:43:10": 0.0,
+    "head:47:23": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_059",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 59,
+   "region": "all",
+   "gates": {
+    "head:47:18": 0.0,
+    "expert:47:63": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:38": 0.0,
+    "expert:41:105": 0.0,
+    "head:43:23": 0.0,
+    "head:47:6": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_060",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 60,
+   "region": "all",
+   "gates": {
+    "head:47:18": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:96": 0.0,
+    "expert:47:49": 0.0,
+    "expert:41:63": 0.0,
+    "head:43:4": 0.0,
+    "head:47:0": 0.0,
+    "head:41:6": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_061",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 61,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:100": 0.0,
+    "expert:41:11": 0.0,
+    "head:43:3": 0.0,
+    "head:47:14": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_062",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 62,
+   "region": "all",
+   "gates": {
+    "head:47:6": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:28": 0.0,
+    "expert:41:49": 0.0,
+    "head:43:22": 0.0,
+    "head:47:14": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_063",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 63,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:0": 0.0,
+    "expert:47:92": 0.0,
+    "expert:41:63": 0.0,
+    "head:43:23": 0.0,
+    "head:47:30": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_064",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 64,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:63": 0.0,
+    "expert:47:72": 0.0,
+    "expert:41:123": 0.0,
+    "head:43:11": 0.0,
+    "head:47:1": 0.0,
+    "head:41:19": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_065",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 65,
+   "region": "all",
+   "gates": {
+    "head:47:22": 0.0,
+    "expert:47:102": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:24": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:11": 0.0,
+    "head:47:15": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_066",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 66,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:80": 0.0,
+    "expert:41:68": 0.0,
+    "head:43:25": 0.0,
+    "head:47:31": 0.0,
+    "head:41:29": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_067",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 67,
+   "region": "all",
+   "gates": {
+    "head:47:13": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:54": 0.0,
+    "expert:47:105": 0.0,
+    "expert:41:14": 0.0,
+    "head:43:15": 0.0,
+    "head:47:11": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_068",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 68,
+   "region": "all",
+   "gates": {
+    "head:47:18": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:38": 0.0,
+    "expert:41:50": 0.0,
+    "head:43:4": 0.0,
+    "head:47:11": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_069",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 69,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:103": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:116": 0.0,
+    "expert:41:11": 0.0,
+    "head:43:14": 0.0,
+    "head:47:2": 0.0,
+    "head:41:19": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_070",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 70,
+   "region": "all",
+   "gates": {
+    "head:47:17": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:93": 0.0,
+    "expert:41:90": 0.0,
+    "head:43:3": 0.0,
+    "head:47:1": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_071",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 71,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:22": 0.0,
+    "expert:41:7": 0.0,
+    "head:43:4": 0.0,
+    "head:47:19": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_072",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 72,
+   "region": "all",
+   "gates": {
+    "head:47:27": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:28": 0.0,
+    "expert:41:117": 0.0,
+    "head:43:10": 0.0,
+    "head:47:22": 0.0,
+    "head:41:25": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_073",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 73,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:113": 0.0,
+    "expert:41:58": 0.0,
+    "head:43:31": 0.0,
+    "head:47:14": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_074",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 74,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:118": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:113": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:4": 0.0,
+    "head:47:23": 0.0,
+    "head:41:18": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_075",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 75,
+   "region": "all",
+   "gates": {
+    "head:47:13": 0.0,
+    "expert:47:103": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:104": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:25": 0.0,
+    "head:47:3": 0.0,
+    "head:41:6": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_076",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 76,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:64": 0.0,
+    "expert:41:75": 0.0,
+    "head:43:13": 0.0,
+    "head:47:3": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_077",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 77,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:38": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:113": 0.0,
+    "expert:41:21": 0.0,
+    "head:43:24": 0.0,
+    "head:47:20": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_078",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 78,
+   "region": "all",
+   "gates": {
+    "head:47:17": 0.0,
+    "expert:47:94": 0.0,
+    "expert:47:97": 0.0,
+    "expert:47:10": 0.0,
+    "expert:41:53": 0.0,
+    "head:43:28": 0.0,
+    "head:47:0": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_079",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 79,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:99": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:84": 0.0,
+    "expert:41:17": 0.0,
+    "head:43:7": 0.0,
+    "head:47:22": 0.0,
+    "head:41:25": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_080",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 80,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:28": 0.0,
+    "expert:47:38": 0.0,
+    "expert:47:113": 0.0,
+    "expert:41:19": 0.0,
+    "head:43:12": 0.0,
+    "head:47:19": 0.0,
+    "head:41:1": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_081",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 81,
+   "region": "all",
+   "gates": {
+    "head:47:5": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:24": 0.0,
+    "expert:47:64": 0.0,
+    "expert:41:45": 0.0,
+    "head:43:17": 0.0,
+    "head:47:4": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_082",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 82,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:54": 0.0,
+    "expert:47:108": 0.0,
+    "expert:41:84": 0.0,
+    "head:43:28": 0.0,
+    "head:47:9": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_083",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 83,
+   "region": "all",
+   "gates": {
+    "head:47:8": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:49": 0.0,
+    "expert:41:30": 0.0,
+    "head:43:10": 0.0,
+    "head:47:12": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_084",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 84,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:61": 0.0,
+    "expert:41:100": 0.0,
+    "head:43:4": 0.0,
+    "head:47:22": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_085",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 85,
+   "region": "all",
+   "gates": {
+    "head:47:8": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:37": 0.0,
+    "expert:41:55": 0.0,
+    "head:43:16": 0.0,
+    "head:47:3": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_086",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 86,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:124": 0.0,
+    "expert:41:85": 0.0,
+    "head:43:30": 0.0,
+    "head:47:7": 0.0,
+    "head:41:20": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_087",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 87,
+   "region": "all",
+   "gates": {
+    "head:47:1": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:22": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:10": 0.0,
+    "head:47:26": 0.0,
+    "head:41:8": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_088",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 88,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:63": 0.0,
+    "expert:47:118": 0.0,
+    "expert:41:58": 0.0,
+    "head:43:28": 0.0,
+    "head:47:15": 0.0,
+    "head:41:0": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_089",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 89,
+   "region": "all",
+   "gates": {
+    "head:47:8": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:44": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:19": 0.0,
+    "head:47:19": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_090",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 90,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:124": 0.0,
+    "expert:47:110": 0.0,
+    "expert:47:116": 0.0,
+    "expert:41:53": 0.0,
+    "head:43:4": 0.0,
+    "head:47:19": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_091",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 91,
+   "region": "all",
+   "gates": {
+    "head:47:2": 0.0,
+    "expert:47:24": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:48": 0.0,
+    "head:43:25": 0.0,
+    "head:47:25": 0.0,
+    "head:41:25": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_092",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 92,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:99": 0.0,
+    "expert:47:33": 0.0,
+    "expert:41:59": 0.0,
+    "head:43:19": 0.0,
+    "head:47:22": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_093",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 93,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:61": 0.0,
+    "expert:41:11": 0.0,
+    "head:43:8": 0.0,
+    "head:47:16": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_094",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 94,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:93": 0.0,
+    "expert:41:99": 0.0,
+    "head:43:13": 0.0,
+    "head:47:14": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_095",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 95,
+   "region": "all",
+   "gates": {
+    "head:47:5": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:33": 0.0,
+    "expert:47:92": 0.0,
+    "expert:41:93": 0.0,
+    "head:43:11": 0.0,
+    "head:47:31": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_096",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 96,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:67": 0.0,
+    "expert:41:120": 0.0,
+    "head:43:21": 0.0,
+    "head:47:27": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_097",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 97,
+   "region": "all",
+   "gates": {
+    "head:47:11": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:55": 0.0,
+    "expert:41:90": 0.0,
+    "head:43:17": 0.0,
+    "head:47:15": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_098",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 98,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:110": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:3": 0.0,
+    "head:47:9": 0.0,
+    "head:41:20": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_099",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 99,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:44": 0.0,
+    "expert:41:45": 0.0,
+    "head:43:18": 0.0,
+    "head:47:22": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_100",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 100,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:110": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:119": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:21": 0.0,
+    "head:47:13": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_101",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 101,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:61": 0.0,
+    "expert:47:30": 0.0,
+    "expert:41:105": 0.0,
+    "head:43:25": 0.0,
+    "head:47:6": 0.0,
+    "head:41:26": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_102",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 102,
+   "region": "all",
+   "gates": {
+    "head:47:18": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:45": 0.0,
+    "expert:41:61": 0.0,
+    "head:43:22": 0.0,
+    "head:47:24": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_103",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 103,
+   "region": "all",
+   "gates": {
+    "head:47:11": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:79": 0.0,
+    "expert:41:34": 0.0,
+    "head:43:27": 0.0,
+    "head:47:2": 0.0,
+    "head:41:20": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_104",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 104,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:33": 0.0,
+    "expert:47:99": 0.0,
+    "expert:41:7": 0.0,
+    "head:43:26": 0.0,
+    "head:47:5": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_105",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 105,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:99": 0.0,
+    "expert:41:34": 0.0,
+    "head:43:31": 0.0,
+    "head:47:27": 0.0,
+    "head:41:24": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_106",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 106,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:49": 0.0,
+    "head:43:18": 0.0,
+    "head:47:7": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_107",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 107,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:39": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:118": 0.0,
+    "head:43:15": 0.0,
+    "head:47:19": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_108",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 108,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:94": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:77": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:5": 0.0,
+    "head:47:10": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_109",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 109,
+   "region": "all",
+   "gates": {
+    "head:47:11": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:44": 0.0,
+    "expert:41:50": 0.0,
+    "head:43:20": 0.0,
+    "head:47:3": 0.0,
+    "head:41:11": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_110",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 110,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:19": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:14": 0.0,
+    "head:43:31": 0.0,
+    "head:47:1": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_111",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 111,
+   "region": "all",
+   "gates": {
+    "head:47:14": 0.0,
+    "expert:47:63": 0.0,
+    "expert:47:77": 0.0,
+    "expert:47:30": 0.0,
+    "expert:41:117": 0.0,
+    "head:43:20": 0.0,
+    "head:47:5": 0.0,
+    "head:41:14": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_112",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 112,
+   "region": "all",
+   "gates": {
+    "head:47:7": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:61": 0.0,
+    "expert:41:21": 0.0,
+    "head:43:21": 0.0,
+    "head:47:26": 0.0,
+    "head:41:10": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_113",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 113,
+   "region": "all",
+   "gates": {
+    "head:47:7": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:106": 0.0,
+    "expert:41:17": 0.0,
+    "head:43:26": 0.0,
+    "head:47:31": 0.0,
+    "head:41:10": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_114",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 114,
+   "region": "all",
+   "gates": {
+    "head:47:27": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:18": 0.0,
+    "expert:41:73": 0.0,
+    "head:43:28": 0.0,
+    "head:47:8": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_115",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 115,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:10": 0.0,
+    "expert:41:58": 0.0,
+    "head:43:30": 0.0,
+    "head:47:12": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_116",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 116,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:124": 0.0,
+    "expert:47:54": 0.0,
+    "expert:41:14": 0.0,
+    "head:43:3": 0.0,
+    "head:47:27": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_117",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 117,
+   "region": "all",
+   "gates": {
+    "head:47:13": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:92": 0.0,
+    "expert:47:98": 0.0,
+    "expert:41:88": 0.0,
+    "head:43:16": 0.0,
+    "head:47:17": 0.0,
+    "head:41:19": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_118",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 118,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:78": 0.0,
+    "head:43:30": 0.0,
+    "head:47:31": 0.0,
+    "head:41:19": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_119",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 119,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:92": 0.0,
+    "expert:41:115": 0.0,
+    "head:43:16": 0.0,
+    "head:47:1": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_120",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 120,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:45": 0.0,
+    "expert:47:99": 0.0,
+    "expert:47:100": 0.0,
+    "expert:41:99": 0.0,
+    "head:43:10": 0.0,
+    "head:47:0": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_121",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 121,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:105": 0.0,
+    "expert:41:115": 0.0,
+    "head:43:1": 0.0,
+    "head:47:13": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_122",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 122,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:77": 0.0,
+    "expert:47:74": 0.0,
+    "expert:41:46": 0.0,
+    "head:43:5": 0.0,
+    "head:47:13": 0.0,
+    "head:41:8": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_123",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 123,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:119": 0.0,
+    "expert:41:50": 0.0,
+    "head:43:13": 0.0,
+    "head:47:6": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_124",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 124,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:124": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:63": 0.0,
+    "head:43:28": 0.0,
+    "head:47:6": 0.0,
+    "head:41:18": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_125",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 125,
+   "region": "all",
+   "gates": {
+    "head:47:8": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:72": 0.0,
+    "expert:47:48": 0.0,
+    "expert:41:123": 0.0,
+    "head:43:21": 0.0,
+    "head:47:22": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_126",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 126,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:93": 0.0,
+    "head:43:31": 0.0,
+    "head:47:2": 0.0,
+    "head:41:29": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_127",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 127,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:22": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:25": 0.0,
+    "head:47:1": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_128",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 128,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:19": 0.0,
+    "expert:47:17": 0.0,
+    "expert:41:69": 0.0,
+    "head:43:24": 0.0,
+    "head:47:1": 0.0,
+    "head:41:29": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_129",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 129,
+   "region": "all",
+   "gates": {
+    "head:47:2": 0.0,
+    "expert:47:39": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:74": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:19": 0.0,
+    "head:47:9": 0.0,
+    "head:41:20": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_130",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 130,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:24": 0.0,
+    "expert:47:119": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:5": 0.0,
+    "head:47:27": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_131",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 131,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:72": 0.0,
+    "expert:47:55": 0.0,
+    "expert:41:55": 0.0,
+    "head:43:0": 0.0,
+    "head:47:30": 0.0,
+    "head:41:24": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_132",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 132,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:104": 0.0,
+    "expert:41:30": 0.0,
+    "head:43:15": 0.0,
+    "head:47:30": 0.0,
+    "head:41:18": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_133",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 133,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:118": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:39": 0.0,
+    "expert:41:49": 0.0,
+    "head:43:11": 0.0,
+    "head:47:20": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_134",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 134,
+   "region": "all",
+   "gates": {
+    "head:47:17": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:94": 0.0,
+    "expert:47:45": 0.0,
+    "expert:41:93": 0.0,
+    "head:43:13": 0.0,
+    "head:47:10": 0.0,
+    "head:41:13": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_135",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 135,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:63": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:105": 0.0,
+    "expert:41:69": 0.0,
+    "head:43:13": 0.0,
+    "head:47:18": 0.0,
+    "head:41:24": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_136",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 136,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:0": 0.0,
+    "expert:47:37": 0.0,
+    "expert:41:26": 0.0,
+    "head:43:26": 0.0,
+    "head:47:24": 0.0,
+    "head:41:18": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_137",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 137,
+   "region": "all",
+   "gates": {
+    "head:47:2": 0.0,
+    "expert:47:39": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:8": 0.0,
+    "expert:41:84": 0.0,
+    "head:43:15": 0.0,
+    "head:47:19": 0.0,
+    "head:41:14": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_138",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 138,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:98": 0.0,
+    "expert:41:85": 0.0,
+    "head:43:7": 0.0,
+    "head:47:22": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_139",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 139,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:67": 0.0,
+    "expert:47:0": 0.0,
+    "expert:47:100": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:21": 0.0,
+    "head:47:20": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_140",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 140,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:92": 0.0,
+    "expert:47:94": 0.0,
+    "expert:47:124": 0.0,
+    "expert:41:123": 0.0,
+    "head:43:26": 0.0,
+    "head:47:1": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_141",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 141,
+   "region": "all",
+   "gates": {
+    "head:47:14": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:65": 0.0,
+    "expert:41:78": 0.0,
+    "head:43:12": 0.0,
+    "head:47:8": 0.0,
+    "head:41:29": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_142",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 142,
+   "region": "all",
+   "gates": {
+    "head:47:10": 0.0,
+    "expert:47:102": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:110": 0.0,
+    "expert:41:30": 0.0,
+    "head:43:10": 0.0,
+    "head:47:24": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_143",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 143,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:118": 0.0,
+    "expert:47:30": 0.0,
+    "expert:47:22": 0.0,
+    "expert:41:17": 0.0,
+    "head:43:27": 0.0,
+    "head:47:18": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_144",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 144,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:118": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:3": 0.0,
+    "expert:41:36": 0.0,
+    "head:43:15": 0.0,
+    "head:47:25": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_145",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 145,
+   "region": "all",
+   "gates": {
+    "head:47:1": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:67": 0.0,
+    "expert:41:15": 0.0,
+    "head:43:13": 0.0,
+    "head:47:0": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_146",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 146,
+   "region": "all",
+   "gates": {
+    "head:47:6": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:67": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:117": 0.0,
+    "head:43:12": 0.0,
+    "head:47:0": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_147",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 147,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:0": 0.0,
+    "expert:47:28": 0.0,
+    "expert:47:124": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:30": 0.0,
+    "head:47:17": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_148",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 148,
+   "region": "all",
+   "gates": {
+    "head:47:5": 0.0,
+    "expert:47:98": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:48": 0.0,
+    "expert:41:102": 0.0,
+    "head:43:10": 0.0,
+    "head:47:8": 0.0,
+    "head:41:6": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_149",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 149,
+   "region": "all",
+   "gates": {
+    "head:47:2": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:49": 0.0,
+    "expert:41:57": 0.0,
+    "head:43:10": 0.0,
+    "head:47:27": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_150",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 150,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:94": 0.0,
+    "expert:41:72": 0.0,
+    "head:43:6": 0.0,
+    "head:47:2": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_151",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 151,
+   "region": "all",
+   "gates": {
+    "head:47:30": 0.0,
+    "expert:47:102": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:69": 0.0,
+    "head:43:20": 0.0,
+    "head:47:11": 0.0,
+    "head:41:2": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_152",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 152,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:33": 0.0,
+    "expert:47:38": 0.0,
+    "expert:41:78": 0.0,
+    "head:43:30": 0.0,
+    "head:47:5": 0.0,
+    "head:41:24": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_153",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 153,
+   "region": "all",
+   "gates": {
+    "head:47:31": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:11": 0.0,
+    "head:43:2": 0.0,
+    "head:47:19": 0.0,
+    "head:41:1": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_154",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 154,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:45": 0.0,
+    "expert:41:72": 0.0,
+    "head:43:31": 0.0,
+    "head:47:25": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_155",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 155,
+   "region": "all",
+   "gates": {
+    "head:47:1": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:108": 0.0,
+    "expert:41:42": 0.0,
+    "head:43:25": 0.0,
+    "head:47:26": 0.0,
+    "head:41:8": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_156",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 156,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:83": 0.0,
+    "expert:41:118": 0.0,
+    "head:43:14": 0.0,
+    "head:47:30": 0.0,
+    "head:41:2": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_157",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 157,
+   "region": "all",
+   "gates": {
+    "head:47:22": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:100": 0.0,
+    "expert:41:126": 0.0,
+    "head:43:9": 0.0,
+    "head:47:1": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_158",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 158,
+   "region": "all",
+   "gates": {
+    "head:47:8": 0.0,
+    "expert:47:102": 0.0,
+    "expert:47:110": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:59": 0.0,
+    "head:43:12": 0.0,
+    "head:47:0": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_159",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 159,
+   "region": "all",
+   "gates": {
+    "head:47:10": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:65": 0.0,
+    "expert:41:34": 0.0,
+    "head:43:4": 0.0,
+    "head:47:4": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_160",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 160,
+   "region": "all",
+   "gates": {
+    "head:47:22": 0.0,
+    "expert:47:45": 0.0,
+    "expert:47:76": 0.0,
+    "expert:47:37": 0.0,
+    "expert:41:89": 0.0,
+    "head:43:0": 0.0,
+    "head:47:9": 0.0,
+    "head:41:11": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_161",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 161,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:110": 0.0,
+    "expert:47:99": 0.0,
+    "expert:41:30": 0.0,
+    "head:43:24": 0.0,
+    "head:47:22": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_162",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 162,
+   "region": "all",
+   "gates": {
+    "head:47:27": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:45": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:14": 0.0,
+    "head:47:9": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_163",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 163,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:45": 0.0,
+    "expert:47:96": 0.0,
+    "expert:47:119": 0.0,
+    "expert:41:99": 0.0,
+    "head:43:14": 0.0,
+    "head:47:6": 0.0,
+    "head:41:26": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_164",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 164,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:92": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:28": 0.0,
+    "expert:41:2": 0.0,
+    "head:43:11": 0.0,
+    "head:47:23": 0.0,
+    "head:41:11": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_165",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 165,
+   "region": "all",
+   "gates": {
+    "head:47:10": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:117": 0.0,
+    "head:43:22": 0.0,
+    "head:47:18": 0.0,
+    "head:41:1": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_166",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 166,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:65": 0.0,
+    "expert:47:84": 0.0,
+    "expert:41:75": 0.0,
+    "head:43:0": 0.0,
+    "head:47:13": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_167",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 167,
+   "region": "all",
+   "gates": {
+    "head:47:3": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:67": 0.0,
+    "expert:47:10": 0.0,
+    "expert:41:54": 0.0,
+    "head:43:5": 0.0,
+    "head:47:11": 0.0,
+    "head:41:25": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_168",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 168,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:76": 0.0,
+    "expert:41:45": 0.0,
+    "head:43:8": 0.0,
+    "head:47:4": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_169",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 169,
+   "region": "all",
+   "gates": {
+    "head:47:24": 0.0,
+    "expert:47:37": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:42": 0.0,
+    "expert:41:48": 0.0,
+    "head:43:30": 0.0,
+    "head:47:20": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_170",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 170,
+   "region": "all",
+   "gates": {
+    "head:47:9": 0.0,
+    "expert:47:17": 0.0,
+    "expert:47:97": 0.0,
+    "expert:47:94": 0.0,
+    "expert:41:45": 0.0,
+    "head:43:16": 0.0,
+    "head:47:22": 0.0,
+    "head:41:30": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_171",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 171,
+   "region": "all",
+   "gates": {
+    "head:47:5": 0.0,
+    "expert:47:92": 0.0,
+    "expert:47:19": 0.0,
+    "expert:47:118": 0.0,
+    "expert:41:64": 0.0,
+    "head:43:15": 0.0,
+    "head:47:20": 0.0,
+    "head:41:7": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_172",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 172,
+   "region": "all",
+   "gates": {
+    "head:47:11": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:68": 0.0,
+    "head:43:14": 0.0,
+    "head:47:7": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_173",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 173,
+   "region": "all",
+   "gates": {
+    "head:47:20": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:22": 0.0,
+    "expert:47:33": 0.0,
+    "expert:41:59": 0.0,
+    "head:43:21": 0.0,
+    "head:47:8": 0.0,
+    "head:41:3": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_174",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 174,
+   "region": "all",
+   "gates": {
+    "head:47:17": 0.0,
+    "expert:47:38": 0.0,
+    "expert:47:55": 0.0,
+    "expert:47:105": 0.0,
+    "expert:41:73": 0.0,
+    "head:43:9": 0.0,
+    "head:47:20": 0.0,
+    "head:41:2": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_175",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 175,
+   "region": "all",
+   "gates": {
+    "head:47:25": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:64": 0.0,
+    "expert:41:20": 0.0,
+    "head:43:18": 0.0,
+    "head:47:20": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_176",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 176,
+   "region": "all",
+   "gates": {
+    "head:47:27": 0.0,
+    "expert:47:54": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:103": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:14": 0.0,
+    "head:47:15": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_177",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 177,
+   "region": "all",
+   "gates": {
+    "head:47:4": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:83": 0.0,
+    "expert:47:106": 0.0,
+    "expert:41:102": 0.0,
+    "head:43:15": 0.0,
+    "head:47:18": 0.0,
+    "head:41:29": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_178",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 178,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:54": 0.0,
+    "expert:47:110": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:2": 0.0,
+    "head:47:29": 0.0,
+    "head:41:31": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_179",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 179,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:54": 0.0,
+    "expert:47:14": 0.0,
+    "expert:41:5": 0.0,
+    "head:43:26": 0.0,
+    "head:47:20": 0.0,
+    "head:41:12": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_180",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 180,
+   "region": "all",
+   "gates": {
+    "head:47:14": 0.0,
+    "expert:47:49": 0.0,
+    "expert:47:103": 0.0,
+    "expert:47:14": 0.0,
+    "expert:41:75": 0.0,
+    "head:43:26": 0.0,
+    "head:47:18": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_181",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 181,
+   "region": "all",
+   "gates": {
+    "head:47:0": 0.0,
+    "expert:47:109": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:77": 0.0,
+    "expert:41:84": 0.0,
+    "head:43:6": 0.0,
+    "head:47:24": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_182",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 182,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:80": 0.0,
+    "expert:47:92": 0.0,
+    "expert:41:68": 0.0,
+    "head:43:11": 0.0,
+    "head:47:4": 0.0,
+    "head:41:9": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_183",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 183,
+   "region": "all",
+   "gates": {
+    "head:47:6": 0.0,
+    "expert:47:104": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:109": 0.0,
+    "expert:41:69": 0.0,
+    "head:43:15": 0.0,
+    "head:47:10": 0.0,
+    "head:41:11": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_184",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 184,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:71": 0.0,
+    "expert:47:118": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:58": 0.0,
+    "head:43:9": 0.0,
+    "head:47:0": 0.0,
+    "head:41:28": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_185",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 185,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:87": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:38": 0.0,
+    "expert:41:122": 0.0,
+    "head:43:4": 0.0,
+    "head:47:3": 0.0,
+    "head:41:17": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_186",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 186,
+   "region": "all",
+   "gates": {
+    "head:47:19": 0.0,
+    "expert:47:4": 0.0,
+    "expert:47:124": 0.0,
+    "expert:47:76": 0.0,
+    "expert:41:15": 0.0,
+    "head:43:26": 0.0,
+    "head:47:3": 0.0,
+    "head:41:18": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_187",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 187,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:106": 0.0,
+    "expert:47:93": 0.0,
+    "expert:41:47": 0.0,
+    "head:43:30": 0.0,
+    "head:47:26": 0.0,
+    "head:41:19": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_188",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 188,
+   "region": "all",
+   "gates": {
+    "head:47:23": 0.0,
+    "expert:47:3": 0.0,
+    "expert:47:67": 0.0,
+    "expert:47:0": 0.0,
+    "expert:41:75": 0.0,
+    "head:43:13": 0.0,
+    "head:47:25": 0.0,
+    "head:41:4": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_189",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 189,
+   "region": "all",
+   "gates": {
+    "head:47:1": 0.0,
+    "expert:47:44": 0.0,
+    "expert:47:100": 0.0,
+    "expert:47:7": 0.0,
+    "expert:41:118": 0.0,
+    "head:43:17": 0.0,
+    "head:47:14": 0.0,
+    "head:41:27": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_190",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 190,
+   "region": "all",
+   "gates": {
+    "head:47:7": 0.0,
+    "expert:47:48": 0.0,
+    "expert:47:64": 0.0,
+    "expert:47:97": 0.0,
+    "expert:41:78": 0.0,
+    "head:43:26": 0.0,
+    "head:47:4": 0.0,
+    "head:41:23": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_191",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 191,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:93": 0.0,
+    "expert:47:14": 0.0,
+    "expert:47:96": 0.0,
+    "expert:41:17": 0.0,
+    "head:43:15": 0.0,
+    "head:47:27": 0.0,
+    "head:41:22": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_192",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 192,
+   "region": "all",
+   "gates": {
+    "head:47:29": 0.0,
+    "expert:47:108": 0.0,
+    "expert:47:84": 0.0,
+    "expert:47:63": 0.0,
+    "expert:41:15": 0.0,
+    "head:43:19": 0.0,
+    "head:47:24": 0.0,
+    "head:41:15": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_193",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 193,
+   "region": "all",
+   "gates": {
+    "head:47:16": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:38": 0.0,
+    "expert:47:109": 0.0,
+    "expert:41:78": 0.0,
+    "head:43:5": 0.0,
+    "head:47:14": 0.0,
+    "head:41:5": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_194",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 194,
+   "region": "all",
+   "gates": {
+    "head:47:15": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:10": 0.0,
+    "expert:47:61": 0.0,
+    "expert:41:90": 0.0,
+    "head:43:27": 0.0,
+    "head:47:22": 0.0,
+    "head:41:13": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_195",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 195,
+   "region": "all",
+   "gates": {
+    "head:47:7": 0.0,
+    "expert:47:105": 0.0,
+    "expert:47:12": 0.0,
+    "expert:47:24": 0.0,
+    "expert:41:89": 0.0,
+    "head:43:4": 0.0,
+    "head:47:3": 0.0,
+    "head:41:13": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_196",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 196,
+   "region": "all",
+   "gates": {
+    "head:47:4": 0.0,
+    "expert:47:7": 0.0,
+    "expert:47:113": 0.0,
+    "expert:47:42": 0.0,
+    "expert:41:92": 0.0,
+    "head:43:17": 0.0,
+    "head:47:3": 0.0,
+    "head:41:13": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_197",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 197,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:74": 0.0,
+    "expert:47:42": 0.0,
+    "expert:47:30": 0.0,
+    "expert:41:99": 0.0,
+    "head:43:11": 0.0,
+    "head:47:8": 0.0,
+    "head:41:11": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_198",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 198,
+   "region": "all",
+   "gates": {
+    "head:47:26": 0.0,
+    "expert:47:102": 0.0,
+    "expert:47:79": 0.0,
+    "expert:47:48": 0.0,
+    "expert:41:18": 0.0,
+    "head:43:12": 0.0,
+    "head:47:2": 0.0,
+    "head:41:16": 0.0
+   }
+  },
+  {
+   "name": "random_PC8_all_a0_199",
+   "kind": "matched_random",
+   "target": "PC8_all_a0",
+   "seed": 1910,
+   "random_index": 199,
+   "region": "all",
+   "gates": {
+    "head:47:12": 0.0,
+    "expert:47:8": 0.0,
+    "expert:47:77": 0.0,
+    "expert:47:28": 0.0,
+    "expert:41:15": 0.0,
+    "head:43:20": 0.0,
+    "head:47:17": 0.0,
+    "head:41:13": 0.0
+   }
+  }
+ ]
+}

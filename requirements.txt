@@ -1,0 +1,24 @@
+# torch==2.8.0 (CUDA 12.8) is installed separately per platform (see env/setup_cloud.sh, env/setup_local.ps1).
+# Versions pinned from the cloud env on 2026-09-24 so both machines match.
+# transformers < 5: v4 keeps OLMoE experts as an nn.ModuleList, which per-expert ablation hooks rely on.
+transformers==4.57.6
+tokenizers==0.22.2
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface_hub==0.36.2
+datasets==5.0.1
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+statsmodels==0.15.0
+gensim==4.4.0
+matplotlib==3.11.2
+tqdm==4.70.1
+python-dotenv==1.2.3
+pyarrow==25.0.1
+ipykernel==7.3.0
+pyyaml==6.0.3
+pytest==9.1.1
+nltk==3.9.1
+# word frequencies of vocabulary tokens for the session 12 vocabulary check (docs/plans/gpu-session12.md, item 2)
+wordfreq==3.1.1

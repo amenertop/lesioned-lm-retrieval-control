@@ -1,0 +1,267 @@
+{
+  "model": "qwen3-30b-a3b-instruct",
+  "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+  "tiny": false,
+  "purpose": "old development grid; no held-out selection",
+  "states": [
+    {
+      "name": "intact",
+      "kind": "intact",
+      "gates": {}
+    },
+    {
+      "name": "WR8_a0",
+      "kind": "reference",
+      "group": "WR8",
+      "alpha": 0.0,
+      "gates": {
+        "expert:46:61": 0.0,
+        "expert:46:101": 0.0,
+        "head:37:24": 0.0,
+        "expert:45:32": 0.0,
+        "expert:45:48": 0.0,
+        "expert:43:70": 0.0,
+        "expert:42:115": 0.0,
+        "expert:45:93": 0.0
+      }
+    },
+    {
+      "name": "WR8_a0.5",
+      "kind": "reference",
+      "group": "WR8",
+      "alpha": 0.5,
+      "gates": {
+        "expert:46:61": 0.5,
+        "expert:46:101": 0.5,
+        "head:37:24": 0.5,
+        "expert:45:32": 0.5,
+        "expert:45:48": 0.5,
+        "expert:43:70": 0.5,
+        "expert:42:115": 0.5,
+        "expert:45:93": 0.5
+      }
+    },
+    {
+      "name": "SC4_a0",
+      "kind": "reference",
+      "group": "SC4",
+      "alpha": 0.0,
+      "gates": {
+        "head:9:15": 0.0,
+        "head:27:9": 0.0,
+        "head:25:24": 0.0,
+        "head:24:5": 0.0
+      }
+    },
+    {
+      "name": "SC4_a0.5",
+      "kind": "reference",
+      "group": "SC4",
+      "alpha": 0.5,
+      "gates": {
+        "head:9:15": 0.5,
+        "head:27:9": 0.5,
+        "head:25:24": 0.5,
+        "head:24:5": 0.5
+      }
+    },
+    {
+      "name": "weight_attention_L4_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L4_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L4_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "attention",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L4_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 4,
+        "family": "ffn",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L20_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L20_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L20_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "attention",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L20_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 20,
+        "family": "ffn",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L36_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L36_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_attention_L36_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "attention",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s0.25_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 0.25,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s0.5_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 0.5,
+        "seed": 1910
+      }
+    },
+    {
+      "name": "weight_ffn_L36_s1_seed1910",
+      "kind": "weight_mask",
+      "gates": {},
+      "weight_mask": {
+        "layer": 36,
+        "family": "ffn",
+        "severity": 1.0,
+        "seed": 1910
+      }
+    }
+  ]
+}

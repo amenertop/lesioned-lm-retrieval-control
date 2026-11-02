@@ -1,0 +1,41 @@
+{
+  "selected": {
+    "hub_learned": {
+      "state": "relative_hub_s0_learned_soft",
+      "complete_profile": false,
+      "n_eligible": 3,
+      "n_candidates": 3
+    },
+    "hub_learned_hard": {
+      "state": "relative_hub_s1_learned_hard_64",
+      "complete_profile": false,
+      "n_eligible": 15,
+      "n_candidates": 15
+    }
+  },
+  "provenance": {
+    "commit": "90f5564812cc9f857fb655361e3505ceb9ff93d8",
+    "model": "qwen3-30b-a3b-instruct",
+    "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe",
+    "tiny": false,
+    "dtype": "float16",
+    "moe": "sorted",
+    "split": "dev",
+    "freeze_tag": null,
+    "items_sha256": "b187bb02f03c63d3ae62c948bbf23a5c48ad75a8c73e55de247a4b13145051c9",
+    "means_sha256": "98b3865a71b0c8e85c530cb78d5438f9223a828fdf77c907315785b1f1de0d52",
+    "manifest_sha256": "f530852da8128f2af78f4ec7664163b45bf8d70f6a7062d59d12947bb759df09",
+    "states_sha256": "575e887a9ac10672b3df5c58b2f4d8a4f41b9099d4dfd409f0d5fa424b0c739e",
+    "battery": "fine"
+  },
+  "source_fingerprint": "9b73d55949a72b646596ba9f8150b52418429396f95b990be72012e084a46979",
+  "naming_readout": "accepted_vs_coordinate",
+  "selection_commit": "823453b1f9a0bf4f42884254db059fef813b36a7",
+  "analysis_sha256": "3443dab5c778f9abffa96bcc342cc9c526295759db7f0a615aa7d40e130d0716",
+  "norms_sha256": "cf4dc3ab8244d50cdb3f74f925da172872770baa7a8b03eb2df16e71408241a8",
+  "rule_sha256": "67c591eeccfd1c69fa9c6aa218eba3d0512f63cb07edcab6e6530ebe24709250",
+  "objective_plan_sha256": "0cd0ccb99e0829dc2d71a72eef7303594dec0e45e5f789dbd3acce951cd76d2c",
+  "ranking_sha256": "f0c6a7bac721587b0845033393891e28235da6ca3afe5f88c252db9614cf5984",
+  "development_plan_sha256": "b2a2631db4906a7c00b4631252681a40d562d6cbea116185ad0afec4fae0b7f6",
+  "receipt_sha256": "f3d41685bfd6c7f039eb3ee03c0c379b650037b578aea6588dd8e182f00fc83c"
+}

@@ -1,0 +1,30 @@
+marker,measure,group,value,spread,unit,n,source,how,note
+lesion,lesion site,SD,bilateral anterior temporal atrophy,,,13,"Method, Participants",text,
+lesion,lesion site,SA,left prefrontal and/or temporoparietal stroke,,,13,"Method, Participants",text,SA criteria of Jefferies & Lambon Ralph 2006; groups matched on overall synonym judgement
+familiarity,"synonym judgement, high frequency, high imageability",SD,0.9,,proportion correct,13,Fig. 3,figure estimate,96-trial synonym judgement; 16 trials per frequency x imageability cell; read to about 0.02
+familiarity,"synonym judgement, low frequency, high imageability",SD,0.73,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, high frequency, medium imageability",SD,0.96,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, low frequency, medium imageability",SD,0.6,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, high frequency, low imageability",SD,0.65,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, low frequency, low imageability",SD,0.48,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, high frequency, high imageability",SA,0.82,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, low frequency, high imageability",SA,0.91,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, high frequency, medium imageability",SA,0.72,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, low frequency, medium imageability",SA,0.68,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, high frequency, low imageability",SA,0.6,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"synonym judgement, low frequency, low imageability",SA,0.55,,proportion correct,13,Fig. 3,figure estimate,
+familiarity,"frequency effect, high minus low frequency, mean over imageability",SD,0.233,,proportion correct,13,Fig. 3,figure estimate (difference),"high frequency 128, low 4.6 per million (CELEX)"
+familiarity,"frequency effect, high minus low frequency, mean over imageability",SA,0.0,,proportion correct,13,Fig. 3,figure estimate (difference),"high frequency 128, low 4.6 per million (CELEX)"
+familiarity,frequency effect,SD,"t(12) = 5.28, p < .001",,,13,Results,text,
+familiarity,frequency effect,SA,t(12) = 0.18,,,13,Results,text,no overall frequency effect
+familiarity,frequency x group,SD vs SA,"F(1,24) = 19.9, p < .001",,,26,Results,text,
+familiarity,"reversed frequency effect, high imageability words",SA,"t(12) = 3.59, p < .005",,,13,Results,text,"low-frequency words more accurate; no frequency effect at low or medium imageability (t(12) = 1.03, 1.08)"
+familiarity,high- over low-frequency advantage at every imageability level,SD,"t(12) > 2.29, p < .05",,,13,Results,text,
+familiarity,"itemwise regression, log frequency beta, step 1",SD,0.537,,standardised beta,13,Table 6,table,p < .001; predictors log frequency and imageability
+familiarity,"itemwise regression, log frequency beta, step 1",SA,-0.043,,standardised beta,13,Table 6,table,not significant
+familiarity,"itemwise regression, log frequency beta, step 2",SD,0.648,,standardised beta,13,Table 6,table,p < .001; semantic diversity added
+familiarity,"itemwise regression, log frequency beta, step 2",SA,0.231,,standardised beta,13,Table 6,table,p < .05: a frequency effect appears once semantic diversity is controlled
+control demand,"itemwise regression, semantic diversity beta, step 2",SD,-0.188,,standardised beta,13,Table 6,table,not significant
+control demand,"itemwise regression, semantic diversity beta, step 2",SA,-0.467,,standardised beta,13,Table 6,table,"p < .001; more diverse words, poorer; the authors read diversity as a control demand"
+familiarity,frequency main effect (both groups),SD and SA,"F(1,24) = 21.6, p < .001",,,26,Results,text,
+familiarity,frequency x imageability,SD and SA,"F(2,48) = 5.98, p < .005",,,26,Results,text,"three-way interaction F(2,48) = 2.76, p = .073"

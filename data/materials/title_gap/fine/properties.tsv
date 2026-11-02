@@ -1,0 +1,169 @@
+item_id	property_true	property_false	review
+f000	Intimidation is characteristic behaviour.	Gentle courtesy is characteristic behaviour.	approved
+f003	It can guide a builder or designer.	It records a sleeper's dream.	excluded
+f007	It is exposed to outdoor weather.	It is worn on the tongue.	approved
+f009	It may leave a raw patch on the skin.	It is an undamaged layer of skin.	approved
+f010	It is relevant to capacitors.	It measures an object's temperature.	excluded
+f011	A person may feel patriotic attachment to it.	It is a tool used for digging.	approved
+f013	The person stays overnight for hospital care.	The person visits a hospital only to repair equipment.	excluded
+f015	A moving vehicle can undergo this when braking.	A vehicle undergoes this when its speed rises.	excluded
+f017	Readers can buy an earlier text again in this form.	It is a text that has never been published before.	approved
+f020	Passenger aircraft can take off here.	Passenger trains use it as their railway track.	excluded
+f021	It is a geographical area of church authority.	It is a musical instrument played in church.	excluded
+f025	The group has four members.	The group has seven members.	approved
+f029	It concerns forces and motion.	It concerns the grammar of sentences.	excluded
+f033	On a north-oriented map it lies toward the right.	On a north-oriented map it lies toward the left.	excluded
+f035	The person favours retaining a royal ruler.	The person necessarily advocates abolishing royal rule.	approved
+f037	The title is used for a ruler.	The title is used for an agricultural tool.	approved
+f038	It can appear where paper has been bent.	It is a colour applied with paint.	approved
+f039	It permits differences to be accepted.	It means refusing to allow any difference.	approved
+f040	It allows another person to act with assigned authority.	It means taking back every assigned responsibility.	excluded
+f041	It can serve as a starting point in reasoning.	It is an admission that no statement has a meaning.	excluded
+f042	It may express grief for someone who has died.	It is a list of goods available for sale.	approved
+f044	It concerns seeking an elected position.	It concerns choosing a meal in a restaurant.	approved
+f045	A tall person may need more of it to stand safely.	It measures the brightness of a room.	approved
+f046	It concerns refraining from sexual activity.	It concerns competing for an athletic prize.	excluded
+f048	Memory and reasoning are relevant to it.	It is the process of metal becoming rusty.	approved
+f049	An emperor may rule over it.	It is a hand-held device for measuring rain.	approved
+f052	An actor or musician can give one.	It is always a legal order to pay tax.	approved
+f053	A holidaymaker may put a tent there.	It is a place reserved for landing spacecraft.	approved
+f055	It provides an opening into the body.	It is a completely solid external bone.	approved
+f056	The person favours a middle political position.	The person necessarily favours the most extreme position.	approved
+f060	It occurs just after a firearm discharges.	It is the forward flight of the projectile itself.	approved
+f061	The person introduces a new approach.	The person only repeats established methods by definition.	approved
+f062	It involves one side being forced under another's authority.	It means both sides have complete independence.	excluded
+f064	The person is responsible for looking after something.	The person is defined by abandoning all responsibility.	approved
+f068	It can be worn on a foot.	It is worn around the neck.	approved
+f070	Ten of these equal one decimetre.	Ten of these equal one kilometre.	approved
+f074	Feed can be placed in it for livestock.	It is used to store digital photographs.	approved
+f075	It can make necessities difficult to afford.	It means possessing abundant financial resources.	approved
+f076	The person gets a course of action started.	The person is defined as joining only after everything ends.	approved
+f079	Floating objects can be drawn into its rotating water.	It is a stationary pile of dry sand.	approved
+f080	A slice of bread can be prepared this way.	It is a method of preserving food by freezing it.	approved
+f082	At ordinary room temperature it can flow as a liquid.	At ordinary room temperature it is a wooden solid.	approved
+f083	A person usually wakes after a period of it.	It is sustained wakeful attention by definition.	approved
+f088	Adding it leaves an ordinary number unchanged.	Adding it always increases an ordinary number by eight.	approved
+f090	It can involve refusing to recognise a claim.	It means formally accepting every claim as valid.	approved
+f091	It marks an edge alongside a roadway.	It is a fabric worn around the waist.	excluded
+f095	The person can shoot arrows at a target.	The person works by prescribing spectacles.	approved
+f097	It can lead a reader to get the meaning wrong.	It guarantees that a reader has the intended meaning.	approved
+f102	Waves from an ocean can reach it.	It is the summit of an inland mountain.	approved
+f103	It refers to an earlier time.	It refers only to events that have yet to happen.	approved
+f104	It temporarily leaves the main subject.	It repeats the exact main subject without deviation.	approved
+f106	It can occur before the feared event happens.	It is a written measurement taken after an event only.	approved
+f109	It can be shown by brave action in danger.	It means deliberately fleeing every danger out of fear.	approved
+f111	It helps someone remain steady under pressure.	It is a state of uncontrolled panic.	approved
+f113	Clothing may become thoroughly wet during it.	Clothing becomes completely dry during it.	approved
+f115	It can leave allies without promised support.	It means faithfully maintaining every commitment.	approved
+f116	Expensive furnishings can display it.	It is the absence of resources for basic needs.	approved
+f117	A participant can win or lose a stake.	It is guaranteed paid employment with a fixed wage.	approved
+f118	It may involve interfering with something without permission.	It is always a public celebration of an achievement.	approved
+f121	Vehicles travel around a central island here.	Vehicles must use a railway tunnel here.	approved
+f124	Streetlights may come on at this time.	It is the time when the sun first rises.	approved
+f126	The person's debts exceed what the available assets can cover.	The person has more than enough assets to pay all debts.	approved
+f130	It is a British money term.	It is a unit of electrical resistance.	approved
+f132	The person can settle a dispute between parties.	The person is a device used to record rainfall.	approved
+f135	It can help keep a stocking in place.	It is used to fasten a door to its frame.	excluded
+f136	It often follows strenuous exercise.	It is a complete absence of breathing.	approved
+f137	The person can deliver a message.	The person is a machine that prints money.	approved
+f138	It can move across a computer display.	It is a fixed ridge in a mountain range.	approved
+f140	It can enforce public laws.	It is an organisation whose role is to perform operas.	approved
+f143	Tea made by steeping leaves is an example.	It is necessarily an object made from solid steel.	approved
+f144	It covers the torso without full sleeves.	It is a garment designed to cover the feet.	approved
+f146	Water in a puddle can undergo this and enter the air.	Water undergoes this when it becomes ice.	excluded
+f147	It can break down discarded organic matter.	It is the growth of intact new tissue by definition.	approved
+f151	It can make previously unusable land productive.	It is the deliberate destruction of useful land.	excluded
+f153	It can cover part of a roof.	It is a hollow tool used for drinking soup.	approved
+f155	It involves many violent deaths.	It is a peaceful meeting at which nobody is harmed.	approved
+f157	A child can have one on each parent's side.	The relationship means the child's own daughter.	approved
+f158	It can give displaced people a new place to live.	It requires every person to remain in the same home.	approved
+f159	Making an audience laugh is part of the occupation.	The occupation requires measuring earthquake depth.	approved
+f162	It can bring a meeting to a close or pause.	It is the opening announcement that starts a meeting.	excluded
+f163	It can involve flight without an engine providing thrust.	It is travel along an underwater railway.	approved
+f167	The occupation concerns mental health.	The occupation concerns designing suspension bridges.	approved
+f169	It concerns what may happen later.	It is limited to describing what happened centuries ago.	excluded
+f170	Lemon juice is associated with this quality.	It is the sweetness of table sugar.	approved
+f171	The person has won a competition.	The person is defined as having finished last.	excluded
+f173	It can provide extra rooms beside a main building.	It is a tool used to cut fingernails.	approved
+f177	It can involve deliberately damaging public property.	It means carefully restoring damaged property.	excluded
+f178	It can leave particles spread over a wider area.	It means gathering all particles into one point.	excluded
+f180	It determines which matter is dealt with first.	It determines the colour of a printed page.	approved
+f185	It can end a person's position of power.	It is a promotion to greater power.	approved
+f186	Each side relies on the other.	Each side is entirely self-sufficient.	excluded
+f191	It includes generations born after an ancestor.	It consists of the ancestor's own parents.	approved
+f192	It describes the course of a thrown ball.	It describes the ball's material composition.	excluded
+f193	It can replace an identical lost original.	It is an object with no resemblance to an original.	approved
+f199	It can help someone face danger.	It means avoiding every risk through fear.	approved
+f201	A scientific discipline can have its own system of this.	It is the weather over a scientific laboratory.	approved
+f202	It is part of a leg.	It is part of a tooth.	approved
+f203	The person helps parties communicate during negotiations.	The person repairs the sails on a ship.	approved
+f208	A teacher may mark answers on it.	It is an instrument that measures wind speed.	approved
+f209	It makes clear, orderly thought difficult.	It is perfect mental clarity and organisation.	approved
+f213	It can be removed to reveal a present.	It is a device used to calculate distances.	approved
+f217	It appears above or around a holy figure's head in art.	It is painted as a shoe on a figure's foot.	approved
+f220	It concerns whether something serves a practical purpose.	It concerns the number of letters in its name.	approved
+f223	It can make a dull surface shiny.	It is the process of covering a surface in dirt.	approved
+f225	It can be judged from the quality of a handmade object.	It is measured by the object's gravitational pull alone.	approved
+f229	It can be collected for disposal.	It is a newly cooked meal ready to be served.	approved
+f233	It helps a person change direction quickly.	It means difficulty in making any movement.	excluded
+f234	The person offers guidance to others.	The person is a piece of furniture used for sleeping.	approved
+f237	It can compare what happens under different conditions.	It is the automatic acceptance of an idea without testing it.	approved
+f239	It can leave a glass object in many small fragments.	It joins separate fragments into an intact object.	excluded
+f242	It can describe a person's childhood and later achievements.	It is a map of the roads within a city.	excluded
+f245	Observations can supply it for an investigation.	It is the empty container used to store laboratory chemicals.	approved
+f247	It can provide money for public services.	It is a voluntary exchange of birthday gifts.	excluded
+f248	It can check whether a proposed result is supported.	It is the act of making a previously clear statement illegible.	approved
+f249	It produces goods for use or sale.	It is a consumer who buys goods for personal use.	approved
+f251	It can change the direction in which a vehicle travels.	It measures how much fuel is left in the vehicle.	excluded
+f252	A committee can adopt one by voting.	It is the unopened envelope used to post a letter.	excluded
+f253	People may bring food to eat outdoors during it.	It is a ceremony conducted entirely inside a submarine.	excluded
+f254	It is detected through the nose.	It is detected only by reading written letters.	approved
+f255	It lies within an object's outer boundary.	It lies entirely beyond an object's outer boundary.	approved
+f256	It can improve an earlier draft of a text.	It is the destruction of every copy of a text.	approved
+f258	The person has completed a course leading to a qualification.	The person has just begun the first lesson in that course.	approved
+f261	It is a measure of distance.	It is a measure of temperature.	excluded
+f266	Its soldiers fight on foot.	Its main equipment consists of warships at sea.	approved
+f267	It is the body of someone who has died.	It is a living person's spoken voice.	approved
+f269	Business expenses are subtracted to calculate this profit measure.	It is the weight of all goods on a warehouse shelf.	approved
+f270	It can collect at the bottom of a river.	It is the flame rising above a burning candle.	approved
+f271	A distant ship can disappear beyond it.	It is a line drawn around a nearby coin.	excluded
+f274	A factory's production can be measured this way.	It is a measure of the factory's age.	approved
+f277	The person answers to someone with greater authority.	The person holds supreme authority over everyone else.	approved
+f278	It receives swallowed food through the oesophagus.	It pumps blood around the body.	approved
+f279	A court can impose a penalty for it.	It is a legally required annual celebration.	approved
+f280	It is worn on the head.	It is worn around the ankle.	approved
+f281	It can increase the price of an imported product.	It measures the distance a ship has travelled.	approved
+f284	The person helps a learner study a subject.	The person is an instrument for testing blood pressure.	approved
+f285	Its parts are linked to one another.	Its parts have no connections to one another.	excluded
+f287	It lowers the amount a customer pays.	It raises the selling price of an item.	approved
+f288	The role may be inherited within a royal family.	The role means being an apprentice in a workshop.	excluded
+f290	It can serve as evidence of completing a course.	It is a forecast of tomorrow's rainfall.	approved
+f291	It means there is less of something than is required.	It means there is more than enough of everything required.	approved
+f292	Its members can compete in organised fixtures.	Its members are individual letters of an alphabet.	approved
+f293	It is a subdivision of a country's territory.	It is a personal tool for brushing teeth.	approved
+f294	Its pages have a high-quality shiny finish.	Its pages consist of coarse unprinted timber.	approved
+f297	An object can be made from it.	It is the numerical date on which the object was made.	approved
+f299	It can be worn as a sign of an award.	It is a plant grown to provide animal feed.	approved
+f300	It offers another possibility that could be selected.	It means there is only one possible course of action.	approved
+f301	It can drive an object forward.	It is the colour reflected from the object's surface.	approved
+f303	Two readers can give different accounts of the same text in this way.	It is the physical mass of the book containing the text.	approved
+f307	It can give someone control over property.	It means being unable to own any property.	excluded
+f312	It concerns a person's own identity.	It concerns the chemical composition of a mineral.	excluded
+f314	It can provide evidence about a changing condition.	It is a utensil used for eating noodles.	approved
+f316	The athlete receives payment for playing.	The athlete plays solely as an unpaid amateur.	excluded
+f318	It can give a news outlet a reporting advantage.	It is an advertisement simultaneously printed by every outlet.	approved
+f319	The people are expected to meet a fatal outcome.	The people are defined as certain to live forever.	approved
+f320	It marks where an area ends.	It measures how much an area weighs.	approved
+f325	It preserves the content of an existing written record.	It records only the future events that have yet to occur.	approved
+f326	The person can collect rents in an apartment building.	The person directs traffic on an airport runway.	excluded
+f329	It can describe a typical value in a set of numbers.	It is the name of a chemical used to clean windows.	approved
+f333	It can reveal similarities between two objects.	It is the act of measuring only one object's weight without a reference.	excluded
+f335	It can be shown on a weather map as a low-pressure system.	It is the hottest point inside a furnace.	approved
+f338	It refers to the larger share of a group.	It refers to the smaller share of a group.	approved
+f342	It can provide a reason to value an achievement.	It is a defect that makes an achievement less worthwhile.	approved
+f343	It can permit a company to operate a service.	It is a musical passage played at double speed.	excluded
+f344	It can require care while the injured tissue heals.	It is an uninjured piece of healthy skin.	excluded
+f348	It can organise an explanation of a complex process.	It is a measure of the speaker's body temperature.	excluded
+f352	It comes after the main daylight hours.	It is the period immediately after dawn.	approved
+f355	It includes a sequence that can repeat.	It is a single random event with no recurring sequence.	approved
+f358	It occupies the fifth position in do-re-mi solmization.	It occupies the first position in do-re-mi solmization.	approved

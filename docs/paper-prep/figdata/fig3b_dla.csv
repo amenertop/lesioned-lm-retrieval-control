@@ -1,0 +1,10 @@
+component,specific,ci_low,ci_high,tier,n,unit,source,ci_source,related_test
+expert:42:115,0.20294224309764103,0.1347095666833411,0.280524953129352,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+expert:43:70,0.8783113636774942,0.559892293351004,1.233963100045803,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+expert:45:32,-0.03173566261539236,-0.13282946660023298,0.06701448687133961,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+expert:45:48,0.0,0.0,0.0,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+expert:45:93,0.6978919333545491,0.3702034049417125,1.0778378630844234,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+expert:46:101,0.1020537319360301,-0.061722031405079175,0.2919133535720175,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+expert:46:61,0.4281113793171244,0.24649863669706976,0.6319242186093469,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+head:37:24,-0.0020321872565546074,-0.021816258582111912,0.017317641270310553,报,160,first-token specific logit contribution,outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet,descriptive_bootstrap_10000_seed0,S4_group_sum
+K8_sum,2.2755,1.6514,2.9442,确,160,first-token specific logit contribution,reports/confirm/experiment3/results.json#/secondary/S4/direct_specific_K8,original_report,S4_group_sum

@@ -1,0 +1,92 @@
+{
+  "status": "approved_for_execution",
+  "seed": 1921,
+  "wordnet": "3.0",
+  "source_pool_sha256": "178d1336d31de873a8ceb74fcfc7826aa59b456a84645c526af82141c226bc40",
+  "prior_items_sha256": "b187bb02f03c63d3ae62c948bbf23a5c48ad75a8c73e55de247a4b13145051c9",
+  "homonyms_sha256": "27c8c98d98e0529ab17f8d82e14a0cf767b5e4e70b6ac0c65fd5382ad4560869",
+  "items_sha256": "dc6872005bbdc60e105a77851158c740e7e64219df7566b6d8233b84088912ef",
+  "selection": "Original pool frequency/SemD boundaries. Fixed seeded order within frequency bins. Exclude every original fine family, old material family already excluded by the pool, and homonym word/answer stems. Greedily exclude overlap among new families.",
+  "requested_review_counts": {
+    "low": 34,
+    "middle": 50,
+    "high": 30
+  },
+  "actual_review_counts": {
+    "middle": 50,
+    "low": 34,
+    "high": 29
+  },
+  "target_new_approved_counts": {
+    "low": 17,
+    "middle": 25,
+    "high": 15
+  },
+  "role": "Add 57 new concepts to the 63 untouched final concepts. All drafts and exclusions retained. No model-score-based selection.",
+  "author_review_sha256": "9236c56857b3c6c52b6965fd4b304dae685d621f7f6f6b97754f4e967f8ad8da",
+  "selected_counts": {
+    "middle": 25,
+    "low": 17,
+    "high": 15
+  },
+  "properties": "No new property claims authored. The extension supplies naming, definition and synonym tasks only.",
+  "initial_review_items_sha256": "6345c5cb7bec9ddd1f3db4bf4b23a606e4695fe0639062bc03acec9301e8d171",
+  "revision_sha256": "b19c23737387c3015067bd5eb2c1a5a77fec439ac6e03c358c9dfdca0622c2a3",
+  "replacement_ids": {
+    "x019": "x020",
+    "x030": "x027",
+    "x060": "x078",
+    "x105": "x096"
+  },
+  "replacement_semd_note": "The x105 to x096 replacement preserves high frequency but changes SemD from high to low. Frequency quotas are unchanged. The actual SemD values remain unaltered and enter the continuous adjusted analysis.",
+  "mechanical_checks": {
+    "selected": 57,
+    "raw_prior_material_stem_collisions": 1,
+    "waived_false_positives": 1,
+    "substantive_prior_family_overlap": 0,
+    "between_extension_family_stem_overlap": 0,
+    "counts": {
+      "low": 17,
+      "middle": 25,
+      "high": 15
+    }
+  },
+  "round2_input_sha256": "1e3a473c26a83fd0ab797be976a6413995329cdc45ef22d4d6d04c57e6ddfc8f",
+  "round2_revision_sha256": "7fe066d5437f5e4389515cdee1e729039bdec0b45b2c40ccbc1cebcf064459cf",
+  "round2_replacement_ids": {
+    "x078": "x069"
+  },
+  "round2_semd_note": "x078 to x069 preserves middle frequency but changes SemD from high to low. Continuous source norms remain unchanged.",
+  "final_revision_sha256": "2b35319eb0bafd32ef1e2340f95fca253d0b35e42daf688c42474eb262f53ad9",
+  "lexical_exceptions": [
+    {
+      "item_id": "x086",
+      "accepted_answer": "compassion",
+      "prior_item": "m179",
+      "prior_target": "compass",
+      "prior_synset": "compass.n.01",
+      "porter_stem": "compass",
+      "reason": "Porter false positive. The navigation instrument and sympathy have no shared sense or derivational family.",
+      "evidence": [
+        "https://www.merriam-webster.com/dictionary/compass",
+        "https://www.merriam-webster.com/dictionary/compassion"
+      ],
+      "reviewer": "/root/fine_extension_audit",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional"
+    }
+  ],
+  "review": {
+    "execution_clearance": "agent3",
+    "reviewer_model": "agent3",
+    "review_independence": "same-family",
+    "acceptance_status": "provisional",
+    "trace_path": ".aris/traces/experiment-audit/2026-10-19-fine-extension/response-full.md",
+    "trace_sha256": "e6054f4a820eb8dde378098dee10e18bfd6d44f6f7b62dbf5abc4043d80441c7",
+    "human_review": true,
+    "human_reviewer": "Jingbo Chen",
+    "human_review_period": "late October 2026",
+    "human_review_recorded": "2026-11-02, see data/materials/ITEM_REVIEW.md",
+    "agent1_review": false
+  }
+}

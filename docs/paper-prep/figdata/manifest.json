@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "operation": "CPU paper preparation from completed results, not new model experiments",
+  "bootstrap": {
+    "n": 10000,
+    "seed": 0,
+    "ci": "95% percentile",
+    "resampling_unit": "concept",
+    "secondary_rng": "160-concept draws then 100-concept draws, as in formal analyzer",
+    "errors_rng": "156 test-concept draws then 40 independent calibration-concept draws",
+    "new_intervals": "descriptive only; no new p-values"
+  },
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "inputs": {
+    "data/materials/m1/associations.csv": "6c8b4f487f39363a257d45b025adfbde098f810bc7e2751494521ddff66a0b92",
+    "data/materials/m1/items.csv": "2ac9cb4fe51bf6090a8bfe2e9c612c60dfa45cdbd2d6d81860aebd6531a379e6",
+    "data/materials/m1/split.csv": "780ffb3f7d274874e25a3beedabaf3cc2f5bffc1b22c5b16017f78f0e9436675",
+    "data/materials/m3/final_items.csv": "d539310755a31f8155cda5db7ae4920760dd36bbde97442800fa0b17df16b98d",
+    "data/raw/subtlex_us/SUBTLEXus74286wordstextversion.tsv": "c5f86f065fc5d057fbf366433b8c5ca550aa7c24e128362dea4394f2b29c86e4",
+    "docs/adr/0003-qwen-and-revised-g1.md": "f7fee5709b9e69fb09f1ed6583aa5eaf461bc0d0754f787f6c8ed5a6b6f4646b",
+    "docs/analysis-plan/control-test.md": "b6a4ed9808d91d97597fe4eb3525ebed6d0385aa178ead66ea8f7d1e299cdf79",
+    "docs/analysis-plan/experiment3.md": "5c7c8ff4e59f2b72cb0fda9aaef0dfc3b99dc684eb29e2b643492aecdc887b9f",
+    "docs/paper-prep/figdata/build.py": "d5ca5a3fa5d6ce0b1ee9dd7222c09db365dd6db5fcd9f3b73146f0cc420543b6",
+    "experiments/e2_confirm/run_dissociation_test.py": "890cd22d22762bef4f4796e3e4f5599bec25b72029f184dcd041d432e85a1908",
+    "experiments/e3_errors/analyze_battery.py": "749bfd9b09b462760eaedfea30a1c9e8da4aa8f7ca66a81c90b05aa6bf3312b8",
+    "experiments/e3_errors/analyze_experiment3.py": "a2983be0e0b586dd0d15f2479e108cad280ebae31046de77317d952f2d990272",
+    "outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/candidates.parquet": "945101bf706e0ae91ac9e9f6af30c255cfa068bbbb9f3d13158c2003670b84bd",
+    "outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/dla.parquet": "cdcdd9b31584acf0ab3cfc28143fe0cab61851fb2597a11eb72a03101f634ada",
+    "outputs/e3_errors/qwen3-30b-a3b-instruct/confirm/labels.parquet": "59250454438085ccb0c8a7c3fdcfb2c475db37401401d7f2f0bea34d658a7d34",
+    "outputs/e3_errors/qwen3-30b-a3b-instruct/probe_errors/naming.parquet": "a7230c8e0ebda40485cc00d1d944a59c3e147b574300865ec8a46e5cb7ac01b5",
+    "outputs/server/e2_confirm/qwen3-30b-a3b-instruct/dissociation/m1_scores.parquet": "e8156f091af9377cfceb6784175cc3b339d2ea433540df14889fad8ac71e60b2",
+    "outputs/server/e2_confirm/qwen3-30b-a3b-instruct/dissociation/naming_scores.parquet": "fee95fc0fb16fd6e583243fd137944b36426d5147cb11a2f4cc8a265ea12b35a",
+    "reports/confirm/control/results.json": "b4e0c3dfb7e57464e79451d6e60ca39948a18679589cd2d1369554acba2784ff",
+    "reports/confirm/experiment3/results.json": "60fd1ce0b2967876d30156673f1fbc08cd4b09541dd1f25bc15e8397e3445848",
+    "reports/confirm/knowledge/results.json": "22f9cce487f48d3e29eb3a91f421d8fceccf2fc984349e5f303ac4b68dd3f6be",
+    "reports/g1_qwen/g1_result.json": "e28db77b1e7a10fe0e4d8eb2872c320ff919f205d295578d9526cf62d556a907",
+    "src/lesion/damage.py": "f1513ba30da4d5b8a9d1daa787e243a00e6f9bf40acb477c0433dc17757ccad6",
+    "src/lesion/degradation.py": "3eae3d12f326e4e3b0a6f1af45be86058e50f4afc885a917d6ce5a0a03112a5c",
+    "src/lesion/e3_analysis.py": "734efeeb1b7dcbbbd315a5c868878f645310e521897903170d1f7a75ce544891",
+    "src/lesion/knowledge_items.py": "7e894ae64d603e153776850f81e07d4a14cf1b6edc6cf3c92b59ef2059e80c09",
+    "src/lesion/m3_scoring.py": "514eb5a0bfeccaebba6319b1599034063526a1583ae7478f58bd1ace43a241b0"
+  },
+  "checks": {
+    "sample_sizes": "pass",
+    "formats/K8/name_free": "pass",
+    "S2/naming_loss_K8:mean": "pass",
+    "S2/naming_loss_K8:ci": "pass",
+    "formats/K8/options_word": "pass",
+    "formats/K8/options_letter": "pass",
+    "formats/K8/word_to_definition": "pass",
+    "S2/comprehension_loss_K8:mean": "pass",
+    "S2/comprehension_loss_K8:ci": "pass",
+    "formats/K8/copy": "pass",
+    "formats/C4/name_free": "pass",
+    "formats/C4/options_word": "pass",
+    "formats/C4/options_letter": "pass",
+    "formats/C4/word_to_definition": "pass",
+    "formats/C4/copy": "pass",
+    "S1/naming:mean": "pass",
+    "S1/naming:ci": "pass",
+    "S1/six_choice:mean": "pass",
+    "S1/six_choice:ci": "pass",
+    "hints/K8/B": "pass",
+    "hints/K8/H": "pass",
+    "hints/C4/B": "pass",
+    "hints/C4/H": "pass",
+    "hints/C4_answer/B": "pass",
+    "S3/B:mean": "pass",
+    "S3/B:ci": "pass",
+    "hints/C4_answer/H": "pass",
+    "S3/H:mean": "pass",
+    "S3/H:ci": "pass",
+    "S3/A:mean": "pass",
+    "S3/A:ci": "pass",
+    "S6/rho": "pass",
+    "S6_unrounded_rho": 0.5396579657965795,
+    "H3a/K8/fit": "pass",
+    "H3a/K8/observed": "pass",
+    "H3a/K8/predicted": "pass",
+    "H3a/K8/observed_ci": "pass",
+    "H3a/K8/predicted_ci": "pass",
+    "H3a/C4/fit": "pass",
+    "H3a/C4/observed": "pass",
+    "H3a/C4/predicted": "pass",
+    "H3a/C4/observed_ci": "pass",
+    "H3a/C4/predicted_ci": "pass",
+    "H3a/D_obs": "pass",
+    "H3a/D_obs/ci": "pass",
+    "H3a/D_pred": "pass",
+    "H3a/D_pred/ci": "pass",
+    "H3a/excess": "pass",
+    "H3a/excess/ci": "pass",
+    "M1_test_ids": {
+      "items": 192,
+      "concept_groups": 189
+    },
+    "M1/association_slope": "pass",
+    "M1_association_model": {
+      "n": 63,
+      "intercept": 0.7594628444316652,
+      "slope": 2.1349524092644874,
+      "size_coefficient": -1.0619211066302148,
+      "raw_x_mean": 0.26259104761904767,
+      "raw_x_sd": 0.20602788357970156,
+      "formula": "damage_C4 ~ intercept + standardized_similarity + task_is_size"
+    },
+    "S4/group_sum:mean": "pass",
+    "S4/group_sum:ci": "pass",
+    "DLA_zero_components": [
+      "expert:45:48"
+    ],
+    "random_naming_score_inventory": {
+      "averaged": {
+        "n_sets": 4,
+        "n_random_sets": 0,
+        "n_rows": 960
+      },
+      "single": {
+        "n_sets": 202,
+        "n_random_sets": 200,
+        "n_rows": 48480
+      }
+    },
+    "local_control_random_raw_files_present": {
+      "intact.csv": false,
+      "lesioned.parquet": false
+    }
+  },
+  "outputs": {
+    "fig2c_dissociation.csv": {
+      "rows": 4,
+      "sha256": "36a431939d93e4c107e0c4d7d5d80ec9732a5fdfc88539017cc087338ac2ccc3"
+    },
+    "fig3a_formats.csv": {
+      "rows": 10,
+      "sha256": "067c6118e482214f6db98006b4a03cbc76fc1e9f4231a14fc3776cecb8122315"
+    },
+    "fig4a_errors.csv": {
+      "rows": 8,
+      "sha256": "43f3de1b0362be6c8dd40c812d55b15bda0a733684b7d01ffd76e6f94ba97c3b"
+    },
+    "fig4b_hints.csv": {
+      "rows": 6,
+      "sha256": "44e5997e4719627fd84af48ada6af597263cf9abfb9178ed38268cffb5511b5e"
+    },
+    "fig4c_cue_vs_loss.csv": {
+      "rows": 100,
+      "sha256": "ee4b00eed0cbf791b48b3f26bdd590ae901de4d27540e53a4099e24634df350f"
+    },
+    "table1_tests.csv": {
+      "rows": 19,
+      "sha256": "d58b8e104cc64ee97fbfffdf3355195f9c2e90f79c93dec96e674d64b71d3603"
+    },
+    "fig2d_similarity.csv": {
+      "rows": 63,
+      "sha256": "70dc9e134e727dbec9ac37180d2828fbe348dd89eeb333ecbef356ae3946bee6"
+    },
+    "fig3b_dla.csv": {
+      "rows": 9,
+      "sha256": "4b98a081e18eeb7617e1347b73842dd7dae7f5eeebc016f811eb84d4fc076d28"
+    }
+  }
+}

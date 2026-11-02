@@ -1,0 +1,72 @@
+marker,measure,group,value,spread,unit,n,source,how,note
+lesion,lesion site,SD,bilateral anterior temporal,,,10,Table 2,table,
+lesion,lesion site,SA,left inferior frontal/temporoparietal,,,10,Table 2,table,the paper calls the stroke group CVA; SA in this project
+comprehension,picture PPT,SD,41,,score of 52,10,Table 4,table,control mean 51.2 (SD 1.4)
+comprehension,picture PPT,SA,40,,score of 52,10,Table 4,table,
+comprehension,word PPT,SD,39,,score of 52,10,Table 4,table,control mean 51.1 (SD 1.1)
+comprehension,word PPT,SA,41,,score of 52,10,Table 4,table,
+comprehension,concrete synonyms,SD,14,,score of 25,9,Table 4,table,control mean 23.7 (SD 1.3); one SD case not tested
+comprehension,concrete synonyms,SA,15,,score of 25,8,Table 4,table,two SA cases testing abandoned
+comprehension,64-item word-picture matching,SD,46,,score of 64,10,Table 4,table,control mean 63.7 (SD 0.5)
+comprehension,64-item word-picture matching,SA,50,,score of 64,10,Table 4,table,
+comprehension,64-item picture CCT,SD,40,,score of 64,10,Table 4,table,control mean 58.9 (SD 3.1)
+comprehension,64-item picture CCT,SA,36,,score of 64,10,Table 4,table,
+comprehension,64-item word CCT,SD,37,,score of 64,8,Table 4,table,control mean 60.7 (SD 2.06); two SD cases not tested
+comprehension,64-item word CCT,SA,37,,score of 64,10,Table 4,table,
+comprehension,group difference,both,only letter fluency (SA poorer) and sound-picture matching (SD poorer) differ,,,,Results: semantic tests,text,"letter fluency t(17) = 4.3, P = 0.0005; sound-picture t(18) = 2.2, P = 0.04; severity broadly comparable"
+naming,64-item picture naming,SD,27,,score of 64,10,Table 4,table,control mean 62.3 (SD 1.6)
+naming,64-item picture naming,SA,21,,score of 64,10,Table 4,table,
+familiarity,picture naming high familiarity,SD,45,,% correct,,Fig. 2,figure estimate,20 most and 20 least familiar items of the 64-item battery; read off the figure to about 2 points
+familiarity,picture naming low familiarity,SD,30,,% correct,,Fig. 2,figure estimate,
+familiarity,picture naming high familiarity,SA,33,,% correct,,Fig. 2,figure estimate,
+familiarity,picture naming low familiarity,SA,31,,% correct,,Fig. 2,figure estimate,
+familiarity,word-picture matching high familiarity,SD,77,,% correct,,Fig. 2,figure estimate,
+familiarity,word-picture matching low familiarity,SD,62,,% correct,,Fig. 2,figure estimate,
+familiarity,word-picture matching high familiarity,SA,75,,% correct,,Fig. 2,figure estimate,
+familiarity,word-picture matching low familiarity,SA,77,,% correct,,Fig. 2,figure estimate,
+familiarity,picture CCT high familiarity,SD,66,,% correct,,Fig. 2,figure estimate,
+familiarity,picture CCT low familiarity,SD,56,,% correct,,Fig. 2,figure estimate,
+familiarity,picture CCT high familiarity,SA,55,,% correct,,Fig. 2,figure estimate,
+familiarity,picture CCT low familiarity,SA,56,,% correct,,Fig. 2,figure estimate,
+familiarity,word CCT high familiarity,SD,65,,% correct,,Fig. 2,figure estimate,
+familiarity,word CCT low familiarity,SD,49,,% correct,,Fig. 2,figure estimate,
+familiarity,word CCT high familiarity,SA,58,,% correct,,Fig. 2,figure estimate,
+familiarity,word CCT low familiarity,SA,60,,% correct,,Fig. 2,figure estimate,
+familiarity,group by familiarity interaction,both,present on all four tasks,,,,Results: effect of familiarity/frequency,text,"word-picture matching F(1,11) = 7.18, P = 0.02; picture CCT F(1,17) = 9.26, P = 0.04 (as printed); word CCT F(1,15) = 9.83, P = 0.007; picture naming F(1,9) = 4.31, P = 0.07; cases near floor or ceiling omitted"
+familiarity,familiarity effect within group,SD,significant on every task,,,,Results: effect of familiarity/frequency,text,P < 0.025
+familiarity,familiarity effect within group,SA,none on any task,,,,Results: effect of familiarity/frequency,text,t < 1
+control demand,ease of rejecting distractors vs CCT accuracy,SD,0.24,,r,10,Results: factors affecting decisions about semantic association,text,P = 0.06
+control demand,ease of rejecting distractors vs CCT accuracy,SA,0.50,,r,10,Results: factors affecting decisions about semantic association,text,P < 0.001; factor by group Wald = 9.20 P = 0.002
+control demand,ease of identifying the relevant relation vs CCT accuracy,SD,0.34,,r,10,Results: factors affecting decisions about semantic association,text,P = 0.006
+control demand,ease of identifying the relevant relation vs CCT accuracy,SA,0.53,,r,10,Results: factors affecting decisions about semantic association,text,P < 0.001; factor by group Wald = 5.67 P < 0.02
+control demand,probe-target co-occurrence vs CCT accuracy,SD,0.44,,r,10,Results: factors affecting decisions about semantic association,text,P < 0.001; no interaction with group
+control demand,probe-target co-occurrence vs CCT accuracy,SA,0.34,,r,10,Results: factors affecting decisions about semantic association,text,P = 0.006
+consistency,association tests with word/sound-picture matching,SD,15 of 16 correlations highly significant,,count,10,Results: correlations between semantic tests,text,
+consistency,association tests with word/sound-picture matching,SA,1 of 16 approached significance,,count,10,Results: correlations between semantic tests,text,
+consistency,association tests with picture naming,SD,4 of 4 significant (r > 0.76),,count,10,Results: correlations between semantic tests,text,
+consistency,association tests with picture naming,SA,1 of 4 approached significance,,count,10,Results: correlations between semantic tests,text,
+consistency,naming with word/sound-picture matching,SD,4 of 4 significant (r > 0.68),,count,10,Results: correlations between semantic tests,text,
+consistency,naming with word/sound-picture matching,SA,2 of 4 significant (r > 0.74),,count,10,Results: correlations between semantic tests,text,both between naming and word-picture matching (similar control demands)
+consistency,item consistency across tasks (logistic regression),both,SD more consistent than SA in 2 combined analyses,,,,Results: item consistency,text,word-picture matching/picture CCT Wald > 5.0 P < 0.03; naming/picture CCT Wald > 17.7 P < 0.0001
+naming errors,proportion of items correct,SD,0.41,,proportion,10,Table 5,table,
+naming errors,proportion of items correct,SA,0.41,,proportion,8,Table 5,table,KA and MS are not in Table 5
+naming errors,semantic errors,SD,0.45,,proportion of errors,10,Table 5,table,
+naming errors,semantic errors,SA,0.33,,proportion of errors,8,Table 5,table,no group difference
+naming errors,phonological errors,SD,0.02,,proportion of errors,10,Table 5,table,
+naming errors,phonological errors,SA,0.11,,proportion of errors,8,Table 5,table,"t(16) = 2.2, P = 0.04"
+naming errors,perseverations,SD,0.11,,proportion of errors,10,Table 5,table,
+naming errors,perseverations,SA,0.15,,proportion of errors,8,Table 5,table,
+naming errors,omissions,SD,0.37,,proportion of errors,10,Table 5,table,
+naming errors,omissions,SA,0.32,,proportion of errors,8,Table 5,table,
+naming errors,unrelated/other,SD,0.05,,proportion of errors,10,Table 5,table,
+naming errors,unrelated/other,SA,0.10,,proportion of errors,8,Table 5,table,
+naming errors,coordinate,SD,0.74,,proportion of single-word semantic errors,10,Table 5,table,
+naming errors,coordinate,SA,0.55,,proportion of single-word semantic errors,8,Table 5,table,
+naming errors,superordinate,SD,0.25,,proportion of single-word semantic errors,10,Table 5,table,
+naming errors,superordinate,SA,0.18,,proportion of single-word semantic errors,8,Table 5,table,
+naming errors,associative,SD,0.01,,proportion of single-word semantic errors,10,Table 5,table,a single response from one patient (JH)
+naming errors,associative,SA,0.27,,proportion of single-word semantic errors,8,Table 5,table,"t(16) = 4.58, P = 0.0003"
+phonemic cueing,Boston Naming Test without cue,SD,4.5,,% correct,3,Fig. 4,figure estimate,"three other SD cases (EK, BS, GE), not the ten of Tables 4 and 5; cue = first two phonemes"
+phonemic cueing,Boston Naming Test with cue,SD,7,,% correct,3,Fig. 4,figure estimate,no SD case named items it could not name without the cue
+phonemic cueing,Boston Naming Test without cue,SA,25.5,,% correct,8,Fig. 4,figure estimate,
+phonemic cueing,Boston Naming Test with cue,SA,52,,% correct,8,Fig. 4,figure estimate,every SA case improved (McNemar one-tailed P < 0.017)

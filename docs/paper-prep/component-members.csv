@@ -1,0 +1,171 @@
+paper_code,repository_code,order,kind,layer,index,component,source,source_sha256
+WR8,K8,0,expert,46,61,expert:46:61,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,1,expert,46,101,expert:46:101,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,2,head,37,24,head:37:24,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,3,expert,45,32,expert:45:32,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,4,expert,45,48,expert:45:48,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,5,expert,43,70,expert:43:70,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,6,expert,42,115,expert:42:115,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8,K8,7,expert,45,93,expert:45:93,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,0,expert,46,61,expert:46:61,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,1,expert,46,101,expert:46:101,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,2,head,37,24,head:37:24,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,3,expert,45,32,expert:45:32,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,4,expert,45,48,expert:45:48,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,5,expert,43,70,expert:43:70,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,6,expert,42,115,expert:42:115,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,7,expert,45,93,expert:45:93,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,8,head,46,3,head:46:3,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,9,head,41,12,head:41:12,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,10,expert,45,12,expert:45:12,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,11,head,33,16,head:33:16,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,12,head,38,5,head:38:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,13,head,40,15,head:40:15,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,14,expert,41,79,expert:41:79,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR16,K16,15,head,14,13,head:14:13,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,0,expert,46,61,expert:46:61,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,1,expert,46,101,expert:46:101,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,2,head,37,24,head:37:24,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,3,expert,45,32,expert:45:32,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,4,expert,45,48,expert:45:48,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,5,expert,43,70,expert:43:70,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,6,expert,42,115,expert:42:115,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,7,expert,45,93,expert:45:93,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,8,head,46,3,head:46:3,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,9,head,41,12,head:41:12,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,10,expert,45,12,expert:45:12,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,11,head,33,16,head:33:16,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,12,head,38,5,head:38:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,13,head,40,15,head:40:15,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,14,expert,41,79,expert:41:79,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,15,head,14,13,head:14:13,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,16,head,38,3,head:38:3,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,17,head,31,5,head:31:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,18,expert,45,116,expert:45:116,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,19,head,19,5,head:19:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,20,expert,41,62,expert:41:62,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,21,head,40,14,head:40:14,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,22,head,32,4,head:32:4,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,23,head,30,14,head:30:14,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,24,expert,21,0,expert:21:0,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,25,head,6,14,head:6:14,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,26,expert,27,61,expert:27:61,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,27,expert,45,119,expert:45:119,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,28,expert,44,22,expert:44:22,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR30,K30,29,expert,2,85,expert:2:85,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/K30,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC4,C4,0,head,9,15,head:9:15,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C4,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC4,C4,1,head,27,9,head:27:9,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C4,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC4,C4,2,head,25,24,head:25:24,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C4,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC4,C4,3,head,24,5,head:24:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C4,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,0,head,9,15,head:9:15,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,1,head,27,9,head:27:9,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,2,head,25,24,head:25:24,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,3,head,24,5,head:24:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,4,head,14,13,head:14:13,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,5,head,33,20,head:33:20,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,6,head,21,19,head:21:19,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC8,C8,7,expert,35,28,expert:35:28,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C8,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,0,head,9,15,head:9:15,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,1,head,27,9,head:27:9,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,2,head,25,24,head:25:24,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,3,head,24,5,head:24:5,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,4,head,14,13,head:14:13,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,5,head,33,20,head:33:20,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,6,head,21,19,head:21:19,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,7,expert,35,28,expert:35:28,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,8,head,6,1,head:6:1,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,9,head,26,16,head:26:16,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,10,head,32,6,head:32:6,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,11,head,21,3,head:21:3,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,12,head,9,3,head:9:3,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,13,head,22,13,head:22:13,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,14,head,26,13,head:26:13,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+SC16,C16,15,head,22,17,head:22:17,outputs/e3_errors/qwen3-30b-a3b-instruct/probe_dose/meta.json#/sets/C16,b23ed256720e5d07677baf6d5cde28b957857d46b80bfa0088745b020e1af8e8
+WR8b,K8b,0,head,33,16,head:33:16,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,1,head,40,14,head:40:14,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,2,head,40,15,head:40:15,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,3,head,31,5,head:31:5,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,4,expert,41,62,expert:41:62,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,5,head,38,5,head:38:5,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,6,head,38,3,head:38:3,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+WR8b,K8b,7,expert,45,119,expert:45:119,outputs/e3_knowledge/qwen3-30b-a3b-instruct/k8b/selection.json#/k8b,95d4d59b160e1c45d4050a0104d475e25ef32fc05b8de1955d2dbc03828b2444
+SC4b,C4s,0,head,9,15,head:9:15,reports/explore/qwen_new_sets.json#/sets/C4s,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+SC4b,C4s,1,head,14,13,head:14:13,reports/explore/qwen_new_sets.json#/sets/C4s,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+SC4b,C4s,2,expert,35,28,expert:35:28,reports/explore/qwen_new_sets.json#/sets/C4s,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+SC4b,C4s,3,head,6,1,head:6:1,reports/explore/qwen_new_sets.json#/sets/C4s,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,0,head,38,3,head:38:3,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,1,head,38,5,head:38:5,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,2,head,35,29,head:35:29,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,3,head,42,11,head:42:11,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,4,head,43,28,head:43:28,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,5,head,14,13,head:14:13,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,6,head,37,20,head:37:20,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+S8,S8,7,head,36,11,head:36:11,reports/explore/qwen_new_sets.json#/sets/S8,143e4fa90c29c427b3ab41960d534c05f7bb33d7f835e3837d6538b795fd3d20
+WR4,K4,0,expert,46,61,expert:46:61,reports/confirm/knowledge/results.json#/knowledge_sets/reported,22f9cce487f48d3e29eb3a91f421d8fceccf2fc984349e5f303ac4b68dd3f6be
+WR4,K4,1,expert,46,101,expert:46:101,reports/confirm/knowledge/results.json#/knowledge_sets/reported,22f9cce487f48d3e29eb3a91f421d8fceccf2fc984349e5f303ac4b68dd3f6be
+WR4,K4,2,head,37,24,head:37:24,reports/confirm/knowledge/results.json#/knowledge_sets/reported,22f9cce487f48d3e29eb3a91f421d8fceccf2fc984349e5f303ac4b68dd3f6be
+WR4,K4,3,expert,45,32,expert:45:32,reports/confirm/knowledge/results.json#/knowledge_sets/reported,22f9cce487f48d3e29eb3a91f421d8fceccf2fc984349e5f303ac4b68dd3f6be
+SC32,P14 control,0,head,46,23,head:46:23,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,1,expert,34,57,expert:34:57,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,2,head,45,25,head:45:25,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,3,head,44,1,head:44:1,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,4,expert,17,88,expert:17:88,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,5,head,44,28,head:44:28,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,6,expert,30,8,expert:30:8,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,7,expert,46,71,expert:46:71,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,8,expert,39,93,expert:39:93,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,9,expert,43,96,expert:43:96,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,10,head,27,31,head:27:31,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,11,expert,3,41,expert:3:41,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,12,expert,38,67,expert:38:67,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,13,head,32,16,head:32:16,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,14,head,35,19,head:35:19,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,15,head,27,30,head:27:30,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,16,expert,6,53,expert:6:53,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,17,head,24,19,head:24:19,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,18,expert,18,71,expert:18:71,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,19,expert,25,103,expert:25:103,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,20,head,9,10,head:9:10,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,21,head,21,21,head:21:21,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,22,head,12,11,head:12:11,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,23,expert,25,104,expert:25:104,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,24,expert,2,82,expert:2:82,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,25,head,35,15,head:35:15,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,26,head,3,7,head:3:7,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,27,head,35,2,head:35:2,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,28,head,39,18,head:39:18,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,29,head,19,1,head:19:1,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,30,expert,6,35,expert:6:35,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+SC32,P14 control,31,head,35,10,head:35:10,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/control/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,0,expert,44,12,expert:44:12,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,1,expert,29,54,expert:29:54,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,2,expert,33,82,expert:33:82,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,3,expert,45,89,expert:45:89,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,4,expert,34,16,expert:34:16,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,5,expert,19,73,expert:19:73,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,6,expert,40,35,expert:40:35,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,7,expert,41,54,expert:41:54,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,8,expert,44,84,expert:44:84,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,9,head,37,6,head:37:6,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,10,head,8,6,head:8:6,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,11,expert,45,48,expert:45:48,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,12,expert,27,53,expert:27:53,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,13,expert,11,64,expert:11:64,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,14,head,43,20,head:43:20,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,15,head,25,16,head:25:16,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,16,expert,22,19,expert:22:19,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,17,expert,45,92,expert:45:92,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,18,head,4,8,head:4:8,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,19,head,32,31,head:32:31,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,20,expert,3,0,expert:3:0,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,21,expert,11,12,expert:11:12,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,22,expert,45,81,expert:45:81,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 knowledge candidate,P14 knowledge,23,expert,32,70,expert:32:70,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/knowledge/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,0,expert,3,22,expert:3:22,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,1,expert,25,28,expert:25:28,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,2,expert,41,54,expert:41:54,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,3,expert,45,89,expert:45:89,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,4,head,11,1,head:11:1,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,5,head,34,23,head:34:23,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,6,head,16,9,head:16:9,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c
+P14 hub candidate,P14 hub,7,head,0,21,head:0:21,outputs/p14/qwen3-30b-a3b-instruct/confirm/groups.json#/hub/members,7e1f6cfd75a6686454c6aed9001b425868b342dd3823031ff0df41a52ef6ac4c

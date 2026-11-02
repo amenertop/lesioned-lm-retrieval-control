@@ -1,0 +1,21 @@
+{
+  "concepts": 588,
+  "dropped": {
+    "no clear main noun sense": 4470,
+    "mostly not a noun": 1420,
+    "not a concrete non-human thing": 3388,
+    "naming-test or M1 word": 453,
+    "category name itself, or no everyday category": 335,
+    "same sense as an M1 word (reviewed)": 9,
+    "same sense as a naming-test or M1 word": 41,
+    "a more frequent cue has the same sense": 62
+  },
+  "pending_review": [],
+  "menus": 588,
+  "by_bin": {
+    "0": 168,
+    "1": 305,
+    "2": 115
+  },
+  "with_automatic_choice": 471
+}

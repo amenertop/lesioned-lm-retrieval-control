@@ -1,0 +1,55 @@
+{
+  "status": "approved_for_execution",
+  "items_sha256": "cf64b71ebbb6fb6bf62a896ca195c707b5fe30075cffbd2f722d1d7fde30152d",
+  "sources": {
+    "data/materials/title_gap/fine/items.csv": "b187bb02f03c63d3ae62c948bbf23a5c48ad75a8c73e55de247a4b13145051c9",
+    "data/materials/title_gap/fine_extension/items.csv": "dc6872005bbdc60e105a77851158c740e7e64219df7566b6d8233b84088912ef",
+    "data/materials/title_gap/fine_extension/manifest.json": "34d07d2a6faf36512be9f9764944a9d656ce477c03a28140f3492c401551293d"
+  },
+  "total_drafts": 473,
+  "active_items": 241,
+  "excluded_items": 232,
+  "split_counts": {
+    "test": 120,
+    "screening": 78,
+    "dev": 43
+  },
+  "test_frequency_counts": {
+    "low": 40,
+    "middle": 40,
+    "high": 40
+  },
+  "test_property_items": 44,
+  "lexical_exceptions": [
+    {
+      "item_id": "x086",
+      "accepted_answer": "compassion",
+      "prior_item": "m179",
+      "prior_target": "compass",
+      "prior_synset": "compass.n.01",
+      "porter_stem": "compass",
+      "reason": "Porter false positive. The navigation instrument and sympathy have no shared sense or derivational family.",
+      "evidence": [
+        "https://www.merriam-webster.com/dictionary/compass",
+        "https://www.merriam-webster.com/dictionary/compassion"
+      ],
+      "reviewer": "/root/fine_extension_audit",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional"
+    }
+  ],
+  "review": {
+    "execution_clearance": "agent3",
+    "reviewer_model": "agent3",
+    "review_independence": "same-family",
+    "acceptance_status": "provisional",
+    "trace_path": ".aris/traces/experiment-audit/2026-10-19-fine-extension/response-full.md",
+    "trace_sha256": "e6054f4a820eb8dde378098dee10e18bfd6d44f6f7b62dbf5abc4043d80441c7",
+    "human_review": true,
+    "human_reviewer": "Jingbo Chen",
+    "human_review_period": "late October 2026",
+    "human_review_recorded": "2026-11-02, see data/materials/ITEM_REVIEW.md",
+    "agent1_review": false
+  },
+  "rule": "All 360 original rows retain every field. Append all 113 extension drafts including exclusions. No model scores used."
+}
