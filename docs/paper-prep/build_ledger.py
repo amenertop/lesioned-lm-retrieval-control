@@ -80,6 +80,7 @@ NEW_SOURCES = {
     "generated_frequency": ("reports/explore/2026-11-02-gpu-session/ledger-generated-frequency.json", "生成答案的词频效应", "知识测验 240 个保留概念，贪心生成，大小写不敏感判分，探索性"),
     "random_answer_heads": ("reports/explore/2026-11-02-gpu-session/ledger-random-answer-heads.json", "回答位置的随机四头对照", "M3 test 100 个提示概念，100 组同层随机头，探索性"),
     "phi_battery": ("reports/explore/2026-11-02-gpu-session/ledger-phi-battery.json", "Phi 跑主模型的临床测验", "Phi-3.5-MoE，M3 test 160 个概念（完好可做对的 156 个）与知识测验 240 个概念，探索性（第二模型，G1 不合格）"),
+    "intact_covariate": ("reports/explore/intact-covariate-20261103/intact-covariate.json", "WR8 词频效应的完好分数协变量检验", "知识 test 240 个概念，确认性运行已存的逐概念分数离线重算，探索性"),
     "demo_format": ("reports/explore/2026-11-02-case-rescore/demo-format-ledger.json", "示范题格式检查（含两种拼写）", "题库 160 个封存概念与 120 个最终家族，探索性"),
     **{name: (f"reports/explore/{name}.json", title, dataset) for name, title, dataset in (
         ("qwen_s11_heldout", "第11次新组件检验", "Qwen，dev/test 分支见路径"),

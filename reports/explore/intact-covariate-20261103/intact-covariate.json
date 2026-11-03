@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "description": "WR8 frequency effect with the intact log probability of the correct name as a covariate, exploratory, no model run, per-concept scores of the confirmatory dissociation test",
+    "inputs": {
+      "outputs\\server\\e2_confirm\\qwen3-30b-a3b-instruct\\dissociation\\naming_scores.parquet": "fee95fc0fb16fd6e583243fd137944b36426d5147cb11a2f4cc8a265ea12b35a",
+      "data\\materials\\m3_knowledge\\items.csv": "589708d96baf5979dc35139d4cddf0f13ca549c9800ef8fabb6c2874fb022398"
+    },
+    "ledger_check": {
+      "id": "knowledge-f3ce21647c2f",
+      "ledger_value": 1.136976415838402,
+      "rebuilt_value": 1.1369764158384021
+    },
+    "n_boot": 10000,
+    "seed": 0,
+    "rare_rule": "Zipf below 3.00"
+  },
+  "intact_logprob_mean": {
+    "rare": -3.9592248284978497,
+    "common": -1.741214450151019
+  },
+  "adjusted_for_intact": {
+    "rare": {
+      "estimate": 1.1500125948602014,
+      "ci_low": 0.5046116271570434,
+      "ci_high": 1.8415985131904131,
+      "n": 240,
+      "unit": "log probability（nat）",
+      "n_unit": "概念"
+    },
+    "intact_logprob": {
+      "estimate": 0.0058774202091494,
+      "ci_low": -0.07682389771949666,
+      "ci_high": 0.08838239797193008,
+      "n": 240,
+      "unit": "nat 损失 / nat 完好对数概率",
+      "n_unit": "概念"
+    }
+  },
+  "adjusted_for_intact_and_tokens": {
+    "rare": {
+      "estimate": 0.6759250673226445,
+      "ci_low": -0.023648100610940068,
+      "ci_high": 1.3579684143201138,
+      "n": 240,
+      "unit": "log probability（nat）",
+      "n_unit": "概念"
+    },
+    "intact_logprob": {
+      "estimate": 0.027129704525253817,
+      "ci_low": -0.05924407802417295,
+      "ci_high": 0.11331896931060922,
+      "n": 240,
+      "unit": "nat 损失 / nat 完好对数概率",
+      "n_unit": "概念"
+    },
+    "n_tokens": {
+      "estimate": 0.7818379720713836,
+      "ci_low": 0.2700811218346844,
+      "ci_high": 1.3041055474012007,
+      "n": 240,
+      "unit": "nat / token",
+      "n_unit": "概念"
+    }
+  }
+}
